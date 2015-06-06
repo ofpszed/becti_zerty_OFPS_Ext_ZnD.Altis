@@ -12,7 +12,7 @@ briefingName = "BECTI-Zerty-OFPS";
 
 //--- ArmA 3 Specifics
 dev = "Benny";
-author = "Benny; Modified by Zerty [JMW]; Flavored with OFPS";
+author = "Benny; Zerty; flavored w/OFPS";
 // overviewPicture
 
 //--- Properties.
