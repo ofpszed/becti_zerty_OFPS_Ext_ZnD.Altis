@@ -26,7 +26,7 @@ class Mission
 	randomSeed=7374927;
 	class Intel
 	{
-		briefingName="BECTI BE 0.97 - Zerty 1.3.1.0";
+		briefingName="BECTI-Zerty-OFPS";
 		overviewText="By Benny - Adapted from OFP era MFCTI (Mike Melvin)";
 		resistanceWest=0;
 		startWeather=0;
@@ -786,7 +786,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="""A3_Modules_F_Curator_Effects"",""A3_Modules_F_Curator_Misc"",""A3_Modules_F_Curator_Lightning""";
+							value="""A3_Modules_F_Curator_Effects"",""A3_Modules_F_Curator_Misc"",""A3_Modules_F_Curator_Lightning"",""A3_Modules_F_Curator_Environment"",""A3_Modules_F_Curator_Ordnance"",""A3_Modules_F_Curator_Multiplayer"",""A3_Characters_F_INDEP""";
 							parentCls="ModuleCuratorAddAddons_F";
 							typeName="Addons";
 						};
