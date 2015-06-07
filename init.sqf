@@ -132,6 +132,11 @@ if (CTI_IsHeadless) then {
 
 //0 execVM "Addons\Zeus\Z_init_GUER.sqf";
 
+//-- Explosives on Vehicles Script
+waitUntil {time > 0};
+execVM "Addons\EtV.sqf";
+waitUntil {!isNil "EtVInitialized"};
+
 //--- Set the group ID
 //execVM "Common\Init\Init_GroupsID.sqf";
 waitUntil {CTI_Init_Client || CTI_Init_Server};
