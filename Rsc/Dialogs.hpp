@@ -382,7 +382,7 @@ class CTI_RscTablet_main {
 			text = "Satellite Camera";
 			action = "['onSatCamPressed'] call compile preprocessFileLineNumbers 'Addons\Strat_mode\Tablet\Events_UI_TabletMain.sqf'";
 		};
-		/*class CTI_Control_Resources : RscButton {
+		class CTI_Control_Resources : RscButton {
 			idc = 210002;
 
 			x = "SafeZoneX + (SafeZoneW - (3/4*SafeZoneH))/2+ (3/4*SafeZoneH) *0.505";
@@ -392,7 +392,7 @@ class CTI_RscTablet_main {
 
 			text = "Resources";
 			action = "['onResourcesPressed'] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_CommandMenu.sqf'";
-		};*/
+		}; //ss83 this may be a problem, how to integrate construction cam into tablet?
 		class CTI_Control_Teams : RscButton {
 			idc = 210003;
 			x = "SafeZoneX + (SafeZoneW - (3/4*SafeZoneH))/2+ (3/4*SafeZoneH) *0.191+(3/4*SafeZoneH)*0.615*0.54";
@@ -3291,6 +3291,16 @@ class CTI_RscSatelitteCamera {
 			text = "";
 			sizeEx = "0.94 * (			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 		};
+
+		class CTI_Menu_Options_ConstructionCam : CTI_Control_Resources { //--- Render out
+			idc = 210011;
+			
+			y = "SafeZoneY + (SafezoneH * 3.47)"; // 3.27
+			
+			text = "HQ Construction";
+			action = "['onConstructionCamPressed'] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_CommandMenu.sqf'";
+		};
+
 		class CTI_Menu_Control_Exit : RscButton_Opac {
 			idc = 170012;
 
