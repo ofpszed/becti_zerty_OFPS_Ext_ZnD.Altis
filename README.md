@@ -1,5 +1,4 @@
 # BECTI Zerty w/OFPS flavor
-# Benny-Edition-CTI-0.97-Zerty-Modification
 
 ##Monetization
 This mission (or code that I own inside) __cannot__ be used in a monetization process as defined by BiS at http://www.bistudio.com/monetization & http://www.bistudio.com/monetization/faq
