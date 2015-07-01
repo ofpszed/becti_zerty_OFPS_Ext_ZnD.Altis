@@ -23,7 +23,7 @@
 	[SEED, CLASSNAME, BUYER, INFORMATION, FACTORY] spawn CTI_CL_FNC_OnPurchaseOrderReceived
 
   # DEPENDENCIES #
-	Common Function: CTI_CO_FNC_ArrayPush
+
 	Common Function: CTI_CO_FNC_CreateUnit
 	Common Function: CTI_CO_FNC_CreateVehicle
 	Common Function: CTI_CO_FNC_ChangeFunds
@@ -103,7 +103,7 @@ if (_funds < _cost) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_cl
 while { time <= _req_time_out && alive _factory } do { sleep .25 };
 
 if !(alive _factory) exitWith { diag_log "the factory is dead" };
-if (_factory in CTI_TOWNS && ! ((_factory getvariable ["cti_town_sideID",-1]) == CTI_P_SideID)) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_classname, _req_buyer, _factory]] call CTI_CO_FNC_NetSend; };
+if (_factory in CTI_TOWNS && ( ! ((_factory getvariable ["cti_town_sideID",-1]) == CTI_P_SideID) || (_factory getvariable ["cti_town_capture",-1]) != CTI_TOWNS_CAPTURE_VALUE_CEIL) ) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_classname, _req_buyer, _factory]] call CTI_CO_FNC_NetSend; };
 //--- Soft limit (skip for empty vehicles)
 if !(_process) then { if ((count units (group player))+1 <= CTI_PLAYERS_GROUPSIZE) then { _process = true }};
 if !(_process) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_classname, _req_buyer, _factory]] call CTI_CO_FNC_NetSend }; //--- Can't do it but we answer to the server.
@@ -125,7 +125,7 @@ _vehicle = objNull;
 _units = [];
 if (_model isKindOf "Man") then {
 	_vehicle = [_model, group player, _position, CTI_P_SideID, _net] call CTI_CO_FNC_CreateUnit;
-	[_units, _vehicle] call CTI_CO_FNC_ArrayPush;
+	_units pushBack _vehicle;
 } else {
 	_vehicle = [_model, _position, _direction + getDir _factory, CTI_P_SideID, (_veh_infos select 4), true, true] call CTI_CO_FNC_CreateVehicle;
 
@@ -141,20 +141,20 @@ if (_model isKindOf "Man") then {
 		if (_veh_infos select 0) then {
 			_unit = [_crew, group player, _position, CTI_P_SideID, _net] call CTI_CO_FNC_CreateUnit;
 			_unit moveInDriver _vehicle;
-			[_units, _unit] call CTI_CO_FNC_ArrayPush;
+			_units pushBack _unit;
 		};
 
 		{
 			if (count _x == 1 && _veh_infos select 3) then {
 				_unit = [_crew, group player, _position, CTI_P_SideID, _net] call CTI_CO_FNC_CreateUnit;
 				_unit moveInTurret [_vehicle, (_x select 0)];
-				[_units, _unit] call CTI_CO_FNC_ArrayPush;
+				_units pushBack _unit;
 			}; //--- Turret
 
 			if (count _x == 2) then {
 				switch (_x select 1) do {
-					case "Gunner": { if (_veh_infos select 1) then { _unit = [_crew, group player, _position, CTI_P_SideID, _net] call CTI_CO_FNC_CreateUnit; _unit moveInTurret [_vehicle, (_x select 0)]; [_units, _unit] call CTI_CO_FNC_ArrayPush; }};
-					case "Commander": { if (_veh_infos select 2) then { _unit = [_crew, group player, _position, CTI_P_SideID, _net] call CTI_CO_FNC_CreateUnit; _unit moveInTurret [_vehicle, (_x select 0)]; [_units, _unit] call CTI_CO_FNC_ArrayPush; }};
+					case "Gunner": { if (_veh_infos select 1) then { _unit = [_crew, group player, _position, CTI_P_SideID, _net] call CTI_CO_FNC_CreateUnit; _unit moveInTurret [_vehicle, (_x select 0)]; _units pushBack _unit }};
+					case "Commander": { if (_veh_infos select 2) then { _unit = [_crew, group player, _position, CTI_P_SideID, _net] call CTI_CO_FNC_CreateUnit; _unit moveInTurret [_vehicle, (_x select 0)]; _units pushBack _unit; }};
 				};
 			};
 		} forEach (_var_classname select CTI_UNIT_TURRETS);

@@ -33,6 +33,7 @@ with missionNamespace do {
 		TR_PROJ_HANDLER = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\TR_proj_handler.sqf";
 		TR_HANDLER = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\TR_handler.sqf";
 		F_REVAMP = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\F_revamp.sqf";
+		F_REVAMP_FRAME = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\F_revamp_frame.sqf";
 		SM_BP_Init = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\SM_BP_Init.sqf";
 		SM_BP_Hook = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\SM_BP_Hook.sqf";
 		SM_BP_Link = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\SM_BP_Link.sqf";
@@ -48,7 +49,7 @@ with missionNamespace do {
 	   	UAV_RANGE = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\UAV_Range.sqf";
 	   	DYNG_WAIT = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\DYNG_waitforgroup.sqf";
 	   	DYNG_SERVERLOOP = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\DYNG_serverloop.sqf";
-
+	   	H_PROTECT_WHEELS= compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\handler_protec_wheels.sqf";
 };
 
 //Common stuff
@@ -65,6 +66,13 @@ HUD_T_OBJ=[];
 
 
 0 call SM_COM_Init;
+
+with missionNamespace do {
+
+	CTI_PVF_Protect_Wheels ={
+		_this addEventHandler ["HandleDamage",{_this call H_PROTECT_WHEELS}];
+	};
+};
 
 if (CTI_IsServer) then {
 
@@ -343,7 +351,10 @@ if (CTI_IsClient) then {
 		0 execVM "Addons\Strat_mode\Functions\SM_AdaptGroup.sqf";
 	};
  	// fatique revamp
-  	0 spawn F_REVAMP;
+  	//0 spawn F_REVAMP;
+  	if (missionNamespace getVariable "CTI_UNITS_FATIGUE" == 1) then {
+  		["F_FRAME", "onEachFrame", {0 call F_REVAMP_FRAME}] call bis_fnc_addStackedEventHandler;
+  	};
 
   	// a Radar
 	if (missionNamespace getVariable "CTI_SM_RADAR" == 1) then {
@@ -430,7 +441,7 @@ if (CTI_IsClient) then {
   //UAV lim
 
 	if ((missionNamespace getVariable "CTI_GAMEPLAY_DARTER") >0 ) then {
-		["darter","onEachFrame",'call UAV_RANGE ' ] call BIS_fnc_addStackedEventHandler;
+		["darter","onEachFrame",{0 call UAV_RANGE } ] call BIS_fnc_addStackedEventHandler;
 	};
 
 

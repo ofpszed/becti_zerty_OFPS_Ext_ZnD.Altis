@@ -5,6 +5,12 @@ class Params {
 		texts[] = {"Disabled", "Enabled West", "Enabled East", "Fully Enabled"};
 		default = 0;
 	};
+	class CTI_AI_TEAMS_NB{
+		title = "AI: Teams : Max number per side";
+		values[] = {2,4,6,8,10,16};
+		texts[] = {"2","4","6","8","10","16"};
+		default = 10;
+	};
 	class CTI_ARTILLERY_SETUP {
 		title = "ARTILLERY: Setup";
 		values[] = {-2,-1,0,1,2,3};
@@ -144,6 +150,12 @@ class Params {
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
 		default = 1;
+	};
+	class CTI_FATIGUE_RATIO {
+		title = "UNITS: Fatigue reduction ratio for players";
+		values[] = {0,20,40,60,80,100};
+		texts[] = {"Full Fatigue","20%","40%","60%","80%","No Fatigue"};
+		default = 60;
 	};
 	class CTI_VEHICLES_EMPTY_TIMEOUT {
 		title = "UNITS: Vehicles Reycling Delay";
@@ -380,7 +392,12 @@ class Params {
 		texts[] = {"False","True"};
 		default = 1;
 	};
-
+	class CTI_WEATHER_ALLOWRAIN {
+		title = "Zerty: WEATHER: Allow Rain";
+		values[] = {0,1};
+		texts[] = {"False","True"};
+		default = 0;
+	};
 	class initialWeatherParam {
 	    title = "Zerty: WEATHER:Starting Weather";
 	    values[] = {0,1,2,3,4};

@@ -103,13 +103,13 @@ CTI_AI_TEAMS_OBSERVATION_ACCURACY = 50; //--- Accuracy of an AI map reports
 CTI_AI_TEAMS_OBSERVATION_MARKER_LIFESPAN = 120; //--- Time a reporting marker may remain
 
 //--- AI Teams: Units
-CTI_AI_TEAMS_UNITS_MIN = 3; //--- Amount of units an AI leader need to have to be able to perform it's duty (It will resupply @base if it's lower)
+CTI_AI_TEAMS_UNITS_MIN = 5; //--- Amount of units an AI leader need to have to be able to perform it's duty (It will resupply @base if it's lower)
 
 //--- AI Teams: Parameters
 with missionNamespace do {
 	//CTI_AI_TEAMS_GROUPSIZE = 12; //--- AI Teams may get up to x units
-	if (isNil 'CTI_AI_TEAMS_ENABLED') then { if !(isMultiplayer) then {CTI_AI_TEAMS_ENABLED = 0} else {CTI_AI_TEAMS_ENABLED = 0}}; //--- Determine whether AI Teams are enabled or not
-	if (isNil 'CTI_AI_TEAMS_GROUPSIZE') then {CTI_AI_TEAMS_GROUPSIZE = 5};
+	if (isNil 'CTI_AI_TEAMS_ENABLED') then { if !(isMultiplayer) then {CTI_AI_TEAMS_ENABLED = 3} else {CTI_AI_TEAMS_ENABLED = 0}}; //--- Determine whether AI Teams are enabled or not
+	if (isNil 'CTI_AI_TEAMS_GROUPSIZE') then {CTI_AI_TEAMS_GROUPSIZE = 8};
 };
 //-----------------------------------------------------------------------------------------------------------------------//
 
@@ -387,12 +387,19 @@ CTI_BASE_AREA_RANGE = if !(MADE_FOR_STRATIS) then {250} else {100};
 CTI_BASE_CONSTRUCTION_TIME = 180; //--- Length of time a structure takes to build, in seconds.
 
 //--- Base: Construction
+<<<<<<< HEAD
 CTI_BASE_CONSTRUCTION_DECAY_TIMEOUT = 300; //--- Decay starts after x seconds unattended.
 CTI_BASE_CONSTRUCTION_DECAY_DELAY = 1; //--- Decay each x seconds.
 CTI_BASE_CONSTRUCTION_DECAY_FROM = 0.50; //--- Decay of x / 100 each y seconds.
 CTI_BASE_CONSTRUCTION_RANGE = CTI_BASE_AREA_RANGE; //--- Determine how far the commander may be from the HQ to build
+=======
+CTI_BASE_CONSTRUCTION_DECAY_TIMEOUT = 600; //--- Decay starts after x seconds unattended.
+CTI_BASE_CONSTRUCTION_DECAY_DELAY = 10; //--- Decay each x seconds.
+CTI_BASE_CONSTRUCTION_DECAY_FROM = 10; //--- Decay of x / 100 each y seconds.
+CTI_BASE_CONSTRUCTION_RANGE = 250; //--- Determine how far the commander may be from the HQ to build
+>>>>>>> upstream/master
 CTI_BASE_CONSTRUCTION_RATIO_INIT = 1; //--- The initial construction ratio
-CTI_BASE_CONSTRUCTION_RATIO_ON_DEATH = 0.95; //--- The completion ratio is multiplied by this coefficient to make repairs less effective at each factory's destruction.
+CTI_BASE_CONSTRUCTION_RATIO_ON_DEATH = 0.60; //--- The completion ratio is multiplied by this coefficient to make repairs less effective at each factory's destruction.
 
 //--- Base: Defenses
 // CTI_BASE_DEFENSES_AUTO_DELAY = 240; //--- Delay after which a new unit will replace a dead one for a defense
@@ -519,6 +526,7 @@ CTI_SATCAM_ZOOM_MAX = 800;
 CTI_CONSTRUCTIONCAM_ZOOM_MIN = 5;
 CTI_CONSTRUCTIONCAM_ZOOM_MAX = 54;
 
+<<<<<<< HEAD
 CTI_SERVICE_PRICE_REPAIR = 0;
 CTI_SERVICE_PRICE_REPAIR_COEF = 0;
 CTI_SERVICE_PRICE_REAMMO = 500;
@@ -527,6 +535,18 @@ CTI_SERVICE_PRICE_REFUEL = 0;
 CTI_SERVICE_PRICE_REFUEL_COEF = 0;
 CTI_SERVICE_PRICE_HEAL = 0;
 
+=======
+CTI_SERVICE_PRICE_REPAIR = 300;
+CTI_SERVICE_PRICE_REPAIR_COEF = 0.1;
+CTI_SERVICE_PRICE_REAMMO = 350;
+CTI_SERVICE_PRICE_REAMMO_COEF = 0.2;
+CTI_SERVICE_PRICE_REFUEL = 200;
+CTI_SERVICE_PRICE_REFUEL_COEF = 0.1;
+CTI_SERVICE_PRICE_HEAL = 50;
+
+CTI_ART_REARM_RATIO=10;
+CTI_AIR_REARM_RATIO=5;
+>>>>>>> upstream/master
 //todo: add fuel & heal later on
 CTI_SERVICE_AMMO_DEPOT_RANGE = 400;
 CTI_SERVICE_AMMO_DEPOT_TIME = 30;
@@ -657,5 +677,13 @@ with missionNamespace do {
 	if (isnil "CTI_GAMEPLAY_DARTER_FUEL") then {CTI_GAMEPLAY_DARTER_FUEL = 1};
 	if (isnil "CTI_BUY_RESTRICT_LEADER") then {CTI_BUY_RESTRICT_LEADER = 0};
 	if (isnil "CTI_GROUP_AWARD_MULT") then {CTI_GROUP_AWARD_MULT = 0};
+<<<<<<< HEAD
+=======
+	if (isnil "CTI_GROUP_LEADER_RESP") then {CTI_GROUP_LEADER_RESP = 0};
+	if (isnil "CTI_PERSISTANT") then {CTI_PERSISTANT = 0};
+>>>>>>> upstream/master
 
+	if (isNil 'CTI_AI_TEAMS_NB') then { CTI_AI_TEAMS_NB = 10};
+	if (isNil 'CTI_WEATHER_ALLOWRAIN') then {CTI_WEATHER_ALLOWRAIN = 0};
+	if (isNil 'CTI_FATIGUE_RATIO') then {CTI_FATIGUE_RATIO = 80};
 };

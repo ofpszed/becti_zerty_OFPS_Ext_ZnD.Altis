@@ -753,11 +753,19 @@ _p = _p		+ [1700];
 if !(MADE_FOR_STRATIS) then {
 _i = _i		+ ["O_Mortar_01_support_F"];
 _u = _u		+ [3];
+<<<<<<< HEAD
 _p = _p		+ [100];
 
 _i = _i		+ ["O_Mortar_01_weapon_F"];
 _u = _u		+ [3];
 _p = _p		+ [4900];
+=======
+_p = _p		+ [1000];
+
+_i = _i		+ ["O_Mortar_01_weapon_F"];
+_u = _u		+ [3];
+_p = _p		+ [2000];
+>>>>>>> upstream/master
 };
 
 

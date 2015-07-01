@@ -6,7 +6,7 @@
 	Author: 		Benny
 	Creation Date:	20-09-2013
 	Revision Date:	20-09-2013
-	
+
   # PARAMETERS #
     0	[Number]: The purchase seed
     1	[String]: The purchased unit classname
@@ -14,13 +14,13 @@
     3	[Group]: The group the unit shall belong to
     4	[Object]: The factory
     5	[Side]: The side of the unit
-	
+
   # RETURNED VALUE #
 	None
-	
+
   # SYNTAX #
 	[PURCHASE SEED, UNIT CLASSNAME, BUYER, TARGET, FACTORY, SIDE] spawn CTI_SE_FNC_HandleAIPurchase
-	
+
   # DEPENDENCIES #
 	Common Function: CTI_CO_FNC_ChangeFunds
 	Common Function: CTI_CO_FNC_CreateUnit
@@ -33,7 +33,7 @@
 	Common Function: CTI_CO_FNC_SanitizeAircraft
 	Server Function: CTI_SE_FNC_HandleEmptyVehicle
 	Server Function: CTI_SE_FNC_OnClientPurchaseComplete
-	
+
   # EXAMPLE #
     [_req_seed, _req_classname, _req_buyer, _req_target, _factory, _req_side] spawn CTI_SE_FNC_HandleAIPurchase;
 */
@@ -46,6 +46,9 @@ _req_buyer = _this select 2;
 _req_target = _this select 3;
 _factory = _this select 4;
 _req_side = _this select 5;
+
+
+if !((typeName _req_buyer) == "GROUP") then {_req_buyer = group _req_buyer};
 
 //--- First of all, make sure that we don't go "softly" above the AI group size
 _process = true;
@@ -67,7 +70,7 @@ _cost = _var_classname select 2;
 if !(_model isKindOf "Man") then { //--- Add the vehicle crew cost if applicable
 	_crew = switch (true) do { case (_model isKindOf "Tank"): {"Crew"}; case (_model isKindOf "Air"): {"Pilot"}; default {"Soldier"}};
 	_crew = missionNamespace getVariable format["CTI_%1_%2", _req_side, _crew];
-	
+
 	_var_crew_classname = missionNamespace getVariable _crew;
 	if !(isNil '_var_crew_classname') then { _cost = _cost + ((count(_model call CTI_CO_FNC_GetVehicleTurrets)+1) * (_var_crew_classname select 2)) };
 };
@@ -106,20 +109,20 @@ if (_model isKindOf "Man") then {
 } else {
 	private ["_crew", "_unit"];
 	_vehicle = [_model, _position, _direction + getDir _factory, _sideID, true, true, true] call CTI_CO_FNC_CreateVehicle;
-	
+
 	_crew = switch (true) do { case (_model isKindOf "Tank"): {"Crew"}; case (_model isKindOf "Air"): {"Pilot"}; default {"Soldier"}};
 	_crew = missionNamespace getVariable format["CTI_%1_%2", _req_side, _crew];
-	
+
 	_unit = [_crew, _req_target, _position, _sideID, _net] call CTI_CO_FNC_CreateUnit;
 	_unit moveInDriver _vehicle;
-	
+
 	{
 		_unit = [_crew, _req_target, _position, _sideID, _net] call CTI_CO_FNC_CreateUnit;
 		_unit moveInTurret [_vehicle, _x];
 	} forEach (_model call CTI_CO_FNC_GetVehicleTurrets);
 
 	[_vehicle] spawn CTI_SE_FNC_HandleEmptyVehicle;
-	
+
 	//--- Authorize the air loadout depending on the parameters set
 	if (_vehicle isKindOf "Air") then {[_vehicle, _req_side] call CTI_CO_FNC_SanitizeAircraft};
 	// _req_target addVehicle _vehicle;
