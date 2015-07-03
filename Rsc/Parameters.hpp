@@ -203,12 +203,11 @@ class Params {
 		default = 0;
 	};
 	
-	//sari fix, ss83, CSM
-	class CTI_GAMEPLAY_TEAMSTACK_VARIABLE {
-		title = "Sari: Kick Team Stackers";
-		values[] = {0,1,2,3,4,5};
-		texts[] = {"Disabled","+1 Player Advantage","+2 Player Advantage","+3 Player Advantage","+4 Player Advantage","+5 Player Advantage"};
-		default = 2;
+	class CTI_TEAMSTACK {
+		title = "Zerty:Team Stack protection";
+		values[] = {0,1};
+		texts[] = {"off","on"};
+		default = 1;
 	};
 
 
