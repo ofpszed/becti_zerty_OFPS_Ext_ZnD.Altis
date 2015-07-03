@@ -618,12 +618,7 @@ with missionNamespace do {
 
 	if (isNil 'CTI_WEATHER_FAST') then {CTI_WEATHER_FAST = 6};
 	
-	//Sari anti stack, ss83, CSM
-	if (isNil 'CTI_GAMEPLAY_TEAMSTACK_VARIABLE') then {CTI_GAMEPLAY_TEAMSTACK_VARIABLE = 2}; //--- Teamstacking script. (0: Disabled, 1: +1 Player Advantage, 2: +2 Player Advantage, 3: +3 Player Advantage, 4: +4 Player Advantage, 5: +5 Player Advantage).
-	if (isNil 'CTI_GAMEPLAY_TEAMSWAP_DISABLE') then {CTI_GAMEPLAY_TEAMSWAP_DISABLE = 1}; //--- Teamswitch script. (0: Disabled, 1: Enabled).
-
-
-			//--- bl1p ai skills
+	//--- bl1p ai skills
 	if (isNil 'CTI_AI_SKILL') then {CTI_AI_SKILL = 4}; //Done
 	//--- zerty parameters
 
