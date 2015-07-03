@@ -42,10 +42,8 @@ CTI_CL_FNC_OnStructureConstructed = compileFinal preprocessFile "Client\Function
 CTI_CL_FNC_OnTownCaptured = compileFinal preprocessFile "Client\Functions\Client_OnTownCaptured.sqf";
 CTI_CL_FNC_PurchaseUnit = compileFinal preprocessFile "Client\Functions\Client_PurchaseUnit.sqf";
 CTI_CL_FNC_RemoveRuins = compileFinal preprocessFile "Client\Functions\Client_RemoveRuins.sqf";
-CTI_CL_FNC_ConstructionCam_PlacingBuilding = compileFinal preprocessFile "Client\Functions\Client_ConstructionCam_PlacingBuilding.sqf";
-CTI_CL_FNC_ConstructionCam_PlacingDefense = compileFinal preprocessFile "Client\Functions\Client_ConstructionCam_PlacingDefense.sqf";
-JRG_welcomeScreen= compileFinal preprocessFileLineNumbers "Addons\fn_welcomeScreen.sqf";
-Addon_Simple_Earplugs = compileFinal preprocessFile "addons\ear_plugs\simpleEP.sqf";
+
+
 
 
 call compile preprocessFileLineNumbers "Client\Functions\FSM\Functions_FSM_UpdateClientAI.sqf";
@@ -83,8 +81,6 @@ CTI_P_Locks=[];
 CTI_P_Interaction=false;
 CTI_DIALOGS=["cti_dialog_ui_interractions","cti_dialog_ui_tabletmain","cti_dialog_ui_buildmenu","cti_dialog_ui_videosettingsmenu","cti_dialog_ui_transferresourcesmenu","cti_dialog_ui_servicemenu","cti_dialog_ui_purchasemenu","cti_dialog_ui_upgrademenu","cti_dialog_ui_workersmenu","cti_dialog_ui_defensemenu","cti_dialog_ui_requestmenu","cti_dialog_ui_onlinehelpmenu","cti_dialog_ui_gear","cti_dialog_ui_satcam","cti_dialog_ui_unitscam","cti_dialog_ui_teamsmenu","cti_dialog_ui_mapcommandmenu","cti_dialog_ui_aimicromenu","cti_dialog_ui_artillerymenu","cti_dialog_ui_aircraftloadoutmenu"];
 CTI_TABLET_DIALOG="cti_dialog_ui_tabletmain";
-CTI_CMDR_BuildCam = true; //-- Used in Action_BuildMenu
-CTI_ConstructionCam_DownwardAngle = -0.8;
 
 //--- Artillery Computer is only enabled on demand
 enableEngineArtillery true;
@@ -100,10 +96,6 @@ if (isMultiplayer) then {
 			sleep 1;
 		};
 
-	//Sari Anti stack, ss83
-	["SERVER", "First_Time", [player]] call CTI_CO_FNC_NetSend; //--- Tell server that the player has successfully loaded in.
-	
-	
 	12452 cutText ["Receiving mission intel... If you are getting an error press ESC and respawn and then reconnect.", "BLACK IN", 5];
 
 	if (CTI_P_Jailed) then {
@@ -124,7 +116,6 @@ call compile preprocessFile "Client\Functions\UI\Functions_UI_AIMicromanagementM
 call compile preprocessFile "Client\Functions\UI\Functions_UI_ArtilleryMenu.sqf";
 call compile preprocessFile "Client\Functions\UI\Functions_UI_GearMenu.sqf";
 call compile preprocessFile "Client\Functions\UI\Functions_UI_KeyHandlers.sqf";
-call compile preprocessFile "Client\Functions\UI\Functions_UI_ConstructionKeyHandlers.sqf";
 call compile preprocessFile "Client\Functions\UI\Functions_UI_MapCommanding.sqf";
 call compile preprocessFile "Client\Functions\UI\Functions_UI_PurchaseMenu.sqf";
 call compile preprocessFile "Client\Functions\UI\Functions_UI_RequestMenu.sqf";

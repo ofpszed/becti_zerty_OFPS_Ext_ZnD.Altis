@@ -5,8 +5,18 @@ switch (_action) do {
 	case "onLoad": {
 		execVM "Client\GUI\GUI_BuildMenu.sqf";
 		if (CTI_P_WallsAutoAlign) then { ctrlSetText [100003, "Auto-Align Walls: On"] } else { ctrlSetText [100003, "Auto-Align Walls: Off"] };
-		if (CTI_P_DefensesAutoManning) then { ctrlSetText [100011, "Defenses Auto-Manning: On"] } else { ctrlSetText [100011, "Defenses Auto-Manning: Off"] };
+		_def_count=count (units ((CTI_P_SideLogic getVariable ["cti_defensive_team",grpNull])));
 
+		if (CTI_P_DefensesAutoManning) then { ctrlSetText [100011, format ["Defenses Auto-Manning: On (%2/ %3)",ctrlText ((uiNamespace getVariable "cti_dialog_ui_buildmenu") displayCtrl 100011),_def_count,CTI_BASE_DEFENSES_AUTO_LIMIT ]] } else { ctrlSetText [100011,ctrlSetText [100011, format ["Defenses Auto-Manning: Off (%2/ %3)",ctrlText ((uiNamespace getVariable "cti_dialog_ui_buildmenu") displayCtrl 100011),_def_count,CTI_BASE_DEFENSES_AUTO_LIMIT ]] ] };
+		if ((missionnamespace getVariable "CTI_BASEBUILDING") < 1) then {
+			((uiNamespace getVariable "cti_dialog_ui_buildmenu") displayCtrl 100005) ctrlSetText format ["Add Worker ($%1)", CTI_BASE_WORKERS_PRICE];
+			((uiNamespace getVariable "cti_dialog_ui_buildmenu") displayCtrl 100009) ctrlshow true;
+			((uiNamespace getVariable "cti_dialog_ui_buildmenu") displayCtrl 100005) ctrlshow true;
+		} else {
+			((uiNamespace getVariable "cti_dialog_ui_buildmenu") displayCtrl 100009) ctrlshow false;
+			((uiNamespace getVariable "cti_dialog_ui_buildmenu") displayCtrl 100005) ctrlshow false;
+
+		};
 		{
 			_var = missionNamespace getVariable _x;
 			_row = ((uiNamespace getVariable "cti_dialog_ui_buildmenu") displayCtrl 100006) lnbAddRow [format ["$%1", _var select 2], (_var select 0) select 1];
@@ -29,13 +39,10 @@ switch (_action) do {
 
 		if !(isNil {uiNamespace getVariable "cti_dialog_ui_buildmenu_lastdsel"}) then {((uiNamespace getVariable "cti_dialog_ui_buildmenu") displayCtrl 100007) lnbSetCurSelRow (uiNamespace getVariable "cti_dialog_ui_buildmenu_lastdsel")};
 
-	/*No more workers SS83	//--- Set the worker price
-		((uiNamespace getVariable "cti_dialog_ui_buildmenu") displayCtrl 100005) ctrlSetText format ["Add Worker ($%1)", CTI_BASE_WORKERS_PRICE];
+		//--- Set the worker price
+
 		// CTI_BASE_WORKERS_LIMIT
 		// 100005
-	*/
-		
-	
 	};
 	case "onBuildStructure": {
 		_selected = _this select 1;
@@ -87,7 +94,8 @@ switch (_action) do {
 	};
 	case "onAutoManning": {
 		CTI_P_DefensesAutoManning = !CTI_P_DefensesAutoManning;
-		if (CTI_P_DefensesAutoManning) then { ctrlSetText [100011, "Defenses Auto-Manning: On"] } else { ctrlSetText [100011, "Defenses Auto-Manning: Off"] };
+		_def_count=count (units ((CTI_P_SideLogic getVariable ["cti_defensive_team",grpNull])));
+		if (CTI_P_DefensesAutoManning) then { ctrlSetText [100011, format ["Defenses Auto-Manning: On (%2/ %3)",ctrlText ((uiNamespace getVariable "cti_dialog_ui_buildmenu") displayCtrl 100011),_def_count,CTI_BASE_DEFENSES_AUTO_LIMIT ]] } else { ctrlSetText [100011,ctrlSetText [100011, format ["Defenses Auto-Manning: Off (%2/ %3)",ctrlText ((uiNamespace getVariable "cti_dialog_ui_buildmenu") displayCtrl 100011),_def_count,CTI_BASE_DEFENSES_AUTO_LIMIT ]] ] };
 	};
 	case "onAddWorker": {
 		//--- Check the worker limit
@@ -126,15 +134,11 @@ switch (_action) do {
 		};
 	};
 	case "onUnload": {
-		      
-        CTI_CMDR_BuildCam = false;
 		//--- Memorize
 		_curSelBuilding = lnbCurSelRow 100006;
 		_curSelDefense = lnbCurSelRow 100007;
 
 		if (_curSelBuilding > -1) then {uiNamespace setVariable ["cti_dialog_ui_buildmenu_lastbsel", _curSelBuilding]};
 		if (_curSelDefense > -1) then {uiNamespace setVariable ["cti_dialog_ui_buildmenu_lastdsel", _curSelDefense]};
-		
-		
 	};
 };
