@@ -4,15 +4,15 @@ respawnDelay = 10;
 respawnDialog = false;
 
 //--- Require briefing.html to show up.
-onLoadMission = "BECTI 0.97 - Zerty 1.3.1.1 [preRelease]";
+onLoadMission = "BECTI - Zerty - OFPS";
 onLoadMissionTime = false;
-onLoadName = "BECTI 0.97 - Zerty 1.3.1.1 [preRelease]";
+onLoadName = "BECTI - Zerty - OFPS";
 
-briefingName = "BECTI 0.97 - Zerty 1.3.1.1 [preRelease]";
+briefingName = "BECTI - Zerty - OFPS";
 
 //--- ArmA 3 Specifics
 dev = "Benny";
-author = "Benny; Modified by Zerty [JMW]";
+author = "Benny; Zerty; OFPS";
 // overviewPicture
 
 //--- Properties.
