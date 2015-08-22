@@ -348,22 +348,19 @@ _prices = _prices 			+ [1];
 _placements = _placements 	+ [[180, 10]];
 _categories = _categories 	+ ["Furniture"];
 
-
-
-
-_headers = _headers 		+ [["White Hangar",[["RuinOnDestroyed", "Land_Shed_Ind_ruins_F"], ["DMG_Reduce", 10]]]];
-_classes = _classes 		+ ["Land_i_Shed_Ind_F"];
-_prices = _prices 			+ [2000];
-_placements = _placements 	+ [[90, 20]];
-_categories = _categories 	+ ["Fortification"];
-
-
 _headers = _headers 		+ [["Tent Hangar",[["RuinOnDestroyed", "Land_TentHangar_V1_ruins_F"], ["DMG_Reduce", 5]]]];
 _classes = _classes 		+ ["Land_TentHangar_V1_F"];
 _prices = _prices 			+ [1000];
 _placements = _placements 	+ [[0, 20]];
 _categories = _categories 	+ ["Structures_Military"];
 
+/*
+
+_headers = _headers 		+ [["White Hangar",[["RuinOnDestroyed", "Land_Shed_Ind_ruins_F"], ["DMG_Reduce", 10]]]];
+_classes = _classes 		+ ["Land_i_Shed_Ind_F"];
+_prices = _prices 			+ [2000];
+_placements = _placements 	+ [[90, 20]];
+_categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ ["Large Hangar"];
 _classes = _classes 		+ ["Land_Hangar_F"];
@@ -384,7 +381,7 @@ _prices = _prices 			+ [3000];
 _placements = _placements 	+ [[0, 50]];
 _categories = _categories 	+ ["Fortification"];
 
-/*
+
 _headers = _headers 		+ ["Land Flush Light green"];
 _classes = _classes 		+ ["Land_Flush_Light_green_F"];
 _prices = _prices 			+ [1];
