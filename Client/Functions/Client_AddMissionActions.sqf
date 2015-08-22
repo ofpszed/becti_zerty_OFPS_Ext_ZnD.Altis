@@ -47,10 +47,7 @@ if (CTI_SM_FAR == 1) then {
 	};
 };
 
-// Radioman - init EtV_Actions on respawn.
-if (isNil "EtVInitialized") then {
-	execVM "Addons\EtV.sqf";
-	waitUntil {!isNil "EtVInitialized"};
-};
-[player] call EtV_Actions;
+CTI_P_Repairing = false;
 
+
+player setVariable ["CTI_UID",getPlayerUID player, true];

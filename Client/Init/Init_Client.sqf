@@ -43,7 +43,7 @@ CTI_CL_FNC_OnTownCaptured = compileFinal preprocessFile "Client\Functions\Client
 CTI_CL_FNC_PurchaseUnit = compileFinal preprocessFile "Client\Functions\Client_PurchaseUnit.sqf";
 CTI_CL_FNC_RemoveRuins = compileFinal preprocessFile "Client\Functions\Client_RemoveRuins.sqf";
 
-
+TUTORIAL_RUN = compileFinal preprocessFile "Addons\Strat_mode\Functions\TUTORIAL_run.sqf";
 
 
 call compile preprocessFileLineNumbers "Client\Functions\FSM\Functions_FSM_UpdateClientAI.sqf";
@@ -85,9 +85,21 @@ CTI_TABLET_DIALOG="cti_dialog_ui_tabletmain";
 //--- Artillery Computer is only enabled on demand
 enableEngineArtillery true;
 if ((missionNamespace getVariable "CTI_ARTILLERY_SETUP") != -1) then {enableEngineArtillery false};
-
+12452 cutText ["Setting up...", "BLACK FADED", 50000];
 if (isMultiplayer) then {
-	//--- Can I join?
+	12452 cutText ["Waiting for server to approve connexion...", "BLACK FADED", 50000];
+	waitUntil {!isnil {player getVariable "CTI_SERVER_ANWSER"}};
+	12452 cutText ["Got anwser from the server.", "BLACK FADED", 50000];
+	(player getVariable "CTI_SERVER_ANWSER") call CTI_CL_FNC_JoinRequestAnswer;
+	if (CTI_P_Jailed) then {
+		hintSilent "The ride never ends!";
+		0 spawn CTI_CL_FNC_OnJailed;
+	};
+	//12452 cutText ["", "BLACK IN", 5];
+
+
+
+/*	//--- Can I join?
 		missionNamespace setVariable ["CTI_PVF_Client_JoinRequestAnswer", {_this spawn CTI_CL_FNC_JoinRequestAnswer}]; //--- Early PVF, do not spoil the game with the others.
 
 		_last_req = -100;
@@ -102,7 +114,7 @@ if (isMultiplayer) then {
 		hintSilent "The ride never ends!";
 		0 spawn CTI_CL_FNC_OnJailed;
 	};
-
+*/
 
 };
 
@@ -275,26 +287,18 @@ TABLET_GET_TARGET={
 
 0 spawn {
 	disableSerialization;
+	waitUntil {!isNil {findDisplay 46} && !isNull (findDisplay 46) && !isnil "TABLET_KEY_DOWN" && !isNil "TABLET_KEY_UP"};
 	_maindisplay=findDisplay 46;
-	while {isNull _maindisplay} do {
-		_maindisplay=findDisplay 46;
-		sleep 0.1;
-	};
 	_maindisplay displayRemoveAllEventHandlers  "KeyDown";
 	_maindisplay displayRemoveAllEventHandlers  "KeyUp";
+	sleep 0.5;
 	_maindisplay  displayAddEventHandler ["KeyDown", TABLET_KEY_DOWN];
 	_maindisplay  displayAddEventHandler ["KeyUp", TABLET_KEY_UP];
 };
 
 
-if (/*profileNamespace getVariable "CTI_PERSISTENT_HINTS"*/true) then {
-	0 spawn {
-		sleep 2;
-		waitUntil {(!isNull (findDisplay 46)) && (["PlayerHasGroup",[player] ] call BIS_fnc_dynamicGroups) && isnull (findDisplay 60490) };
-		createdialog "CTI_RscTabletOnlineHelpMenu";
-	};
-};
 
+/*
 0 spawn
 {
 	while {!CTI_GameOver} do
@@ -306,7 +310,7 @@ if (/*profileNamespace getVariable "CTI_PERSISTENT_HINTS"*/true) then {
 		sleep 3;
 	};
 };
-
+*/
 if (CTI_BASE_NOOBPROTECTION == 1) then {player addEventHandler ["fired", {_this spawn CTI_CL_FNC_OnPlayerFired}]}; //--- Trust me, you want that
 
 //trophy system
@@ -321,3 +325,40 @@ if ((missionNamespace getVariable "CTI_UNITS_FATIGUE") == 0) then {player enable
 
 CTI_Init_Client = true;
 
+
+12452 cutText ["Sending to tutorial area.", "BLACK IN", 7];
+/*while {!(["IsGroupRegistered",[group player] ] call BIS_fnc_dynamicGroups)} do {
+	["InitializePlayer",[player] ] call BIS_fnc_dynamicGroups;
+	_group= createGroup CTI_P_SideJoined;
+	[player] joinsilent _group;
+	_group selectLeader player;
+	_data   = [nil, nil, true]; // [<Insignia>, <Group Name>, <Private>]
+
+	["RegisterGroup", [_group, player, _data]] call BIS_fnc_dynamicGroups;
+	sleep 5;
+};
+waitUntil {( ["PlayerHasGroup",[player]] call BIS_fnc_dynamicGroups) && (group player) in (CTI_P_SideJoined call CTI_CO_FNC_GetSideGroups)};
+*/
+
+0 call TUTORIAL_RUN;
+
+//Save data
+//==========
+_uid=getPlayerUID player;
+if (!(isMultiplayer) && isnil {missionNamespace getVariable format["CTI_SERVER_CLIENT_%1", _uid]} ) then {
+	missionNamespace setVariable [format["CTI_SERVER_CLIENT_%1", _uid],[_uid,CTI_P_SideJoined, (missionNamespace getVariable format ["CTI_ECONOMY_STARTUP_FUNDS_%1", CTI_P_SideJoined]),group player]];
+};
+// Done
+//==========
+CTI_Init_Group= true;
+
+
+
+/*if (true) then {
+	0 spawn {
+		sleep 2;
+		waitUntil {(!isNull (findDisplay 46)) && (["PlayerHasGroup",[player] ] call BIS_fnc_dynamicGroups) && isnull (findDisplay 60490) };
+		createdialog "CTI_RscTabletOnlineHelpMenu";
+	};
+};
+*/

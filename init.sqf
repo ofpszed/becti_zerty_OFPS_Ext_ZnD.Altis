@@ -51,7 +51,7 @@ if (CTI_IsClient && isMultiplayer) then {
 
 	0 spawn {
 		waitUntil {!(isNull player)};
-		12452 cutText ["Receiving mission intel...", "BLACK FADED", 50000];
+
 		while {side player == civilian} do
 		{
 		 		player enableSimulation true;
@@ -131,11 +131,6 @@ if (CTI_IsHeadless) then {
 };
 
 //0 execVM "Addons\Zeus\Z_init_GUER.sqf";
-
-//-- Explosives on Vehicles Script
-waitUntil {time > 0};
-execVM "Addons\EtV.sqf";
-waitUntil {!isNil "EtVInitialized"};
 
 //--- Set the group ID
 //execVM "Common\Init\Init_GroupsID.sqf";

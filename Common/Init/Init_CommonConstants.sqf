@@ -8,7 +8,6 @@ CTI_FACTORY_AMMO = 5;
 CTI_FACTORY_NAVAL = 6;
 CTI_FACTORY_TOWN = 7;
 
-CTI_MILITARYINSTALLATION = "MilitaryInstallation";
 CTI_BARRACKS = "Barracks";
 CTI_LIGHT = "Light";
 CTI_CONTROLCENTER = "ControlCenter";
@@ -319,11 +318,10 @@ CTI_GEAR_RESELL_TAX = 1; //--- Owned items are traded for: <item price> * <tax>
 
 
 //--- Towns: Capture
-CTI_TOWNS_CAPTURE_BOUNTY_DELAY = 600; //--- Award the bounty depending if the last town capture happened longer than x seconds ago
-CTI_TOWNS_CAPTURE_RANGE = 20; //--- The range which a unit/vehicle has to be from a town center to capture it
-CTI_TOWNS_CAPTURE_RANGE_RESISTANCE = 500;  //--- How far away resistance units can be to capture / defend the flag ss83question
-CTI_TOWNS_CAPTURE_VALUE_CEIL = 30; //--- The town value's ceiling
-CTI_TOWNS_CAPTURE_VALUE_ITERATE = 5; //--- The iterated value, (try to match CTI_TOWNS_CAPTURE_VALUE_CEIL), proc all 5 seconds.
+CTI_TOWNS_CAPTURE_BOUNTY_DELAY = 300; //--- Award the bounty depending if the last town capture happened longer than x seconds ago
+CTI_TOWNS_CAPTURE_RANGE = 75; //--- The range which a unit/vehicle has to be from a town center to capture it
+CTI_TOWNS_CAPTURE_VALUE_CEIL = 18; //--- The town value's ceiling
+CTI_TOWNS_CAPTURE_VALUE_ITERATE = 1; //--- The iterated value, (try to match CTI_TOWNS_CAPTURE_VALUE_CEIL), proc all 5 seconds.
 
 //--- Towns: Economy
 //CTI_TOWNS_INCOME_RATIO = 1; //--- A value above 1 will increase the resources generation ((Stock value occupied/unoccupied) * ratio)
@@ -334,20 +332,20 @@ CTI_TOWNS_PATROL_HOPS = 1; //--- Towns patrol hops (non-waypoint)
 CTI_TOWNS_PATROL_RANGE = 200; //--- Patrol range in a town
 
 //--- Towns: Occupation
-CTI_TOWNS_OCCUPATION_SPAWN_RANGE = 200; //--- Determine how far the units may spawn from the town center
+CTI_TOWNS_OCCUPATION_SPAWN_RANGE = 100; //--- Determine how far the units may spawn from the town center
 CTI_TOWNS_OCCUPATION_GROUPS_RATIO = 25; //--- Determine how many groups may spawn (scales with town value)
-CTI_TOWNS_OCCUPATION_DETECTION_RANGE = 1000; //--- Determine how far a threat may be detected from the town center
-CTI_TOWNS_OCCUPATION_DETECTION_RANGE_AIR = 30; //--- Determine how high a threat is considered aerial
-CTI_TOWNS_OCCUPATION_INACTIVE_MAX = 1200; //--- Determine how long a town may remain active when triggered
-CTI_TOWNS_OCCUPATION_MIN_ACTIVE = 3; //--- When the town is not held by the side and when no enemy is near, at least x enemies need to be alive for the town to be considered active
+CTI_TOWNS_OCCUPATION_DETECTION_RANGE = 800; //--- Determine how far a threat may be detected from the town center
+CTI_TOWNS_OCCUPATION_DETECTION_RANGE_AIR = 40; //--- Determine how high a threat is considered aerial
+CTI_TOWNS_OCCUPATION_INACTIVE_MAX = 240; //--- Determine how long a town may remain active when triggered
+CTI_TOWNS_OCCUPATION_MIN_ACTIVE = 2; //--- When the town is not held by the side and when no enemy is near, at least x enemies need to be alive for the town to be considered active
 
 //--- Towns: Resistance
 CTI_TOWNS_RESISTANCE_SPAWN_RANGE = 250; //--- Determine how far the units may spawn from the town center
 //CTI_TOWNS_RESISTANCE_GROUPS_RATIO = 0.025; //--- Determine how many groups may spawn (scales with town value)
 //CTI_TOWNS_RESISTANCE_DETECTION_RANGE = 750; //--- Determine how far a threat may be detected from the town center
-CTI_TOWNS_RESISTANCE_DETECTION_RANGE_AIR = 100; //--- Determine how high a threat is considered aerial
+CTI_TOWNS_RESISTANCE_DETECTION_RANGE_AIR = 60; //--- Determine how high a threat is considered aerial
 //CTI_TOWNS_RESISTANCE_INACTIVE_MAX = 300; //--- Determine how long a town may remain active when triggered
-CTI_TOWNS_RESISTANCE_MIN_ACTIVE = 3; //--- When the town is not held by the side and when no enemy is near, at least x enemies need to be alive for the town to be considered active
+CTI_TOWNS_RESISTANCE_MIN_ACTIVE = 2; //--- When the town is not held by the side and when no enemy is near, at least x enemies need to be alive for the town to be considered active
 
 //--- Towns: Parameters
 with missionNamespace do {
@@ -384,43 +382,35 @@ with missionNamespace do {
 //--- Base: Area
 //CTI_BASE_AREA_MAX = if !(MADE_FOR_STRATIS) then {4} else {3};
 CTI_BASE_AREA_RANGE = if !(MADE_FOR_STRATIS) then {250} else {100};
-CTI_BASE_CONSTRUCTION_TIME = 180; //--- Length of time a structure takes to build, in seconds.
 
 //--- Base: Construction
-<<<<<<< HEAD
-CTI_BASE_CONSTRUCTION_DECAY_TIMEOUT = 300; //--- Decay starts after x seconds unattended.
-CTI_BASE_CONSTRUCTION_DECAY_DELAY = 1; //--- Decay each x seconds.
-CTI_BASE_CONSTRUCTION_DECAY_FROM = 0.50; //--- Decay of x / 100 each y seconds.
-CTI_BASE_CONSTRUCTION_RANGE = CTI_BASE_AREA_RANGE; //--- Determine how far the commander may be from the HQ to build
-=======
 CTI_BASE_CONSTRUCTION_DECAY_TIMEOUT = 600; //--- Decay starts after x seconds unattended.
 CTI_BASE_CONSTRUCTION_DECAY_DELAY = 10; //--- Decay each x seconds.
 CTI_BASE_CONSTRUCTION_DECAY_FROM = 10; //--- Decay of x / 100 each y seconds.
 CTI_BASE_CONSTRUCTION_RANGE = 250; //--- Determine how far the commander may be from the HQ to build
->>>>>>> upstream/master
 CTI_BASE_CONSTRUCTION_RATIO_INIT = 1; //--- The initial construction ratio
 CTI_BASE_CONSTRUCTION_RATIO_ON_DEATH = 0.60; //--- The completion ratio is multiplied by this coefficient to make repairs less effective at each factory's destruction.
 
 //--- Base: Defenses
 // CTI_BASE_DEFENSES_AUTO_DELAY = 240; //--- Delay after which a new unit will replace a dead one for a defense
-CTI_BASE_DEFENSES_AUTO_DELAY = 60; //--- Delay after which a new unit will replace a dead one for a defense
+CTI_BASE_DEFENSES_AUTO_DELAY = 20; //--- Delay after which a new unit will replace a dead one for a defense
 CTI_BASE_DEFENSES_AUTO_LIMIT = 15; //--- Amount of independent units which may man nearby defenses
 CTI_BASE_DEFENSES_AUTO_RANGE = 500; //--- Range from the nearest barrack at which AI may auto man a defense
 CTI_BASE_DEFENSES_AUTO_REARM_RANGE = 500; //--- Range needed for a defense to be able to rearm at a service point
-CTI_BASE_DEFENSES_EMPTY_TIMEOUT = 3600; //--- Delay after which an empty defense is considered empty
+CTI_BASE_DEFENSES_EMPTY_TIMEOUT = 1200; //--- Delay after which an empty defense is considered empty
 
 //--- Base: HQ
-CTI_BASE_HQ_REPAIR_PRICE = 50000; //--- The cost needed to repair the HQ
-CTI_BASE_HQ_REPAIR_RANGE = 100; //--- The range needed between the HQ wreck and the Repair Truck
-CTI_BASE_HQ_REPAIR_TIME = 60; //--- The time needed to repair the HQ
+CTI_BASE_HQ_REPAIR_PRICE = 40000; //--- The cost needed to repair the HQ
+CTI_BASE_HQ_REPAIR_RANGE = 35; //--- The range needed between the HQ wreck and the Repair Truck
+CTI_BASE_HQ_REPAIR_TIME = 15; //--- The time needed to repair the HQ
 
 //--- Base: Misc
 CTI_BASE_NOOBPROTECTION = 1; //--- Make structures invulnerable to friendly fire
 
 //--- Base: Purchase range
 CTI_BASE_GEAR_FOB_RANGE = 20; //--- Determine how far a player has to be from a FOB to access the Gear Menu
-CTI_BASE_GEAR_RANGE = 500; //--- Determine how far a player has to be from a Barracks to access the Gear Menu
-CTI_BASE_PURCHASE_UNITS_RANGE = 500; //--- Determine how far a player has to be from a factory to access the Factory Menu without CC
+CTI_BASE_GEAR_RANGE = 150; //--- Determine how far a player has to be from a Barracks to access the Gear Menu
+CTI_BASE_PURCHASE_UNITS_RANGE = 150; //--- Determine how far a player has to be from a factory to access the Factory Menu without CC
 CTI_BASE_PURCHASE_UNITS_RANGE_CC = 7500; //--- Determine how far a player has to be from a factory to access the Factory Menu with CC
 
 //--- Base: Workers
@@ -469,11 +459,7 @@ with missionNamespace do {
  * - Server\Functions\FSM\Functions_FSM_RepairTruck.sqf: Contains the functions related to the Repair Truck FSM
  */
 
-//--- Vehicles: Texture
-CTI_VEHICLES_RETEXTURE = ["I_Heli_Transport_02_F", "B_APC_Tracked_01_CRV_F"]; //--- Vehicles to retexture with basic skins, ss83 
-CTI_MR_RETEXTURE = ["I_Heli_light_03_unarmed_F"]; //ss83 mobile respawn retexture custom skins
-CTI_AFIGHTER_RETEXTURE = ["I_Plane_Fighter_03_AA_F"]; //ss83 air superiority asset with custom skins
-
+//--- Vehicles: Misc
 //CTI_VEHICLES_BOUNTY = 0.15; //--- Bounty upon entity killed.
 CTI_VEHICLES_EMPTY_SCAN_PERIOD = 15; //--- Scan for a crew member in a vehicle each x seconds
 CTI_VEHICLES_HANDLER_EMPTY = 0; //--- Determine how an empty vehicle is handled by the engine (0: Typical delay, 1: delay AND the unit cannot move/fire)
@@ -509,33 +495,21 @@ with missionNamespace do {
 CTI_ARTILLERY_FILTER = 1; //--- Toggle artillery magazines like mines and AT mines (0: Disabled, 1: Enabled)
 CTI_ARTILLERY_TIMEOUT = 180; //--- Delay between each fire mission
 
-CTI_ECONOMY_POOL_RESOURCES_PERCENTAGE_MIN = 10; //--- Keep values of 10
+CTI_ECONOMY_POOL_RESOURCES_PERCENTAGE_MIN = 30; //--- Keep values of 10
 
 CTI_MARKERS_OPACITY = 0.5;
-CTI_MARKERS_TOWN_AREA_RANGE = if !(MADE_FOR_STRATIS) then {325} else {150};
+CTI_MARKERS_TOWN_AREA_RANGE = if !(MADE_FOR_STRATIS) then {250} else {150};
 CTI_MARKERS_UNITS_DEAD_DELAY = 50;
 CTI_MARKERS_VEHICLES_DEAD_DELAY = 125;
 
 CTI_PLAYER_DEFAULT_ALIAS = "Soldier";
 
 CTI_RESPAWN_AI_RANGE = 600;
-CTI_RESPAWN_MOBILE_RANGE = 1000;
+CTI_RESPAWN_MOBILE_RANGE = 7000;
 
-CTI_SATCAM_ZOOM_MIN = 25;
+CTI_SATCAM_ZOOM_MIN = 50;
 CTI_SATCAM_ZOOM_MAX = 800;
-CTI_CONSTRUCTIONCAM_ZOOM_MIN = 5;
-CTI_CONSTRUCTIONCAM_ZOOM_MAX = 54;
 
-<<<<<<< HEAD
-CTI_SERVICE_PRICE_REPAIR = 0;
-CTI_SERVICE_PRICE_REPAIR_COEF = 0;
-CTI_SERVICE_PRICE_REAMMO = 500;
-CTI_SERVICE_PRICE_REAMMO_COEF = .10;
-CTI_SERVICE_PRICE_REFUEL = 0;
-CTI_SERVICE_PRICE_REFUEL_COEF = 0;
-CTI_SERVICE_PRICE_HEAL = 0;
-
-=======
 CTI_SERVICE_PRICE_REPAIR = 300;
 CTI_SERVICE_PRICE_REPAIR_COEF = 0.1;
 CTI_SERVICE_PRICE_REAMMO = 350;
@@ -546,15 +520,14 @@ CTI_SERVICE_PRICE_HEAL = 50;
 
 CTI_ART_REARM_RATIO=10;
 CTI_AIR_REARM_RATIO=5;
->>>>>>> upstream/master
 //todo: add fuel & heal later on
-CTI_SERVICE_AMMO_DEPOT_RANGE = 400;
+CTI_SERVICE_AMMO_DEPOT_RANGE = 150;
 CTI_SERVICE_AMMO_DEPOT_TIME = 30;
-CTI_SERVICE_AMMO_TRUCK_RANGE = 50;
+CTI_SERVICE_AMMO_TRUCK_RANGE = 35;
 CTI_SERVICE_AMMO_TRUCK_TIME = 60;
-CTI_SERVICE_REPAIR_DEPOT_RANGE = 400;
+CTI_SERVICE_REPAIR_DEPOT_RANGE = 150;
 CTI_SERVICE_REPAIR_DEPOT_TIME = 30;
-CTI_SERVICE_REPAIR_TRUCK_RANGE = 50;
+CTI_SERVICE_REPAIR_TRUCK_RANGE = 35;
 CTI_SERVICE_REPAIR_TRUCK_TIME = 50;
 
 CTI_SCORE_BUILD_VALUE_PERPOINT = 1500; //--- Structure value / x
@@ -571,9 +544,9 @@ CTI_GC_DELAY_STATIC = 80;
 CTI_GC_DELAY_BUILDING = 30;
 
 // --- Zerty was here
-CTI_HALO_ALTITUDE = 2000;
-CTI_HALO_RATIO = .5;
-CTI_UPGRADE_RATIO=if !(MADE_FOR_STRATIS) then {6} else {2};
+CTI_HALO_ALTITUDE = 3000;
+CTI_HALO_RATIO = 3;
+CTI_UPGRADE_RATIO=if !(MADE_FOR_STRATIS) then {7} else {2};
 
 
 CTI_VOTE_RATIO=0.51;
@@ -584,12 +557,11 @@ with missionNamespace do {
 
 	if (isNil 'CTI_ECONOMY_INCOME_CYCLE') then {CTI_ECONOMY_INCOME_CYCLE = 60};
 
-	CTI_ECONOMY_POOL_AWARD_PERCENTAGE_WEST = 0.3;
-	CTI_ECONOMY_POOL_AWARD_PERCENTAGE_EAST = 0.3;
-	CTI_ECONOMY_POOL_RESOURCES_PERCENTAGE_WEST = 0.1;
-	CTI_ECONOMY_POOL_RESOURCES_PERCENTAGE_EAST = 0.1;
+	CTI_ECONOMY_POOL_AWARD_PERCENTAGE_WEST = 0.1;
+	CTI_ECONOMY_POOL_AWARD_PERCENTAGE_EAST = 0.1;
+	CTI_ECONOMY_POOL_RESOURCES_PERCENTAGE_WEST = 0.3;
+	CTI_ECONOMY_POOL_RESOURCES_PERCENTAGE_EAST = 0.3;
 
-	if (isNil 'CTI_MILITARY_INSTALLATION_PRICE') then {CTI_MILITARY_INSTALLATION_PRICE = 50000};
 	if (isNil 'CTI_ECONOMY_STARTUP_FUNDS_EAST') then {CTI_ECONOMY_STARTUP_FUNDS_EAST = 900};
 	if (isNil 'CTI_ECONOMY_STARTUP_FUNDS_EAST_COMMANDER') then {CTI_ECONOMY_STARTUP_FUNDS_EAST_COMMANDER = 900000};
 	if (isNil 'CTI_ECONOMY_STARTUP_FUNDS_WEST') then {CTI_ECONOMY_STARTUP_FUNDS_WEST = 900};
@@ -616,15 +588,17 @@ with missionNamespace do {
 
 	if (isNil 'CTI_UNITS_FATIGUE') then {CTI_UNITS_FATIGUE = 1};
 
-	if (isNil 'CTI_WEATHER_FAST') then {CTI_WEATHER_FAST = 6};
-	
-	//--- bl1p ai skills
+	if (isNil 'CTI_WEATHER_FAST') then {CTI_WEATHER_FAST = 3};
+	if (isNil 'CTI_WEATHER_FAST_NIGTH') then {CTI_WEATHER_FAST_NIGTH = 1};
+
+
+			//--- bl1p ai skills
 	if (isNil 'CTI_AI_SKILL') then {CTI_AI_SKILL = 4}; //Done
 	//--- zerty parameters
 
 	if (isNil 'CTI_BASEBUILDING') then {CTI_BASEBUILDING = 1}; //DOn
 	if (isNil 'CTI_TEAMSWAP') then {CTI_TEAMSWAP = 1}; //DOn
-	if (isNil 'CTI_TEAMSTACK') then {CTI_TEAMSTACK = 1}; //DOn	
+	if (isNil 'CTI_TEAMSTACK') then {CTI_TEAMSTACK = 1}; //DOn
 	if (isNil 'CTI_MAX_MISSION_TIME') then {CTI_MAX_MISSION_TIME = 12}; //DOne
 	if (isNil 'CTI_VICTORY_HQ') then {CTI_VICTORY_HQ = 0}; //Done
 	if (isNil 'CTI_HALO_POLES') then {CTI_HALO_POLES = 1};
@@ -661,6 +635,7 @@ with missionNamespace do {
 
 	if (isnil "CTI_EW_HUD") then {CTI_EW_HUD = 1};
 	if (isnil "CTI_EW_HUD_S") then {CTI_EW_HUD_S = 1};
+	if (isnil "CTI_EW_HUD_I") then {CTI_EW_HUD_I = 0};
 	if (isnil "CTI_EW_ANET") then {CTI_EW_ANET = 1};
 
 
@@ -673,11 +648,8 @@ with missionNamespace do {
 	if (isnil "CTI_GAMEPLAY_DARTER_FUEL") then {CTI_GAMEPLAY_DARTER_FUEL = 1};
 	if (isnil "CTI_BUY_RESTRICT_LEADER") then {CTI_BUY_RESTRICT_LEADER = 0};
 	if (isnil "CTI_GROUP_AWARD_MULT") then {CTI_GROUP_AWARD_MULT = 0};
-<<<<<<< HEAD
-=======
 	if (isnil "CTI_GROUP_LEADER_RESP") then {CTI_GROUP_LEADER_RESP = 0};
 	if (isnil "CTI_PERSISTANT") then {CTI_PERSISTANT = 0};
->>>>>>> upstream/master
 
 	if (isNil 'CTI_AI_TEAMS_NB') then { CTI_AI_TEAMS_NB = 10};
 	if (isNil 'CTI_WEATHER_ALLOWRAIN') then {CTI_WEATHER_ALLOWRAIN = 0};

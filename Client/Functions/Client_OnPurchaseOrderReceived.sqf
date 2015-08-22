@@ -46,7 +46,7 @@ _veh_infos = _this select 4;
 
 _model = _req_classname;
 _var_classname = missionNamespace getVariable _req_classname;
-
+_picture = if ((_var_classname select CTI_UNIT_PICTURE) != "") then {format["<img image='%1' size='2.5'/><br /><br />", _var_classname select CTI_UNIT_PICTURE]} else {""};
 //--- Custom vehicle?
 _script = _var_classname select CTI_UNIT_SCRIPT;
 _customid = -1;
@@ -71,8 +71,8 @@ if !(_req_classname isKindOf "Man") then {
 _req_time_out = time + (_var_classname select CTI_UNIT_TIME);
 
 //--- Soft limit (skip for empty vehicles)
-if !(_process) then { if ((count units (group player))+1 <= CTI_PLAYERS_GROUPSIZE) then { _process = true }};
-if !(_process) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_classname, _req_buyer, _factory]] call CTI_CO_FNC_NetSend }; //--- Can't do it but we answer to the server.
+if !(_process) then { if (((count units (group player))- ({isplayer _x} count units (group player))) <= CTI_PLAYERS_GROUPSIZE) then { _process = true }};
+if !(_process) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_classname, _req_buyer, _factory]] call CTI_CO_FNC_NetSend ; hint parseText format ["<t size='1.3' color='#BB0000'>Information</t><br /><br />%2<t>Your <t color='#ccffaf'>%1</t> order has been <t color='#fcffaf'>Denied</t>, too much units in group.", _var_classname select CTI_UNIT_LABEL, _picture];}; //--- Can't do it but we answer to the server.
 
 //--- Check if the buyer has enough funds to perform this operation
 _cost = _var_classname select 2;
@@ -97,19 +97,27 @@ if !(_model isKindOf "Man") then { //--- Add the vehicle crew cost if applicable
 };
 
 _funds = [group (_req_buyer), CTI_P_SideJoined] call CTI_CO_FNC_GetFunds;
-if (_funds < _cost) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_classname, _req_buyer, _factory]] call CTI_CO_FNC_NetSend; };
+
+
+if (_funds < _cost) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_classname, _req_buyer, _factory]] call CTI_CO_FNC_NetSend; hint parseText format ["<t size='1.3' color='#BB0000'>Information</t><br /><br />%2<t>Your <t color='#ccffaf'>%1</t> order has been <t color='#fcffaf'>Denied</t>, not enougth funds.", _var_classname select CTI_UNIT_LABEL, _picture]; };
 // [_req_buyer, CTI_P_SideJoined, -_cost] call CTI_CO_FNC_ChangeFunds; //--- Change the buyer's funds
 
 while { time <= _req_time_out && alive _factory } do { sleep .25 };
 
 if !(alive _factory) exitWith { diag_log "the factory is dead" };
-if (_factory in CTI_TOWNS && ( ! ((_factory getvariable ["cti_town_sideID",-1]) == CTI_P_SideID) || (_factory getvariable ["cti_town_capture",-1]) != CTI_TOWNS_CAPTURE_VALUE_CEIL) ) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_classname, _req_buyer, _factory]] call CTI_CO_FNC_NetSend; };
+
+
+if (_factory in CTI_TOWNS && ( ! ((_factory getvariable ["cti_town_sideID",-1]) == CTI_P_SideID) || (_factory getvariable ["cti_town_capture",-1]) != CTI_TOWNS_CAPTURE_VALUE_CEIL || ({!(side _x == CTI_P_SideJoined)} count (_factory nearEntities ["CAManBase", CTI_TOWNS_CAPTURE_RANGE])) >0 ) ) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_classname, _req_buyer, _factory]] call CTI_CO_FNC_NetSend; hint parseText format ["<t size='1.3' color='#BB0000'>Information</t><br /><br />%2<t>Your <t color='#ccffaf'>%1</t> order has been <t color='#fcffaf'>Denied</t>, Flag area is not clear.", _var_classname select CTI_UNIT_LABEL, _picture];};
+
+
+
+
 //--- Soft limit (skip for empty vehicles)
 if !(_process) then { if ((count units (group player))+1 <= CTI_PLAYERS_GROUPSIZE) then { _process = true }};
 if !(_process) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_classname, _req_buyer, _factory]] call CTI_CO_FNC_NetSend }; //--- Can't do it but we answer to the server.
 
 _funds = [group(_req_buyer), CTI_P_SideJoined] call CTI_CO_FNC_GetFunds;
-if (_funds < _cost) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_classname, _req_buyer, _factory]] call CTI_CO_FNC_NetSend; };
+if (_funds < _cost) exitWith { ["SERVER", "Answer_Purchase", [_req_seed, _req_classname, _req_buyer, _factory]] call CTI_CO_FNC_NetSend; hint parseText format ["<t size='1.3' color='#BB0000'>Information</t><br /><br />%2<t>Your <t color='#ccffaf'>%1</t> order has been <t color='#fcffaf'>Denied</t>, not enougth funds.", _var_classname select CTI_UNIT_LABEL, _picture]; };
 [group(_req_buyer), CTI_P_SideJoined, -_cost] call CTI_CO_FNC_ChangeFunds; //--- Change the buyer's funds
 
 if (CTI_Log_Level >= CTI_Log_Information) then { ["INFORMATION", "FILE: Client\Functions\Client_OnPurchaseOrderReceived.sqf", format["Purchase order concerning classname [%1] with seed [%2] from [%3] on factory [%4, (%5)] is done. Processing the creation...", _req_classname, _req_seed, _req_buyer, _factory, _factory getVariable "cti_structure_type"]] call CTI_CO_FNC_Log };
@@ -170,30 +178,9 @@ if (_model isKindOf "Man") then {
 
 	//--- Sanitize the artillery loadout, mines may lag the server for instance
 	if (CTI_ARTILLERY_FILTER == 1) then {if (_model in (missionNamespace getVariable ["CTI_ARTILLERY", []])) then {(_vehicle) call CTI_CO_FNC_SanitizeArtillery}};
-	
-	//ss83 No despawn----------------------------------
-	_script=true;
-	if (_model isKindof  'ReammoBox_F') then {_script=false};  //ss83 prevents the crate from being de spawned
-	if (_model isKindof  'O_Truck_03_medical_F') then {_script=false};  //ss83 prevents the mobile respawns from despawning
-	if (_model isKindof  'B_Truck_01_medical_F') then {_script=false};  //ss83 prevents the mobile respawns from despawning
-	if (_model isKindof  'O_Truck_03_repair_F') then {_script=false}; 
-	if (_model isKindof  'B_Truck_01_repair_F') then {_script=false}; 
-	if (_model isKindof  'O_Truck_03_ammo_F') then {_script=false}; 
-	if (_model isKindof  'B_Truck_01_ammo_F') then {_script=false}; 
-	if (_model isKindof  'I_Heli_light_03_unarmed_F') then {_script=false}; 
-	if (_model isKindof  'O_Heli_Transport_04_medevac_F') then {_script=false};	
-		if (_model isKindof  'O_Heli_Transport_04_ammo_F') then {_script=false};	
-	if (_model isKindof  'O_Heli_Transport_04_repair_F') then {_script=false};	
-	if (_model isKindof  'O_MBT_02_arty_F') then {_script=false};	
-	if (_model isKindof  'B_MBT_01_arty_F') then {_script=false};	
-	if (_model isKindof  'B_MBT_01_mlrs_F') then {_script=false};	
-	
-	
 	if (_script == "") then {
 		["SERVER", "Request_HandleAction", ["empty", [_vehicle]]] call CTI_CO_FNC_NetSend; //--- Ask the server to track our vehicle emptyness
 	};
-	
-	
 };
 
 {
@@ -207,7 +194,7 @@ if (_script != "" && alive _vehicle) then {
 };
 
 //--- Notify the current client
-_picture = if ((_var_classname select CTI_UNIT_PICTURE) != "") then {format["<img image='%1' size='2.5'/><br /><br />", _var_classname select CTI_UNIT_PICTURE]} else {""};
+
 hint parseText format ["<t size='1.3' color='#2394ef'>Information</t><br /><br />%4<t>Your <t color='#ccffaf'>%1</t> has arrived from the <t color='#fcffaf'>%2</t> at grid <t color='#beafff'>%3</t></t>", _var_classname select CTI_UNIT_LABEL, (_var select 0) select 1, mapGridPosition _position, _picture];
 
 //--- send a notice to the server that our order is now complete

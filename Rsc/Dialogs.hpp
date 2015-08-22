@@ -269,6 +269,13 @@ class CTI_RscInteraction {
 			action = "['OnPilot'] call compile preprocessFileLineNumbers 'Addons\Strat_mode\Tablet\Events_UI_Interact.sqf'";
 			toolTip="Getin as Pilot";
 		};
+		class CTI_Icon_ExitT : CTI_Icon_fpk {
+			idc = 511033;
+			x = "SafeZoneX + SafeZoneW*0.55";
+			text = "Rsc\Pictures\icon_load.paa";
+			action = "['OnExitT'] call compile preprocessFileLineNumbers 'Addons\Strat_mode\Tablet\Events_UI_Interact.sqf'";
+			toolTip="Exit Tutorial";
+		};
 	};
 };
 
@@ -656,9 +663,6 @@ class CTI_RscBuildMenu_Tablet {
 			text = "Build Defense";
 			action = "['onBuildDefense', lnbCurSelRow 100007] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_BuildMenu.sqf'";
 		};
-		
-		/*No more workers ss83
-		
 		class CTI_Menu_Control_AddWorker : CTI_Menu_Control_Undo {
 			idc = 100005;
 
@@ -667,8 +671,6 @@ class CTI_RscBuildMenu_Tablet {
 			text = "Add Worker";
 			action = "['onAddWorker'] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_BuildMenu.sqf'";
 		};
-		
-		*/
 
 		class CTI_Menu_Control_BuildingList : RscListNBox {
 			idc = 100006;
@@ -2524,7 +2526,7 @@ class CTI_RscGearMenu {
 		};
 
 		//--- Actual controls
-		class CTI_Gear_Control_Items_Purchase : RscListNBox {
+		class CTI_Gear_Control_Items_Purchase : RscListBox {
 			idc = 70108;
 
 			x = "SafeZoneX + (SafeZoneW * 0.01)";
@@ -2538,7 +2540,7 @@ class CTI_RscGearMenu {
 			colorText[] = {1,1,1,1};
 			colorBackground[] = {0,0,0,0};
 			itemBackground[] = {1,1,1,0.1};
-			columns[] = {0.26, 0.001};
+			//columns[] = {0.26, 0.001};
 
 			canDrag = 1;
 
@@ -3014,7 +3016,7 @@ class CTI_RscGearMenu {
 
 			text = "Delete Template";
 			tooltip = "Remove an existing template";
-			action = "['onTemplateDeletion', lnbCurSelRow 70108] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_GearMenu.sqf'";
+			action = "['onTemplateDeletion', lbCurSel 70108] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_GearMenu.sqf'";
 		};
 		class CTI_Gear_Control_Buy : CTI_Gear_Control_CreateTemplate {
 			idc = 70403;

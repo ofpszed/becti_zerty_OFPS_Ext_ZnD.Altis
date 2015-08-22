@@ -111,7 +111,7 @@ if ((missionNamespace getVariable [format ["%1", typeOf _vehicle],["","","","","
 
 
 
-if (_locked && !( _vehicle isKindOf "Thing") && !( _vehicle isKindOf "StaticWeapon")) then {_vehicle lock 2};
+if (_locked && !( _vehicle isKindOf "Thing") && !( _vehicle isKindOf "StaticWeapon") && !( _vehicle isKindOf "UAV") && !( _vehicle isKindOf "UGV_01_base_F")) then {_vehicle lock 2} else {_vehicle lock 0};
 if (_net) then {_vehicle setVariable ["cti_net", _side, true]};
 if (_handle) then {
 	_vehicle addEventHandler ["killed", format["[_this select 0, _this select 1, %1] spawn CTI_CO_FNC_OnUnitKilled", _side]]; //--- Called on destruction
@@ -156,12 +156,6 @@ if (missionNamespace getVariable "CTI_SM_RADAR" == 1) then {
 	["SERVER", "Server_AIRR_handle",_vehicle] call CTI_CO_FNC_NetSend;
 };
 
-//SS83 Clear out the cargo of the vehicle
-       clearItemCargoGlobal _vehicle;
-       clearMagazineCargoGlobal _vehicle;
-       clearWeaponCargoGlobal _vehicle;
-	   clearBackpackCargoGlobal _vehicle;
-
 
 
 //trophy system
@@ -175,7 +169,7 @@ if ((_vehicle isKindOf "Pod_Heli_Transport_04_base_F") || (_vehicle isKindOf "Sl
 
 //cache
 
-if ! ((_vehicle isKindOf "Plane") || (_vehicle isKindOf "UAV") ||(_vehicle isKindOf "Pod_Heli_Transport_04_base_F") || (_vehicle isKindOf "Slingload_01_Base_F")  && (missionNamespace getVariable "CACHE_EMPTY") == 1)then {
+if ((!((_vehicle isKindOf "Plane") || (_vehicle isKindOf "UAV") ||(_vehicle isKindOf "Pod_Heli_Transport_04_base_F") || (_vehicle isKindOf "Slingload_01_Base_F")))  && (missionNamespace getVariable "CACHE_EMPTY") == 1)then {
  ["SERVER", "Request_Cache", _vehicle] call CTI_CO_FNC_NetSend;
 };
 
@@ -188,6 +182,15 @@ if (_vehicle isKindOf "Car" && ! isnil "H_PROTECT_WHEELS") then {
 };
 
 //Dynamic group Fix
+
+//tutorial protection
+
+_vehicle spawn {
+	while { !isNull _this && alive _this && ! cti_gameover } do {
+		    sleep 20;
+		    if ((([_this,getMarkerPos "CTI_TUTORIAL"] call  BIS_fnc_distance2D) < 1000) && !isNull _this && alive _this) then {_this setDamage 1};
+		};
+};
 
 //_vehicle addEventHandler ["getIn", {if ((isplayer (_this select 2)) && ({isplayer _x} count (crew (_this select 0)))<2) exitwith {(_this select 2) assignAsCommander (_this select 0)}}];
 
