@@ -12,7 +12,7 @@ waitUntil { !isNull player };
 [] execVM "Addons\ATM_airdrop\functions.sqf";
 
 _funds = [group player, CTI_P_SideJoined] call CTI_CO_FNC_GetFunds;
-if (_funds < 500) exitWith {hintsilent "Not enougth funds"; sleep 1 ; hintsilent ""};
+if (_funds < 1000) exitWith {hintsilent "Not enougth funds"; sleep 1 ; hintsilent ""};
 
 _position = GetPos player;
 _z = _position select 2;
@@ -33,7 +33,7 @@ if (!visibleMap) exitwith {
 	hintsilent "";
 	breakOut "main";
 };
-[group player, CTI_P_SideJoined, - 500] call CTI_CO_FNC_ChangeFunds;
+[group player, CTI_P_SideJoined, - 1000] call CTI_CO_FNC_ChangeFunds;
 _pos = ATM_Jump_clickpos;
 
 ATM_Jump_mapclick = if(true) then{
