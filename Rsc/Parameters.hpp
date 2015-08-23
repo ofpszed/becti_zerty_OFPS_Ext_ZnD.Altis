@@ -179,7 +179,7 @@ class Params {
 		title = "Zerty: PERSISTANCY";
 		values[] = {0,1};
 		texts[] = {"DISABLED", "ENABLED"};
-		default = 0;
+		default = 1;
 	};
 	class SEPARATOR0 {
 		title = "===================== Gameplay and Mission =======================";
@@ -385,7 +385,7 @@ class Params {
 		title = "Zerty: TOWNS : Shop price ratio";
 		values[] = {1,2,3,5,10,100};
 		texts[] = {"1","2","3","5","10","100"};
-		default = 10;
+		default = 5;
 	};
 
 	class CTI_WEATHER_INITIAL {
