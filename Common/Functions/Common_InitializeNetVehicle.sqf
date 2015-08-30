@@ -125,13 +125,13 @@ if (missionNamespace getVariable "CTI_EW_ANET" == 0) then {
 //--- Perform side-speficic operations
 if (_sideID != CTI_P_SideID) exitWith {};
 
-if (CTI_SPECIAL_REPAIRTRUCK in _special) then { //--- Repair truck.
+/*if (CTI_SPECIAL_REPAIRTRUCK in _special) then { //--- Repair truck.
 	if (CTI_BASE_FOB_MAX > 0) then {
 		_vehicle addAction ["<t color='#eac6ff'>ACTION: Request FOB Build Permission</t>", "Client\Actions\Action_RequestAction.sqf", [CTI_REQUEST_FOB, []], 92, false, true, "", "_this == player && time - CTI_P_TeamsRequests_Last > 30 && !(call CTI_CL_FNC_IsPlayerCommander) && CTI_P_TeamsRequests_FOB < 1 && ( missionNamespace getVariable 'CTI_BASE_FOB_PERMISSION') == 1 "];
 		_vehicle addAction ["<t color='#eac6ff'>ACTION: Request FOB Dismantle Permission</t>", "Client\Actions\Action_RequestAction.sqf", [CTI_REQUEST_FOB_DISMANTLE, []], 92, false, true, "", "_this == player && time - CTI_P_TeamsRequests_Last > 30 && !(call CTI_CL_FNC_IsPlayerCommander) && CTI_P_TeamsRequests_FOB_Dismantle < 1 && ( missionNamespace getVariable 'CTI_BASE_FOB_PERMISSION') == 1 "];
 		_vehicle addAction ["<t color='#eac6ff'>ACTION: Dismantle Nearest FOB</t>", "Client\Actions\Action_DismantleFOB.sqf", "", 92, false, true, "", "_this == player && (CTI_P_TeamsRequests_FOB_Dismantle > 0 || call CTI_CL_FNC_IsPlayerCommander) || ( missionNamespace getVariable 'CTI_BASE_FOB_PERMISSION') == 0"];
 	};
-};
+};*/
 
 
 //--- Retexture the vehicle if it's one defined in Ini_CommonConstants.sqf

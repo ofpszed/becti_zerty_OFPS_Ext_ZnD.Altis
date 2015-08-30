@@ -179,7 +179,7 @@ class Params {
 		title = "Zerty: PERSISTANCY";
 		values[] = {0,1};
 		texts[] = {"DISABLED", "ENABLED"};
-		default = 1;
+		default = 0;
 	};
 	class SEPARATOR0 {
 		title = "===================== Gameplay and Mission =======================";
@@ -225,7 +225,7 @@ class Params {
 		title = "Zerty: MISSION : Time Limit";
 		values[] = {0,2,4,6,8,10,15,24};
 		texts[] = {"Never","2h","4h","6h","8h","10h","15","24h"};
-		default = 15;
+		default = 0;
 	};
 	class MIN_TOWNS {
 		title = "Zerty: MISSION: Minimum number of towns";
@@ -244,7 +244,7 @@ class Params {
 		title = "Zerty: MISSION : Need Commander permission for FOB";
 		values[] = {0,1};
 		texts[] = {"False","True"};
-		default = 1;
+		default = 0;
 	};
 
 	class CTI_BUY_RESTRICT_LEADER {
