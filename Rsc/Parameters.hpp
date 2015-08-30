@@ -251,10 +251,10 @@ class Params {
 		title = "Zerty: GROUPS: Restrict purchases to group leader";
 		values[] = {0,1};
 		texts[] = {"False","True"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_GROUP_AWARD_MULT {
-		title = "Zerty: GROUPS: Award multiplyer";
+		title = "Zerty: GROUPS: Award multiplier";
 		values[] = {0,1};
 		texts[] = {"False","True"};
 		default = 1;
