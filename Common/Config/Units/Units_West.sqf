@@ -431,6 +431,8 @@ _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + [""];
 
 
+
+
 /*Spawns with no gas and can't be controlled, have to fix this ss83
 _c = _c + ['B_UAV_01_F'];
 _p = _p + [''];

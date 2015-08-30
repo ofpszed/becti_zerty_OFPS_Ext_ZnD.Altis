@@ -117,6 +117,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["O_Truck_02_Ammo_F"];
 _u = _u		+ ["O_Truck_03_Ammo_F"];
+_u = _u		+ ["O_supplyCrate_F"];
 _u = _u		+ ["Land_Pod_Heli_Transport_04_ammo_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 

@@ -122,6 +122,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["B_Truck_01_ammo_F"];
 _u = _u		+ ['B_Slingload_01_Ammo_F'];
+_u = _u		+ ["B_supplyCrate_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
 _u 			= ["B_Boat_Transport_01_F"];
