@@ -311,9 +311,9 @@ class Params {
 	};
 	class CTI_GAMEPLAY_DARTER {
 		title = "Zerty: GAMEPLAY: Darter Range limitation";
-		values[] = {0,500,800,1200,1500,2000};
-		texts[] = {"None","Connection range 500m","Connection range 800m","Connection range 1200m","Connection range 1500m","Connection range 2000m"};
-		default = 2000;
+		values[] = {0,500,800,1200,1500,2000, 4000};
+		texts[] = {"None","Connection range 500m","Connection range 800m","Connection range 1200m","Connection range 1500m","Connection range 2000m", "Connection range 4000m"};
+		default = 4000;
 	};
 	class CTI_GAMEPLAY_DARTER_FUEL {
 		title = "Zerty: GAMEPLAY: Darter Fuel limitation";
@@ -391,7 +391,7 @@ class Params {
 	class CTI_WEATHER_INITIAL {
 		title = "Zerty: WEATHER: Inital time";
 		values[] = {0,1,2,3,10};
-		texts[] = {"Morning","Noon","Evening","Midnigth","Random"};
+		texts[] = {"Morning","Noon","Evening","Midnight","Random"};
 		default = 10;
 	};
 	class CTI_WEATHER_DYNAMIC {
@@ -435,7 +435,7 @@ class Params {
 		title = "Zerty: Strategic: Base Protection Mode";
 		values[] = {0,-1,2,5,10,20,50,100};
 		texts[] = {"Disabled","Hard Protection","Dmg reduced by 2","Dmg reduced by 5","Dmg reduced by 10","Dmg reduced by 20","Dmg reduced by 50","Dmg reduced by 100"};
-		default = 0;
+		default = 5;
 	};
 
 	class CTI_SM_PATROLS {
@@ -467,7 +467,7 @@ class Params {
 		title = "Zerty: Strategic: Max active per side";
 		values[] = {1,2,3,4};
 		texts[] = {"1","2","3","4"};
-		default = 2;
+		default = 3;
 	};
 	class CTI_SM_TCAS {
 		title = "Zerty: Strategic: Town CAS if value above";
