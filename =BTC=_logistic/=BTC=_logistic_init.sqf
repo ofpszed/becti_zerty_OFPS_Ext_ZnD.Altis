@@ -10,8 +10,8 @@ if (isServer) then
 	BTC_cargo_repo = "Land_HBarrierBig_F" createVehicle [- 5000,- 5000,0];publicVariable "BTC_cargo_repo";
 };
 if (isDedicated) exitwith {};
-BTC_active_lift      = 1;
-BTC_active_fast_rope = 1;
+BTC_active_lift      = 0;
+BTC_active_fast_rope = 0;
 BTC_active_cargo     = 1;
 //Common
 BTC_dir_action = "=BTC=_logistic\=BTC=_addAction.sqf";
@@ -65,26 +65,26 @@ if (BTC_active_cargo == 1) then
 {
 	//Cargo System
 	_cargo = [] execVM "=BTC=_logistic\=BTC=_cargo_system\=BTC=_cargo_system_init.sqf";
-	BTC_def_vehicles     = ["Tank","Wheeled_APC","Truck","Car","Helicopter"];
-	BTC_def_cargo        = ["Motorcycle","ReammoBox","ReammoBox_F","Strategic"];
-	BTC_def_drag         = ["ReammoBox","ReammoBox_F","Strategic", "StaticWeapon"];
+	//BTC_def_vehicles     = ["Tank","Wheeled_APC","Truck","Car","Helicopter"];
+	BTC_def_cargo        = ["ReammoBox","ReammoBox_F","Strategic"];
+	BTC_def_drag         = ["ReammoBox","ReammoBox_F", "StaticWeapon"];
 	BTC_def_placement    = ["ReammoBox","ReammoBox_F","Strategic", "StaticWeapon"];
 	BTC_cargo_selected   = objNull;
 	BTC_def_cc =
 	[
-		"B_Quadbike_01_F",2,
+		//"B_Quadbike_01_F",2,
 		//Trucks
-		"B_Truck_01_transport_F",10,
-		"B_Truck_01_covered_F",10,
-		"I_Truck_02_covered_F",10,
-		"O_Truck_02_covered_F",10,
-		"I_Truck_02_transport_F",10,
-		"O_Truck_02_transport_F",10,
-		"O_Truck_02_transport_F",10
+		//"B_Truck_01_transport_F",10,
+		//"B_Truck_01_covered_F",10,
+		//"I_Truck_02_covered_F",10,
+		//"O_Truck_02_covered_F",10,
+		//"I_Truck_02_transport_F",10,
+		//"O_Truck_02_transport_F",10,
+		//"O_Truck_02_transport_F",10
 	];
 	BTC_def_rc =
 	[
-		"Land_BagBunker_Small_F",4
+		//"Land_BagBunker_Small_F",4
 	];
 };
 //Functions

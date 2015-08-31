@@ -28,25 +28,25 @@ _eh = player addEventHandler ["respawn",
 }];
 BTC_main_cc =
 [
-	"Motorcycle",1,
-	"Car",3,
-	"Truck",10,
-	"Wheeled_APC",5,
-	"Tank",5,
-	"Ship",3,
-	"Helicopter",6
+//	"Motorcycle",1,
+//	"Car",3,
+//	"Truck",10,
+//	"Wheeled_APC",5,
+//	"Tank",5,
+//	"Ship",3,
+//	"Helicopter",6
 ];
 BTC_main_rc =
 [
 	"ReammoBox_F",2,
-	"Strategic",2,
-	"Motorcycle",3,
-	"Car",11,
-	"Truck",15,
-	"Wheeled_APC",20,
-	"Tank",25,
-	"Ship",15,
-	"Helicopter",9999
+	"Strategic", 2
+//	"Motorcycle",3,
+//	"Car",11,
+//	"Truck",15,
+//	"Wheeled_APC",20,
+//	"Tank",25,
+//	"Ship",15,
+//	"Helicopter",9999
 ];
 /*
 BTC_main_c_c =

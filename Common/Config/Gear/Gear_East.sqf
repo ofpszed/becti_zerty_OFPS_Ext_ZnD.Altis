@@ -387,10 +387,6 @@ _i = _i		+ [["arifle_TRG21_GL_ACO_pointer_F"]];
 _u = _u		+ [0];
 _p = _p		+ [400];
 
-_i = _i		+ ["LMG_Mk200_F"];
-_u = _u		+ [0];
-_p = _p		+ [800];
-
 _i = _i		+ [["LMG_Mk200_MRCO_F"]];
 _u = _u		+ [0];
 _p = _p		+ [40];
