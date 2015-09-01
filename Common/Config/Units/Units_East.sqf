@@ -419,8 +419,8 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1000];
 _t = _t + [25];
-_u = _u + [0];
-_f = _f + [CTI_FACTORY_AIR];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ["Land_Pod_Heli_Transport_04_repair_F"];
@@ -438,7 +438,7 @@ _n = _n + [(format ["Slingload Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])]
 _o = _o + [15000];
 _t = _t + [25];
 _u = _u + [0];
-_f = _f + [CTI_FACTORY_AIR];
+_f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
 _c = _c + ["Land_Pod_Heli_Transport_04_fuel_F"];
@@ -490,7 +490,7 @@ _s = _s + [""];
 
 _c = _c + ['I_Heli_Transport_02_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Mohawk Heavy Airlift"])];
+_n = _n + [(format ["Mohawk Lift"])];
 _o = _o + [13000];
 _t = _t + [40];
 _u = _u + [1];
@@ -500,7 +500,7 @@ _s = _s + [""];
 
 _c = _c + ['O_Heli_Transport_04_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Taru Heavy Airlift (DLC ONLY)"])];
+_n = _n + [(format ["Heavy Lift(DLC ONLY)"])];
 _o = _o + [10000];
 _t = _t + [40];
 _u = _u + [1];
@@ -509,25 +509,25 @@ _s = _s + [""];
 
 _c = _c + ['O_Heli_Transport_04_ammo_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Taru Ammo Heli (DLC ONLY)"])];
+_n = _n + [(format ["Ammo Heli (DLC ONLY)"])];
 _o = _o + [10000];
 _t = _t + [40];
-_u = _u + [3];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-ammotruck"];
 
 _c = _c + ['O_Heli_Transport_04_bench_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Taru Bench Transport Heli (DLC ONLY)"])];
+_n = _n + [(format ["Bench Trans(DLC ONLY)"])];
 _o = _o + [6000];
 _t = _t + [40];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
 _c = _c + ['O_Heli_Transport_04_covered_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Taru Covered Transport Heli (DLC ONLY)"])];
+_n = _n + [(format ["Covered Trans(DLC ONLY)"])];
 _o = _o + [6000];
 _t = _t + [40];
 _u = _u + [1];
@@ -536,26 +536,26 @@ _s = _s + [""];
 
 _c = _c + ['O_Heli_Transport_04_medevac_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Taru Air Respawn (DLC ONLY)- Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
+_n = _n + [(format ["AirRspwn(DLC ONLY)- Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
 _o = _o + [8000];
 _t = _t + [40];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-medic"];
 
 _c = _c + ['O_Heli_Transport_04_repair_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Taru Repair Heli (DLC ONLY)"])];
+_n = _n + [(format ["TaruRepr(DLC ONLY)"])];
 _o = _o + [15000];
 _t = _t + [40];
-_u = _u + [3];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-repairtruck"];
 
 
 _c = _c + ['I_Heli_light_03_unarmed_F'];  //ss83 added mobile respawn heli
 _p = _p + [''];
-_n = _n + [(format ["Hellcat Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
+_n = _n + [(format ["Hellcat Rspwn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
 _o = _o + [12000];
 _t = _t + [20];
 _u = _u + [1];

@@ -55,6 +55,7 @@ _u = _u		+ ['O_spotter_F'];
 _u = _u		+ ['O_soldier_UAV_F'];
 _u = _u		+ ['O_Helipilot_F'];
 _u = _u		+ ['O_crew_F'];
+_u = _u		+ ['Land_Pod_Heli_Transport_04_bench_F'];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 
 _u 			= ['O_Quadbike_01_F'];
@@ -68,6 +69,7 @@ _u = _u		+ ['O_MRAP_02_gmg_F'];
 _u = _u		+ ['O_UGV_01_F'];
 _u = _u		+ ['O_UGV_01_rcws_F'];
 _u = _u		+ ['O_Truck_03_medical_F'];
+_u = _u		+ ['Land_Pod_Heli_Transport_04_medevac_F'];
 /*_u = _u		+ ['I_MRAP_03_F'];
 _u = _u		+ ['I_MRAP_03_hmg_F'];
 _u = _u		+ ['I_MRAP_03_gmg_F']; 
@@ -108,8 +110,8 @@ _u = _u		+ ['I_Heli_light_03_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 */
 _u = _u		+ ['I_Plane_Fighter_03_AA_F'];
-_u = _u		+ ['Land_Pod_Heli_Transport_04_bench_F'];
-_u = _u		+ ['Land_Pod_Heli_Transport_04_medevac_F'];
+
+
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
 _u 			= ["O_Truck_02_box_F"];
