@@ -103,9 +103,9 @@ _u = _u		+ ["B_UAV_02_CAS_F"];
 _u = _u		+ ["B_UAV_02_F"];
 _u = _u		+ ["B_Plane_CAS_01_F"];
 _u = _u		+ ['I_Heli_light_03_unarmed_F'];
+_u = _u		+ ['I_Heli_Transport_02_F'];
 /*
 _u = _u		+ ['I_Heli_light_03_F'];
-_u = _u		+ ['I_Heli_Transport_02_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 */
 _u = _u		+ ['I_Plane_Fighter_03_AA_F'];

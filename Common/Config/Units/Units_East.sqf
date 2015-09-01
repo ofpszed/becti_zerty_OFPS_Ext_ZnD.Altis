@@ -405,6 +405,51 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + [""];
 
+_c = _c + ["Land_Pod_Heli_Transport_04_ammo_F"];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [10000];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AMMO];
+_s = _s + ["service-ammotruck"];
+
+_c = _c + ["Land_Pod_Heli_Transport_04_bench_F"];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [1000];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ["Land_Pod_Heli_Transport_04_repair_F"];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [10000];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_REPAIR];
+_s = _s + ["service-repairtruck"];
+
+_c = _c + ["Land_Pod_Heli_Transport_04_medevac_F"];
+_p = _p + [''];
+_n = _n + [(format ["Slingload Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
+_o = _o + [15000];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + ["service-medic"];
+
+_c = _c + ["Land_Pod_Heli_Transport_04_fuel_F"];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [5000];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_REPAIR];
+_s = _s + ["service-fueltruck"];
+
 /*Spawns with no gas and can't be controlled, have to fix this ss83
 _c = _c + ['O_UAV_01_F'];
 _p = _p + [''];

@@ -256,10 +256,19 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['B_Truck_01_medical_F'];
+_c = _c + ['B_Truck_01_medical_F'];   
 _p = _p + [''];
 _n = _n + [(format ["Mobile Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
 _o = _o + [3000];
+_t = _t + [20];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + ["service-medic"];
+
+_c = _c + ['B_Slingload_01_Medevac_F'];   
+_p = _p + [''];
+_n = _n + [(format ["Slingload Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
+_o = _o + [15000];
 _t = _t + [20];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
@@ -363,10 +372,28 @@ _s = _s + [""];
 
 
 
-_c = _c + ['B_Truck_01_Repair_F'];
+_c = _c + ['B_Truck_01_Repair_F'];  
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [3000];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_REPAIR];
+_s = _s + ["service-repairtruck"];
+
+_c = _c + ['B_Slingload_01_Repair_F'];  
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [10000];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_REPAIR];
+_s = _s + ["service-repairtruck"];
+
+_c = _c + ['B_Slingload_01_Fuel_F'];  
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [5000];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
@@ -412,10 +439,10 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + ["service-ammotruck"];
 
-_c = _c + ['Box_Nato_AmmoVeh_F'];
+_c = _c + ['B_Slingload_01_Ammo_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [1000];
+_o = _o + [10000];
 _t = _t + [10];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
