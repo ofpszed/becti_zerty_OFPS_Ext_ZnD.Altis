@@ -397,7 +397,7 @@ _o = _o + [5000];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
-_s = _s + ["service-repairtruck"];
+_s = _s + ["service-fueltruck"];
 
 _c = _c + ['CTI_Salvager_West'];
 _p = _p + [''];
@@ -424,7 +424,7 @@ _o = _o + [1000];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
-_s = _s + [""];
+_s = _s + ["service-fueltruck"];
 
 
 
@@ -446,7 +446,7 @@ _o = _o + [10000];
 _t = _t + [10];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
-_s = _s + [""];
+_s = _s + ["service-ammotruck"];
 
 _c = _c + ['B_supplyCrate_F'];
 _p = _p + [''];

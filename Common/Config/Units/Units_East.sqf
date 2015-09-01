@@ -376,7 +376,7 @@ _o = _o + [1000];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
-_s = _s + [""];
+_s = _s + ["service-fueltruck"];
 
 _c = _c + ['O_Truck_03_Ammo_F'];
 _p = _p + [''];
