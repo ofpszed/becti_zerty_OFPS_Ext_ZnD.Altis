@@ -93,7 +93,7 @@ IL_config = IL_config + [
 		[ [0,-2,0.3], IL_c_red, IL_att_soft, 0.5 ],
 		[ [0,4,0.3], IL_c_red, IL_att_soft, 0.5 ]
 	],true,2],
-	[["O_Heli_Transport_04_covered_F","O_Heli_Transport_04_covered_black_F","O_Heli_Transport_04_medevac_black_F","O_Heli_Transport_04_medevac_F"],false, [
+	[["O_Heli_Transport_04_covered_F","O_Heli_Transport_04_medevac_F"],false, [
 		[ [0.2,-1.95,-0.1], IL_c_red, IL_att_soft, 0.5 ],
 		[ [-0.4,-1.95,-0.1], IL_c_red, IL_att_soft, 0.5 ],
 		[ [0.2,0.93,-0.1], IL_c_red, IL_att_soft, 0.5 ],
