@@ -225,7 +225,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [300];
 _t = _t + [15];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -234,7 +234,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [500];
 _t = _t + [15];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -243,7 +243,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [800];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -252,7 +252,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1000];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -270,7 +270,7 @@ _p = _p + [''];
 _n = _n + [(format ["Slingload Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
 _o = _o + [15000];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
@@ -279,7 +279,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [800];
 _t = _t + [20];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["LoadUGV"]; // Radioman - Init LoadUGV script
 
@@ -288,7 +288,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1000];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -513,7 +513,7 @@ _s = _s + ["service-medic"];
 _c = _c + ['B_Heli_Transport_01_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [6000];
+_o = _o + [10000];
 _t = _t + [40];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
@@ -521,8 +521,8 @@ _s = _s + [""];
 
 _c = _c + ['I_Heli_Transport_02_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Mohawk Heavy Airlift"])];
-_o = _o + [13000];
+_n = _n + [(format ["Mohawk Airlift"])];
+_o = _o + [7000];
 _t = _t + [40];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];

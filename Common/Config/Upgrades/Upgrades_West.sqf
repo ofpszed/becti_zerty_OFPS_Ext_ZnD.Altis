@@ -20,12 +20,12 @@ _t=_t+			[[10*CTI_UPGRADE_RATIO,20*CTI_UPGRADE_RATIO,30*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Factory: Light Factory", "Unlock better motorized units"]];
 _a=_a	+			[true];
-_c=_c +			[[10000]];
-_lev=_lev+	[1];
-_lin=_lin+	[[[]]];
-_t=_t+			[[20*CTI_UPGRADE_RATIO]];
+_c=_c +			[[10000, 20000, 30000]];
+_lev=_lev+	[3];
+_lin=_lin+	[[[],[],[]]];
+_t=_t+			[[20*CTI_UPGRADE_RATIO, 40*CTI_UPGRADE_RATIO, 80*CTI_UPGRADE_RATIO]];
 
-_l=_l+			[["Factory: Heavy Factory", "Unlock better armored units"]];
+_l=_l+			[["Factory: Heavy Factory", "Unlock better armoured units"]];
 _a=_a	+			[true];
 _c=_c +			[[25000,70000,100000]];
 _lev=_lev+	[3];
