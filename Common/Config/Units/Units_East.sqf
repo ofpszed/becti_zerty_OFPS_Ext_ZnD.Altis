@@ -11,6 +11,16 @@ _f = []; //--- Built from Factory.
 _s = []; //--- Script
 
 //--- Infantry
+
+_c = _c + ["Land_Pod_Heli_Transport_04_bench_F"];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [1000];
+_t = _t + [25];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 _c = _c + ['O_Soldier_A_F'];
 _p = _p + [''];
 _n = _n + [''];
@@ -413,15 +423,6 @@ _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + ["service-ammotruck"];
-
-_c = _c + ["Land_Pod_Heli_Transport_04_bench_F"];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [1000];
-_t = _t + [25];
-_u = _u + [2];
-_f = _f + [CTI_FACTORY_BARRACKS];
-_s = _s + [""];
 
 _c = _c + ["Land_Pod_Heli_Transport_04_repair_F"];
 _p = _p + [''];
