@@ -32,7 +32,6 @@ if (isDedicated) exitWith {};
 
 waitUntil {!isNull player};
 
-systemChat "Interior Lighting: Loading";
 
 diag_log "IL starting";
 
@@ -529,7 +528,3 @@ IL_eventHandler = player addEventHandler ["Respawn", {
 	if (IL_Debug) then {player sideChat "IL Respawn EventHandler Executed!";};
 }];
 if (IL_Debug) then {player sideChat format ["IL Respawn EventHandler Added, #%1",IL_eventHandler];};
-
-IL_Loaded = true;
-diag_log "IL ready";
-systemChat "Interior Lighting: Initialized";
