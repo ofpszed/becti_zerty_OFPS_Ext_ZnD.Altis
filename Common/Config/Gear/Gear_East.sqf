@@ -9,7 +9,7 @@ _p = [];
 
 //--- Magazines
 _i = _i		+ ["ATMine_Range_Mag"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["APERSMine_Range_Mag"];
@@ -45,12 +45,12 @@ _u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["5Rnd_127x108_Mag"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [30];
 
 
 _i = _i		+ ["5Rnd_127x108_APDS_Mag"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [150];
 
 
@@ -59,7 +59,7 @@ _u = _u		+ [0];
 _p = _p		+ [5];
 
 _i = _i		+ ["10Rnd_762x54_Mag"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [10];
 
 _i = _i		+ ["20Rnd_556x45_UW_mag"];
@@ -67,7 +67,7 @@ _u = _u		+ [0];
 _p = _p		+ [10];
 
 _i = _i		+ ["20Rnd_762x51_Mag"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [30];
 
 _i = _i		+ ["30Rnd_45ACP_Mag_SMG_01"];
@@ -95,27 +95,27 @@ _u = _u		+ [0];
 _p = _p		+ [15];
 
 _i = _i		+ ["30Rnd_65x39_caseless_green"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [20];
 
 _i = _i		+ ["30Rnd_65x39_caseless_green_mag_Tracer"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [20];
 
 _i = _i		+ ["150Rnd_762x54_Box"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [80];
 
 _i = _i		+ ["150Rnd_762x54_Box_Tracer"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [80];
 
 _i = _i		+ ["200Rnd_65x39_cased_Box"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [100];
 
 _i = _i		+ ["200Rnd_65x39_cased_Box_Tracer"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [100];
 
 _i = _i		+ ["RPG32_F"];
@@ -159,7 +159,7 @@ _u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["HandGrenade"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [10];
 
 _i = _i		+ ["MiniGrenade"];
@@ -187,10 +187,6 @@ _u = _u		+ [0];
 _p = _p		+ [5];
 
 _i = _i		+ ["SmokeShellPurple"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-_i = _i		+ ["SmokeShellBlue"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
@@ -391,10 +387,6 @@ _i = _i		+ [["arifle_TRG21_GL_ACO_pointer_F"]];
 _u = _u		+ [0];
 _p = _p		+ [400];
 
-_i = _i		+ ["LMG_Mk200_F"];
-_u = _u		+ [0];
-_p = _p		+ [800];
-
 _i = _i		+ [["LMG_Mk200_MRCO_F"]];
 _u = _u		+ [0];
 _p = _p		+ [40];
@@ -532,7 +524,7 @@ _u = _u		+ [2];
 _p = _p		+ [2000];
 
 _i = _i		+ ["launch_O_Titan_short_F"];
-_u = _u		+ [2];
+_u = _u		+ [3];
 _p = _p		+ [3000];
 
 _i = _i		+ ["hgun_Rook40_F"];
@@ -573,17 +565,18 @@ _u = _u		+ [0];
 _p = _p		+ [150];
 
 _i = _i		+ ["U_O_SpecopsUniform_ocamo"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [150];
 
 _i = _i		+ ["U_O_SpecopsUniform_blk"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [150];
 
 _i = _i		+ ["U_O_Wetsuit"];
 _u = _u		+ [2];
 _p = _p		+ [450];
 
+/*
 _i = _i		+ ["U_OG_Guerilla1_1"];
 _u = _u		+ [1];
 _p = _p		+ [150];
@@ -616,7 +609,7 @@ _i = _i		+ ["U_OG_Guerrilla_6_1"];
 _u = _u		+ [1];
 _p = _p		+ [50];
 
-
+*/
 
 
 
@@ -637,15 +630,15 @@ _u = _u		+ [0];
 _p = _p		+ [300];
 
 _i = _i		+ ["V_TacVest_brn"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [400];
 
 _i = _i		+ ["V_HarnessO_brn"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [450];
 
 _i = _i		+ ["V_HarnessOGL_brn"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ ["V_HarnessOSpec_brn"];
@@ -653,11 +646,11 @@ _u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ ["V_HarnessO_gry"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [450];
 
 _i = _i		+ ["V_HarnessOGL_gry"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ ["V_HarnessOSpec_gry"];
@@ -688,8 +681,6 @@ _p = _p		+ [400];
 _i = _i		+ ["B_Kitbag_cbr"];
 _u = _u		+ [1];
 _p = _p		+ [500];
-
-
 
 _i = _i		+ ["B_Carryall_ocamo"];
 _u = _u		+ [3];
@@ -724,7 +715,7 @@ _p = _p		+ [5];
 
 _i = _i		+ ["O_UAV_01_backpack_F"];
 _u = _u		+ [1];
-_p = _p		+ [600];
+_p = _p		+ [3000];
 
 _i = _i		+ ["O_HMG_01_support_F"];
 _u = _u		+ [1];
@@ -753,7 +744,7 @@ _p = _p		+ [1700];
 if !(MADE_FOR_STRATIS) then {
 _i = _i		+ ["O_Mortar_01_support_F"];
 _u = _u		+ [3];
-_p = _p		+ [4900];
+_p = _p		+ [100];
 
 _i = _i		+ ["O_Mortar_01_weapon_F"];
 _u = _u		+ [3];
@@ -804,47 +795,47 @@ _p = _p		+ [2000];
 
 
 _i = _i		+ ["G_Balaclava_blk"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["G_Balaclava_combat"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["G_Balaclava_lowprofile"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["G_Balaclava_oli"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["G_Bandanna_aviator"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["G_Bandanna_blk"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["G_Bandanna_khk"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["G_Bandanna_oli"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["G_Bandanna_shades"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["G_Bandanna_sport"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["G_Bandanna_tan"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 //--- Helms
@@ -857,11 +848,11 @@ _u = _u		+ [0];
 _p = _p		+ [150];
 
 _i = _i		+ ["H_HelmetSpecO_ocamo"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [150];
 
 _i = _i		+ ["H_HelmetSpecO_blk"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [150];
 
 _i = _i		+ ["H_HelmetLeaderO_ocamo"];
@@ -908,10 +899,6 @@ _i = _i		+ ["H_MilCap_oucamo"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
-_i = _i		+ ["H_MilCap_blue"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
 _i = _i		+ ["H_MilCap_gry"];
 _u = _u		+ [0];
 _p = _p		+ [5];
@@ -944,36 +931,32 @@ _i = _i		+ ["H_Bandanna_gry"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
-_i = _i		+ ["H_Bandanna_blu"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
 _i = _i		+ ["H_Bandanna_cbr"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
 _i = _i		+ ["H_Bandanna_khk_hs"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["H_Bandanna_khk"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["H_Bandanna_mcamo"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["H_Bandanna_sgg"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["H_Bandanna_sand"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["H_Bandanna_surfer"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["H_Bandanna_surfer_blk"];
@@ -1096,15 +1079,7 @@ _i = _i		+ ["H_Cap_brn_SPECOPS"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
-_i = _i		+ ["H_Hat_blue"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
 _i = _i		+ ["H_Hat_brown"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-_i = _i		+ ["H_Hat_camo"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
@@ -1135,20 +1110,6 @@ _p = _p		+ [5];
 _i = _i		+ ["H_ShemagOpen_khk"];
 _u = _u		+ [0];
 _p = _p		+ [5];
-
-_i = _i		+ ["H_StrawHat"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-_i = _i		+ ["H_StrawHat_dark"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-
-
-
-
-
 
 
 

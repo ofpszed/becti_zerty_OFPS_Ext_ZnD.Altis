@@ -336,7 +336,7 @@ CTI_TOWNS_OCCUPATION_SPAWN_RANGE = 300; //--- Determine how far the units may sp
 CTI_TOWNS_OCCUPATION_GROUPS_RATIO = 25; //--- Determine how many groups may spawn (scales with town value)
 CTI_TOWNS_OCCUPATION_DETECTION_RANGE = 1000; //--- Determine how far a threat may be detected from the town center
 CTI_TOWNS_OCCUPATION_DETECTION_RANGE_AIR = 30; //--- Determine how high a threat is considered aerial
-CTI_TOWNS_OCCUPATION_INACTIVE_MAX = 1200; //--- Determine how long a town may remain active when triggered
+CTI_TOWNS_OCCUPATION_INACTIVE_MAX = 1800; //--- Determine how long a town may remain active when triggered
 CTI_TOWNS_OCCUPATION_MIN_ACTIVE = 3; //--- When the town is not held by the side and when no enemy is near, at least x enemies need to be alive for the town to be considered active
 
 //--- Towns: Resistance
@@ -511,7 +511,7 @@ with missionNamespace do {
 CTI_ARTILLERY_FILTER = 1; //--- Toggle artillery magazines like mines and AT mines (0: Disabled, 1: Enabled)
 CTI_ARTILLERY_TIMEOUT = 180; //--- Delay between each fire mission
 
-CTI_ECONOMY_POOL_RESOURCES_PERCENTAGE_MIN = 30; //--- Keep values of 10
+CTI_ECONOMY_POOL_RESOURCES_PERCENTAGE_MIN = 10; //--- Keep values of 10
 
 CTI_MARKERS_OPACITY = 0.5;
 CTI_MARKERS_TOWN_AREA_RANGE = if !(MADE_FOR_STRATIS) then {325} else {150};
@@ -527,12 +527,12 @@ CTI_SATCAM_ZOOM_MIN = 25;
 CTI_SATCAM_ZOOM_MAX = 800;
 
 CTI_SERVICE_PRICE_REPAIR = 0;
-CTI_SERVICE_PRICE_REPAIR_COEF = 0.05;
+CTI_SERVICE_PRICE_REPAIR_COEF = 0;
 CTI_SERVICE_PRICE_REAMMO = 0;
 CTI_SERVICE_PRICE_REAMMO_COEF = 0.1;
 CTI_SERVICE_PRICE_REFUEL = 0;
-CTI_SERVICE_PRICE_REFUEL_COEF = 0.05;
-CTI_SERVICE_PRICE_HEAL = 500;
+CTI_SERVICE_PRICE_REFUEL_COEF = 0;
+CTI_SERVICE_PRICE_HEAL = 0;
 
 CTI_ART_REARM_RATIO=10;
 CTI_AIR_REARM_RATIO=5;
@@ -573,8 +573,8 @@ with missionNamespace do {
 
 	if (isNil 'CTI_ECONOMY_INCOME_CYCLE') then {CTI_ECONOMY_INCOME_CYCLE = 60};
 
-	CTI_ECONOMY_POOL_AWARD_PERCENTAGE_WEST = 0.3;
-	CTI_ECONOMY_POOL_AWARD_PERCENTAGE_EAST = 0.3;
+	CTI_ECONOMY_POOL_AWARD_PERCENTAGE_WEST = 0.1;
+	CTI_ECONOMY_POOL_AWARD_PERCENTAGE_EAST = 0.1;
 	CTI_ECONOMY_POOL_RESOURCES_PERCENTAGE_WEST = 0.1;
 	CTI_ECONOMY_POOL_RESOURCES_PERCENTAGE_EAST = 0.1;
 

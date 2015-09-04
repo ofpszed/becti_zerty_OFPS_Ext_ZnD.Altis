@@ -70,6 +70,7 @@ _u = _u		+ ["B_MRAP_01_gmg_F"];
 _u = _u		+ ["B_UGV_01_F"];
 _u = _u		+ ["B_UGV_01_rcws_F"];
 _u = _u  	+ ["B_Truck_01_medical_F"];
+_u = _u		+ ['B_Slingload_01_Medevac_F'];
 /*
 _u = _u		+ ['I_MRAP_03_F'];
 _u = _u		+ ['I_MRAP_03_hmg_F'];
@@ -103,13 +104,12 @@ _u = _u		+ ["B_UAV_02_CAS_F"];
 _u = _u		+ ["B_UAV_02_F"];
 _u = _u		+ ["B_Plane_CAS_01_F"];
 _u = _u		+ ['I_Heli_light_03_unarmed_F'];
+_u = _u		+ ['I_Heli_Transport_02_F'];
 /*
 _u = _u		+ ['I_Heli_light_03_F'];
-_u = _u		+ ['I_Heli_Transport_02_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 */
 _u = _u		+ ['I_Plane_Fighter_03_AA_F'];
-_u = _u		+ ['B_Slingload_01_Medevac_F'];
 //_u = _u		+ ["I_Plane_Fighter_03_CAS_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
@@ -122,6 +122,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["B_Truck_01_ammo_F"];
 _u = _u		+ ['B_Slingload_01_Ammo_F'];
+_u = _u		+ ["B_supplyCrate_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
 _u 			= ["B_Boat_Transport_01_F"];

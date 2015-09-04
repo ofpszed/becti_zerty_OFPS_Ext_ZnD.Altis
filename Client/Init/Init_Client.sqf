@@ -87,7 +87,7 @@ enableEngineArtillery true;
 if ((missionNamespace getVariable "CTI_ARTILLERY_SETUP") != -1) then {enableEngineArtillery false};
 12452 cutText ["Setting up...", "BLACK FADED", 50000];
 if (isMultiplayer) then {
-	12452 cutText ["Waiting for server to approve connexion...", "BLACK FADED", 50000];
+	12452 cutText ["Waiting for server to approve connection. If black screen remains after 4-5 min return to lobby and choose different slot", "BLACK FADED", 50000];
 	waitUntil {!isnil {player getVariable "CTI_SERVER_ANWSER"}};
 	12452 cutText ["Got anwser from the server.", "BLACK FADED", 50000];
 	(player getVariable "CTI_SERVER_ANWSER") call CTI_CL_FNC_JoinRequestAnswer;

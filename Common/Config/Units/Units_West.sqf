@@ -225,7 +225,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [300];
 _t = _t + [15];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -234,7 +234,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [500];
 _t = _t + [15];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -243,7 +243,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [800];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -252,11 +252,11 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1000];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['B_Truck_01_medical_F'];
+_c = _c + ['B_Truck_01_medical_F'];   
 _p = _p + [''];
 _n = _n + [(format ["Mobile Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
 _o = _o + [3000];
@@ -265,12 +265,21 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
+_c = _c + ['B_Slingload_01_Medevac_F'];   
+_p = _p + [''];
+_n = _n + [(format ["Slingload Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
+_o = _o + [15000];
+_t = _t + [20];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + ["service-medic"];
+
 _c = _c + ['B_UGV_01_F'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [800];
 _t = _t + [20];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["LoadUGV"]; // Radioman - Init LoadUGV script
 
@@ -279,7 +288,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1000];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -363,7 +372,7 @@ _s = _s + [""];
 
 
 
-_c = _c + ['B_Truck_01_Repair_F'];
+_c = _c + ['B_Truck_01_Repair_F'];  
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [3000];
@@ -371,6 +380,24 @@ _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
 _s = _s + ["service-repairtruck"];
+
+_c = _c + ['B_Slingload_01_Repair_F'];  
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [10000];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_REPAIR];
+_s = _s + ["service-repairtruck"];
+
+_c = _c + ['B_Slingload_01_Fuel_F'];  
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [5000];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_REPAIR];
+_s = _s + ["service-fueltruck"];
 
 _c = _c + ['CTI_Salvager_West'];
 _p = _p + [''];
@@ -397,7 +424,7 @@ _o = _o + [1000];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
-_s = _s + [""];
+_s = _s + ["service-fueltruck"];
 
 
 
@@ -412,14 +439,14 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + ["service-ammotruck"];
 
-_c = _c + ['Box_Nato_AmmoVeh_F'];
+_c = _c + ['B_Slingload_01_Ammo_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [1000];
+_o = _o + [10000];
 _t = _t + [10];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
-_s = _s + [""];
+_s = _s + ["service-ammotruck"];
 
 _c = _c + ['B_supplyCrate_F'];
 _p = _p + [''];
@@ -429,6 +456,8 @@ _t = _t + [10];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + [""];
+
+
 
 
 /*Spawns with no gas and can't be controlled, have to fix this ss83
@@ -454,7 +483,7 @@ _s = _s + [""];
 _c = _c + ['B_UAV_02_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [25000];
+_o = _o + [35000];
 _t = _t + [35];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
@@ -484,7 +513,7 @@ _s = _s + ["service-medic"];
 _c = _c + ['B_Heli_Transport_01_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [6000];
+_o = _o + [10000];
 _t = _t + [40];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
@@ -492,8 +521,8 @@ _s = _s + [""];
 
 _c = _c + ['I_Heli_Transport_02_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Mohawk Heavy Airlift"])];
-_o = _o + [13000];
+_n = _n + [(format ["Mohawk Airlift"])];
+_o = _o + [7000];
 _t = _t + [40];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];

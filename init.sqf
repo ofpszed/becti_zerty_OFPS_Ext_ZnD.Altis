@@ -132,6 +132,17 @@ if (CTI_IsHeadless) then {
 
 //0 execVM "Addons\Zeus\Z_init_GUER.sqf";
 
+//---Igiload script
+_igiload = execVM "IgiLoad\IgiLoadInit.sqf";
+
+//--Drag Crates script
+_logistic = execVM "=BTC=_logistic\=BTC=_logistic_Init.sqf";
+
+//-- Explosives on Vehicles Script
+waitUntil {time > 0};
+execVM "Addons\EtV.sqf";
+waitUntil {!isNil "EtVInitialized"};
+
 //--- Set the group ID
 //execVM "Common\Init\Init_GroupsID.sqf";
 waitUntil {CTI_Init_Client || CTI_Init_Server};

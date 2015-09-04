@@ -225,7 +225,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [300];
 _t = _t + [15];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -234,7 +234,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [500];
 _t = _t + [15];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -243,7 +243,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [800];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -252,7 +252,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1000];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -270,7 +270,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [800];
 _t = _t + [20];
-_u = _u + [0];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["LoadUGV"]; // Radioman - Init LoadUGV script
 
@@ -279,7 +279,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [1000];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
@@ -376,7 +376,7 @@ _o = _o + [1000];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
-_s = _s + [""];
+_s = _s + ["service-fueltruck"];
 
 _c = _c + ['O_Truck_03_Ammo_F'];
 _p = _p + [''];
@@ -405,6 +405,51 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + [""];
 
+_c = _c + ["Land_Pod_Heli_Transport_04_ammo_F"];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [10000];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AMMO];
+_s = _s + ["service-ammotruck"];
+
+_c = _c + ["Land_Pod_Heli_Transport_04_bench_F"];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [1000];
+_t = _t + [25];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ["Land_Pod_Heli_Transport_04_repair_F"];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [10000];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_REPAIR];
+_s = _s + ["service-repairtruck"];
+
+_c = _c + ["Land_Pod_Heli_Transport_04_medevac_F"];
+_p = _p + [''];
+_n = _n + [(format ["Slingload Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
+_o = _o + [15000];
+_t = _t + [25];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + ["service-medic"];
+
+_c = _c + ["Land_Pod_Heli_Transport_04_fuel_F"];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [5000];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_REPAIR];
+_s = _s + ["service-fueltruck"];
+
 /*Spawns with no gas and can't be controlled, have to fix this ss83
 _c = _c + ['O_UAV_01_F'];
 _p = _p + [''];
@@ -419,7 +464,7 @@ _s = _s + [""];
 _c = _c + ['O_UAV_02_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [25000];
+_o = _o + [35000];
 _t = _t + [35];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
@@ -445,8 +490,8 @@ _s = _s + [""];
 
 _c = _c + ['I_Heli_Transport_02_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Mohawk Heavy Airlift"])];
-_o = _o + [13000];
+_n = _n + [(format ["Mohawk Lift"])];
+_o = _o + [10000];
 _t = _t + [40];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
@@ -455,8 +500,8 @@ _s = _s + [""];
 
 _c = _c + ['O_Heli_Transport_04_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Taru Heavy Airlift (DLC ONLY)"])];
-_o = _o + [10000];
+_n = _n + [(format ["Heavy Lift(DLC ONLY)"])];
+_o = _o + [8000];
 _t = _t + [40];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
@@ -464,25 +509,25 @@ _s = _s + [""];
 
 _c = _c + ['O_Heli_Transport_04_ammo_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Taru Ammo Heli (DLC ONLY)"])];
-_o = _o + [10000];
+_n = _n + [(format ["Ammo Heli (DLC ONLY)"])];
+_o = _o + [18000];
 _t = _t + [40];
-_u = _u + [3];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-ammotruck"];
 
 _c = _c + ['O_Heli_Transport_04_bench_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Taru Bench Transport Heli (DLC ONLY)"])];
-_o = _o + [6000];
+_n = _n + [(format ["Bench Trans(DLC ONLY)"])];
+_o = _o + [8000];
 _t = _t + [40];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
 _c = _c + ['O_Heli_Transport_04_covered_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Taru Covered Transport Heli (DLC ONLY)"])];
+_n = _n + [(format ["Covered Trans(DLC ONLY)"])];
 _o = _o + [6000];
 _t = _t + [40];
 _u = _u + [1];
@@ -491,26 +536,26 @@ _s = _s + [""];
 
 _c = _c + ['O_Heli_Transport_04_medevac_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Taru Air Respawn (DLC ONLY)- Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
-_o = _o + [8000];
+_n = _n + [(format ["AirRspwn(DLC ONLY)- Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
+_o = _o + [15000];
 _t = _t + [40];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-medic"];
 
 _c = _c + ['O_Heli_Transport_04_repair_F']; 
 _p = _p + [''];
-_n = _n + [(format ["Taru Repair Heli (DLC ONLY)"])];
+_n = _n + [(format ["TaruRepr(DLC ONLY)"])];
 _o = _o + [15000];
 _t = _t + [40];
-_u = _u + [3];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-repairtruck"];
 
 
 _c = _c + ['I_Heli_light_03_unarmed_F'];  //ss83 added mobile respawn heli
 _p = _p + [''];
-_n = _n + [(format ["Hellcat Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
+_n = _n + [(format ["Hellcat Rspwn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
 _o = _o + [12000];
 _t = _t + [20];
 _u = _u + [1];
