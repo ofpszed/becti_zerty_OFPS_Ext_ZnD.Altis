@@ -55,6 +55,7 @@ _u = _u		+ ['O_spotter_F'];
 _u = _u		+ ['O_soldier_UAV_F'];
 _u = _u		+ ['O_Helipilot_F'];
 _u = _u		+ ['O_crew_F'];
+_u = _u		+ ['Land_Pod_Heli_Transport_04_bench_F'];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 
 _u 			= ['O_Quadbike_01_F'];
@@ -68,9 +69,11 @@ _u = _u		+ ['O_MRAP_02_gmg_F'];
 _u = _u		+ ['O_UGV_01_F'];
 _u = _u		+ ['O_UGV_01_rcws_F'];
 _u = _u		+ ['O_Truck_03_medical_F'];
-_u = _u		+ ['I_MRAP_03_F'];
+_u = _u		+ ['Land_Pod_Heli_Transport_04_medevac_F'];
+/*_u = _u		+ ['I_MRAP_03_F'];
 _u = _u		+ ['I_MRAP_03_hmg_F'];
-_u = _u		+ ['I_MRAP_03_gmg_F'];
+_u = _u		+ ['I_MRAP_03_gmg_F']; 
+*/
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
 _u 			= ["O_APC_Tracked_02_cannon_F"];
@@ -79,9 +82,11 @@ _u = _u		+ ["O_MBT_02_cannon_F"];
 _u = _u		+ ["O_APC_Tracked_02_AA_F"];
 if !(MADE_FOR_STRATIS) then
 {_u = _u		+ ["O_MBT_02_arty_F"];};
+/*
 _u = _u		+ ['I_APC_Wheeled_03_cannon_F'];
 _u = _u		+ ['I_APC_tracked_03_cannon_F'];
 _u = _u		+ ['I_MBT_03_cannon_F'];
+*/
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
 _u 			= ['O_Heli_Light_02_unarmed_F'];
@@ -92,13 +97,21 @@ _u = _u		+ ['O_Heli_Attack_02_black_F'];
 _u = _u		+ ['O_UAV_02_CAS_F'];
 _u = _u		+ ['O_UAV_02_F'];
 _u = _u		+ ['O_Plane_CAS_02_F'];
-_u = _u		+ ['I_Heli_light_03_unarmed_F'];
+_u = _u		+ ["I_Heli_light_03_unarmed_F"]; //ss83 added mobile respawn heli 
+_u = _u		+ ['I_Heli_Transport_02_F']; //ss83 mohawk
+_u = _u		+ ["O_Heli_Transport_04_F"];
+_u = _u		+ ["O_Heli_Transport_04_ammo_F"];
+_u = _u		+ ["O_Heli_Transport_04_bench_F"];
+_u = _u		+ ["O_Heli_Transport_04_covered_F"];
+_u = _u		+ ["O_Heli_Transport_04_medevac_F"];
+_u = _u		+ ["O_Heli_Transport_04_repair_F"];
+/*
 _u = _u		+ ['I_Heli_light_03_F'];
-_u = _u		+ ['I_Heli_Transport_02_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
+*/
 _u = _u		+ ['I_Plane_Fighter_03_AA_F'];
-_u = _u		+ ['Land_Pod_Heli_Transport_04_bench_F'];
-_u = _u		+ ['Land_Pod_Heli_Transport_04_medevac_F'];
+
+
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
 _u 			= ["O_Truck_02_box_F"];
@@ -112,6 +125,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["O_Truck_02_Ammo_F"];
 _u = _u		+ ["O_Truck_03_Ammo_F"];
+_u = _u		+ ["O_supplyCrate_F"];
 _u = _u		+ ["Land_Pod_Heli_Transport_04_ammo_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
@@ -124,7 +138,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 //--- Units - FLAG
 
 _u = ['O_Soldier_lite_F'];
-_u = _u		+ ['Box_East_Wps_F'];
+/*_u = _u		+ ['Box_East_Wps_F'];
 _u = _u		+ ['Box_East_Ammo_F'];
 _u = _u		+ ['Box_East_Support_F'];
 _u = _u		+ ['Box_East_Grenades_F'];
@@ -133,6 +147,7 @@ _u = _u		+ ['Box_East_WpsLaunch_F'];
 _u = _u		+ ['Box_East_WpsSpecial_F'];
 _u = _u		+ ['O_supplyCrate_F'];
 //_u = _u		+ ['Land_Pod_Heli_Transport_04_repair_F'];
+*/
 _u = _u		+ ['O_Quadbike_01_F'];
 _u = _u		+ ['O_G_Offroad_01_F'];
 _u = _u		+ ['O_G_Offroad_01_armed_F'];

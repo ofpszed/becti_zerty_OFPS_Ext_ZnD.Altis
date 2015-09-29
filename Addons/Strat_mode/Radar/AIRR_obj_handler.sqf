@@ -1,5 +1,5 @@
-#define Radar_Range 5000
-#define Min_Alt 40
+#define Radar_Range 25000
+#define Min_Alt 50
 
 private ["_radar","_vehicle","_side","_seed","_top_radar","_sl","_adv_net"];
 _radar=_this select 0;

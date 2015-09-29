@@ -1,4 +1,4 @@
-#define Radar_Range 5000
+#define Radar_Range 25000
 private ["_structures","_radars"];
 ARTR_MARKERS=[];
 

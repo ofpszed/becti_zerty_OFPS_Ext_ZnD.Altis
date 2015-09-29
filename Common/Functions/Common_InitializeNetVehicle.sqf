@@ -67,6 +67,7 @@ if (CTI_SPECIAL_REPAIRTRUCK in _special) then { //--- Repair truck.
 if (CTI_SPECIAL_AMMOTRUCK in _special) then { //--- Ammo truck.
 	_marker_size = [0.75,0.75];
 	_marker_type = CTI_P_MarkerPrefix+"support";
+	_vehicle setAmmoCargo 0;  // No free ammo  
 };
 if (CTI_SPECIAL_MEDICALVEHICLE in _special) then { //--- Medical vehicle.
 	_marker_size = [0.75,0.75];
@@ -132,5 +133,64 @@ if (_sideID != CTI_P_SideID) exitWith {};
 		_vehicle addAction ["<t color='#eac6ff'>ACTION: Dismantle Nearest FOB</t>", "Client\Actions\Action_DismantleFOB.sqf", "", 92, false, true, "", "_this == player && (CTI_P_TeamsRequests_FOB_Dismantle > 0 || call CTI_CL_FNC_IsPlayerCommander) || ( missionNamespace getVariable 'CTI_BASE_FOB_PERMISSION') == 0"];
 	};
 };*/
+
+
+//--- Retexture the vehicle if it's one defined in Ini_CommonConstants.sqf
+if (typeOf _vehicle in (CTI_VEHICLES_RETEXTURE)) then { 
+    switch (_side) do { 
+     	
+		case west: { 
+            _vehicle setObjectTextureGlobal  [0,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_body_crv_co.paa"]; 
+            _vehicle setObjectTextureGlobal  [1,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_body_crv_co.paa"]; 
+            _vehicle setObjectTextureGlobal  [2,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_body_crv_co.paa"]; 
+        }; 
+		
+		case east: { 
+            _vehicle setObjectTextureGlobal [0,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_crv_opfor_co.paa"]; 
+            _vehicle setObjectTextureGlobal [1,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_crv_opfor_co.paa"]; 
+            _vehicle setObjectTextureGlobal [2,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_crv_opfor_co.paa"]; 
+			_vehicle setObjectTextureGlobal [3,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_crv_opfor_co.paa"]; 
+        };
+		
+    }; 
+}; 
+
+//--- Retexture the mobile respawn as defined in common constants
+if (typeOf _vehicle in (CTI_MR_RETEXTURE)) then { 
+    switch (_side) do { 
+        		
+		case west: { 
+            _vehicle setObjectTextureGlobal  [0,"Rsc\Pictures\mr_blue_camo.paa"];  			
+            _vehicle setObjectTextureGlobal  [1,"Rsc\Pictures\mr_blue_camo.paa"];  			
+            _vehicle setObjectTextureGlobal  [2,"Rsc\Pictures\mr_blue_camo.paa"];  			
+        }; 
+		
+		case east: { 
+            _vehicle setObjectTextureGlobal [0,"Rsc\Pictures\mr_red_camo.paa"];  			
+            _vehicle setObjectTextureGlobal [1,"Rsc\Pictures\mr_red_camo.paa"];  			
+            _vehicle setObjectTextureGlobal [2,"Rsc\Pictures\mr_red_camo.paa"];  			
+		};
+		
+    }; 
+}; 
+
+//--- Retexture the AA jet fighter as defined in common constants
+if (typeOf _vehicle in (CTI_AFIGHTER_RETEXTURE)) then { 
+    switch (_side) do { 
+        		
+		case west: { 
+            _vehicle setObjectTextureGlobal  [0,"Rsc\Pictures\plane_fighter_blufor.paa"];  			
+            _vehicle setObjectTextureGlobal  [1,"Rsc\Pictures\plane_fighter_blufor2.paa"]; //wings  			
+            //_vehicle setObjectTextureGlobal  [2,"Rsc\Pictures\plane_fighter_blufor.paa"];  			
+        }; 
+		
+		case east: { 
+            _vehicle setObjectTextureGlobal [0,"Rsc\Pictures\plane_fighter_opfor.paa"];  			
+            _vehicle setObjectTextureGlobal [1,"Rsc\Pictures\plane_fighter_opfor2.paa"]; //wings 			
+            //_vehicle setObjectTextureGlobal [2,"Rsc\Pictures\plane_fighter_opfor.paa"];  			
+		};
+		
+    }; 
+}; 
 
 

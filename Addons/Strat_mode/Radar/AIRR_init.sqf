@@ -1,5 +1,5 @@
-#define Radar_Range 5000
-#define Min_Alt 40
+#define Radar_Range 25000
+#define Min_Alt 50
 
 	SM_Radar_Detected =false;
 	SM_Radar_Detected_last=-100000;

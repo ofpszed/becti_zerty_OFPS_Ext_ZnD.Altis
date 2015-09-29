@@ -1,4 +1,4 @@
-#define	REVIVE_DELAY	60
+#define	REVIVE_DELAY	5  //ESC respawn delay found here.
 
 
 private ["_main_disp","_ntime"];

@@ -131,4 +131,15 @@ waitUntil {CTI_Init_Client || CTI_Init_Server};
 waitUntil {CTI_Init_Strat};
 0 execVM "changelog.sqf";
 
+//---Igiload script
+_igiload = execVM "IgiLoad\IgiLoadInit.sqf";
+
+//--Drag Crates script
+_logistic = execVM "=BTC=_logistic\=BTC=_logistic_Init.sqf";
+
+//-- Explosives on Vehicles Script
+waitUntil {time > 0};
+execVM "Addons\EtV.sqf";
+waitUntil {!isNil "EtVInitialized"};
+
 addMissionEventHandler ["Loaded",{execVM "Client\Init\Init_Client.sqf";execVM "Addons\strat_mode\init.sqf";}];
