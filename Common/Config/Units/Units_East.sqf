@@ -351,6 +351,15 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
+_c = _c + ['B_MBT_01_mlrs_F'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [100000];
+_t = _t + [30];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
 
 _c = _c + ['O_Truck_03_repair_F'];
 _p = _p + [''];
