@@ -29,14 +29,14 @@ _l=_l+			[["Factory: Heavy Factory", "Unlock better armoured units"]];
 _a=_a	+			[true];
 _c=_c +			[[25000,70000,100000]];
 _lev=_lev+	[3];
-_lin=_lin+	[[[CTI_UPGRADE_LIGHT,1],[],[]]];
+_lin=_lin+	[[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_LIGHT,3]]];
 _t=_t+			[[50*CTI_UPGRADE_RATIO,100*CTI_UPGRADE_RATIO,150*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Factory: Aircraft Factory", "Unlock better aircraft units"]];
 _a=_a	+			[true];
 _c=_c +			[[20000,60000,80000]];
 _lev=_lev+	[3];
-_lin=_lin+	[[[],[],[]]];
+_lin=_lin+	[[[],[CTI_UPGRADE_HEAVY,1],[]]];
 _t=_t+			[[90*CTI_UPGRADE_RATIO,120*CTI_UPGRADE_RATIO,150*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Factory: AAF technologies", "Unlock AAF units (1::MRAPS, 2::APC , 3::TRACKED, 4::CHOPPERS, 5::PLANES)"]];

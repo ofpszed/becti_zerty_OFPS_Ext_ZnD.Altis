@@ -57,25 +57,25 @@ class Params {
 		title = "INCOME: Starting Funds (East Commander)";
 		values[] = {40000,50000,60000,70000,80000,90000,100000,125000,150000,200000};
 		texts[] = {"$40000","$50000","$60000","$70000","$80000","$90000","$100000","$125000","$150000","$200000"};
-		default = 80000;
+		default = 100000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST {
 		title = "INCOME: Starting Funds (East Players)";
 		values[] = {6000,8000,10000,15000,20000,25000,30000,35000,40000};
 		texts[] = {"$6000","$8000","$10000","$15000","$20000","$25000","$30000","$35000","$40000"};
-		default = 6000;
+		default = 10000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST_COMMANDER {
 		title = "INCOME: Starting Funds (West Commander)";
 		values[] = {40000,50000,60000,70000,80000,90000,100000,125000,150000,200000};
 		texts[] = {"$40000","$50000","$60000","$70000","$80000","$90000","$100000","$125000","$150000","$200000"};
-		default = 80000;
+		default = 100000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST {
 		title = "INCOME: Starting Funds (West Players)";
 		values[] = {6000,8000,10000,15000,20000,25000,30000,35000,40000};
 		texts[] = {"$6000","$8000","$10000","$15000","$20000","$25000","$30000","$35000","$40000"};
-		default = 6000;
+		default = 10000;
 	};
 	class CTI_ECONOMY_TOWNS_OCCUPATION {
 		title = "INCOME: Towns Occupation";
@@ -171,7 +171,7 @@ class Params {
 		title = "VISUAL: View Distance";
 		values[] = {1000,1500,2000,2500,3000,3500,4000};
 		texts[] = {"1 KM","1.5 KM","2 KM","2.5 KM","3 KM","3.5 KM","4 KM"};
-		default = 3000;
+		default = 4000;
 	};
 
 		//Additionnal Parameter (Zerty)
@@ -295,7 +295,7 @@ class Params {
 		title = "Zerty: GAMEPLAY: 3P view";
 		values[] = {-1,0,1,2};
 		texts[] = {"All","No group view","Vehicle","None"};
-		default = 2;
+		default = 1;
 	};
 	class CTI_GAMEPLAY_REARM_AMMO {
 		title = "Zerty: GAMEPLAY: Gear On Ammo Trucks";
@@ -383,15 +383,15 @@ class Params {
 	};
 	class CTI_TOWNS_RESISTANCE_INACTIVE_MAX {
 		title = "Zerty: TOWNS : Resistance despawn Timer";
-		values[] = {30,60,120,240};
-		texts[] = {"30s","60s","120s","240s"};
-		default = 120;
+		values[] = {30,60,120,240, 600};
+		texts[] = {"30s","60s","120s","240s","600s"};
+		default = 600;
 	};
 	class CTI_TOWNS_SHOPS {
 		title = "Zerty: TOWNS : Shop price ratio";
 		values[] = {1,2,3,5,10,100};
 		texts[] = {"1","2","3","5","10","100"};
-		default = 3;
+		default = 2;
 	};
 
 	class CTI_WEATHER_INITIAL {
@@ -410,7 +410,7 @@ class Params {
 		title = "Zerty: WEATHER: day duration";
 		values[] = {1,2,3,4,5,6,7,8,9,10,11,12};
 		texts[] = {"1 hour","2 hours","3 hours","4 hours","5 hours","6 hours","7 hours","8 hours","9 hours","10 hours","11 hours","12 hours"};
-		default = 2;
+		default = 3;
 	};
   	class CTI_WEATHER_FAST_NIGTH {
 		title = "Zerty: WEATHER: Nigth duration";
@@ -429,7 +429,7 @@ class Params {
 		title = "Zerty: Strategic: Base Protection Mode";
 		values[] = {0,-1,2,5,10,20,50,100};
 		texts[] = {"Disabled","Hard Protection","Dmg reduced by 2","Dmg reduced by 5","Dmg reduced by 10","Dmg reduced by 20","Dmg reduced by 50","Dmg reduced by 100"};
-		default = 5;
+		default = 10;
 	};
 
 	class CTI_SM_PATROLS {
@@ -493,7 +493,7 @@ class Params {
 		title = "Zerty: Electronic Warfare : Tactical HUD report infantry";
 		values[] = {0,1};
 		texts[] = {"false","true"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_EW_ANET {
 		title = "Zerty: Electronic Warfare : Field Network Meshing";
