@@ -275,7 +275,7 @@ _categories = _categories 	+ ["Defense"];
 if !(MADE_FOR_STRATIS) then {
 _headers = _headers 		+ ["Mortar"];
 _classes = _classes 		+ ["B_Mortar_01_F"];
-_prices = _prices 			+ [5000];
+_prices = _prices 			+ [10000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 };
