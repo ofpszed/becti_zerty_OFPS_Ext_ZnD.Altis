@@ -45,7 +45,7 @@ class Params {
 		title = "Base: Military Installation Price";
 		values[] = {10000,20000,30000};
 		texts[] = {"$10000","$20000","$30000"};
-		default = 10000;
+		default = 20000;
 	};
 	class CTI_ECONOMY_INCOME_CYCLE {
 		title = "INCOME: Delay";
