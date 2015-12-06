@@ -55,7 +55,7 @@ with missionNamespace do {
 };
 
 //Common stuff
-CTI_SM_MAX_ACTIVE = 2;
+CTI_SM_MAX_ACTIVE = 3;
 CTI_REDEPLOY=false;
 SM_MAP_READY=false;
 HUD_WRITE=false;
