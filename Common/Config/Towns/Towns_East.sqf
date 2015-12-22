@@ -34,7 +34,7 @@ with missionNamespace do {
 	EAST_VEHICLE_AA = [["O_APC_Tracked_02_AA_F", 1]];
 	EAST_VEHICLE_APC = [["O_APC_Wheeled_02_rcws_F", 2], ["O_APC_Tracked_02_cannon_F", 2]];
 	// EAST_VEHICLE_ARMORED_HEAVY = ["armoheavy1","armoheavy2"];
-	EAST_VEHICLE_ARMORED_LIGHT = [["O_MBT_02_cannon_F", 2]];
+	EAST_VEHICLE_ARMORED_LIGHT = [["O_APC_Tracked_02_cannon_F", 2]];
 	// EAST_VEHICLE_MECHANIZED = ["mechanized1","mechanized2"];
 	EAST_VEHICLE_MOTORIZED = [EAST_MOTORIZED_MG, EAST_MOTORIZED_GL, EAST_MOTORIZED_MG];
 
