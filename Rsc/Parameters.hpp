@@ -295,7 +295,7 @@ class Params {
 		title = "Zerty: GAMEPLAY: 3P view";
 		values[] = {-1,0,1,2};
 		texts[] = {"All","No group view","Vehicle","None"};
-		default = 1;
+		default = 0;
 	};
 	class CTI_GAMEPLAY_REARM_AMMO {
 		title = "Zerty: GAMEPLAY: Gear On Ammo Trucks";
