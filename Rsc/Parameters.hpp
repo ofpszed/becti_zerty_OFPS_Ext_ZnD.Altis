@@ -231,7 +231,7 @@ class Params {
 		title = "Zerty: MISSION : Time Limit";
 		values[] = {0,2,4,6,8,10,15,24};
 		texts[] = {"Never","2h","4h","6h","8h","10h","15","24h"};
-		default = 0;
+		default = 15;
 	};
 	class MIN_TOWNS {
 		title = "Zerty: MISSION: Minimum number of towns";
@@ -461,7 +461,7 @@ class Params {
 		title = "Zerty: Strategic: Max active per side";
 		values[] = {1,2,3,4};
 		texts[] = {"1","2","3","4"};
-		default = 3;
+		default = 2;
 	};
 	class CTI_SM_TCAS {
 		title = "Zerty: Strategic: Town CAS if value above";
