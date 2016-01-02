@@ -28,7 +28,7 @@ class Mission
 	randomSeed=7374927;
 	class Intel
 	{
-		briefingName="BECTI - Zerty - OFPS";
+		briefingName="BECTI - Zerty - OFPS Bridge Test";
 		overviewText="By Benny - Adapted from OFP era MFCTI (Mike Melvin)";
 		resistanceWest=0;
 		timeOfChanges=24720;
@@ -1121,7 +1121,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town15";
-			init="nullReturn = [this, ""Neochori"", resistance, 350] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Neochori"", resistance, 350,""Town40""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item18
 		{
@@ -1132,7 +1132,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town19";
-			init="nullReturn = [this, ""Zaros"", resistance, 250] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Zaros"", resistance, 250,""Town33""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item19
 		{
@@ -1264,7 +1264,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town30";
-			init="nullReturn = [this, ""Faronaki"", resistance, 150] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Faronaki"", resistance, 150,""Town33""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item31
 		{
@@ -1286,7 +1286,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town33";
-			init="nullReturn = [this, ""Vikos"", resistance, 145,""Town42""] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Vikos"", resistance, 145,""Town40""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item33
 		{
@@ -1297,7 +1297,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town31";
-			init="nullReturn = [this, ""Ekali"", resistance, 200,""Town33""] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Ekali"", resistance, 200] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item34
 		{
@@ -1374,7 +1374,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town40";
-			init="nullReturn = [this, ""AAC Airfield"", resistance, 500] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""AAC Airfield"", resistance, 500,""Town19""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item41
 		{
@@ -1478,7 +1478,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=61;
+		items=62;
 		class Item0
 		{
 			position[]={14491.973,9.0812836,5886.626};
@@ -1910,6 +1910,18 @@ class Mission
 			position[]={8457.709,105.3129,25118.77};
 			name="CTI_TUTORIAL";
 			type="Empty";
+		};
+		class Item61
+		{
+			position[]={13802.992,0.0040047001,10349.967};
+			name="Bridge";
+			text="Bridge Crossing";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlack";
+			a=1050;
+			b=5;
+			angle=-29.701633;
 		};
 	};
 };
