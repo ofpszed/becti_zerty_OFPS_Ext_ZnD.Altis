@@ -1,13 +1,14 @@
 _side = _this;
 
 missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_APC_Tracked_01_CRV_F"];
-missionNamespace setVariable [format["CTI_%1_Factories", _side], ["Barracks","Light","Heavy","Air","Ammo","Repair"]];
+missionNamespace setVariable [format["CTI_%1_Factories", _side], ["Barracks","Light","Heavy","Air","Ammo","Repair","Naval"]];
 
 missionNamespace setVariable [format["CTI_%1_Base_Template", _side], [
 	[CTI_BARRACKS, 180, [-23,33]],
 	[CTI_LIGHT, 180, [23,33]],
 	[CTI_CONTROLCENTER, 0, [30,-40]],
 	[CTI_HEAVY, 0, [-30,-40]],
+	[CTI_NAVAL, 180, [80,37]],
 	[CTI_AIR, 180, [-60,37]],
 	[CTI_REPAIR, 180, [60,37]],
 	[CTI_AMMO, 180, [80,37]]
@@ -26,8 +27,10 @@ missionNamespace setVariable [format["CTI_%1_Commander_Path", _side], [
 	["upgrade", [CTI_UPGRADE_GEAR, 2], {true}],
 	["upgrade", [CTI_UPGRADE_LIGHT, 2], {true}],
 	["build-structures", CTI_HEAVY, {true}],
+	["build-structures", CTI_NAVAL, {true}],
 	["build-structures", CTI_REPAIR, {true}],
 	["build-structures", CTI_AMMO, {true}],
+	["upgrade", [CTI_UPGRADE_NAVAL, 1], {true}],
 	["upgrade", [CTI_UPGRADE_LIGHT, 3], {true}],
 	["upgrade", [CTI_UPGRADE_HEAVY, 1], {true}],
 	["upgrade", [CTI_UPGRADE_GEAR, 3], {true}],
@@ -37,6 +40,7 @@ missionNamespace setVariable [format["CTI_%1_Commander_Path", _side], [
 	["upgrade", [CTI_UPGRADE_AIR_CM, 1], {true}],
 	["upgrade", [CTI_UPGRADE_AIR_AT, 1], {true}],
 	["upgrade", [CTI_UPGRADE_AIR_FFAR, 1], {true}],
+	["upgrade", [CTI_UPGRADE_AIR_DAR, 1], {true}],
 	["upgrade", [CTI_UPGRADE_AIR_AA, 1], {true}],
 	["upgrade", [CTI_UPGRADE_AIR, 2], {true}],
 	["upgrade", [CTI_UPGRADE_HEAVY, 2], {true}],
@@ -89,6 +93,13 @@ _times = _times 			+ [120];
 _placements = _placements 	+ [[90, 25]];
 _specials = _specials		+ [[["DMG_Reduce", .75]]];
 
+_headers = _headers 		+ [[CTI_NAVAL, "Naval Yard", "Naval"]];
+_classes = _classes 		+ [["Land_Lighthouse_small_F", "Land_Lighthouse_small_ruins_F"]];
+_prices = _prices 			+ [4000];
+_times = _times 			+ [35];
+_placements = _placements 	+ [[180, 25]];
+_specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", .5]]];
+
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
 _classes = _classes 		+ [["Land_Radar_Small_F", "Land_Radar_Small_ruins_F"]];
 _prices = _prices 			+ [20000];
@@ -109,13 +120,6 @@ _prices = _prices 			+ [15000];
 _times = _times 			+ [35];
 _placements = _placements 	+ [[90, 25]];
 _specials = _specials		+ [[["DMG_Reduce", .5]]];
-
-_headers = _headers 		+ [[CTI_NAVAL, "Naval Yard", "Naval"]];
-_classes = _classes 		+ [["Land_Lighthouse_small_F", "Land_Lighthouse_small_ruins_F"]];
-_prices = _prices 			+ [4000];
-_times = _times 			+ [35];
-_placements = _placements 	+ [[180, 25]];
-_specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", .5]]];
 
 _headers = _headers 		+ [[CTI_RADAR, "Air Radar", "Air Radar"]];
 _classes =  _classes 		+ [["Land_TTowerBig_2_F", "Land_TTowerBig_2_ruins_F"]];
@@ -175,6 +179,12 @@ _classes = _classes 		+ ["Land_Shed_Big_F"];
 _prices = _prices 			+ [40];
 _placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ [["Shed (Land)",[["RuinOnDestroyed", "Land_Shed_Small_ruins_F"], ["DMG_Reduce", 5]]]];
+_classes = _classes 		+ ["Land_Shed_Small_F"];
+_prices = _prices 			+ [200];
+_placements = _placements 	+ [[90, 15]];
+_categories = _categories 	+ ["Structures_Industrial"];
 
 _headers = _headers 		+ [["Cargo Tower (big)",[["RuinOnDestroyed", "Land_Cargo_Tower_V1_ruins_F"], ["DMG_Reduce", 8]]]];
 _classes = _classes 		+ ["Land_Cargo_Tower_V1_F"];
@@ -322,14 +332,6 @@ _classes = _classes 		+ ["Land_BagFence_Round_F"];
 _prices = _prices 			+ [5];
 _placements = _placements 	+ [[0, 5]];
 _categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ [["Shed (Land)",[["RuinOnDestroyed", "Land_Shed_Small_ruins_F"], ["DMG_Reduce", 5]]]];
-_classes = _classes 		+ ["Land_Shed_Small_F"];
-_prices = _prices 			+ [200];
-_placements = _placements 	+ [[180, 15]];
-_categories = _categories 	+ ["Structures_Industrial"];
-
-
 
 _headers = _headers 		+ ["Gate"];
 _classes = _classes 		+ ["Land_Mil_WiredFence_Gate_F"];

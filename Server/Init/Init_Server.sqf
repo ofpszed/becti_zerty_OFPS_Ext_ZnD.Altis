@@ -49,6 +49,7 @@ funcVectorScale = compileFinal preprocessFileLineNumbers "Server\Functions\Exter
 funcVectorSub = compileFinal preprocessFileLineNumbers "Server\Functions\Externals\fVectorSub.sqf";
 
 //--- Load Structures
+call compile preprocessFileLineNumbers "Addons\map_structures\initMapStructures.sqf";
 call compile preprocessFileLineNumbers "Addons\map_structures\initTownStructures.sqf";
 
 call compile preprocessFileLineNumbers "Server\Init\Init_PublicVariables.sqf";
@@ -141,6 +142,7 @@ while {! (((getMarkerPos format ["HELO_START_%1", _i])select 0) == 0)} do
 	_upgrades = [];
 	for '_i' from 1 to count(missionNamespace getVariable format["CTI_%1_UPGRADES_LEVELS", _side]) do { _upgrades pushBack 0 };
 	if ((missionNamespace getvariable "CTI_VEHICLES_AIR_FFAR")==2) then {_upgrades set [CTI_UPGRADE_AIR_FFAR,10]};
+	if ((missionNamespace getvariable "CTI_VEHICLES_AIR_DAR")==2) then {_upgrades set [CTI_UPGRADE_AIR_DAR,10]};
 	if ((missionNamespace getvariable "CTI_VEHICLES_AIR_AA") ==2)then {_upgrades set [CTI_UPGRADE_AIR_AT,10]};
 	if( (missionNamespace getvariable "CTI_VEHICLES_AIR_AT")==2 ) then {_upgrades set [CTI_UPGRADE_AIR_AA,10]};
 	if ((missionNamespace getvariable "CTI_VEHICLES_AIR_CM")==2) then {_upgrades set [CTI_UPGRADE_AIR_CM,10]};
@@ -216,6 +218,20 @@ while {! (((getMarkerPos format ["HELO_START_%1", _i])select 0) == 0)} do
 				};
 			}count (playableUnits+switchableUnits);
 			sleep 10;
+		};
+	};
+	
+	//--- Disable Thermals and Statics
+	if ( (missionNamespace getVariable 'CTI_SM_NV_THER_VEH')==1) then {
+		0 spawn {
+			while {! CTi_GameOver} do {
+				{
+					_x disableTIEquipment true;
+					_x disableNVGEquipment true;
+				}
+				forEach vehicles;
+				sleep 10;
+			};
 		};
 	};
 

@@ -32,6 +32,13 @@ _lev=_lev+	[3];
 _lin=_lin+	[[[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_LIGHT,3],[]]];
 _t=_t+			[[50*CTI_UPGRADE_RATIO,100*CTI_UPGRADE_RATIO,150*CTI_UPGRADE_RATIO]];
 
+_l=_l+				[["Factory: Naval Factory", "Unlock Better Naval Units"]];
+_a=_a	+			[true];
+_c=_c +				[[10000]];
+_lev=_lev+			[1];
+_lin=_lin+	[[[CTI_UPGRADE_LIGHT,1]]];
+_t=_t+			[[20*CTI_UPGRADE_RATIO]];
+
 _l=_l+			[["Factory: Aircraft Factory", "Unlock better aircraft units"]];
 _a=_a	+			[true];
 _c=_c +			[[20000,60000,80000]];
@@ -55,6 +62,12 @@ _lev=_lev+	[1];
 _lin=_lin+	[[[CTI_UPGRADE_AIR, 1]]];
 _t=_t+			[[90*CTI_UPGRADE_RATIO]];
 
+_l=_l+			[["Air: Aircraft DAR", "Unlocks the DAR Rockets for Aircraft"]];
+_a=_a	+			[true];
+_c=_c +			[[5000]];
+_lev=_lev+	[1];
+_lin=_lin+	[[[CTI_UPGRADE_AIR, 1]]];
+_t=_t+			[[90*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Air: Aircraft AT", "Unlocks the Anti Tank Missiles for Aircraft"]];
 _a=_a	+			[true];

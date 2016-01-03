@@ -2,10 +2,10 @@
 CTI_FACTORY_BARRACKS = 0;
 CTI_FACTORY_LIGHT = 1;
 CTI_FACTORY_HEAVY = 2;
-CTI_FACTORY_AIR = 3;
-CTI_FACTORY_REPAIR = 4;
-CTI_FACTORY_AMMO = 5;
-CTI_FACTORY_NAVAL = 6;
+CTI_FACTORY_NAVAL = 3;
+CTI_FACTORY_AIR = 4;
+CTI_FACTORY_REPAIR = 5;
+CTI_FACTORY_AMMO = 6;
 CTI_FACTORY_TOWN = 7;
 CTI_MILITARYINSTALLATION = "MilitaryInstallation";
 CTI_BARRACKS = "Barracks";
@@ -20,7 +20,7 @@ CTI_RADAR="Radar";
 
 CTI_FTOWN="Town";
 
-CTI_FACTORIES = [CTI_BARRACKS,CTI_LIGHT,CTI_HEAVY,CTI_AIR,CTI_REPAIR,CTI_AMMO,CTI_NAVAL];
+CTI_FACTORIES = [CTI_BARRACKS,CTI_LIGHT,CTI_HEAVY,CTI_NAVAL,CTI_AIR,CTI_REPAIR,CTI_AMMO];
 
 CTI_WEST_COLOR = "ColorBlue";
 CTI_EAST_COLOR = "ColorRed";
@@ -220,24 +220,26 @@ CTI_ORDER_CLIENT_PATROL_RANGE = 325; //--- AI: Patrol a position.
 CTI_UPGRADE_BARRACKS = 	0;
 CTI_UPGRADE_LIGHT = 		1;
 CTI_UPGRADE_HEAVY = 		2;
-CTI_UPGRADE_AIR = 			3;
-CTI_UPGRADE_AAF = 			4;
-CTI_UPGRADE_AIR_FFAR = 	5;
-CTI_UPGRADE_AIR_AT = 		6;
-CTI_UPGRADE_AIR_AA = 		7;
-CTI_UPGRADE_AIR_CM = 		8;
-CTI_UPGRADE_GEAR = 			9;
-CTI_UPGRADE_HUD = 			10;
-CTI_UPGRADE_TOWNS = 		11;
-CTI_UPGRADE_SATELLITE = 12;
-CTI_UPGRADE_HALO = 			13;
-CTI_UPGRADE_AIRR = 			14;
-CTI_UPGRADE_ARTR = 			15;
-CTI_UPGRADE_NETR = 			16;
-CTI_UPGRADE_EXPI = 			17;
-CTI_UPGRADE_TRT = 			18;
-CTI_UPGRADE_TRA = 			19;
-CTI_UPGRADE_REST = 			20;
+CTI_UPGRADE_NAVAL = 		3;
+CTI_UPGRADE_AIR = 			4;
+CTI_UPGRADE_AAF = 			5;
+CTI_UPGRADE_AIR_FFAR = 	    6;
+CTI_UPGRADE_AIR_DAR = 	    7;
+CTI_UPGRADE_AIR_AT = 		8;
+CTI_UPGRADE_AIR_AA = 		9;
+CTI_UPGRADE_AIR_CM = 		10;
+CTI_UPGRADE_GEAR = 			11;
+CTI_UPGRADE_HUD = 			12;
+CTI_UPGRADE_TOWNS = 		13;
+CTI_UPGRADE_SATELLITE =     14;
+CTI_UPGRADE_HALO = 			15;
+CTI_UPGRADE_AIRR = 			16;
+CTI_UPGRADE_ARTR = 			17;
+CTI_UPGRADE_NETR = 			18;
+CTI_UPGRADE_EXPI = 			19;
+CTI_UPGRADE_TRT = 			20;
+CTI_UPGRADE_TRA = 			21;
+CTI_UPGRADE_REST = 			22;
 //-----------------------------------------------------------------------------------------------------------------------//
 
 
@@ -334,10 +336,10 @@ CTI_TOWNS_PATROL_HOPS = 1; //--- Towns patrol hops (non-waypoint)
 CTI_TOWNS_PATROL_RANGE = 200; //--- Patrol range in a town
 
 //--- Towns: Occupation
-CTI_TOWNS_OCCUPATION_SPAWN_RANGE = 300; //--- Determine how far the units may spawn from the town center
+CTI_TOWNS_OCCUPATION_SPAWN_RANGE = 250; //--- Determine how far the units may spawn from the town center
 CTI_TOWNS_OCCUPATION_GROUPS_RATIO = 25; //--- Determine how many groups may spawn (scales with town value)
 CTI_TOWNS_OCCUPATION_DETECTION_RANGE = 1000; //--- Determine how far a threat may be detected from the town center
-CTI_TOWNS_OCCUPATION_DETECTION_RANGE_AIR = 30; //--- Determine how high a threat is considered aerial
+CTI_TOWNS_OCCUPATION_DETECTION_RANGE_AIR = 250; //--- Determine how high a threat is considered aerial
 CTI_TOWNS_OCCUPATION_INACTIVE_MAX = 1800; //--- Determine how long a town may remain active when triggered
 CTI_TOWNS_OCCUPATION_MIN_ACTIVE = 3; //--- When the town is not held by the side and when no enemy is near, at least x enemies need to be alive for the town to be considered active
 
@@ -345,7 +347,7 @@ CTI_TOWNS_OCCUPATION_MIN_ACTIVE = 3; //--- When the town is not held by the side
 CTI_TOWNS_RESISTANCE_SPAWN_RANGE = 250; //--- Determine how far the units may spawn from the town center
 //CTI_TOWNS_RESISTANCE_GROUPS_RATIO = 0.025; //--- Determine how many groups may spawn (scales with town value)
 //CTI_TOWNS_RESISTANCE_DETECTION_RANGE = 750; //--- Determine how far a threat may be detected from the town center
-CTI_TOWNS_RESISTANCE_DETECTION_RANGE_AIR = 30; //--- Determine how high a threat is considered aerial
+CTI_TOWNS_RESISTANCE_DETECTION_RANGE_AIR = 250; //--- Determine how high a threat is considered aerial
 //CTI_TOWNS_RESISTANCE_INACTIVE_MAX = 300; //--- Determine how long a town may remain active when triggered
 CTI_TOWNS_RESISTANCE_MIN_ACTIVE = 3; //--- When the town is not held by the side and when no enemy is near, at least x enemies need to be alive for the town to be considered active
 
@@ -500,6 +502,7 @@ CTI_VEHICLES_SALVAGER_PRICE = 1000; //--- Determine the cost of the salvage truc
 //--- Vehicles: Parameter
 with missionNamespace do {
 	if (isNil 'CTI_VEHICLES_AIR_FFAR') then {CTI_VEHICLES_AIR_FFAR = 2};
+	if (isNil 'CTI_VEHICLES_AIR_DAR') then {CTI_VEHICLES_AIR_DAR = 2};
 	if (isNil 'CTI_VEHICLES_AIR_AA') then {CTI_VEHICLES_AIR_AA = 2}; //--- AA Missiles availability (0: Disabled, 1: Enabled on Upgrade, 2: Enabled)
 	if (isNil 'CTI_VEHICLES_AIR_AT') then {CTI_VEHICLES_AIR_AT = 2}; //--- AT Missiles availability (0: Disabled, 1: Enabled on Upgrade, 2: Enabled)
 	if (isNil 'CTI_VEHICLES_AIR_CM') then {CTI_VEHICLES_AIR_CM = 2}; //--- Countermeasures availability (0: Disabled, 1: Enabled on Upgrade, 2: Enabled)
@@ -652,6 +655,7 @@ with missionNamespace do {
 	if (isNil "CTI_SM_RADAR") then {CTI_SM_RADAR=1};
 	if (isnil "CTI_SM_FAR") then {CTI_SM_FAR = 1};
 	if (isnil "CTI_SM_NONV") then {CTI_SM_NONV = 1};
+	if (isnil "CTI_SM_NV_THER_VEH") then {CTI_SM_NV_THER_VEH = 0};
 	if (isnil "CTI_SM_PATROLS") then {CTI_SM_PATROLS = 0};
 	if (isnil "CTI_SM_PATROLS_NUMBER") then {CTI_SM_PATROLS_NUMBER = 0};
 	if (isnil "CTI_SM_TCAS") then {CTI_SM_TCAS = 600};

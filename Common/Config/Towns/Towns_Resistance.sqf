@@ -35,6 +35,12 @@ with missionNamespace do {
 	// GUER_VEHICLE_MECHANIZED = ["mechanized1","mechanized2"];
 	GUER_VEHICLE_MOTORIZED = ["I_G_Offroad_01_armed_F", "I_G_Offroad_01_armed_F", "I_G_Offroad_01_armed_F", "I_MRAP_03_gmg_F","I_MRAP_03_hmg_F"];
 
+	//--- Naval
+	GUER_NAVAL_INFANTRY = ["I_diver_TL_F", "I_diver_F"];
+	GUER_NAVAL_BOATS = ["I_Boat_Transport_01_F"];
+	GUER_NAVAL_ASSAULT_BOATS = ["I_Boat_Armed_01_minigun_F"];
+	GUER_NAVAL_ARMORED = ["I_APC_Wheeled_03_cannon_F"];
+	
 	//--- Vehicles - Mixed
 	// GUER_VEHICLES_AA_LIGHT = GUER_VEHICLE_AA;
 	// GUER_VEHICLES_LIGHT = GUER_VEHICLE_MECHANIZED + GUER_VEHICLE_MOTORIZED;

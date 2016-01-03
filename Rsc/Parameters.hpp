@@ -119,6 +119,12 @@ class Params {
 		texts[] = {"Disabled","Enabled with Upgrade","Enabled"};
 		default = 2;
 	};
+	class CTI_VEHICLES_AIR_DAR {
+		title = "UNITS: Aircraft DAR";
+		values[] = {0,1,2};
+		texts[] = {"Disabled","Enabled with Upgrade","Enabled"};
+		default = 2;
+	};
 	class CTI_VEHICLES_AIR_AA {
 		title = "UNITS: Aircraft AA Missiles";
 		values[] = {0,1,2};
@@ -329,6 +335,12 @@ class Params {
 	};
 	class CTI_SM_NONV {
 		title = "Zerty: GAMEPLAY: No NVs, No Thermal";
+		values[] = {0,1};
+		texts[] = {"false","true"};
+		default = 0;
+	};
+	class CTI_SM_NV_THER_VEH {
+		title = "Zerty: GAMEPLAY: Disable NVs, Thermal on Vehicles, Statics";
 		values[] = {0,1};
 		texts[] = {"false","true"};
 		default = 0;
