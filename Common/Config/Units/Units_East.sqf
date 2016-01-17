@@ -303,6 +303,42 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
+_c = _c + ['C_Van_01_transport_F'];  //SS83 Omon's Cars
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [500];
+_t = _t + [15];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['C_Kart_01_F'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [250];
+_t = _t + [5];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['C_Hatchback_01_sport_F'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [700];
+_t = _t + [15];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['C_Hatchback_01_F'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [600];
+_t = _t + [15];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
 _c = _c + ['O_Truck_03_device_F'];
 _p = _p + [''];
 _n = _n + [(format ["Nuke Truck"])];
@@ -311,7 +347,6 @@ _t = _t + [25];
 _u = _u + [4];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["nuke-truck"];
-
 
 _c = _c + ['O_APC_Wheeled_02_rcws_F'];
 _p = _p + [''];
