@@ -70,6 +70,11 @@ _u = _u		+ ['O_UGV_01_F'];
 _u = _u		+ ['O_UGV_01_rcws_F'];
 _u = _u		+ ['O_Truck_03_medical_F'];
 _u = _u		+ ['Land_Pod_Heli_Transport_04_medevac_F'];
+_u = _u		+ ['C_Van_01_transport_F']; //SS83 Omon's Cars
+_u = _u		+ ['C_Kart_01_F'];
+_u = _u		+ ['C_Hatchback_01_sport_F'];
+_u = _u		+ ['C_Hatchback_01_F'];
+_u = _u		+ ['O_Truck_03_device_F'];
 /*_u = _u		+ ['I_MRAP_03_F'];
 _u = _u		+ ['I_MRAP_03_hmg_F'];
 _u = _u		+ ['I_MRAP_03_gmg_F']; 
@@ -148,7 +153,12 @@ _u = _u		+ ['Box_East_WpsLaunch_F'];
 _u = _u		+ ['Box_East_WpsSpecial_F'];
 _u = _u		+ ['O_supplyCrate_F'];
 //_u = _u		+ ['Land_Pod_Heli_Transport_04_repair_F'];
+
 */
+_u = _u		+ ['C_Van_01_transport_F']; //SS83 Omon's Cars
+_u = _u		+ ['C_Kart_01_F'];
+_u = _u		+ ['C_Hatchback_01_sport_F'];
+_u = _u		+ ['C_Hatchback_01_F'];
 _u = _u		+ ['O_Quadbike_01_F'];
 _u = _u		+ ['O_G_Offroad_01_F'];
 _u = _u		+ ['O_G_Offroad_01_armed_F'];
