@@ -292,6 +292,15 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
+_c = _c + ['O_Truck_03_device_F'];
+_p = _p + [''];
+_n = _n + [(format ["Nuke Truck"])];
+_o = _o + [60000];
+_t = _t + [25];
+_u = _u + [4];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + ["nuke-truck"];
+
 
 _c = _c + ['B_APC_Wheeled_01_cannon_F'];
 _p = _p + [''];

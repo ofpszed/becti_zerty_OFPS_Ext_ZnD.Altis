@@ -87,6 +87,18 @@ HUD_NOTIFICATIONS=[];
 CTI_CMDR_BuildCam = true; //-- Used in Action_BuildMenu
 CTI_ConstructionCam_DownwardAngle = -0.8;
 
+MissionIntro = [] spawn {
+		["BIS_blackStart", false] call BIS_fnc_blackOut;
+		playMusic "EventTrack02a_F_EPB";
+		[[["BECTI - OFPS EDITION","<t align = 'center' shadow = '1' size = '1.3' font='PuristaBold'>%1</t><br/>"],
+		["CAPTURE THE ISLAND","<t align = 'center' shadow = '1' size = '1.1' font='PuristaBold'>%1</t><br/>"],
+		["Capture Enemy Towns and Destroy Enemy Facilities To Win.","<t align = 'center' shadow = '1' size = '0.6'>%1</t><br/>"],
+		["To leave tutorial, Press ( ~ ) on the wreck and select exit tutorial.","<t align = 'center' shadow = '1' size = '0.5'>%1</t><br/>"]],0,0,"<t color='#FFFFFFFF' align='center'>%1</t>"] spawn BIS_fnc_typeText;
+		sleep 25;
+		["BIS_blackStart", true] call BIS_fnc_blackIn;
+};
+waitUntil {scriptDone MissionIntro};
+
 //--- Artillery Computer is only enabled on demand
 enableEngineArtillery true;
 if ((missionNamespace getVariable "CTI_ARTILLERY_SETUP") != -1) then {enableEngineArtillery false};

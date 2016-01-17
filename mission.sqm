@@ -1477,80 +1477,80 @@ class Mission
 		};
 		class Item50
 		{
-			position[]={15427.737,-0.1044692,14254.547};
+			position[]={15516.30957,-0.1044692,14337.520508};
 			id=110;
 			side="EMPTY";
 			vehicle="FlagPole_F";
 			leader=1;
 			skill=0.60000002;
 			text="Town50";
-			init="nullReturn = [this, ""Sub Pen"", resistance, 550,""Town20""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+0.5];";
+			init="nullReturn = [this, ""Sub Pen"", resistance, 550,""Town20""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+4.09323];";
 		};
 		class Item51
 		{
-			position[]={15170.828,-0.086772405,8350.0195};
+			position[]={15153.168945,-0.086772405,8406.748047};
 			id=111;
 			side="EMPTY";
 			vehicle="FlagPole_F";
 			leader=1;
 			skill=0.60000002;
 			text="Town51";
-			init="nullReturn = [this, ""Com Platform"", resistance, 550,""Town32""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+0.5];";
+			init="nullReturn = [this, ""Com Platform"", resistance, 550,""Town32""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+4.49266];";
 		};
 		class Item52
 		{
-			position[]={24789.568,0.0074984394,13765.36};
+			position[]={24768.478516,0.0074984394,13829.275391};
 			id=112;
 			side="EMPTY";
 			vehicle="FlagPole_F";
 			leader=1;
 			skill=0.60000002;
 			text="Town52";
-			init="nullReturn = [this, ""Research Platform"", resistance, 550] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+0.5];";
+			init="nullReturn = [this, ""Research Platform"", resistance, 550] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+4.66273];";
 		};
 		class Item53
 		{
-			position[]={19483.836,0.092554674,22736.531};
+			position[]={19471.720703,0.092554674,22741.888672};
 			id=113;
 			side="EMPTY";
 			vehicle="FlagPole_F";
 			leader=1;
 			skill=0.60000002;
 			text="Town53";
-			init="nullReturn = [this, ""Fuel Depot"", resistance, 550,""Town36""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+0.5];";
+			init="nullReturn = [this, ""Fuel Depot"", resistance, 550,""Town36""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+4.62004];";
 		};
 		class Item54
 		{
-			position[]={6627.6563,0.05327272,9485.3154};
+			position[]={6657.284668,0.05327272,9583.65625};
 			id=114;
 			side="EMPTY";
 			vehicle="FlagPole_F";
 			leader=1;
 			skill=0.60000002;
 			text="Town54";
-			init="nullReturn = [this, ""Oil Rig"", resistance, 550,""Town32""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+0.5];";
+			init="nullReturn = [this, ""Oil Rig"", resistance, 550,""Town32""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+9.40179];";
 		};
 		class Item55
 		{
-			position[]={12117.167,-0.090320602,24962.928};
+			position[]={12140.132813,-0.090320602,24986.164063};
 			id=115;
 			side="EMPTY";
 			vehicle="FlagPole_F";
 			leader=1;
 			skill=0.60000002;
 			text="Town55";
-			init="nullReturn = [this, ""Radar Platform"", resistance, 550,""Town53""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+0.5];";
+			init="nullReturn = [this, ""Radar Platform"", resistance, 550,""Town53""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+4.72914];";
 		};
 		class Item56
 		{
-			position[]={2257.6013,-0.08370202,15760.188};
+			position[]={2261.518799,-0.08370202,15761.0722656};
 			id=116;
 			side="EMPTY";
 			vehicle="FlagPole_F";
 			leader=1;
 			skill=0.60000002;
 			text="Town56";
-			init="nullReturn = [this, ""Wind Farm"", resistance, 550] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+0.5];";
+			init="nullReturn = [this, ""Wind Farm"", resistance, 550] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+10.3875];";
 		};
 	};
 	class Markers

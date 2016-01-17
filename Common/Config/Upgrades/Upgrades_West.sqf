@@ -20,10 +20,10 @@ _t=_t+			[[10*CTI_UPGRADE_RATIO,20*CTI_UPGRADE_RATIO,30*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Factory: Light Factory", "Unlock better motorized units"]];
 _a=_a	+			[true];
-_c=_c +			[[10000, 15000, 20000]];
-_lev=_lev+	[3];
-_lin=_lin+	[[[],[],[]]];
-_t=_t+			[[20*CTI_UPGRADE_RATIO, 40*CTI_UPGRADE_RATIO, 80*CTI_UPGRADE_RATIO]];
+_c=_c +			[[10000, 15000, 20000, 25000]];
+_lev=_lev+	[4];
+_lin=_lin+	[[[],[],[],[CTI_UPGRADE_NUKE,1]]];
+_t=_t+			[[120*CTI_UPGRADE_RATIO, 240*CTI_UPGRADE_RATIO, 360*CTI_UPGRADE_RATIO, 420*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Factory: Heavy Factory", "Unlock better armoured units"]];
 _a=_a	+			[true];
@@ -174,6 +174,21 @@ _c=_c +				[[5000,10000,20000,40000,80000]];
 _lev=_lev+			[5];
 _lin=_lin+			[[[],[]]];
 _t=_t+				[[10*CTI_UPGRADE_RATIO,20*CTI_UPGRADE_RATIO,40*CTI_UPGRADE_RATIO,80*CTI_UPGRADE_RATIO,160*CTI_UPGRADE_RATIO]];
+
+_l=_l+				[["Airstrikes: Carpet Bomb", "Unlock Airstrike Ability"]];
+_a=_a	+			[true];
+_c=_c +				[[100000]];
+_lev=_lev+			[1];
+_lin=_lin+	[[[CTI_UPGRADE_AIR, 3]]];
+_t=_t+			[[600*CTI_UPGRADE_RATIO]];
+
+_l=_l+				[["Nuclear Arms Deal", "Unlock Nuke Truck"]];
+_a=_a	+			[true];
+_c=_c +				[[100000]];
+_lev=_lev+			[1];
+_lin=_lin+	[[[CTI_UPGRADE_LIGHT, 3]]];
+_t=_t+			[[600*CTI_UPGRADE_RATIO]];
+
 /*
 _l=_l+			[["Network: Reconfiguration cycle", "Lower Mesh Network reconfiguration cycle time (600s - 60s*lvl)"]];
 _a=_a	+			[false];

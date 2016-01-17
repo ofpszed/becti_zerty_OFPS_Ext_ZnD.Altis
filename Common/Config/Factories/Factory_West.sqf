@@ -76,6 +76,8 @@ _u = _u		+ ['I_MRAP_03_F'];
 _u = _u		+ ['I_MRAP_03_hmg_F'];
 _u = _u		+ ['I_MRAP_03_gmg_F'];
 */
+_u = _u		+ ['O_Truck_03_device_F'];
+
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
 
