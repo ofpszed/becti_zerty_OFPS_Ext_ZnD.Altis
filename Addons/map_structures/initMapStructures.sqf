@@ -391,3 +391,112 @@ _pos = [14755.374023,10861.150391,-0.112361];
 _object = createVehicle ["Land_i_Barracks_V2_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 352;
 _object setPosATL _pos;
+
+
+/****CASTLE****/
+
+_pos = [17620.611328,17296.880859,-0.480667];
+_object = createVehicle ["Land_Castle_01_wall_03_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 310;
+_object setPosATL _pos;
+
+_pos = [17655.625,17274.517578,-1.29478];
+_object = createVehicle ["Land_Castle_01_wall_04_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 50;
+_object setPosATL _pos;
+
+_pos = [17644.546875,17239.220703,-2.55485];
+_object = createVehicle ["Land_Castle_01_wall_14_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 0;
+_object setPosATL _pos;
+
+_pos = [17638.0878906,17199.699219,-1.90575];
+_object = createVehicle ["Land_Castle_01_wall_08_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 180;
+_object setPosATL _pos;
+
+_pos = [17586.460938,17192.046875,-1.45049];
+_object = createVehicle ["Land_Castle_01_wall_03_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 129;
+_object setPosATL _pos;
+
+_pos = [17557.738281,17209.917969,-4.16091];
+_object = createVehicle ["Land_Castle_01_wall_14_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 123;
+_object setPosATL _pos;
+
+_pos = [17537.449219,17211.537109,-4.8199];
+_object = createVehicle ["Land_Castle_01_wall_03_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 209;
+_object setPosATL _pos;
+
+_pos = [17551.363281,17264.0839844,-2.03796];
+_object = createVehicle ["Land_Castle_01_wall_14_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 205;
+_object setPosATL _pos;
+
+_pos = [17560.816406,17286.337891,-2.08663];
+_object = createVehicle ["Land_Castle_01_wall_13_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 140;
+_object setPosATL _pos;
+
+_pos = [17572.523438,17280.873047,-5.75603];
+_object = createVehicle ["Land_Castle_01_wall_03_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 270;
+_object setPosATL _pos;
+/*inner*/
+
+_pos = [17638.603516,17224.839844,-0.427528];
+_object = createVehicle ["Land_Castle_01_church_a_ruin_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 181;
+_object setPosATL _pos;
+
+_pos = [17622,17222.509766,-0.0937119];
+_object = createVehicle ["Land_Castle_01_tower_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 89.9999;
+_object setPosATL _pos;
+
+_pos = [17629.623047,17204.976563,-2.1951];
+_object = createVehicle ["Land_Castle_01_house_ruin_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 79.9998;
+_object setPosATL _pos;
+
+_pos = [17600.648438,17220.294922,-0.164139];
+_object = createVehicle ["Land_Castle_01_tower_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 220;
+_object setPosATL _pos;
+
+_pos = [17592.232422,17206.0566406,-0.185066];
+_object = createVehicle ["Land_Castle_01_church_a_ruin_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 310;
+_object setPosATL _pos;
+
+_pos = [17544.246094,17228.740234,0.0982666];
+_object = createVehicle ["Land_Castle_01_tower_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 210;
+_object setPosATL _pos;
+
+_pos = [17580.0390625,17261.886719,-0.192162];
+_object = createVehicle ["Land_Castle_01_tower_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 210;
+_object setPosATL _pos;
+
+_pos = [17635.664063,17286.296875,0.0465775];
+_object = createVehicle ["Land_Castle_01_tower_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 309;
+_object setPosATL _pos;
+
+/*ramp*/
+_pos = [17621.193359,17287.373047,1.01382];
+_object = createVehicle ["Land_Castle_01_step_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 39.9999;
+_object setPosATL _pos;
+[_object, 30, 2.95756e-006] call BIS_fnc_setPitchBank;
+
+_pos = [17585.275391,17201.0839844,0.25631];
+_object = createVehicle ["Land_Castle_01_step_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 40;
+_object setPosATL _pos;
+[_object, -10, -1.30042e-006] call BIS_fnc_setPitchBank;
+
+

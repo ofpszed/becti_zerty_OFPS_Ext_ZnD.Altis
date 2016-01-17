@@ -1236,7 +1236,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town27";
-			init="nullReturn = [this, ""Kore"", resistance, 300] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Kore"", resistance, 300,""Town15""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item28
 		{

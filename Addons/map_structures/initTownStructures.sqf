@@ -699,6 +699,13 @@ _pos = [6683.187012,9568.820313,-1.3357];
 _object = createVehicle ["Land_Pier_addon", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 80;
 _object setPosASL _pos;
+/*helipad*/
+_pos = [6656.725098,9585.829102,3.44];
+_object = createVehicle ["Land_nav_pier_m_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 79.9999;
+_object setPosASL _pos;
+
+
 /*structures*/
 _pos = [6659.48584,9569.488281,10.3394];
 _object = createVehicle ["Land_TTowerBig_1_F", _pos, [], 0, "CAN_COLLIDE"];
@@ -755,10 +762,15 @@ _object = createVehicle ["Land_ReservoirTank_V1_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 40;
 _object setPosASL _pos;
 /*lights*/
-_pos = [6656.205078,9588.928711,9.43769];
-_object = createVehicle ["Land_NavigLight_3_F", _pos, [], 0, "CAN_COLLIDE"];
+_pos = [6679.128906,9565.649414,9.30803];
+_object = createVehicle ["Land_LampAirport_F", _pos, [], 0, "CAN_COLLIDE"];
+_object setDir 260;
+_object setPosASL _pos;
+_pos = [6640.0561523,9573.780273,9.34695];
+_object = createVehicle ["Land_LampAirport_F", _pos, [], 0, "CAN_COLLIDE"];
 _object setDir 80;
 _object setPosASL _pos;
+
 
 
 

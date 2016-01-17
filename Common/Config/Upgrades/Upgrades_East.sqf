@@ -23,7 +23,7 @@ _a=_a	+			[true];
 _c=_c +			[[10000, 15000, 20000, 25000]];
 _lev=_lev+	[4];
 _lin=_lin+	[[[],[],[],[CTI_UPGRADE_NUKE,1]]];
-_t=_t+			[[20*CTI_UPGRADE_RATIO, 40*CTI_UPGRADE_RATIO, 80*CTI_UPGRADE_RATIO, 420*CTI_UPGRADE_RATIO]];
+_t=_t+			[[20*CTI_UPGRADE_RATIO, 40*CTI_UPGRADE_RATIO, 60*CTI_UPGRADE_RATIO, 80*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Factory: Heavy Factory", "Unlock better armoured units"]];
 _a=_a	+			[true];
@@ -181,14 +181,14 @@ _a=_a	+			[true];
 _c=_c +				[[100000]];
 _lev=_lev+			[1];
 _lin=_lin+	[[[CTI_UPGRADE_AIR, 3]]];
-_t=_t+			[[600*CTI_UPGRADE_RATIO]];
+_t=_t+			[[100*CTI_UPGRADE_RATIO]];
 
 _l=_l+				[["Nuclear Arms Deal", "Unlock Nuke Truck"]];
 _a=_a	+			[true];
 _c=_c +				[[100000]];
 _lev=_lev+			[1];
 _lin=_lin+	[[[CTI_UPGRADE_LIGHT, 3]]];
-_t=_t+			[[600*CTI_UPGRADE_RATIO]];
+_t=_t+			[[100*CTI_UPGRADE_RATIO]];
 
 /*
 _l=_l+			[["Network: Reconfiguration cycle", "Lower Mesh Network reconfiguration cycle time (600s - 60s*lvl)"]];
