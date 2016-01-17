@@ -11,10 +11,11 @@ class Mission
 		"A3_Modules_F_Curator_Curator",
 		"A3_Data_F_Curator_Virtual",
 		"a3_characters_f",
-		"A3_Modules_F"
+		"A3_Modules_F",
 		"A3_Soft_F_Kart_Kart_01",
 		"A3_Soft_F_Car",
 		"A3_Soft_F_Truck",
+		"A3_Boat_F_Civilian_Boat",
 		"A3_Characters_F_Civil"
 		//"3DEN"
 	};
@@ -949,7 +950,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town1";
-			init="nullReturn = [this, ""Pyrgos"", resistance, 250] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Pyrgos"", resistance, 250,""Town50""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item2
 		{
@@ -1158,7 +1159,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town20";
-			init="nullReturn = [this, ""Airbase"", resistance, 300] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Airbase"", resistance, 300,""Town50""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item21
 		{
@@ -1334,7 +1335,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town36";
-			init="nullReturn = [this, ""Theater Ruins"", resistance, 150] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Theater Ruins"", resistance, 150,""Town53""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item37
 		{
@@ -1521,7 +1522,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town53";
-			init="nullReturn = [this, ""Fuel Depot"", resistance, 550,""Town36""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+4.62004];";
+			init="nullReturn = [this, ""Fuel Depot"", resistance, 550,""Town55""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+4.62004];";
 		};
 		class Item54
 		{
@@ -1543,7 +1544,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town55";
-			init="nullReturn = [this, ""Radar Platform"", resistance, 550,""Town53""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+4.72914];";
+			init="nullReturn = [this, ""Radar Platform"", resistance, 550,""Town38""] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+4.72914];";
 		};
 		class Item56
 		{
