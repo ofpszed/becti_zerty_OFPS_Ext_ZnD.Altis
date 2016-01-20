@@ -961,7 +961,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town2";
-			init="nullReturn = [this, ""Dorida"", resistance, 150] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Dorida"", resistance, 150,""Town3""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item3
 		{
@@ -972,7 +972,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town3";
-			init="nullReturn = [this, ""Charkia"", resistance, 200] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Charkia"", resistance, 200,""Town8""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item4
 		{
