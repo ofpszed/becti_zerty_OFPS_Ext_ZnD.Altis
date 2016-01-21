@@ -198,7 +198,7 @@ _classes = _classes 		+ ["Land_Mil_WallBig_Gate_F"];
 _prices = _prices 			+ [20];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
-
+/*
 _headers = _headers 		+ ["H-Barrier (Small) (1 Block)"];
 _classes = _classes 		+ ["Land_HBarrier_1_F"];
 _prices = _prices 			+ [20];
@@ -210,7 +210,7 @@ _classes = _classes 		+ ["Land_HBarrier_5_F"];
 _prices = _prices 			+ [100];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
-
+*/
 _headers = _headers 		+ [["Long Sandbag", [["DMG_Reduce", 2]]]];
 _classes = _classes 		+ ["Land_BagFence_Long_F"];
 _prices = _prices 			+ [5];

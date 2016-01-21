@@ -175,16 +175,16 @@ _lev=_lev+			[5];
 _lin=_lin+			[[[],[]]];
 _t=_t+				[[10*CTI_UPGRADE_RATIO,20*CTI_UPGRADE_RATIO,40*CTI_UPGRADE_RATIO,80*CTI_UPGRADE_RATIO,160*CTI_UPGRADE_RATIO]];
 
-_l=_l+				[["Airstrikes: Carpet Bomb", "Unlock Airstrike Ability"]];
+_l=_l+				[["Airstrikes: Carpet Bomb", "Unlock Air-strike Ability"]];
 _a=_a	+			[true];
-_c=_c +				[[100000]];
+_c=_c +				[[150000]];
 _lev=_lev+			[1];
 _lin=_lin+	[[[CTI_UPGRADE_AIR, 3]]];
 _t=_t+			[[100*CTI_UPGRADE_RATIO]];
 
 _l=_l+				[["Nuclear Arms Deal", "Unlock Nuke Truck"]];
 _a=_a	+			[true];
-_c=_c +				[[100000]];
+_c=_c +				[[200000]];
 _lev=_lev+			[1];
 _lin=_lin+	[[[CTI_UPGRADE_LIGHT, 3]]];
 _t=_t+			[[100*CTI_UPGRADE_RATIO]];
