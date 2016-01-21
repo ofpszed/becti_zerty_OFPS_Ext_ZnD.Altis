@@ -33,7 +33,7 @@ _helps = [format ["<t size='1.4' color='#2394ef'>Welcome in BECTI - Zerty mod</t
 <t size='1.4' color='#FF3333'>Interactions / Buying Gear and units</t><br />
 You can open the interraction menu regarding the object you are facing, if you are close enougth by pressing the <t color='#2394ef'>%1 key</t>; this key can be configured with the combo box on top of the online help menu (the current one).<br /><br />
 <t size='1.2' color='#e8bd12'>The Mission</t><br />
-This Mission is based on the original CTI Benny Edition mission (obviously by Benny) and then modified by Zerty. More informations on zerty's mod. and a download link to the mission file can be found on the website http://www.jammywarfare.eu . The full credits can be found in this menu; the changelog can be found in the map menu.<br /><br />
+This Mission is based on the original CTI Benny Edition mission (obviously by Benny) and then modified by Zerty, and then modified by OFPS.net further. For more detailed help on the mission go to the OFPS.net website www.ofps.net. The full credits can be found in this menu; the changelog can be found in the map menu.<br /><br />
 <t size='1.2' color='#e8bd12'>Objective</t><br />
 The goal of a CTI mission is to take most the towns of the map or destroy enemy facilities and MHQ. The more towns your team controls the more money you will earn. A commander is in charge of building factories, unlocking the upgrades and setting the team strategies.<br /><br />
 <t size='1.2' color='#e8bd12'>Money</t><br />
