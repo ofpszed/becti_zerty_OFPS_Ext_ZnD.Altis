@@ -145,13 +145,13 @@ _classes = _classes 		+ ["Land_LampHalogen_F"];
 _prices = _prices 			+ [5];
 _placements = _placements 	+ [[90, 15]];
 _categories = _categories 	+ ["Fortification"];
-
+/*
 _headers = _headers 		+ ["Empty Crate"];
 _classes = _classes 		+ ["O_supplyCrate_F"];
 _prices = _prices 			+ [5];
 _placements = _placements 	+ [[0, 2]];
 _categories = _categories 	+ ["Fortification"];
-
+*/
 
 _headers = _headers 		+ ["Bunker (Small)"];
 _classes = _classes 		+ ["Land_BagBunker_Small_F"];
