@@ -552,6 +552,10 @@ _i = _i		+ ["U_O_CombatUniform_ocamo"];
 _u = _u		+ [0];
 _p = _p		+ [150];
 
+_i = _i		+ ["U_O_OfficerUniform_ocamo"];
+_u = _u		+ [0];
+_p = _p		+ [150];
+
 _i = _i		+ ["U_O_GhillieSuit"];
 _u = _u		+ [3];
 _p = _p		+ [600];
@@ -740,6 +744,14 @@ _p = _p		+ [1400];
 _i = _i		+ ["O_GMG_01_high_weapon_F"];
 _u = _u		+ [2];
 _p = _p		+ [1700];
+
+_i = _i		+ ["O_HMG_01_weapon_A_F"];
+_u = _u		+ [3];
+_p = _p		+ [3000];
+
+_i = _i		+ ["O_GMG_01_weapon_A_F"];
+_u = _u		+ [3];
+_p = _p		+ [3000];
 
 if !(MADE_FOR_STRATIS) then {
 _i = _i		+ ["O_Mortar_01_support_F"];
