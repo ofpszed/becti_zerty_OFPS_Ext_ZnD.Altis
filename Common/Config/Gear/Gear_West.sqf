@@ -635,6 +635,10 @@ _i = _i		+ ["U_B_CombatUniform_mcam"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
+_i = _i		+ ["U_O_OfficerUniform_ocamo"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
 _i = _i		+ ["U_B_CombatUniform_mcam_tshirt"];
 _u = _u		+ [0];
 _p = _p		+ [10];
@@ -875,9 +879,17 @@ _i = _i		+ ["B_HMG_01_weapon_F"];
 _u = _u		+ [1];
 _p = _p		+ [1400];
 
+_i = _i		+ ["B_HMG_01_weapon_A_F"];
+_u = _u		+ [3];
+_p = _p		+ [3000];
+
 _i = _i		+ ["B_GMG_01_weapon_F"];
 _u = _u		+ [2];
 _p = _p		+ [1700];
+
+_i = _i		+ ["B_GMG_01_weapon_A_F"];
+_u = _u		+ [3];
+_p = _p		+ [3000];
 
 _i = _i		+ ["B_HMG_01_high_weapon_F"];
 _u = _u		+ [2];
