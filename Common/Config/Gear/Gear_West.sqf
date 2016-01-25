@@ -635,7 +635,7 @@ _i = _i		+ ["U_B_CombatUniform_mcam"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
-_i = _i		+ ["U_O_OfficerUniform_ocamo"];
+_i = _i		+ ["U_I_G_resistanceLeader_F"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
