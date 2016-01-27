@@ -879,17 +879,9 @@ _i = _i		+ ["B_HMG_01_weapon_F"];
 _u = _u		+ [1];
 _p = _p		+ [1400];
 
-_i = _i		+ ["B_HMG_01_weapon_A_F"];
-_u = _u		+ [3];
-_p = _p		+ [3000];
-
 _i = _i		+ ["B_GMG_01_weapon_F"];
 _u = _u		+ [2];
 _p = _p		+ [1700];
-
-_i = _i		+ ["B_GMG_01_weapon_A_F"];
-_u = _u		+ [3];
-_p = _p		+ [3000];
 
 _i = _i		+ ["B_HMG_01_high_weapon_F"];
 _u = _u		+ [2];
@@ -898,6 +890,23 @@ _p = _p		+ [1400];
 _i = _i		+ ["B_GMG_01_high_weapon_F"];
 _u = _u		+ [2];
 _p = _p		+ [1700];
+
+_i = _i		+ ["B_HMG_01_A_weapon_F"];
+_u = _u		+ [3];
+_p = _p		+ [3000];
+
+_i = _i		+ ["B_GMG_01_A_weapon_F"];
+_u = _u		+ [3];
+_p = _p		+ [3000];
+
+_i = _i		+ ["B_HMG_01_support_F"];
+_u = _u		+ [3];
+_p = _p		+ [500];
+
+_i = _i		+ ["B_GMG_01_support_F"];
+_u = _u		+ [3];
+_p = _p		+ [500];
+
 
 if !(MADE_FOR_STRATIS) then {
 _i = _i		+ ["B_Mortar_01_support_F"];
