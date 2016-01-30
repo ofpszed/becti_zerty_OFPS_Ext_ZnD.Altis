@@ -445,6 +445,7 @@ _marker setMarkerTextLocal format ["5. Hacks/Malicious Script = Permanent Ban (n
 _pos=[(_pos select 0),(_pos select 1)-_offset,0];
 
 //Live Added marker for Bridge
+
 _pos=[13802.992,10349.967,0];    //SS83 Added this to get people to zoom out and read the map
 _offset=150;
 

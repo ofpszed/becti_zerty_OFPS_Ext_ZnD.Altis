@@ -767,7 +767,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8512.666,32.878616,24831.623};
+					position[]={8504.2471,21.433933,24806.963};
 					class args
 					{
 						items=4;
@@ -792,7 +792,6 @@ class Mission
 						class Item3
 						{
 							value="""A3_Modules_F_Curator_Effects"",""A3_Modules_F_Curator_Misc"",""A3_Modules_F_Curator_Lightning"",""A3_Characters_F_Civil"",""A3_Modules_F_Curator_Environment"",""A3_Modules_F_Curator_Ordnance"",""A3_Modules_F_Curator_Multiplayer"",""A3_Modules_F_Curator_Animals"",""A3_Modules_F_Curator_Mines"",""A3_Characters_F_BLUFOR"",""A3_Characters_F_OPFOR"",""A3_Characters_F_Gamma"",""A3_Signs_F"",""A3_Static_F"",""A3_Static_F_Beta_Mortar_01"",""A3_Weapons_F_Ammoboxes"",""A3_Structures_F_Mil_BagFence"",""A3_Structures_F_Mil_BagBunker"",""A3_Characters_F_INDEP""";
-
 							parentCls="ModuleCuratorAddAddons_F";
 							typeName="Addons";
 						};
@@ -1482,7 +1481,7 @@ class Mission
 		};
 		class Item50
 		{
-			position[]={15516.30957,-0.1044692,14337.520508};
+			position[]={15516.31,-0.1044692,14337.521};
 			id=110;
 			side="EMPTY";
 			vehicle="FlagPole_F";
@@ -1493,7 +1492,7 @@ class Mission
 		};
 		class Item51
 		{
-			position[]={15153.168945,-0.086772405,8406.748047};
+			position[]={15153.169,-0.086772405,8406.748};
 			id=111;
 			side="EMPTY";
 			vehicle="FlagPole_F";
@@ -1504,7 +1503,7 @@ class Mission
 		};
 		class Item52
 		{
-			position[]={24768.478516,0.0074984394,13829.275391};
+			position[]={24768.479,0.0074984394,13829.275};
 			id=112;
 			side="EMPTY";
 			vehicle="FlagPole_F";
@@ -1515,7 +1514,7 @@ class Mission
 		};
 		class Item53
 		{
-			position[]={19471.720703,0.092554674,22741.888672};
+			position[]={19471.721,0.092554674,22741.889};
 			id=113;
 			side="EMPTY";
 			vehicle="FlagPole_F";
@@ -1526,7 +1525,7 @@ class Mission
 		};
 		class Item54
 		{
-			position[]={6657.284668,0.05327272,9583.65625};
+			position[]={6657.2847,0.05327272,9583.6563};
 			id=114;
 			side="EMPTY";
 			vehicle="FlagPole_F";
@@ -1537,7 +1536,7 @@ class Mission
 		};
 		class Item55
 		{
-			position[]={12140.132813,-0.090320602,24986.164063};
+			position[]={12140.133,-0.090320602,24986.164};
 			id=115;
 			side="EMPTY";
 			vehicle="FlagPole_F";
@@ -1548,14 +1547,14 @@ class Mission
 		};
 		class Item56
 		{
-			position[]={2261.518799,-0.08370202,15761.0722656};
+			position[]={2261.434082,-0.08370202,15765.180664};
 			id=116;
 			side="EMPTY";
 			vehicle="FlagPole_F";
 			leader=1;
 			skill=0.60000002;
 			text="Town56";
-			init="nullReturn = [this, ""Wind Farm"", resistance, 550] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+10.3875];";
+			init="nullReturn = [this, ""Wind Farm"", resistance, 550] execVM ""Common\Init\Init_Location.sqf""; this setPos [getPos this select 0, getPos this select 1,+22.1418];";
 		};
 	};
 	class Markers
