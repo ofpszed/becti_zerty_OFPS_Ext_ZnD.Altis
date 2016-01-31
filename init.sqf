@@ -121,7 +121,7 @@ if (CTI_IsClient) then {
 };
 
 //---Werthles Headless Kit v2.3
-[true,30,false,true,30,3,true,["C_scientist_F"]] execVM "server\functions\WerthlesHeadless.sqf";
+[true,1,false,true,1,1,true,["C_scientist_F"]] execVM "server\functions\WerthlesHeadless.sqf";
 
 //--- Set the group ID
 
