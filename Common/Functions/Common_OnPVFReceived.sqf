@@ -35,7 +35,6 @@ switch (typeName (_this select 0)) do {
 //--- Check if we can execute the PV
 _pv_can_exec = false;
 switch (_pv_destination) do {
-if (CTI_IsClient || CTI_IsHeadless) then {
 	case "CLIENT": {
 		if (CTI_IsClient) then {
 			switch (typeName _pv_filter_exec) do {
@@ -55,9 +54,6 @@ if (_pv_can_exec) then {
 		_pv_parameters = if (count _this > 2) then { _this select 2 } else { [] };
 		//waitUntil {!isNil "_pv_parameters"};
 		_pv_parameters spawn (missionNamespace getVariable format ["CTI_PVF_%1", _this select 1]);
-			} else {
-		if (CTI_Log_Level >= CTI_Log_Error && !CTI_IsHeadless) then { //--- Error (Skip for HC)
-			["ERROR", "FILE: Common\Functions\Common_OnPVFReceived.sqf", format ["[%1] PVF [%2] was received but could not be called since it isn't defined as a function.", _pv_destination, _this select 1]] call CTI_CO_FNC_Log
-		};
+
 	};
 };
