@@ -41,7 +41,7 @@ CTI_TEAMSTACK_WEST=0;
 
 if (CTI_Log_Level >= CTI_Log_Information) then { //--- Information
 	["INFORMATION", "FILE: init.sqf", format["Environment is Multiplayer? [%1]", isMultiplayer]] call CTI_CO_FNC_Log;
-	["INFORMATION", "FILE: init.sqf", format["Current Actor is: Hosted Server [%1]? Dedicated [%2]? Client [%3]?", CTI_IsHostedServer, isDedicated, CTI_IsClient]] call CTI_CO_FNC_Log
+	["INFORMATION", "FILE: init.sqf", format["Current Actor is: Hosted Server [%1]? Dedicated [%2]? Client [%3]?", CTI_IsHostedServer, isDedicated, CTI_IsClient]] call CTI_CO_FNC_Log;
 	["INFORMATION", "FILE: init.sqf", format["Current Actor is: Hosted Server [%1]? Dedicated [%2]? Client [%3]? Headless [%4]?", CTI_IsHostedServer, isDedicated, CTI_IsClient, CTI_IsHeadless]] call CTI_CO_FNC_Log	
 };
 
