@@ -57,7 +57,7 @@ class Params {
 		title = "INCOME: Starting Funds (East Commander)";
 		values[] = {40000,50000,60000,70000,80000,90000,100000,125000,150000,200000};
 		texts[] = {"$40000","$50000","$60000","$70000","$80000","$90000","$100000","$125000","$150000","$200000"};
-		default = 100000;
+		default = 200000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST {
 		title = "INCOME: Starting Funds (East Players)";
@@ -69,7 +69,7 @@ class Params {
 		title = "INCOME: Starting Funds (West Commander)";
 		values[] = {40000,50000,60000,70000,80000,90000,100000,125000,150000,200000};
 		texts[] = {"$40000","$50000","$60000","$70000","$80000","$90000","$100000","$125000","$150000","$200000"};
-		default = 100000;
+		default = 200000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST {
 		title = "INCOME: Starting Funds (West Players)";
@@ -177,7 +177,7 @@ class Params {
 		title = "VISUAL: View Distance";
 		values[] = {1000,1500,2000,2500,3000,3500,4000};
 		texts[] = {"1 KM","1.5 KM","2 KM","2.5 KM","3 KM","3.5 KM","4 KM"};
-		default = 4000;
+		default = 3000;
 	};
 
 		//Additionnal Parameter (Zerty)
@@ -225,7 +225,7 @@ class Params {
 		title = "Zerty: AI: Skill (credit : Bl1p, fluit)";
 		values[] = {1,2,3,4,5};
 		texts[] = {"Retards","DumbFucks","NotSobad","Good","Very Good"};
-		default = 3;
+		default = 2;
 	};
 
 	class CTI_MAX_MISSION_TIME {
@@ -386,7 +386,7 @@ class Params {
 		title = "Zerty: TOWNS : Resistance difficulty";
 		values[] = {0,25,50,75,100};
 		texts[] = {"Null","Normal","Hard","Very hard","HELL"};
-		default = 75;
+		default = 50;
 	};
 	class CTI_TOWNS_RESISTANCE_INACTIVE_MAX {
 		title = "Zerty: TOWNS : Resistance despawn Timer";
@@ -405,7 +405,7 @@ class Params {
 		title = "Zerty: WEATHER: Inital time";
 		values[] = {0,1,2,3,10};
 		texts[] = {"Morning","Noon","Evening","Midnight","Random"};
-		default = 10;
+		default = 0;
 	};
 	class CTI_WEATHER_ALLOWRAIN {
 		title = "Zerty: WEATHER: Allow Rain";
@@ -417,7 +417,7 @@ class Params {
 		title = "Zerty: WEATHER: day duration";
 		values[] = {1,2,3,4,5,6,7,8,9,10,11,12};
 		texts[] = {"1 hour","2 hours","3 hours","4 hours","5 hours","6 hours","7 hours","8 hours","9 hours","10 hours","11 hours","12 hours"};
-		default = 3;
+		default = 12;
 	};
   	class CTI_WEATHER_FAST_NIGTH {
 		title = "Zerty: WEATHER: Nigth duration";
