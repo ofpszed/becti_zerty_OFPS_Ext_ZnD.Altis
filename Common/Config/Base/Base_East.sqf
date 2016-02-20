@@ -289,6 +289,29 @@ if ((missionNamespace getVariable "CTI_RESPAWN_FOB_RANGE")> 0) then {
 	_placements = _placements 	+ [[180, 15]];
 	_categories = _categories 	+ ["Fortification"];
 };
+_headers = _headers 		+ ["ZU23 AAA"];
+_classes = _classes 		+ ["RDS_ZU23_AAF"];
+_prices = _prices 			+ [3500];
+_placements = _placements 	+ [[180, 5]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["D30 AT"];
+_classes = _classes 		+ ["RDS_D30_AT_AAF"];
+_prices = _prices 			+ [15000];
+_placements = _placements 	+ [[180, 5]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["D30"];
+_classes = _classes 		+ ["RDS_D30_AAF"];
+_prices = _prices 			+ [15000];
+_placements = _placements 	+ [[180, 5]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["Metis AT"];
+_classes = _classes 		+ ["RDS_Metis_AAF"];
+_prices = _prices 			+ [3500];
+_placements = _placements 	+ [[180, 5]];
+_categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["MG Defense"];
 _classes = _classes 		+ ["O_HMG_01_High_F"];
