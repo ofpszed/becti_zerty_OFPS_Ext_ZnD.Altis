@@ -696,6 +696,59 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
+_c = _c + ['Sab_An2_o'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [5000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['Sab_An2_o_VA'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [5000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_t28trojan_O'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [15000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_C130_H_CSAT'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [10000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_C130_H_CSAT2'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [10000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_C130_H_CSAT3'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [10000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
 
 
 _c = _c + ['O_Boat_Transport_01_F'];

@@ -19,7 +19,11 @@ class Mission
 		"A3_Characters_F_Civil",
 		"GD_IND_INFANTRY",
 		"gd_ind_vehicles",
-		"3DEN"
+		"3DEN",
+		"sab_An2",
+		"sab_An2_tx",
+		"sab_t28trojan",
+		"sab_C130"
 	};
 	addOnsAuto[]=
 	{
