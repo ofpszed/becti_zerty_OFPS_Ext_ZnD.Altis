@@ -94,6 +94,8 @@ _u 			= ["B_APC_Tracked_01_rcws_F"];
 _u = _u  	+ ["B_APC_Wheeled_01_cannon_F"];
 _u = _u		+ ["B_APC_Tracked_01_AA_F"];
 _u = _u		+ ["B_MBT_01_cannon_F"];
+_u = _u		+ ["M1A2_TUSK_2035_Raid"];
+_u = _u		+ ["M1A1_Raid"];
 _u = _u		+ ["B_MBT_01_TUSK_F"];
 if !(MADE_FOR_STRATIS) then {
 _u = _u		+ ["B_MBT_01_arty_F"];
@@ -140,6 +142,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
 _u 			= ["B_Boat_Transport_01_F"];
 _u = _u		+ ["B_Boat_Armed_01_minigun_F"];
+_u = _u		+ ["ASH_MKVSOC"];
 _u = _u		+ ['C_Boat_Civil_01_police_F'];
 _u = _u		+ ["B_SDV_01_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
