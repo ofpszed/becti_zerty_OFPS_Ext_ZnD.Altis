@@ -12,6 +12,7 @@ call compile preprocessfile "Addons\nuclear\config.sqf";
 [_object] execVM "Addons\nuclear\script\destroy.sqf";
 //Make Units Escape
 [_xpos, _ypos] execVM "Addons\nuclear\script\escape.sqf";
+if (CTI_IsClient) then {
 //Player Quake and Dust
 [] execVM "Addons\nuclear\script\athmo.sqf";
 //Player Color and Flash
@@ -35,11 +36,13 @@ sleep 2;
 sleep 0.5;
 [_xpos, _ypos] exec "Addons\nuclear\script\hatnod.sqs";
 [_xpos, _ypos] exec "Addons\nuclear\script\blast1.sqs";
+};
 //Main Damage - links
 if ( damage_on ) then
 {
 	[_xpos, _ypos] execVM "Addons\nuclear\script\damage.sqf";
 };
+if (CTI_IsClient) then {
 //Blast Rings
 [_xpos, _ypos] exec "Addons\nuclear\script\ring1.sqs";
 sleep 0.5;
@@ -54,3 +57,4 @@ sleep 60;
 //Nuclear Fallout
 [_xpos, _ypos] execVM "Addons\nuclear\script\dust.sqf";
 [_xpos, _ypos] execVM "Addons\nuclear\script\snow.sqf";
+};
