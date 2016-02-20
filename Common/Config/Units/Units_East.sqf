@@ -695,7 +695,7 @@ _t = _t + [50];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
-
+/*
 _c = _c + ['Sab_An2_o'];
 _p = _p + [''];
 _n = _n + [''];
@@ -758,7 +758,7 @@ _t = _t + [50];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
-
+*/
 
 _c = _c + ['O_Boat_Transport_01_F'];
 _p = _p + [''];
