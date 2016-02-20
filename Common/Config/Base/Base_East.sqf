@@ -297,13 +297,13 @@ _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["D30 AT"];
 _classes = _classes 		+ ["RDS_D30_AT_AAF"];
-_prices = _prices 			+ [15000];
+_prices = _prices 			+ [50000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["D30"];
 _classes = _classes 		+ ["RDS_D30_AAF"];
-_prices = _prices 			+ [15000];
+_prices = _prices 			+ [50000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
