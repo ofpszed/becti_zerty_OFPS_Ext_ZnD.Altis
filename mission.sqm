@@ -23,7 +23,14 @@ class Mission
 		"sab_An2",
 		"sab_An2_tx",
 		"sab_t28trojan",
-		"sab_C130"
+		"sab_C130",
+		"ASH_MKVSOC",
+		"Aus_Abrams_Raid",
+		"tracked_raid",
+		"RDS_Tanks",
+		"RDS_APC",
+		"RDS_StaticWeapons_Core",
+		"3DEN"
 	};
 	addOnsAuto[]=
 	{
