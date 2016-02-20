@@ -750,6 +750,15 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
+_c = _c + ['globemaster_c17_Qatar'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [15000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
 
 _c = _c + ['O_Boat_Transport_01_F'];
 _p = _p + [''];

@@ -133,6 +133,7 @@ _u = _u		+ ['sab_t28trojan_O'];
 _u = _u		+ ['sab_C130_H_CSAT'];
 _u = _u		+ ['sab_C130_H_CSAT2'];
 _u = _u		+ ['sab_C130_H_CSAT3'];
+_u = _u		+ ['globemaster_c17_Qatar'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 

@@ -24,6 +24,7 @@ class Mission
 		"sab_An2_tx",
 		"sab_t28trojan",
 		"sab_C130",
+		"globemaster_c17",
 		"ASH_MKVSOC",
 		"Aus_Abrams_Raid",
 		"tracked_raid",
