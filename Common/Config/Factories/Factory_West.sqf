@@ -125,7 +125,7 @@ _u = _u		+ ['I_Heli_light_03_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 */
 //_u = _u		+ ["I_Plane_Fighter_03_CAS_F"];
-
+/*
 _u = _u		+ ['Sab_An2_b'];
 _u = _u		+ ['sab_t28trojan_B'];
 _u = _u		+ ['sab_t28trojan_B_2'];
@@ -140,7 +140,7 @@ _u = _u		+ ['sab_C130_JEC'];
 _u = _u		+ ['sab_C130_JT'];
 _u = _u		+ ['sab_C130_CSP'];
 _u = _u		+ ['globemaster_c17_NATO'];
-
+*/
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
 _u 			= ["B_Truck_01_Repair_F"];
