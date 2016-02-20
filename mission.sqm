@@ -19,6 +19,12 @@ class Mission
 		"A3_Characters_F_Civil",
 		"GD_IND_INFANTRY",
 		"gd_ind_vehicles",
+		"ASH_MKVSOC",
+		"Aus_Abrams_Raid",
+		"tracked_raid",
+		"RDS_Tanks",
+		"RDS_APC",
+		"RDS_StaticWeapons_Core",
 		"3DEN"
 	};
 	addOnsAuto[]=
