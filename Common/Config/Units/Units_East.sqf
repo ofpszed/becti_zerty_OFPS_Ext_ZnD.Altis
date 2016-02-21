@@ -695,7 +695,7 @@ _t = _t + [50];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
-/*
+
 _c = _c + ['Sab_An2_o'];
 _p = _p + [''];
 _n = _n + [''];
@@ -758,7 +758,69 @@ _t = _t + [50];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
-*/
+
+_c = _c + ['bwi_a3_t6a_5'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [5000];
+_t = _t + [50];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['bwi_a3_at6b_2'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [10000];
+_t = _t + [50];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_SU34_O_AGM'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_SU34_O_BMB'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_SU34_O_CAP'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_SU34_O_CAS'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['sab_SU34_O_LGB'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [70000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
 
 _c = _c + ['O_Boat_Transport_01_F'];
 _p = _p + [''];
@@ -796,10 +858,28 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + ["service-medic"];
 
+_c = _c + ['Burnes_MK10_1'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [3000];
+_t = _t + [25];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_NAVAL];
+_s = _s + [""];
+
 _c = _c + ['O_SDV_01_F'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [400];
+_t = _t + [25];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_NAVAL];
+_s = _s + [""];
+
+_c = _c + ['O_CBS_WaterShadow730_F'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [200];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_NAVAL];

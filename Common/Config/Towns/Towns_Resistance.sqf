@@ -38,7 +38,7 @@ with missionNamespace do {
 	//--- Naval
 	GUER_NAVAL_INFANTRY = ["I_diver_TL_F", "I_diver_F"];
 	GUER_NAVAL_BOATS = ["I_Boat_Transport_01_F"];
-	GUER_NAVAL_ASSAULT_BOATS = ["I_Boat_Armed_01_minigun_F"];
+	GUER_NAVAL_ASSAULT_BOATS = ["I_Boat_Armed_01_minigun_F", "ASH_MKVSOC"];
 	GUER_NAVAL_ARMORED = ["I_APC_Wheeled_03_cannon_F"];
 	
 	//--- Vehicles - Mixed

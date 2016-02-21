@@ -126,7 +126,7 @@ _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 */
 _u = _u		+ ['I_Plane_Fighter_03_AA_F'];
 _u = _u		+ ['O_Plane_CAS_02_F'];
-/*
+
 _u = _u		+ ['Sab_An2_o'];
 _u = _u		+ ['Sab_An2_o_VA'];
 _u = _u		+ ['sab_t28trojan_O'];
@@ -134,7 +134,15 @@ _u = _u		+ ['sab_C130_H_CSAT'];
 _u = _u		+ ['sab_C130_H_CSAT2'];
 _u = _u		+ ['sab_C130_H_CSAT3'];
 _u = _u		+ ['globemaster_c17_Qatar'];
-*/
+
+_u = _u		+ ['bwi_a3_t6a_5'];
+_u = _u		+ ['bwi_a3_at6b_2'];
+_u = _u		+ ['sab_SU34_O_AGM'];
+_u = _u		+ ['sab_SU34_O_BMB'];
+_u = _u		+ ['sab_SU34_O_CAP'];
+_u = _u		+ ['sab_SU34_O_CAS'];
+_u = _u		+ ['sab_SU34_O_LGB'];
+
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
 _u 			= ["O_Truck_02_box_F"];
@@ -156,6 +164,8 @@ _u 			= ['O_Boat_Transport_01_F'];
 _u = _u		+ ['O_Boat_Armed_01_hmg_F'];
 _u = _u		+ ["ASH_MKVSOC"];
 _u = _u		+ ['C_Boat_Civil_01_rescue_F'];
+_u = _u		+ ["Burnes_MK10_1"];
+_u = _u		+ ["O_CBS_WaterShadow730_F"];
 _u = _u		+ ['O_SDV_01_F'];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 

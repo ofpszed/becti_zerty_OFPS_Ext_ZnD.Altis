@@ -23,6 +23,19 @@ class Mission
 		"ASH_MKVSOC",
 		"Aus_Abrams_Raid",
 		"tracked_raid",
+		"Burnes_MK10_Patch",
+		"Test_boat_F",
+		"CBS_K9N_WaterShadow730",
+		"ASH_MKVSOC",
+		"globemaster_c17",
+		"sab_C130",
+		"sab_An2",
+		"sab_An2_tx",
+		"sab_t28trojan",
+		"bwi_a3_t6",
+		"JS_JC_FA18",
+		"sab_SU34",
+		"rkb_reischsflugscheiben",
 		"3DEN"
 	};
 	addOnsAuto[]=

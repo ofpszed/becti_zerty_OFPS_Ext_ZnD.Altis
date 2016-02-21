@@ -125,7 +125,7 @@ _u = _u		+ ['I_Heli_light_03_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 */
 //_u = _u		+ ["I_Plane_Fighter_03_CAS_F"];
-/*
+
 _u = _u		+ ['Sab_An2_b'];
 _u = _u		+ ['sab_t28trojan_B'];
 _u = _u		+ ['sab_t28trojan_B_2'];
@@ -140,7 +140,13 @@ _u = _u		+ ['sab_C130_JEC'];
 _u = _u		+ ['sab_C130_JT'];
 _u = _u		+ ['sab_C130_CSP'];
 _u = _u		+ ['globemaster_c17_NATO'];
-*/
+
+_u = _u		+ ['bwi_a3_at6b'];
+_u = _u		+ ['bwi_a3_t6a'];
+_u = _u		+ ['bwi_a3_t6c'];
+_u = _u		+ ['JS_JC_FA18E'];
+_u = _u		+ ['JS_JC_FA18F'];
+
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
 _u 			= ["B_Truck_01_Repair_F"];
@@ -159,7 +165,9 @@ _u 			= ["B_Boat_Transport_01_F"];
 _u = _u		+ ["B_Boat_Armed_01_minigun_F"];
 _u = _u		+ ["ASH_MKVSOC"];
 _u = _u		+ ['C_Boat_Civil_01_police_F'];
+_u = _u		+ ["Burnes_LCAC_1"];
 _u = _u		+ ["B_SDV_01_F"];
+_u = _u		+ ["B_CBS_WaterShadow730_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
 //--- Units - FLAG
