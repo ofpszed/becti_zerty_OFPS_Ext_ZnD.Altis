@@ -96,6 +96,9 @@ _u = _u		+ ["B_APC_Tracked_01_AA_F"];
 _u = _u		+ ["B_MBT_01_cannon_F"];
 _u = _u		+ ["M1A2_TUSK_2035_Raid"];
 _u = _u		+ ["M1A1_Raid"];
+_u = _u		+ ["Cha_LAV25A2"];
+_u = _u		+ ["Cha_LAV25_HQ"];
+_u = _u		+ ["AAVB"];
 _u = _u		+ ["B_MBT_01_TUSK_F"];
 if !(MADE_FOR_STRATIS) then {
 _u = _u		+ ["B_MBT_01_arty_F"];
