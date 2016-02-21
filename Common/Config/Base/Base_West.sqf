@@ -100,14 +100,14 @@ _headers = _headers 		+ [[CTI_NAVAL, "Naval Yard", "Naval"]];
 _classes = _classes 		+ [["Land_Lighthouse_small_F", "Land_Lighthouse_small_ruins_F"]];
 _prices = _prices 			+ [4000];
 _times = _times 			+ [35];
-_placements = _placements 	+ [[180, 25]];
+_placements = _placements 	+ [[180, 35]];
 _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", .5]]];
 
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
 _classes = _classes 		+ [["Land_Radar_Small_F", "Land_Radar_Small_ruins_F"]];
 _prices = _prices 			+ [20000];
 _times = _times 			+ [140];
-_placements = _placements 	+ [[90, 35]];
+_placements = _placements 	+ [[90, 40]];
 _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", 1]]];  //with value of 1.2 = 12 slammer ap shots
 
 _headers = _headers 		+ [[CTI_AMMO, "Ammo Depot", "Ammo"]];

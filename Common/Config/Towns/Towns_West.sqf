@@ -41,7 +41,7 @@ with missionNamespace do {
 	//--- Naval
 	WEST_NAVAL_INFANTRY = ["B_diver_TL_F", "B_diver_F"];
 	WEST_NAVAL_BOATS = ["B_Boat_Transport_01_F"];
-	WEST_NAVAL_ASSAULT_BOATS = ["B_Boat_Armed_01_minigun_F", "ASH_MKVSOC"];
+	WEST_NAVAL_ASSAULT_BOATS = ["B_Boat_Armed_01_minigun_F"];
 	WEST_NAVAL_ARMORED = ["B_APC_Wheeled_01_cannon_F"];
 	
 	//--- Vehicles - Mixed

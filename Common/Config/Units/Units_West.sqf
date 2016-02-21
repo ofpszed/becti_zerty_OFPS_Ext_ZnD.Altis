@@ -857,7 +857,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
-_c = _c + ['B_CBS_WaterShadow730_F '];
+_c = _c + ['B_CBS_WaterShadow730_F'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [200];
