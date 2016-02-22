@@ -61,21 +61,21 @@ _placements = [];
 _specials = [];
 
 _headers = _headers 		+ [[CTI_MILITARYINSTALLATION, "Military Installation", "Military Installation"]];
-_classes =  _classes 		+ [["Land_Cargo_Tower_V3_F", "Land_Cargo_Tower_V3_ruins_F"]];
+_classes =  _classes 		+ [["Land_D", "Land_Cargo_House_V1_ruins_F"]];
 _prices =  _prices 			+ [CTI_MILITARY_INSTALLATION_PRICE];
 _times =  _times 			+ [1];
 _placements =_placements 	+ [[180, 15]];
 _specials = _specials		+ [[["DMG_Reduce", 6]]];
 
 _headers = _headers 		+ [[CTI_BARRACKS, "Barracks", "Barracks"]];
-_classes = _classes 		+ [["Land_Cargo_House_V1_F", "Land_Cargo_House_V1_ruins_F"]];
+_classes =  _classes 		+ [["Land_tentA", "Land_Cargo_House_V1_ruins_F"]];
 _prices = _prices 			+ [5000];
 _times = _times 			+ [60];
 _placements = _placements 	+ [[180, 15]];
 _specials = _specials		+ [[["DMG_Reduce", 1.5]]];  // Value @ 1 = 2 AP slammer shots
 
 _headers = _headers 		+ [[CTI_LIGHT, "Light Vehicle Factory", "Light"]];
-_classes = _classes 		+ [["Land_Medevac_HQ_V1_F", "Land_Medevac_HQ_V1_ruins_F"]];
+_classes =  _classes 		+ [["Land_L", "Land_Cargo_House_V1_ruins_F"]];
 _prices = _prices 			+ [10000];
 _times = _times 			+ [80];
 _placements = _placements 	+ [[90, 25]];
@@ -90,7 +90,7 @@ _placements = _placements 	+ [[90, 25]];
 _specials = _specials		+ [[["Connected"],["DMG_Reduce", 0.9]]];
 
 _headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory (requires upgrade for vehicles)", "Heavy"]];
-_classes = _classes 		+ [["Land_Cargo_HQ_V1_F", "Land_Cargo_HQ_V1_ruins_F"]];
+_classes =  _classes 		+ [["Land_H", "Land_Cargo_House_V1_ruins_F"]];
 _prices = _prices 			+ [15000];
 _times = _times 			+ [120];
 _placements = _placements 	+ [[90, 25]];
@@ -104,7 +104,7 @@ _placements = _placements 	+ [[180, 35]];
 _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", .5]]];
 
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
-_classes = _classes 		+ [["Land_Radar_Small_F", "Land_Radar_Small_ruins_F"]];
+_classes =  _classes 		+ [["Land_A", "Land_Cargo_House_V1_ruins_F"]];
 _prices = _prices 			+ [20000];
 _times = _times 			+ [140];
 _placements = _placements 	+ [[90, 40]];
@@ -177,6 +177,12 @@ _prices = _prices 			+ [150];
 _placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Fortification"];
 
+_headers = _headers 		+ ["Bunker (Large)"];
+_classes = _classes 		+ ["Land_B"];
+_prices = _prices 			+ [3000];
+_placements = _placements 	+ [[0, 15]];
+_categories = _categories 	+ ["Fortification"];
+
 _headers = _headers 		+ [["Shed (Roof)",[["RuinOnDestroyed", "Land_Shed_Big_ruins_F"], ["DMG_Reduce", 8]]]];
 _classes = _classes 		+ ["Land_Shed_Big_F"];
 _prices = _prices 			+ [40];
@@ -212,19 +218,37 @@ _classes = _classes 		+ ["Land_Mil_WallBig_Gate_F"];
 _prices = _prices 			+ [40];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
-/*
+
 _headers = _headers 		+ ["H-Barrier (Small) (1 Block)"];
 _classes = _classes 		+ ["Land_HBarrier_1_F"];
-_prices = _prices 			+ [20];
+_prices = _prices 			+ [10];
 _placements = _placements 	+ [[90, 5]];
 _categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ [["H-Barrier (Small) (5 Block)",[["CanAutoAlign", 6, 0]]]];
 _classes = _classes 		+ ["Land_HBarrier_5_F"];
+_prices = _prices 			+ [50];
+_placements = _placements 	+ [[0, 5]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ [["H-Barrier (Small) (10 Block)",[["CanAutoAlign", 6, 0]]]];
+_classes = _classes 		+ ["Land_W1"];
 _prices = _prices 			+ [100];
 _placements = _placements 	+ [[0, 5]];
 _categories = _categories 	+ ["Fortification"];
-*/
+
+_headers = _headers 		+ [["H-Barrier (Triple) (10 Block)",[["CanAutoAlign", 6, 0]]]];
+_classes = _classes 		+ ["Land_W2"];
+_prices = _prices 			+ [300];
+_placements = _placements 	+ [[0, 5]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ [["H-Barrier Pit",[["CanAutoAlign", 6, 0]]]];
+_classes = _classes 		+ ["Land_W3"];
+_prices = _prices 			+ [150];
+_placements = _placements 	+ [[0, 5]];
+_categories = _categories 	+ ["Fortification"];
+
 _headers = _headers 		+ [["Long Sandbag", [["DMG_Reduce", 2]]]];
 _classes = _classes 		+ ["Land_BagFence_Long_F"];
 _prices = _prices 			+ [5];
