@@ -184,7 +184,7 @@ _categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ ["Bunker (Huge)"];
 _classes = _classes 		+ ["Land_D"];
-_prices = _prices 			+ [3000];
+_prices = _prices 			+ [6000];
 _placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Fortification"];
 
