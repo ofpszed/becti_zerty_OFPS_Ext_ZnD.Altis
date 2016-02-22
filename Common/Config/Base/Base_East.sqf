@@ -61,36 +61,35 @@ _placements = [];
 _specials = [];
 
 _headers = _headers 		+ [[CTI_MILITARYINSTALLATION, "Military Installation", "Military Installation"]];
-_classes =  _classes 		+ [["Land_D", "Land_Cargo_House_V1_ruins_F"]];
+_classes =  _classes 		+ [["Land_Cargo_Tower_V3_F", "Land_Cargo_Tower_V3_ruins_F"]];
 _prices =  _prices 			+ [CTI_MILITARY_INSTALLATION_PRICE];
 _times =  _times 			+ [1];
 _placements =_placements 	+ [[180, 15]];
 _specials = _specials		+ [[["DMG_Reduce", 6]]];
 
 _headers = _headers 		+ [[CTI_BARRACKS, "Barracks", "Barracks"]];
-_classes =  _classes 		+ [["Land_tentA", "Land_Cargo_House_V1_ruins_F"]];
+_classes = _classes 		+ [["Land_Cargo_House_V1_F", "Land_Cargo_House_V1_ruins_F"]];
 _prices = _prices 			+ [5000];
 _times = _times 			+ [60];
 _placements = _placements 	+ [[180, 15]];
 _specials = _specials		+ [[["DMG_Reduce", 1.5]]];  // Value @ 1 = 2 AP slammer shots
 
 _headers = _headers 		+ [[CTI_LIGHT, "Light Vehicle Factory", "Light"]];
-_classes =  _classes 		+ [["Land_L", "Land_Cargo_House_V1_ruins_F"]];
+_classes = _classes 		+ [["Land_Medevac_HQ_V1_F", "Land_Medevac_HQ_V1_ruins_F"]];
 _prices = _prices 			+ [10000];
 _times = _times 			+ [80];
 _placements = _placements 	+ [[90, 25]];
 _specials = _specials		+ [[["DMG_Reduce", 0.7]]];  //with value @ 1 = 16 AP Slammer shots, @ .5 = 8 shots, etc (applies only with V1_F structure) so to determine how many shots to down, x/16 = %, where x is how many shots you want it to take
 
 _headers = _headers 		+ [[CTI_CONTROLCENTER, "Control Center", "CC"]];
-_classes = _classes 		+ [["Land_Research_HQ_F", "Land_Research_HQ_ruins_F", ["Land_Research_HQ_F"]]];
-							  
+_classes = _classes 		+ [["Land_Research_HQ_F", "Land_Research_HQ_ruins_F", ["Land_Research_HQ_F"]]];							  
 _prices = _prices 			+ [20000];
 _times = _times 			+ [90];
 _placements = _placements 	+ [[90, 25]];
 _specials = _specials		+ [[["Connected"],["DMG_Reduce", 0.9]]];
 
 _headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory (requires upgrade for vehicles)", "Heavy"]];
-_classes =  _classes 		+ [["Land_H", "Land_Cargo_House_V1_ruins_F"]];
+_classes = _classes 		+ [["Land_Cargo_HQ_V1_F", "Land_Cargo_HQ_V1_ruins_F"]];
 _prices = _prices 			+ [15000];
 _times = _times 			+ [120];
 _placements = _placements 	+ [[90, 25]];
@@ -100,14 +99,14 @@ _headers = _headers 		+ [[CTI_NAVAL, "Naval Yard", "Naval"]];
 _classes = _classes 		+ [["Land_Lighthouse_small_F", "Land_Lighthouse_small_ruins_F"]];
 _prices = _prices 			+ [4000];
 _times = _times 			+ [35];
-_placements = _placements 	+ [[180, 35]];
+_placements = _placements 	+ [[180, 25]];
 _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", .5]]];
 
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
-_classes =  _classes 		+ [["Land_A", "Land_Cargo_House_V1_ruins_F"]];
+_classes = _classes 		+ [["Land_Radar_Small_F", "Land_Radar_Small_ruins_F"]];
 _prices = _prices 			+ [20000];
 _times = _times 			+ [140];
-_placements = _placements 	+ [[90, 40]];
+_placements = _placements 	+ [[90, 35]];
 _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", 1]]];  //with value of 1.2 = 12 slammer ap shots
 
 _headers = _headers 		+ [[CTI_AMMO, "Ammo Depot", "Ammo"]];
