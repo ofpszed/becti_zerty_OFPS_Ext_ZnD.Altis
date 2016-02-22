@@ -81,9 +81,12 @@ _u = _u		+ ['C_Hatchback_01_F'];
 _u = _u		+ ['I_MRAP_03_F'];
 _u = _u		+ ['I_MRAP_03_hmg_F'];
 _u = _u		+ ['I_MRAP_03_gmg_F']; 
-
-
 */
+
+_u = _u		+ ['Cha_BRDM2_HQ_DDR'];
+_u = _u		+ ['Cha_BRDM2_DDR'];
+_u = _u		+ ['Cha_BRDM2_ATGM_DDR'];
+_u = _u		+ ['Cha_BTR60_DDR'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
@@ -131,10 +134,7 @@ _u = _u		+ ['Sab_An2_o'];
 _u = _u		+ ['Sab_An2_o_VA'];
 _u = _u		+ ['sab_t28trojan_O'];
 _u = _u		+ ['sab_C130_H_CSAT'];
-_u = _u		+ ['sab_C130_H_CSAT2'];
-_u = _u		+ ['sab_C130_H_CSAT3'];
 _u = _u		+ ['globemaster_c17_Qatar'];
-
 _u = _u		+ ['bwi_a3_t6a_5'];
 _u = _u		+ ['bwi_a3_at6b_2'];
 _u = _u		+ ['sab_SU34_O_AGM'];
@@ -142,6 +142,9 @@ _u = _u		+ ['sab_SU34_O_BMB'];
 _u = _u		+ ['sab_SU34_O_CAP'];
 _u = _u		+ ['sab_SU34_O_CAS'];
 _u = _u		+ ['sab_SU34_O_LGB'];
+_u = _u		+ ['Cha_Mi24_P_CSAT'];
+_u = _u		+ ['Cha_Mi24_V_CSAT'];
+_u = _u		+ ['O_UCSV_01'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 

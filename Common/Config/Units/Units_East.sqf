@@ -266,15 +266,6 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-
-
-
-
-
-
-
-
-
 _c = _c + ['O_UGV_01_F'];
 _p = _p + [''];
 _n = _n + [''];
@@ -347,6 +338,42 @@ _t = _t + [25];
 _u = _u + [4];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["nuke-truck"];
+
+_c = _c + ['Cha_BRDM2_HQ_DDR'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [2000];
+_t = _t + [15];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['Cha_BRDM2_DDR'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [2500];
+_t = _t + [15];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['Cha_BRDM2_ATGM_DDR'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [3000];
+_t = _t + [15];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['Cha_BTR60_DDR'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [3000];
+_t = _t + [15];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
 
 _c = _c + ['O_APC_Wheeled_02_rcws_F'];
 _p = _p + [''];
@@ -732,24 +759,6 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-_c = _c + ['sab_C130_H_CSAT2'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [10000];
-_t = _t + [50];
-_u = _u + [1];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
-
-_c = _c + ['sab_C130_H_CSAT3'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [10000];
-_t = _t + [50];
-_u = _u + [1];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
-
 _c = _c + ['globemaster_c17_Qatar'];
 _p = _p + [''];
 _n = _n + [''];
@@ -819,6 +828,33 @@ _n = _n + [''];
 _o = _o + [70000];
 _t = _t + [50];
 _u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['Cha_Mi24_P_CSAT'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [50000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['Cha_Mi24_V_CSAT'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [50000];
+_t = _t + [50];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['O_UCSV_01'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [4000];
+_t = _t + [50];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 

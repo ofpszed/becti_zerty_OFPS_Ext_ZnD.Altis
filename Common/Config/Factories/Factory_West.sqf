@@ -71,9 +71,24 @@ _u = _u		+ ["B_UGV_01_F"];
 _u = _u		+ ["B_UGV_01_rcws_F"];
 _u = _u  	+ ["B_Truck_01_medical_F"];
 _u = _u		+ ['B_Slingload_01_Medevac_F'];
-
-
 _u = _u		+ ['O_Truck_03_device_F'];
+
+_u = _u		+ ['DAR_M1151WoodlandUA'];
+_u = _u		+ ['DAR_M1152Woodland'];
+_u = _u		+ ['DAR_M1151Woodland'];
+_u = _u		+ ['DAR_M115_MK19Woodland'];
+_u = _u		+ ['DAR_M1167Woodland'];
+_u = _u		+ ['DAR_MaxxPro'];
+_u = _u		+ ['DAR_MaxxPro_MK19'];
+_u = _u		+ ['DAR_MaxxProDeploy'];
+_u = _u		+ ['DAR_MaxxProDXM'];
+_u = _u		+ ['DAR_MaxxProPlus'];
+_u = _u		+ ['blx_M1117_W'];
+_u = _u		+ ['M1126_ICV_M134_DG1_SLATWOOD'];
+_u = _u		+ ['M1126_ICV_mk19_DG1_SLATWOOD'];
+_u = _u		+ ['M1129_MC_DG1_SLATWOOD'];
+_u = _u		+ ['M1135_ATGMV_DG1_SLATWOOD'];
+_u = _u		+ ['M1128_MGS_DG1_SLATWOOD'];
 
 /*
 
@@ -132,23 +147,19 @@ _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 _u = _u		+ ['Sab_An2_b'];
 _u = _u		+ ['sab_t28trojan_B'];
 _u = _u		+ ['sab_t28trojan_B_2'];
-_u = _u		+ ['sab_C130_H'];
-_u = _u		+ ['sab_C130_HC'];
-_u = _u		+ ['sab_C130_HE'];
-_u = _u		+ ['sab_C130_HH'];
 _u = _u		+ ['sab_C130_J'];
-_u = _u		+ ['sab_C130_JC'];
-_u = _u		+ ['sab_C130_JE'];
-_u = _u		+ ['sab_C130_JEC'];
-_u = _u		+ ['sab_C130_JT'];
 _u = _u		+ ['sab_C130_CSP'];
 _u = _u		+ ['globemaster_c17_NATO'];
-
 _u = _u		+ ['bwi_a3_at6b'];
 _u = _u		+ ['bwi_a3_t6a'];
 _u = _u		+ ['bwi_a3_t6c'];
 _u = _u		+ ['JS_JC_FA18E'];
 _u = _u		+ ['JS_JC_FA18F'];
+_u = _u		+ ['fza_ah64d_b2e'];
+_u = _u		+ ['fza_ah64d_b2e_nr'];
+_u = _u		+ ['MV22'];
+_u = _u		+ ['B_UCSV_01'];
+_u = _u		+ ['B_UCSV_02'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
