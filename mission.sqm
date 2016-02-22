@@ -60,7 +60,7 @@ class Mission
 		"TTT_NimitzIflols",
 		"TTT_NimitzArrest",
 		"TTT_NimitzRepair",
-		"cti_buildings",
+		"structures_cti",
 		"ca",
 		"JDG_carrier"
 	};
