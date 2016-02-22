@@ -446,7 +446,7 @@ _t = _t + [30];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
-
+/*
 _c = _c + ['RDS_BMP1P_AAF_01'];
 _p = _p + [''];
 _n = _n + [''];
@@ -455,7 +455,7 @@ _t = _t + [30];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
-
+*/
 _c = _c + ['RDS_T72B_AAF_01'];
 _p = _p + [''];
 _n = _n + ['T-72B'];
