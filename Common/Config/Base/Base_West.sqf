@@ -92,14 +92,14 @@ _headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory (requires upgrade fo
 _classes = _classes 		+ [["Land_Cargo_HQ_V1_F", "Land_Cargo_HQ_V1_ruins_F"]];
 _prices = _prices 			+ [15000];
 _times = _times 			+ [120];
-_placements = _placements 	+ [[90, 25]];
+_placements = _placements 	+ [[90, 30]];
 _specials = _specials		+ [[["DMG_Reduce", .75]]];
 
 _headers = _headers 		+ [[CTI_NAVAL, "Naval Yard", "Naval"]];
 _classes = _classes 		+ [["Land_Lighthouse_small_F", "Land_Lighthouse_small_ruins_F"]];
 _prices = _prices 			+ [4000];
 _times = _times 			+ [35];
-_placements = _placements 	+ [[180, 25]];
+_placements = _placements 	+ [[180, 40]];
 _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", .5]]];
 
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];

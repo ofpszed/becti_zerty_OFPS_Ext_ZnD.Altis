@@ -20,7 +20,6 @@ class Mission
 		"RDS_Tanks",
 		"RDS_APC",
 		"RDS_StaticWeapons_Core",
-		"ASH_MKVSOC",
 		"Aus_Abrams_Raid",
 		"tracked_raid",
 		"Burnes_MK10_Patch",
