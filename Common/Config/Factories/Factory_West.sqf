@@ -155,8 +155,8 @@ _u = _u		+ ['bwi_a3_t6a'];
 _u = _u		+ ['bwi_a3_t6c'];
 _u = _u		+ ['JS_JC_FA18E'];
 _u = _u		+ ['JS_JC_FA18F'];
-_u = _u		+ ['fza_ah64d_b2e'];
-_u = _u		+ ['fza_ah64d_b2e_nr'];
+_u = _u		+ ['DEGA_Apache_AH64D_Block_I_USA'];
+_u = _u		+ ['DEGA_Apache_AH64D_Block_II_USA'];
 _u = _u		+ ['MV22'];
 _u = _u		+ ['B_UCSV_01'];
 _u = _u		+ ['B_UCSV_02'];
@@ -177,7 +177,6 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
 _u 			= ["B_Boat_Transport_01_F"];
 _u = _u		+ ["B_Boat_Armed_01_minigun_F"];
-_u = _u		+ ["ASH_MKVSOC"];
 _u = _u		+ ['C_Boat_Civil_01_police_F'];
 _u = _u		+ ["Burnes_LCAC_1"];
 _u = _u		+ ["B_SDV_01_F"];
