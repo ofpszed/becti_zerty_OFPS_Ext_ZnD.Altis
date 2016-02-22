@@ -61,7 +61,6 @@ class Mission
 		"TTT_NimitzArrest",
 		"TTT_NimitzRepair",
 		"structures_cti",
-		"ca",
 		"JDG_carrier"
 	};
 	addOnsAuto[]=
