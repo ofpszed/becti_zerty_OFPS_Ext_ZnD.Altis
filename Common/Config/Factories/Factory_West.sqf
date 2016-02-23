@@ -144,7 +144,6 @@ _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 */
 //_u = _u		+ ["I_Plane_Fighter_03_CAS_F"];
 
-_u = _u		+ ['Sab_An2_b'];
 _u = _u		+ ['sab_t28trojan_B'];
 _u = _u		+ ['sab_t28trojan_B_2'];
 _u = _u		+ ['sab_C130_J'];

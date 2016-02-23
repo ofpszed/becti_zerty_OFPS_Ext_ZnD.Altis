@@ -803,15 +803,6 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-_c = _c + ['Sab_An2_b'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [5000];
-_t = _t + [50];
-_u = _u + [1];
-_f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
-
 _c = _c + ['sab_t28trojan_B'];
 _p = _p + [''];
 _n = _n + [''];

@@ -132,8 +132,6 @@ _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 _u = _u		+ ['I_Plane_Fighter_03_AA_F'];
 _u = _u		+ ['O_Plane_CAS_02_F'];
 
-_u = _u		+ ['Sab_An2_o'];
-_u = _u		+ ['Sab_An2_o_VA'];
 _u = _u		+ ['sab_t28trojan_O'];
 _u = _u		+ ['sab_C130_H_CSAT'];
 _u = _u		+ ['globemaster_c17_Qatar'];
