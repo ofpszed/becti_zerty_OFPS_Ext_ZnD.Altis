@@ -65,7 +65,7 @@ if (isNull _created) then {
 	_vehicle setDir _direction;
 	if (_special == "FORM") then {_vehicle setPos [getPos _vehicle select 0, getPos _vehicle select 1, 1];}; //--- Make the vehicle spawn above the ground level to prevent any bisteries
 	// --- Zerty edit
-	if (_type isKindOf "UAV" || _type isKindOf "UGV_01_base_F") then {createVehicleCrew _vehicle};
+	if (_type isKindOf "UAV" || _type isKindOf "UGV_01_base_F" || _type isKindOf "O_UCSV_01" || _type isKindOf "B_UCSV_01" || _type isKindOf "B_UCSV_02") then {createVehicleCrew _vehicle};
 
 	if (_special == "FLY" && _vehicle isKindOf "Plane") then {
 		_vehicle setVelocity [75 * (sin _direction), 75 * (cos _direction), 0];
@@ -111,7 +111,7 @@ if ((missionNamespace getVariable [format ["%1", typeOf _vehicle],["","","","","
 
 
 
-if (_locked && !( _vehicle isKindOf "Thing") && !( _vehicle isKindOf "StaticWeapon") && !( _vehicle isKindOf "UAV") && !( _vehicle isKindOf "UGV_01_base_F")) then {_vehicle lock 2} else {_vehicle lock 0};
+if (_locked && !( _vehicle isKindOf "Thing") && !( _vehicle isKindOf "StaticWeapon") && !( _vehicle isKindOf "UAV") && !( _type isKindOf "UCSV_01_base_F")) then {_vehicle lock 2} else {_vehicle lock 0};
 if (_net) then {_vehicle setVariable ["cti_net", _side, true]};
 if (_handle) then {
 	_vehicle addEventHandler ["killed", format["[_this select 0, _this select 1, %1] spawn CTI_CO_FNC_OnUnitKilled", _side]]; //--- Called on destruction
@@ -175,7 +175,7 @@ if ((_vehicle isKindOf "Pod_Heli_Transport_04_base_F") || (_vehicle isKindOf "Sl
 
 //cache
 
-if ((!((_vehicle isKindOf "Plane") || (_vehicle isKindOf "UAV") ||(_vehicle isKindOf "Pod_Heli_Transport_04_base_F") || (_vehicle isKindOf "Slingload_01_Base_F")))  && (missionNamespace getVariable "CACHE_EMPTY") == 1)then {
+if ((!((_vehicle isKindOf "Plane") || (_vehicle isKindOf "UAV") || _vehicle isKindOf "O_UCSV_01" || _vehicle isKindOf "B_UCSV_01" || _vehicle isKindOf "B_UCSV_02" ||(_vehicle isKindOf "Pod_Heli_Transport_04_base_F") || (_vehicle isKindOf "Slingload_01_Base_F")))  && (missionNamespace getVariable "CACHE_EMPTY") == 1)then {
  ["SERVER", "Request_Cache", _vehicle] call CTI_CO_FNC_NetSend;
 };
 
