@@ -60,6 +60,7 @@ class Mission
 		"TTT_NimitzRepair",
 		"structures_cti",
 		"JDG_carrier",
+		"femal3_custommodels",
 		"UCSV_Module"
 	};
 	addOnsAuto[]=
