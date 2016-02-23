@@ -556,6 +556,10 @@ _i = _i		+ ["U_O_OfficerUniform_ocamo"];
 _u = _u		+ [0];
 _p = _p		+ [150];
 
+_i = _i		+ ["O_FEM_CSAT_Long"];
+_u = _u		+ [0];
+_p = _p		+ [150];
+
 _i = _i		+ ["U_O_GhillieSuit"];
 _u = _u		+ [3];
 _p = _p		+ [600];
