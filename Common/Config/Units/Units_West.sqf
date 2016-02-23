@@ -534,7 +534,7 @@ _t = _t + [30];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
-
+/*
 _c = _c + ['M1A1_Raid'];
 _p = _p + [''];
 _n = _n + ['M1A1 Abrams MBT'];
@@ -543,7 +543,7 @@ _t = _t + [30];
 _u = _u + [2];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
-
+*/
 //----- added this one--------
 
 /*_c = _c + ['B_APC_Tracked_01_CRV_F'];  <--the new mhq (bobcat) ss83
