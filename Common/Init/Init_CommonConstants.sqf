@@ -676,7 +676,6 @@ with missionNamespace do {
 
 	if (isnil "CTI_AC_ENABLED") then {CTI_AC_ENABLED = 1};
 
-	if (isnil "HC_MODE") then {HC_MODE = 0};
 	if (isnil "MIN_TOWNS") then {MIN_TOWNS = 0};
 	if (isnil "CACHE_EMPTY") then {CACHE_EMPTY = 1};
 	if (isnil "CTI_GAMEPLAY_DARTER") then {CTI_GAMEPLAY_DARTER = 4000};
