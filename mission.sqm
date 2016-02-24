@@ -62,7 +62,6 @@ class Mission
 		"sniper_rifle",
 		"m32",
 		"AN94",
-		"tb_arifle_scarlk",
 		"A3_Weapons_F_ItemHolders",
 		"UCSV_Module"
 	};
