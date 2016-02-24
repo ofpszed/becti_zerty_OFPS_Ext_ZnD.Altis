@@ -78,7 +78,19 @@ _i = _i		+ ["30Rnd_45ACP_Mag_SMG_01_tracer_green"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
+_i = _i		+ ["prpl_8Rnd_12Gauge_Pellets"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["prpl_8Rnd_12Gauge_Slug"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
 _i = _i		+ ["30Rnd_556x45_Stanag"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["AN94_545x39_B_skin1"];
 _u = _u		+ [0];
 _p = _p		+ [15];
 
@@ -351,6 +363,11 @@ _i = _i		+ ["arifle_TRG21_F"];
 _u = _u		+ [0];
 _p = _p		+ [300];
 
+_i = _i		+ ["prpl_benelli_pgs_rail"];
+_u = _u		+ [0];
+_p = _p		+ [300];
+
+
 _i = _i		+ [["arifle_TRG21_ACO_pointer_F"]];
 _u = _u		+ [0];
 _p = _p		+ [300];
@@ -392,6 +409,10 @@ _u = _u		+ [0];
 _p = _p		+ [40];
 
 _i = _i		+ [["LMG_Mk200_pointer_F"]];
+_u = _u		+ [0];
+_p = _p		+ [40];
+
+_i = _i		+ [["arifle_AN94_F"]];
 _u = _u		+ [0];
 _p = _p		+ [40];
 
