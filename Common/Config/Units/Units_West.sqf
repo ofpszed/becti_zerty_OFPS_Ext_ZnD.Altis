@@ -472,6 +472,24 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
+_c = _c + ['pook_CRAM'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [6000];
+_t = _t + [25];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['pook_NASAMS'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [6000];
+_t = _t + [25];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
 _c = _c + ['M1128_MGS_DG1_SLATWOOD'];
 _p = _p + [''];
 _n = _n + [''];
