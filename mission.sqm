@@ -59,6 +59,11 @@ class Mission
 		"structures_cti",
 		"JDG_carrier",
 		"femal3_custommodels",
+		"sniper_rifle",
+		"m32",
+		"an94",
+		"tb_arifle_scarlk",
+		"A3_Weapons_F_ItemHolders",
 		"UCSV_Module"
 	};
 	addOnsAuto[]=
