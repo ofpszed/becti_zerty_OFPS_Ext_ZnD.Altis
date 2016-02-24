@@ -81,6 +81,8 @@ class Mission
 		"TTT_NimitzRepair",
 		"UCSV_Module",
 		"ucsv",
+		"Aus_Abrams_Raid",
+		"tracked_raid",
 		"A3_Structures_F_Mil_Flags",
 		"JDG_carrier",
 		"a3_map_altis"

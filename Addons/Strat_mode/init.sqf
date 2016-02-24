@@ -275,9 +275,6 @@ if (CTI_IsServer) then {
 		if ((missionNamespace getVariable "CTI_AC_ENABLED")>0) then{
 			0 execVM "Addons\Henroth_AirLoadout\init.sqf"
 		};
-		// hc balance
-		0 spawn HCGA_Init;
-
 
 		// time compression
 		0 spawn {
