@@ -76,6 +76,18 @@ _i = _i		+ ["30Rnd_556x45_Stanag_Tracer_Red"];
 _u = _u		+ [0];
 _p = _p		+ [15];
 
+_i = _i		+ ["prpl_6Rnd_12Gauge_Pellets"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["prpl_6Rnd_12Gauge_Slug"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["30Rnd_68x43"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
 _i = _i		+ ["30Rnd_556x45_Stanag_Tracer_Green"];
 _u = _u		+ [0];
 _p = _p		+ [15];
@@ -379,6 +391,18 @@ _u = _u		+ [0];
 _p = _p		+ [40];
 
 _i = _i		+ ["arifle_Mk20_GL_F"];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ ["prpl_benelli_14_rail"];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ ["tb_arifle_scarlp"];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ ["tb_arifle_scarlk"];
 _u = _u		+ [0];
 _p = _p		+ [400];
 
