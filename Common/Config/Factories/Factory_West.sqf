@@ -73,8 +73,6 @@ _u = _u  	+ ["B_Truck_01_medical_F"];
 _u = _u		+ ['B_Slingload_01_Medevac_F'];
 _u = _u		+ ['O_Truck_03_device_F'];
 
-_u = _u		+ ['pook_CRAM'];
-_u = _u		+ ['pook_NASAMS'];
 _u = _u		+ ['DAR_M1151WoodlandUA'];
 _u = _u		+ ['DAR_M1152Woodland'];
 _u = _u		+ ['DAR_M1151Woodland'];
