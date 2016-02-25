@@ -18,7 +18,6 @@ class Mission
 		"A3_Boat_F_Civilian_Boat",
 		"A3_Characters_F_Civil",
 		"RDS_Tanks",
-		"RDS_APC",
 		"RDS_StaticWeapons_Core",
 		"Burnes_MK10_Patch",
 		"Test_boat_F",
