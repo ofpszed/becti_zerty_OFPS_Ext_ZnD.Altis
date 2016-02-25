@@ -319,8 +319,14 @@ if ((missionNamespace getVariable "CTI_RESPAWN_FOB_RANGE")> 0) then {
 	_placements = _placements 	+ [[180, 15]];
 	_categories = _categories 	+ ["Fortification"];
 };
-_headers = _headers 		+ ["ZU23 AAA"];
-_classes = _classes 		+ ["RDS_ZU23_AAF"];
+_headers = _headers 		+ ["KS12 AA"];
+_classes = _classes 		+ ["pook_KS12_RU"];
+_prices = _prices 			+ [3500];
+_placements = _placements 	+ [[180, 5]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["ZU23 AA"];
+_classes = _classes 		+ ["pook_ZU23_RU"];
 _prices = _prices 			+ [3500];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
