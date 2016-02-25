@@ -438,6 +438,15 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
+_c = _c + ['pook_ZSUM4_GUE'];
+_p = _p + [''];
+_n = _n + ['ZSUM4'];
+_o = _o + [12500];
+_t = _t + [30];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
 _c = _c + ['RDS_T72_AAF_02'];
 _p = _p + [''];
 _n = _n + ['T-72'];
@@ -446,16 +455,7 @@ _t = _t + [30];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
-/*
-_c = _c + ['RDS_BMP1P_AAF_01'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [5000];
-_t = _t + [30];
-_u = _u + [1];
-_f = _f + [CTI_FACTORY_HEAVY];
-_s = _s + [""];
-*/
+
 _c = _c + ['RDS_T72B_AAF_01'];
 _p = _p + [''];
 _n = _n + ['T-72B'];
@@ -467,10 +467,10 @@ _s = _s + [""];
 
 _c = _c + ['RDS_ZSU_AAF_01'];
 _p = _p + [''];
-_n = _n + [''];
+_n = _n + ['ZSU'];
 _o = _o + [4500];
 _t = _t + [30];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
