@@ -499,15 +499,6 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
-_c = _c + ['M1A2_TUSK_2035_Raid'];
-_p = _p + [''];
-_n = _n + ['M1A2 TUSK 2025'];
-_o = _o + [35000];
-_t = _t + [30];
-_u = _u + [3];
-_f = _f + [CTI_FACTORY_HEAVY];
-_s = _s + [""];
-
 _c = _c + ['Cha_LAV25A2'];
 _p = _p + [''];
 _n = _n + ['LAV-25A2'];
@@ -534,16 +525,7 @@ _t = _t + [30];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
-/*
-_c = _c + ['M1A1_Raid'];
-_p = _p + [''];
-_n = _n + ['M1A1 Abrams MBT'];
-_o = _o + [30000];
-_t = _t + [30];
-_u = _u + [2];
-_f = _f + [CTI_FACTORY_HEAVY];
-_s = _s + [""];
-*/
+
 //----- added this one--------
 
 /*_c = _c + ['B_APC_Tracked_01_CRV_F'];  <--the new mhq (bobcat) ss83
