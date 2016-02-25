@@ -438,15 +438,6 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
-_c = _c + ['pook_ZSUM4_GUE'];
-_p = _p + [''];
-_n = _n + ['ZSUM4'];
-_o = _o + [12500];
-_t = _t + [30];
-_u = _u + [1];
-_f = _f + [CTI_FACTORY_HEAVY];
-_s = _s + [""];
-
 _c = _c + ['RDS_T72_AAF_02'];
 _p = _p + [''];
 _n = _n + ['T-72'];
