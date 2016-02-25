@@ -63,11 +63,6 @@ class Mission
 		"m32",
 		"AN94",
 		"A3_Weapons_F_ItemHolders",
-		"pook_cram",
-		"pook_mim104",
-		"pook_p12",
-		"pook_s60",
-		"pook_zsu",
 		"UCSV_Module"
 	};
 	addOnsAuto[]=
