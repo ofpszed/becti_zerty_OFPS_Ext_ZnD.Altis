@@ -211,12 +211,6 @@ _prices = _prices 			+ [50];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
-_headers = _headers 		+ [["H-Barrier Pit",[["CanAutoAlign", 6, 0]]]];
-_classes = _classes 		+ ["Land_W3"];
-_prices = _prices 			+ [150];
-_placements = _placements 	+ [[0, 5]];
-_categories = _categories 	+ ["Fortification"];
-
 _headers = _headers 		+ [["Long Sandbag", [["DMG_Reduce", 2]]]];
 _classes = _classes 		+ ["Land_BagFence_Long_F"];
 _prices = _prices 			+ [5];
