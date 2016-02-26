@@ -339,6 +339,18 @@ _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 };
 
+_headers = _headers 		+ ["C-RAM Phalanx"];
+_classes = _classes 		+ ["C_at_phalanx_35AI"];
+_prices = _prices 			+ [50000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["C-RAM Phalanx Missle"];
+_classes = _classes 		+ ["C_at_phalanx_missile_35AI"];
+_prices = _prices 			+ [60000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
 _headers = _headers 		+ ["Camo net"];
 _classes = _classes 		+ ["CamoNet_OPFOR_F"];
 _prices = _prices 			+ [50];

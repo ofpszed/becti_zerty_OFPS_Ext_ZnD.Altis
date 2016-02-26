@@ -59,7 +59,9 @@ class Mission
 		"A3_Weapons_F_ItemHolders",
 		"gd_ind_infantry",
 		"gd_ind_vehicles",
-		"UCSV_Module"
+		"UCSV_Module",
+		"at_phalanx",
+		"at_phalanx_missile"
 	};
 	addOnsAuto[]=
 	{
