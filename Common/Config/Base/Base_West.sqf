@@ -176,18 +176,6 @@ _prices = _prices 			+ [150];
 _placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Fortification"];
 
-_headers = _headers 		+ ["Bunker (Large)"];
-_classes = _classes 		+ ["Land_B"];
-_prices = _prices 			+ [3000];
-_placements = _placements 	+ [[0, 15]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ ["Bunker (Huge)"];
-_classes = _classes 		+ ["Land_D"];
-_prices = _prices 			+ [6000];
-_placements = _placements 	+ [[0, 15]];
-_categories = _categories 	+ ["Fortification"];
-
 _headers = _headers 		+ [["Shed (Roof)",[["RuinOnDestroyed", "Land_Shed_Big_ruins_F"], ["DMG_Reduce", 8]]]];
 _classes = _classes 		+ ["Land_Shed_Big_F"];
 _prices = _prices 			+ [40];
@@ -233,24 +221,6 @@ _categories = _categories 	+ ["Fortification"];
 _headers = _headers 		+ [["H-Barrier (Small) (5 Block)",[["CanAutoAlign", 6, 0]]]];
 _classes = _classes 		+ ["Land_HBarrier_5_F"];
 _prices = _prices 			+ [50];
-_placements = _placements 	+ [[0, 5]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ [["H-Barrier (Small) (10 Block)",[["CanAutoAlign", 6, 0]]]];
-_classes = _classes 		+ ["Land_W1"];
-_prices = _prices 			+ [100];
-_placements = _placements 	+ [[0, 5]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ [["H-Barrier (Triple) (10 Block)",[["CanAutoAlign", 6, 0]]]];
-_classes = _classes 		+ ["Land_W2"];
-_prices = _prices 			+ [300];
-_placements = _placements 	+ [[0, 5]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ [["H-Barrier Pit",[["CanAutoAlign", 6, 0]]]];
-_classes = _classes 		+ ["Land_W3"];
-_prices = _prices 			+ [150];
 _placements = _placements 	+ [[0, 5]];
 _categories = _categories 	+ ["Fortification"];
 
