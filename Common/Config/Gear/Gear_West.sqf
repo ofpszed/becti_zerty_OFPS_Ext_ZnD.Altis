@@ -707,10 +707,6 @@ _i = _i		+ ["U_B_CombatUniform_mcam_vest"];
 _u = _u		+ [1];
 _p = _p		+ [10];
 
-_i = _i		+ ["B_FEM_NATO_long"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
 _i = _i		+ ["U_B_CombatUniform_wdl"];
 _u = _u		+ [0];
 _p = _p		+ [10];
