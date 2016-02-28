@@ -78,22 +78,6 @@ _i = _i		+ ["30Rnd_45ACP_Mag_SMG_01_tracer_green"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
-_i = _i		+ ["prpl_8Rnd_12Gauge_Pellets"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["prpl_8Rnd_12Gauge_Slug"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["30Rnd_556x45_Stanag"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
-_i = _i		+ ["AN94_545x39_B_skin1"];
-_u = _u		+ [0];
-_p = _p		+ [15];
-
 _i = _i		+ ["30Rnd_556x45_Stanag_Tracer_Red"];
 _u = _u		+ [0];
 _p = _p		+ [15];
