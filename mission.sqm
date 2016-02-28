@@ -58,6 +58,10 @@ class Mission
 		"gd_ind_vehicles",
 		"UCSV_Module",
 		"at_phalanx",
+		"mas_weapons_m4",
+		"mas_weapons",
+		"mas_weapons_nw",
+		"mas_weapons_ak",
 		"at_phalanx_missile"
 	};
 	addOnsAuto[]=
