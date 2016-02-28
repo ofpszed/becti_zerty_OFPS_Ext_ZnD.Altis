@@ -320,9 +320,17 @@ _i = _i		+ ["6Rnd_RedSignal_F"];
 _u = _u		+ [0];
 _p = _p		+ [25];
 
+_i = _i		+ ["mas_MAAWS"];
+_u = _u		+ [1];
+_p = _p		+ [200];
+
 _i = _i		+ ["mas_MAAWS_HE"];
 _u = _u		+ [1];
 _p = _p		+ [200];
+
+_i = _i		+ ["mas_SMAW"];
+_u = _u		+ [2];
+_p = _p		+ [250];
 
 _i = _i		+ ["mas_SMAW_HE"];
 _u = _u		+ [2];
@@ -332,13 +340,45 @@ _i = _i		+ ["mas_SMAW_NE"];
 _u = _u		+ [2];
 _p = _p		+ [250];
 
+_i = _i		+ ["mas_M136"];
+_u = _u		+ [0];
+_p = _p		+ [250];
+
 _i = _i		+ ["mas_M136_HE"];
 _u = _u		+ [0];
+_p = _p		+ [250];
+
+_i = _i		+ ["mas_TitanS"];
+_u = _u		+ [3];
 _p = _p		+ [250];
 
 _i = _i		+ ["mas_TitanS_HE"];
 _u = _u		+ [3];
 _p = _p		+ [250];
+
+_i = _i		+ ["mas_Stinger"];
+_u = _u		+ [2];
+_p = _p		+ [150];
+
+_i = _i		+ ["mas_LAW"];
+_u = _u		+ [0];
+_p = _p		+ [150];
+
+_i = _i		+ ["8Rnd_mas_45acp_Mag"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["12Rnd_mas_45acp_Mag"];
+_u = _u		+ [2];
+_p = _p		+ [15];
+
+_i = _i		+ ["17Rnd_mas_9x21_Mag"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["40Rnd_mas_46x30_Mag"];
+_u = _u		+ [3];
+_p = _p		+ [15];
 
 //--- Weapons
 
