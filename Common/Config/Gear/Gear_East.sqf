@@ -347,11 +347,6 @@ _i = _i		+ ["arifle_TRG21_F"];
 _u = _u		+ [0];
 _p = _p		+ [300];
 
-_i = _i		+ ["prpl_benelli_pgs_rail"];
-_u = _u		+ [0];
-_p = _p		+ [300];
-
-
 _i = _i		+ [["arifle_TRG21_ACO_pointer_F"]];
 _u = _u		+ [0];
 _p = _p		+ [300];
@@ -393,10 +388,6 @@ _u = _u		+ [0];
 _p = _p		+ [40];
 
 _i = _i		+ [["LMG_Mk200_pointer_F"]];
-_u = _u		+ [0];
-_p = _p		+ [40];
-
-_i = _i		+ [["arifle_AN94_F"]];
 _u = _u		+ [0];
 _p = _p		+ [40];
 
