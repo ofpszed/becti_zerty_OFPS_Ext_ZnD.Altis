@@ -380,11 +380,23 @@ _i = _i		+ ["40Rnd_mas_46x30_Mag"];
 _u = _u		+ [3];
 _p = _p		+ [15];
 
+_i = _i		+ ["7Rnd_mas_12Gauge_Slug"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["7Rnd_mas_12Gauge_Pellets"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
 //--- Weapons
 
 _i = _i		+ ["mas_launch_Stinger_F"];
 _u = _u		+ [2];
 _p = _p		+ [2000];
+
+_i = _i		+ ["arifle_mas_m1014"];
+_u = _u		+ [0];
+_p = _p		+ [200];
 
 _i = _i		+ ["arifle_mas_hk416_d"];
 _u = _u		+ [3];
