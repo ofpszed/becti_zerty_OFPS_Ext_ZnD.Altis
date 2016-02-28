@@ -1396,6 +1396,27 @@ _u = _u		+ [0];
 _p = _p		+ [5];
 
 
+_i = _i		+ ["G_mas_wpn_gasmask"];
+_u = _u		+ [1];
+_p = _p		+ [5];
+
+_i = _i		+ ["G_mas_wpn_wrap_c"];
+_u = _u		+ [1];
+_p = _p		+ [5];
+
+_i = _i		+ ["G_mas_wpn_wrap_gog_c"];
+_u = _u		+ [1];
+_p = _p		+ [5];
+
+_i = _i		+ ["G_mas_wpn_wrap_mask_c"];
+_u = _u		+ [1];
+_p = _p		+ [5];
+
+_i = _i		+ ["G_mas_wpn_shemag_mask"];
+_u = _u		+ [1];
+_p = _p		+ [5];
+
+
 
 
 
