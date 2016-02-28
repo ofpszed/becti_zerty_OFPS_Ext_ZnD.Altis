@@ -320,15 +320,219 @@ _i = _i		+ ["6Rnd_RedSignal_F"];
 _u = _u		+ [0];
 _p = _p		+ [25];
 
+_i = _i		+ ["mas_MAAWS_HE"];
+_u = _u		+ [1];
+_p = _p		+ [200];
+
+_i = _i		+ ["mas_SMAW_HE"];
+_u = _u		+ [2];
+_p = _p		+ [250];
+
+_i = _i		+ ["mas_SMAW_NE"];
+_u = _u		+ [2];
+_p = _p		+ [250];
+
+_i = _i		+ ["mas_M136_HE"];
+_u = _u		+ [0];
+_p = _p		+ [250];
+
+_i = _i		+ ["mas_TitanS_HE"];
+_u = _u		+ [3];
+_p = _p		+ [250];
 
 //--- Weapons
-_i = _i		+ ["hgun_PDW2000_F"];
-_u = _u		+ [0];
-_p = _p		+ [50];
 
-_i = _i		+ [["hgun_PDW2000_Holo_F"]];
+_i = _i		+ ["mas_launch_Stinger_F"];
+_u = _u		+ [2];
+_p = _p		+ [2000];
+
+_i = _i		+ ["arifle_mas_hk416_d"];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ ["arifle_mas_hk416_gl_d"];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ ["arifle_mas_hk416_m203_d"];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ ["arifle_mas_hk416c_d"];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ ["arifle_mas_hk416_m203c_d"];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ ["arifle_mas_m27_d"];
+_u = _u		+ [1];
+_p = _p		+ [700];
+
+_i = _i		+ ["arifle_mas_m27m_d"];
+_u = _u		+ [1];
+_p = _p		+ [700];
+
+_i = _i		+ ["arifle_mas_hk417c_d"];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ ["arifle_mas_hk417_m203c_d"];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ [["arifle_mas_m4_d"]];
 _u = _u		+ [0];
-_p = _p		+ [200];
+_p = _p		+ [400];
+
+_i = _i		+ [["arifle_mas_m4_gl_d"]];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ [["arifle_mas_m4_m203_d"]];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ [["arifle_mas_m4vlt"]];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ [["arifle_mas_m4c_d"]];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ [["arifle_mas_m4_m203c_d"]];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ [["arifle_mas_m16"]];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ [["arifle_mas_m16_gl"]];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ [["arifle_mas_l119_d"]];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ [["arifle_mas_l119c_d"]];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ [["arifle_mas_l119_gl_d"]];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ [["arifle_mas_l119_m203_d"]];
+_u = _u		+ [0];
+_p = _p		+ [400];
+
+_i = _i		+ [["arifle_mas_g36c"]];
+_u = _u		+ [1];
+_p = _p		+ [600];
+
+_i = _i		+ [["arifle_mas_mk16"]];
+_u = _u		+ [2];
+_p = _p		+ [600];
+
+_i = _i		+ [["arifle_mas_mk16_gl"]];
+_u = _u		+ [2];
+_p = _p		+ [600];
+
+_i = _i		+ [["arifle_mas_mk16_l"]];
+_u = _u		+ [2];
+_p = _p		+ [600];
+
+_i = _i		+ [["arifle_mas_mk16_l_gl"]];
+_u = _u		+ [2];
+_p = _p		+ [600];
+
+_i = _i		+ [["arifle_mas_mk17"]];
+_u = _u		+ [2];
+_p = _p		+ [600];
+
+_i = _i		+ [["arifle_mas_mk17_gl"]];
+_u = _u		+ [2];
+_p = _p		+ [600];
+
+_i = _i		+ [["arifle_mas_arx"]];
+_u = _u		+ [3];
+_p = _p		+ [700];
+
+_i = _i		+ [["arifle_mas_arx_gl"]];
+_u = _u		+ [3];
+_p = _p		+ [700];
+
+_i = _i		+ [["srifle_mas_hk417_d"]];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ [["srifle_mas_sr25_d"]];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ [["srifle_mas_ebr"]];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ [["srifle_mas_mk17s"]];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ [["srifle_mas_m110"]];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ [["srifle_mas_m107_d"]];
+_u = _u		+ [3];
+_p = _p		+ [1000];
+
+_i = _i		+ [["srifle_mas_m24_d"]];
+_u = _u		+ [1];
+_p = _p		+ [700];
+
+_i = _i		+ [["srifle_mas_lrr"]];
+_u = _u		+ [2];
+_p = _p		+ [700];
+
+_i = _i		+ [["arifle_mas_mp5_v"]];
+_u = _u		+ [0];
+_p = _p		+ [250];
+
+_i = _i		+ [["arifle_mas_mp5_d"]];
+_u = _u		+ [0];
+_p = _p		+ [250];
+
+_i = _i		+ [["arifle_mas_m79"]];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ [["LMG_mas_Mk200_F"]];
+_u = _u		+ [1];
+_p = _p		+ [800];
+
+_i = _i		+ [["LMG_mas_M249_F_d"]];
+_u = _u		+ [1];
+_p = _p		+ [800];
+
+_i = _i		+ [["LMG_mas_Mk48_F_d"]];
+_u = _u		+ [2];
+_p = _p		+ [800];
+
+_i = _i		+ [["LMG_mas_M240_F"]];
+_u = _u		+ [2];
+_p = _p		+ [800];
+
+_i = _i		+ [["LMG_mas_mg3_F"]];
+_u = _u		+ [3];
+_p = _p		+ [800];
+
+_i = _i		+ [["LMG_mas_M60_F"]];
+_u = _u		+ [1];
+_p = _p		+ [800];
 
 _i = _i		+ [["hgun_PDW2000_snds_F"]];
 _u = _u		+ [0];
@@ -606,6 +810,26 @@ _i = _i		+ ["launch_NLAW_F"];
 _u = _u		+ [0];
 _p = _p		+ [1000];
 
+_i = _i		+ ["mas_launch_LAW_F"];
+_u = _u		+ [0];
+_p = _p		+ [300];
+
+_i = _i		+ ["mas_launch_M136_F"];
+_u = _u		+ [0];
+_p = _p		+ [450];
+
+_i = _i		+ ["mas_launch_TitanS_F"];
+_u = _u		+ [3];
+_p = _p		+ [4500];
+
+_i = _i		+ ["mas_launch_maaws_F"];
+_u = _u		+ [1];
+_p = _p		+ [500];
+
+_i = _i		+ ["mas_launch_smaw_F"];
+_u = _u		+ [2];
+_p = _p		+ [2000];
+
 _i = _i		+ ["launch_B_Titan_F"];
 _u = _u		+ [2];
 _p = _p		+ [2000];
@@ -618,6 +842,10 @@ _i = _i		+ ["hgun_P07_F"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
+_i = _i		+ ["hgun_mas_mp7p_F"];
+_u = _u		+ [3];
+_p = _p		+ [500];
+
 _i = _i		+ [["hgun_P07_snds_F"]];
 _u = _u		+ [0];
 _p = _p		+ [5];
@@ -629,6 +857,38 @@ _p = _p		+ [10];
 _i = _i		+ ["hgun_Pistol_Signal_F"];
 _u = _u		+ [0];
 _p = _p		+ [15];
+
+_i = _i		+ ["hgun_mas_m9_F"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["hgun_mas_bhp_F"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["hgun_mas_glock_F"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["hgun_mas_p226_F"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
+_i = _i		+ ["hgun_mas_acp_F"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["hgun_mas_usp_F"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["hgun_mas_glocksf_F"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["hgun_mas_grach_F"];
+_u = _u		+ [2];
+_p = _p		+ [25];
 
 //--- Uniforms
 _i = _i		+ ["U_B_CombatUniform_mcam"];
