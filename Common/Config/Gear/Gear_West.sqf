@@ -76,58 +76,6 @@ _i = _i		+ ["30Rnd_556x45_Stanag_Tracer_Red"];
 _u = _u		+ [0];
 _p = _p		+ [15];
 
-_i = _i		+ ["prpl_6Rnd_12Gauge_Pellets"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
-_i = _i		+ ["prpl_6Rnd_12Gauge_Slug"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
-_i = _i		+ ["6Rnd_HE_M32"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
-_i = _i		+ ["6Rnd_FlareWhite_M32"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
-_i = _i		+ ["6Rnd_FlareGreen_M32"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
-_i = _i		+ ["6Rnd_FlareRed_M32"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
-_i = _i		+ ["6Rnd_FlareYellow_M32"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
-_i = _i		+ ["6Rnd_FlareCIR_M32"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
-_i = _i		+ ["6Rnd_Smoke_M32"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
-_i = _i		+ ["_xx_6Rnd_SmokeRed_M32"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
-_i = _i		+ ["6Rnd_SmokeGreen_M32"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
-_i = _i		+ ["6Rnd_SmokeYellow_M32"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
-_i = _i		+ ["6Rnd_SmokePurple_M32"];
-_u = _u		+ [1];
-_p = _p		+ [15];
-
 _i = _i		+ ["30Rnd_556x45_Stanag_Tracer_Green"];
 _u = _u		+ [0];
 _p = _p		+ [15];
@@ -433,14 +381,6 @@ _p = _p		+ [40];
 _i = _i		+ ["arifle_Mk20_GL_F"];
 _u = _u		+ [0];
 _p = _p		+ [400];
-
-_i = _i		+ ["prpl_benelli_14_rail"];
-_u = _u		+ [1];
-_p = _p		+ [400];
-
-_i = _i		+ ["M32"];
-_u = _u		+ [1];
-_p = _p		+ [1400];
 
 _i = _i		+ [["arifle_Mk20_GL_MRCO_pointer_F"]];
 _u = _u		+ [0];
