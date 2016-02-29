@@ -54,9 +54,6 @@ class Mission
 		"TTT_NimitzArrest",
 		"TTT_NimitzRepair",
 		"JDG_carrier",
-		"sniper_rifle",
-		"AN94",
-		"A3_Weapons_F_ItemHolders",
 		"gd_ind_infantry",
 		"gd_ind_vehicles",
 		"UCSV_Module",
@@ -64,9 +61,14 @@ class Mission
 		"at_phalanx_missile",
 		"atlas_water",
 		"mas_weapons_m4",
-+		"mas_weapons",
-+		"mas_weapons_nw",
-+		"mas_weapons_ak"
+		"mas_weapons",
+		"mas_weapons_nw",
+		"mas_weapons_ak"
+		"mas_weapons_m4",
+		"mas_weapons",
+		"mas_weapons_nw",
+		"mas_weapons_ak",
+		"at_phalanx_missile"
 	};
 	addOnsAuto[]=
 	{
