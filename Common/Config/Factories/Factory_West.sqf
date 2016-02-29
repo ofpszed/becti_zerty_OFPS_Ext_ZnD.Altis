@@ -89,6 +89,7 @@ _u = _u		+ ['M1126_ICV_mk19_DG1_SLATWOOD'];
 _u = _u		+ ['M1129_MC_DG1_SLATWOOD'];
 _u = _u		+ ['M1135_ATGMV_DG1_SLATWOOD'];
 _u = _u		+ ['M1128_MGS_DG1_SLATWOOD'];
+_u = _u		+ ['MMT_Civ'];
 
 /*
 
@@ -159,6 +160,13 @@ _u = _u		+ ['DEGA_Apache_AH64D_Block_II_USA'];
 _u = _u		+ ['MV22'];
 _u = _u		+ ['B_UCSV_01'];
 _u = _u		+ ['B_UCSV_02'];
+_u = _u		+ ['CHO_F35B_AA'];
+_u = _u		+ ['CHO_F35B_CAS'];
+_u = _u		+ ['CHO_F35B_LGB'];
+_u = _u		+ ['GNT_C185'];
+_u = _u		+ ['GNT_C185F'];
+_u = _u		+ ['GNT_C185T'];
+_u = _u		+ ['USAF_AC130U'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
@@ -180,6 +188,7 @@ _u = _u		+ ['C_Boat_Civil_01_police_F'];
 _u = _u		+ ["Burnes_LCAC_1"];
 _u = _u		+ ["B_SDV_01_F"];
 _u = _u		+ ["B_CBS_WaterShadow730_F"];
+_u = _u		+ ['GNT_C185F'];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
 //--- Units - FLAG
@@ -196,6 +205,7 @@ _u = _u		+ ['B_supplyCrate_F'];
 _u = _u		+ ['B_Quadbike_01_F'];
 */
 _u = ['B_Soldier_lite_F'];
+_u = _u		+ ['MMT_Civ'];
 _u = _u		+ ['C_Van_01_transport_F']; //SS83 Omon's cars
 _u = _u		+ ['C_Kart_01_F'];
 _u = _u		+ ['C_Hatchback_01_sport_F'];

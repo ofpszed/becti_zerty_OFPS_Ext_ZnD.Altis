@@ -68,7 +68,13 @@ class Mission
 		"mas_weapons",
 		"mas_weapons_nw",
 		"mas_weapons_ak",
-		"at_phalanx_missile"
+		"at_phalanx_missile",
+		"CAWheeled2_MMT",
+		"gnt_c185",
+		"A3_Air_F_PAKFA",
+		"CHO_F35B",
+		"LDL_ac130",
+		"usaf"
 	};
 	addOnsAuto[]=
 	{
