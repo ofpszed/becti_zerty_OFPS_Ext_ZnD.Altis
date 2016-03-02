@@ -11,9 +11,7 @@ _time_difference = (( _object getVariable "nukeblowtime" )- serverTime  );
 
 //Validate parameters
 if (isNull _object) exitWith {};
-if (isNull _time_difference) exitWith {};
-
-while {alive _object && _time_difference > 0} do {
+while {alive _object && _time > 0 && !isNull _object} do {
 	_time_difference = (( _object getVariable "nukeblowtime" )- serverTime  );
 	hintSilent format["Nuclear Detonation: \n %1", [((_time_difference)/60)+.01,"HH:MM"] call BIS_fnc_timetostring];
 
@@ -24,7 +22,8 @@ while {alive _object && _time_difference > 0} do {
 	};
 	sleep 1;
 };
-while {!alive _object && _time_difference > 0} do {
+if (isNull _object) exitWith {};
+while {!alive _object && _time > 0 && !isNull _object} do {
 	_time_difference = (( _object getVariable "nukeblowtime" )- serverTime  );
 
 	if (_time_difference > 1) then {
