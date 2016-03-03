@@ -72,6 +72,7 @@ class Mission
 		"A3_Air_F_PAKFA",
 		"CHO_F35B",
 		"LDL_ac130",
+		"Burnes_M1A2_Public",
 		"usaf"
 	};
 	addOnsAuto[]=
