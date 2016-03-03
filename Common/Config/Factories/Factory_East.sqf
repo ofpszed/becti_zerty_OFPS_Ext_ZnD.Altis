@@ -100,6 +100,10 @@ _u = _u		+ ["RDS_T55_AAF_01"];
 _u = _u		+ ["RDS_T72_AAF_02"];
 _u = _u		+ ["RDS_T72B_AAF_01"];
 _u = _u		+ ["RDS_ZSU_AAF_01"];
+_u = _u		+ ["RDS_BMP1_AAF_01"];
+_u = _u		+ ["RDS_BMP1P_AAF_01"];
+_u = _u		+ ["RDS_BMP2_AAF_01"];
+_u = _u		+ ["RDS_BMP2_HQ_AAF_01"];
 if !(MADE_FOR_STRATIS) then
 {_u = _u		+ ["O_MBT_02_arty_F"];  
  _u = _u		+ ["B_MBT_01_mlrs_F"];  
