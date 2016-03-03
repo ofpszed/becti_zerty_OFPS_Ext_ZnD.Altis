@@ -97,7 +97,7 @@ class Mission
 		"A3_Structures_F_Mil_Flags",
 		"JDG_carrier",
 		"rkb_reischsflugscheiben",
-		"CAWheeled2_MMT",
+		"dbo_old_bike",
 		"a3_map_altis"
 	};
 	randomSeed=7374927;
