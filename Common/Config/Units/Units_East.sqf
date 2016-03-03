@@ -304,7 +304,7 @@ _s = _s + [""];
 
 _c = _c + ['O_Truck_03_medical_F'];
 _p = _p + [''];
-_n = _n + [(format ["Mobile Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
+_n = _n + [(format ["Wheeled Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
 _o = _o + [4500];
 _t = _t + [20];
 _u = _u + [1];
@@ -481,6 +481,42 @@ _t = _t + [30];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
+
+_c = _c + ['RDS_BMP1_AAF_01'];
+_p = _p + [''];
+_n = _n + ['BMP1'];
+_o = _o + [4500];
+_t = _t + [30];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['RDS_BMP1P_AAF_01'];
+_p = _p + [''];
+_n = _n + ['BMP1P'];
+_o = _o + [5500];
+_t = _t + [30];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['RDS_BMP2_AAF_01'];
+_p = _p + [''];
+_n = _n + ['BMP2'];
+_o = _o + [6500];
+_t = _t + [30];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
+_c = _c + ['RDS_BMP2_HQ_AAF_01'];
+_p = _p + [''];
+_n = _n + [(format ["Tracked Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
+_o = _o + [7500];
+_t = _t + [30];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + ["service-medic"];
 
 
 _c = _c + ['O_Truck_03_repair_F'];
