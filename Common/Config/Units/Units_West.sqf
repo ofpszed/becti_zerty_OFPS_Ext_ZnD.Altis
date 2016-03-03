@@ -543,6 +543,15 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
+_c = _c + ['Burnes_M1A1_MEU_02_Public'];
+_p = _p + [''];
+_n = _n + ['M1A1'];
+_o = _o + [35000];
+_t = _t + [30];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
 //----- added this one--------
 
 /*_c = _c + ['B_APC_Tracked_01_CRV_F'];  <--the new mhq (bobcat) ss83
@@ -557,9 +566,9 @@ _s = _s + [""];
 _c = _c + ['B_MBT_01_TUSK_F'];  
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [25000];
+_o = _o + [24000];
 _t = _t + [30];
-_u = _u + [2];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
