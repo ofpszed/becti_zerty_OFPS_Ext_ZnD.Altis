@@ -1725,11 +1725,11 @@ _u = _u		+ [3];
 _p = _p		+ [1300];
 //-- MOD optics
 _i = _i		+ ["optic_mas_DMS"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_DMS_c"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_Holosight_blk"];
@@ -1765,19 +1765,19 @@ _u = _u		+ [1];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_zeiss"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_zeiss_c"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_zeiss_eo"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_zeiss_eo_c"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_acog"];
@@ -1805,7 +1805,7 @@ _u = _u		+ [1];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_handle"];
-_u = _u		+ [1];
+_u = _u		+ [0];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_aim"];
@@ -1857,16 +1857,16 @@ _u = _u		+ [1];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_term"];
-_u = _u		+ [1];
-_p = _p		+ [500];
+_u = _u		+ [3];
+_p = _p		+ [1000];
 
 _i = _i		+ ["optic_mas_MRD"];
-_u = _u		+ [1];
+_u = _u		+ [0];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_LRPS"];
-_u = _u		+ [1];
-_p = _p		+ [500];
+_u = _u		+ [3];
+_p = _p		+ [1500];
 
 _i = _i		+ ["optic_mas_kobra"];
 _u = _u		+ [1];
@@ -1877,20 +1877,21 @@ _u = _u		+ [1];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_nspu"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ ["optic_mas_goshawk"];
-_u = _u		+ [1];
-_p = _p		+ [500];
+_u = _u		+ [3];
+_p = _p		+ [1500];
 
 _i = _i		+ ["optic_mas_PSO_kv"];
-_u = _u		+ [1];
-_p = _p		+ [500];
+_u = _u		+ [2];
+_p = _p		+ [1000];
 
 _i = _i		+ ["optic_mas_PSO_kv_c"];
-_u = _u		+ [1];
-_p = _p		+ [500];
+_u = _u		+ [2];
+_p = _p		+ [1000];
+
 
 
 //-- MOD Silencers
