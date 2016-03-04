@@ -975,7 +975,7 @@ _p = _p		+ [800];
 
 //-- NEW MOD PACKS
 _i = _i		+ ["B_mas_AssaultPack_rng"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ ["B_mas_Kitbag_rng"];
@@ -987,39 +987,39 @@ _u = _u		+ [2];
 _p = _p		+ [600];
 
 _i = _i		+ ["B_mas_AssaultPack_rng_Medic"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ ["B_mas_AssaultPack_rng_AA"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [300];
 
 _i = _i		+ ["B_mas_AssaultPack_rng_AT"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [300];
 
 _i = _i		+ ["B_mas_AssaultPack_rng_AT4"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [300];
 
 _i = _i		+ ["B_mas_AssaultPack_rng_m72"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [300];
 
 _i = _i		+ ["B_mas_AssaultPack_rng_MAAWS"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [300];
 
 _i = _i		+ ["B_mas_AssaultPack_rng_SMAW"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [300];
 
 _i = _i		+ ["B_mas_AssaultPack_rng_ATM"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [300];
 
 _i = _i		+ ["B_mas_AssaultPack_rng_Repair"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ ["B_mas_Bergen_rng_Exp"];
