@@ -595,22 +595,6 @@ _i = _i		+ ["mas_launch_Strela_F"];
 _u = _u		+ [2];
 _p = _p		+ [2000];
 
-_i = _i		+ ["hgun_PDW2000_F"];
-_u = _u		+ [0];
-_p = _p		+ [50];
-
-_i = _i		+ ["hgun_PDW2000_Holo_F"];
-_u = _u		+ [0];
-_p = _p		+ [200];
-
-_i = _i		+ ["hgun_PDW2000_snds_F"];
-_u = _u		+ [0];
-_p = _p		+ [50];
-
-_i = _i		+ ["hgun_PDW2000_Holo_snds_F"];
-_u = _u		+ [0];
-_p = _p		+ [50];
-
 _i = _i		+ ["arifle_TRG21_F"];
 _u = _u		+ [0];
 _p = _p		+ [300];
@@ -810,6 +794,22 @@ _p = _p		+ [7];
 _i = _i		+ ["hgun_Pistol_heavy_02_F"];
 _u = _u		+ [1];
 _p = _p		+ [10];
+
+_i = _i		+ ["hgun_PDW2000_F"];
+_u = _u		+ [0];
+_p = _p		+ [50];
+
+_i = _i		+ ["hgun_PDW2000_Holo_F"];
+_u = _u		+ [0];
+_p = _p		+ [200];
+
+_i = _i		+ ["hgun_PDW2000_snds_F"];
+_u = _u		+ [0];
+_p = _p		+ [50];
+
+_i = _i		+ ["hgun_PDW2000_Holo_snds_F"];
+_u = _u		+ [0];
+_p = _p		+ [50];
 
 //--- Uniforms
 _i = _i		+ ["U_O_CombatUniform_ocamo"];
