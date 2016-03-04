@@ -440,6 +440,26 @@ _i = _i		+ ["7Rnd_mas_12Gauge_Pellets"];
 _u = _u		+ [0];
 _p = _p		+ [15];
 
+_i = _i		+ ["5Rnd_mas_127x99_Stanag"];
+_u = _u		+ [3];
+_p = _p		+ [15];
+
+_i = _i		+ ["20Rnd_mas_762x51_T_Stanag"];
+_u = _u		+ [3];
+_p = _p		+ [15];
+
+_i = _i		+ ["5Rnd_mas_127x99_dem_Stanag"];
+_u = _u		+ [3];
+_p = _p		+ [1500];
+
+_i = _i		+ ["5Rnd_mas_762x51_Stanag"];
+_u = _u		+ [1];
+_p = _p		+ [15];
+
+_i = _i		+ ["10Rnd_mas_338_Stanag"];
+_u = _u		+ [2];
+_p = _p		+ [15];
+
 //--- Weapons
 
 _i = _i		+ ["mas_launch_Stinger_F"];
