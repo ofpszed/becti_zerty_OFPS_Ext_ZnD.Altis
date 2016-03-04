@@ -638,14 +638,6 @@ _i = _i		+ ["LMG_mas_M60_F"];
 _u = _u		+ [1];
 _p = _p		+ [800];
 
-_i = _i		+ ["hgun_PDW2000_snds_F"];
-_u = _u		+ [0];
-_p = _p		+ [50];
-
-_i = _i		+ ["hgun_PDW2000_Holo_snds_F"];
-_u = _u		+ [0];
-_p = _p		+ [50];
-
 _i = _i		+ ["arifle_Mk20_F"];
 _u = _u		+ [0];
 _p = _p		+ [300];
@@ -941,6 +933,14 @@ _p = _p		+ [2000];
 _i = _i		+ ["launch_B_Titan_short_F"];
 _u = _u		+ [3];
 _p = _p		+ [3000];
+
+_i = _i		+ ["hgun_PDW2000_snds_F"];
+_u = _u		+ [0];
+_p = _p		+ [50];
+
+_i = _i		+ ["hgun_PDW2000_Holo_snds_F"];
+_u = _u		+ [0];
+_p = _p		+ [50];
 
 _i = _i		+ ["hgun_P07_F"];
 _u = _u		+ [0];
