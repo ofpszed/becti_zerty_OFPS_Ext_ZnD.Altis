@@ -1970,31 +1970,31 @@ _i = _i		+ ["srifle_DMR_02_sniper_F"];
 _u = _u		+ [2];
 _p = _p		+ [1200];
 
-_i = _i		+ ["srifle_DMR_02_ACO_F"];
+_i = _i		+ [["srifle_DMR_02_ACO_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1200];
 
-_i = _i		+ ["srifle_DMR_02_MRCO_F"];
+_i = _i		+ [["srifle_DMR_02_MRCO_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1200];
 
-_i = _i		+ ["srifle_DMR_02_SOS_F"];
+_i = _i		+ [["srifle_DMR_02_SOS_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1200];
 
-_i = _i		+ ["srifle_DMR_02_DMS_F"];
+_i = _i		+ [["srifle_DMR_02_DMS_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1200];
 
-_i = _i		+ ["srifle_DMR_02_sniper_AMS_LP_S_F"];
+_i = _i		+ [["srifle_DMR_02_sniper_AMS_LP_S_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1200];
 
-_i = _i		+ ["srifle_DMR_02_camo_AMS_LP_F"];
+_i = _i		+ [["srifle_DMR_02_camo_AMS_LP_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1200];
 
-_i = _i		+ ["srifle_DMR_02_ARCO_F"];
+_i = _i		+ [["srifle_DMR_02_ARCO_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1200];
 
@@ -2019,31 +2019,31 @@ _u = _u		+ [2];
 _p = _p		+ [750];
 
 
-_i = _i		+ ["srifle_DMR_03_ARCO_F"];
+_i = _i		+ [["srifle_DMR_03_ARCO_F"]];
 _u = _u		+ [2];
 _p = _p		+ [750];
 
-_i = _i		+ ["srifle_DMR_03_ACO_F"];
+_i = _i		+ [["srifle_DMR_03_ACO_F"]];
 _u = _u		+ [2];
 _p = _p		+ [750];
 
-_i = _i		+ ["srifle_DMR_03_MRCO_F"];
+_i = _i		+ [["srifle_DMR_03_MRCO_F"]];
 _u = _u		+ [2];
 _p = _p		+ [750];
 
-_i = _i		+ ["srifle_DMR_03_SOS_F"];
+_i = _i		+ [["srifle_DMR_03_SOS_F"]];
 _u = _u		+ [2];
 _p = _p		+ [750];
 
-_i = _i		+ ["srifle_DMR_03_DMS_F"];
+_i = _i		+ [["srifle_DMR_03_DMS_F"]];
 _u = _u		+ [2];
 _p = _p		+ [750];
 
-_i = _i		+ ["srifle_DMR_03_tan_AMS_LP_F"];
+_i = _i		+ [["srifle_DMR_03_tan_AMS_LP_F"]];
 _u = _u		+ [2];
 _p = _p		+ [750];
 
-_i = _i		+ ["srifle_DMR_03_DMS_snds_F"];
+_i = _i		+ [["srifle_DMR_03_DMS_snds_F"]];
 _u = _u		+ [2];
 _p = _p		+ [750];
 
@@ -2055,7 +2055,7 @@ _i = _i		+ ["srifle_DMR_06_olive_F"];
 _u = _u		+ [2];
 _p = _p		+ [600];
 
-_i = _i		+ ["srifle_DMR_06_camo_khs_F"];
+_i = _i		+ [["srifle_DMR_06_camo_khs_F"]];
 _u = _u		+ [2];
 _p = _p		+ [600];
 
@@ -2071,7 +2071,7 @@ _i = _i		+ ["MMG_02_black_F"];
 _u = _u		+ [3];
 _p = _p		+ [1800];
 
-_i = _i		+ ["MMG_02_sand_RCO_LP_F"];
+_i = _i		+ [["MMG_02_sand_RCO_LP_F"]];
 _u = _u		+ [3];
 _p = _p		+ [1800];
 
