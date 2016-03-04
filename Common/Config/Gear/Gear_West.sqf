@@ -320,6 +320,58 @@ _i = _i		+ ["6Rnd_RedSignal_F"];
 _u = _u		+ [0];
 _p = _p		+ [25];
 
+_i = _i		+ ["200Rnd_mas_556x45_Stanag"];
+_u = _u		+ [1];
+_p = _p		+ [50];
+
+_i = _i		+ ["200Rnd_mas_556x45_T_Stanag"];
+_u = _u		+ [1];
+_p = _p		+ [50];
+
+_i = _i		+ ["30Rnd_mas_556x45_Stanag"];
+_u = _u		+ [1];
+_p = _p		+ [50];
+
+_i = _i		+ ["30Rnd_mas_556x45_T_Stanag"];
+_u = _u		+ [1];
+_p = _p		+ [50];
+
+_i = _i		+ ["30Rnd_556x45_Stanag"];
+_u = _u		+ [1];
+_p = _p		+ [50];
+
+_i = _i		+ ["30Rnd_556x45_Stanag_Tracer_Red"];
+_u = _u		+ [1];
+_p = _p		+ [50];
+
+_i = _i		+ ["30Rnd_556x45_Stanag_Tracer_Green"];
+_u = _u		+ [1];
+_p = _p		+ [50];
+
+_i = _i		+ ["30Rnd_556x45_Stanag_Tracer_Yellow"];
+_u = _u		+ [1];
+_p = _p		+ [50];
+
+_i = _i		+ ["20Rnd_556x45_UW_mag"];
+_u = _u		+ [1];
+_p = _p		+ [50];
+
+_i = _i		+ ["100Rnd_mas_762x51_Stanag"];
+_u = _u		+ [2];
+_p = _p		+ [50];
+
+_i = _i		+ ["100Rnd_mas_762x51_T_Stanag"];
+_u = _u		+ [2];
+_p = _p		+ [50];
+
+_i = _i		+ ["150Rnd_762x51_Box"];
+_u = _u		+ [2];
+_p = _p		+ [50];
+
+_i = _i		+ ["150Rnd_762x51_Box_Tracer"];
+_u = _u		+ [2];
+_p = _p		+ [50];
+
 _i = _i		+ ["mas_MAAWS"];
 _u = _u		+ [1];
 _p = _p		+ [200];
