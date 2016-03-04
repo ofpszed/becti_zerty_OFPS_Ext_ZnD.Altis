@@ -934,6 +934,10 @@ _i = _i		+ ["launch_B_Titan_short_F"];
 _u = _u		+ [3];
 _p = _p		+ [3000];
 
+_i = _i		+ ["hgun_PDW2000_F"];
+_u = _u		+ [0];
+_p = _p		+ [50];
+
 _i = _i		+ ["hgun_PDW2000_snds_F"];
 _u = _u		+ [0];
 _p = _p		+ [50];
