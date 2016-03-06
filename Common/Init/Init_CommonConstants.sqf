@@ -391,7 +391,7 @@ with missionNamespace do {
 CTI_BASE_AREA_RANGE = if !(MADE_FOR_STRATIS) then {250} else {150};
 
 //--- Base: Construction
-CTI_BASE_CONSTRUCTION_DECAY_TIMEOUT = 300; //--- Decay starts after x seconds unattended.
+CTI_BASE_CONSTRUCTION_DECAY_TIMEOUT = 600; //--- Decay starts after x seconds unattended.
 CTI_BASE_CONSTRUCTION_DECAY_DELAY = 10; //--- Decay each x seconds.
 CTI_BASE_CONSTRUCTION_DECAY_FROM = 10; //--- Decay of x / 100 each y seconds.
 CTI_BASE_CONSTRUCTION_RANGE = CTI_BASE_AREA_RANGE; //--- Determine how far the commander may be from the HQ to build
