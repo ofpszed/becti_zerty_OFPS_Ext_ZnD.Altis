@@ -304,7 +304,7 @@ if ((missionNamespace getVariable "CTI_RESPAWN_FOB_RANGE")> 0) then {
 
 _headers = _headers 		+ ["M119"];
 _classes = _classes 		+ ["RDS_M119_AAF"];
-_prices = _prices 			+ [50000];
+_prices = _prices 			+ [80000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
