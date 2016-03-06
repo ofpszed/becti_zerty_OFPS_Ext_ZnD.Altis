@@ -515,7 +515,7 @@ _t = _t + [30];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
-
+/*
 _c = _c + ['Cha_LAV25A2'];
 _p = _p + [''];
 _n = _n + ['LAV-25A2'];
@@ -551,7 +551,7 @@ _t = _t + [30];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
-
+*/
 //----- added this one--------
 
 /*_c = _c + ['B_APC_Tracked_01_CRV_F'];  <--the new mhq (bobcat) ss83
