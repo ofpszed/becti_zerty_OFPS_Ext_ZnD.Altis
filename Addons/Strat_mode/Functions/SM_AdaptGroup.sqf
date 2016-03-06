@@ -1,4 +1,4 @@
-_a=0.2; //ss83 -- Values changed from .08 and _b was 7
+_a=0.3; //ss83 -- At _a=0.2, with 30 players, 6 AI allowed/player....At _a=0.3, with 30 players, 3 AI allowed/player.
 _b=12;
 
 while {! CTI_GameOver} do {

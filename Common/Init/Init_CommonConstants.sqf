@@ -391,7 +391,7 @@ with missionNamespace do {
 CTI_BASE_AREA_RANGE = if !(MADE_FOR_STRATIS) then {250} else {150};
 
 //--- Base: Construction
-CTI_BASE_CONSTRUCTION_DECAY_TIMEOUT = 300; //--- Decay starts after x seconds unattended.
+CTI_BASE_CONSTRUCTION_DECAY_TIMEOUT = 600; //--- Decay starts after x seconds unattended.
 CTI_BASE_CONSTRUCTION_DECAY_DELAY = 10; //--- Decay each x seconds.
 CTI_BASE_CONSTRUCTION_DECAY_FROM = 10; //--- Decay of x / 100 each y seconds.
 CTI_BASE_CONSTRUCTION_RANGE = CTI_BASE_AREA_RANGE; //--- Determine how far the commander may be from the HQ to build
@@ -594,7 +594,7 @@ with missionNamespace do {
 	CTI_ECONOMY_POOL_RESOURCES_PERCENTAGE_WEST = 0.1;
 	CTI_ECONOMY_POOL_RESOURCES_PERCENTAGE_EAST = 0.1;
 	
-	if (isNil 'CTI_MILITARY_INSTALLATION_PRICE') then {CTI_MILITARY_INSTALLATION_PRICE = 50000};
+	if (isNil 'CTI_MILITARY_INSTALLATION_PRICE') then {CTI_MILITARY_INSTALLATION_PRICE = 5000};
 
 	if (isNil 'CTI_ECONOMY_STARTUP_FUNDS_EAST') then {CTI_ECONOMY_STARTUP_FUNDS_EAST = 900};
 	if (isNil 'CTI_ECONOMY_STARTUP_FUNDS_EAST_COMMANDER') then {CTI_ECONOMY_STARTUP_FUNDS_EAST_COMMANDER = 900000};
@@ -622,7 +622,7 @@ with missionNamespace do {
 
 	if (isNil 'CTI_UNITS_FATIGUE') then {CTI_UNITS_FATIGUE = 1};
 
-	if (isNil 'CTI_WEATHER_FAST') then {CTI_WEATHER_FAST = 3};
+	if (isNil 'CTI_WEATHER_FAST') then {CTI_WEATHER_FAST = 12};
 	if (isNil 'CTI_WEATHER_FAST_NIGTH') then {CTI_WEATHER_FAST_NIGTH = 1};
 
 
@@ -685,7 +685,7 @@ with missionNamespace do {
 	if (isnil "CTI_GROUP_LEADER_RESP") then {CTI_GROUP_LEADER_RESP = 1};
 	if (isnil "CTI_PERSISTANT") then {CTI_PERSISTANT = 0};
 
-	if (isNil 'CTI_AI_TEAMS_NB') then { CTI_AI_TEAMS_NB = 10};
+	if (isNil 'CTI_AI_TEAMS_NB') then { CTI_AI_TEAMS_NB = 0};
 	if (isNil 'CTI_WEATHER_ALLOWRAIN') then {CTI_WEATHER_ALLOWRAIN = 0};
 	if (isNil 'CTI_FATIGUE_RATIO') then {CTI_FATIGUE_RATIO = 80};
 };
