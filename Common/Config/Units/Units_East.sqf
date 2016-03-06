@@ -445,7 +445,7 @@ _t = _t + [30];
 _u = _u + [3];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
-/*
+
 _c = _c + ['RDS_T55_AAF_01'];
 _p = _p + [''];
 _n = _n + ['T-55'];
@@ -518,7 +518,7 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + ["service-medic"];
 
-*/
+
 _c = _c + ['O_Truck_03_repair_F'];
 _p = _p + [''];
 _n = _n + [''];
