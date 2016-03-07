@@ -56,7 +56,9 @@ switch (_message_var) do {
 		HUD_NOTIFICATIONS pushBack ["The HQ has been repaired",time+12000,"ffff00"];
 		playsound "hq_repaired";
 	};
-	case "funds-transfer": {HUD_NOTIFICATIONS pushBack [ format ["Got Tranfer from %2:  $%1", _parameters select 0, (name leader (_parameters select 1)) ],time+90,"00bb00"]};
+	case "funds-transfer": {HUD_NOTIFICATIONS pushBack [ format ["Got Tranfer from %2:  $%1", _parameters select 0, (name leader (_parameters select 1)) ],time+90,"00bb00"]
+		playsound "funds_transfer";
+	};
 	case "order-taketowns": {_parameters sideChat "Acknowledged.  Advancing on neutral or enemy towns"};
 	case "order-takeholdtowns": {_parameters sideChat "Acknowledged.  Advancing on neutral or enemy towns with guard duty"};
 	case "order-holdtowns": {_parameters sideChat "Acknowledged.  Proceeding to nearest base or friendly town for guard duty"};
