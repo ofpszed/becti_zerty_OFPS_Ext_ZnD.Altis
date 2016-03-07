@@ -225,7 +225,7 @@ class Params {
 		title = "Zerty: AI: Skill (credit : Bl1p, fluit)";
 		values[] = {1,2,3,4,5};
 		texts[] = {"Retards","DumbFucks","NotSobad","Good","Very Good"};
-		default = 2;
+		default = 3;
 	};
 
 	class CTI_MAX_MISSION_TIME {
