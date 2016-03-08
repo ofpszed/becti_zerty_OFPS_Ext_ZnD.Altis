@@ -560,6 +560,6 @@ class Params {
 		title = "Henroth: Aircraft Loadout Customisation : Enabled";
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
-		default = 1;
+		default = 0;
 	};
 };

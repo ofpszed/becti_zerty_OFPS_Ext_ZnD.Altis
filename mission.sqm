@@ -57,7 +57,6 @@ class Mission
 		"JDG_carrier",
 		"gd_ind_infantry",
 		"gd_ind_vehicles",
-		"UCSV_Module",
 		"at_phalanx",
 		"at_phalanx_missile",
 		"mas_weapons_m4",
@@ -85,7 +84,6 @@ class Mission
 		"A3_Modules_F_Curator_Curator",
 		"TTT_NimitzIflols",
 		"ttt_nimitzelevator",
-		"UCSV_Module",
 		"ucsv",
 		"DLL_tow",
 		"TTT_NimitzAmbiance",
@@ -125,7 +123,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=20;
+		items=19;
 		class Item0
 		{
 			side="LOGIC";
@@ -1031,64 +1029,6 @@ class Mission
 			side="LOGIC";
 			class Vehicles
 			{
-				items=1;
-				class Item0
-				{
-					position[]={8757.1475,16.661144,24835.414};
-					class args
-					{
-						items=6;
-						class Item0
-						{
-							value="1";
-							parentCls="UCSV_Module_Lifting";
-							typeName="allowCrew";
-						};
-						class Item1
-						{
-							value="1";
-							parentCls="UCSV_Module_Lifting";
-							typeName="parachuteEnabled";
-						};
-						class Item2
-						{
-							value="SmokeShell";
-							parentCls="UCSV_Module_Lifting";
-							typeName="markerType";
-						};
-						class Item3
-						{
-							value="";
-							parentCls="UCSV_Module_Lifting";
-							typeName="whiteList";
-						};
-						class Item4
-						{
-							value="";
-							parentCls="UCSV_Module_Lifting";
-							typeName="blackList";
-						};
-						class Item5
-						{
-							value="75";
-							parentCls="UCSV_Module_Lifting";
-							typeName="parachuteDeployHeight";
-						};
-					};
-					id=61;
-					side="LOGIC";
-					vehicle="UCSV_Module_Lifting";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item14
-		{
-			side="LOGIC";
-			class Vehicles
-			{
 				items=2;
 				class Item0
 				{
@@ -1147,7 +1087,7 @@ class Mission
 				};
 			};
 		};
-		class Item15
+		class Item14
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1348,7 +1288,7 @@ class Mission
 				};
 			};
 		};
-		class Item16
+		class Item15
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1480,7 +1420,7 @@ class Mission
 				};
 			};
 		};
-		class Item17
+		class Item16
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1543,7 +1483,7 @@ class Mission
 				};
 			};
 		};
-		class Item18
+		class Item17
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1592,7 +1532,7 @@ class Mission
 				};
 			};
 		};
-		class Item19
+		class Item18
 		{
 			side="LOGIC";
 			class Vehicles
