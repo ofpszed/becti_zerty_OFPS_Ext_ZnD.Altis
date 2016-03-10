@@ -78,6 +78,10 @@ _i = _i		+ ["30Rnd_45ACP_Mag_SMG_01_tracer_green"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
+_i = _i		+ ["30Rnd_556x45_Stanag"];
+_u = _u		+ [0];
+_p = _p		+ [15];
+
 _i = _i		+ ["30Rnd_556x45_Stanag_Tracer_Red"];
 _u = _u		+ [0];
 _p = _p		+ [15];
@@ -139,10 +143,6 @@ _u = _u		+ [3];
 _p = _p		+ [120];
 
 _i = _i		+ ["16Rnd_9x21_Mag"];
-_u = _u		+ [0];
-_p = _p		+ [1];
-
-_i = _i		+ ["5Rnd_mas_762x51_Stanag"];
 _u = _u		+ [0];
 _p = _p		+ [1];
 
@@ -330,270 +330,7 @@ _i = _i		+ ["3Rnd_UGL_FlareCIR_F"];
 _u = _u		+ [1];
 _p = _p		+ [20];
 
-_i = _i		+ ["20Rnd_mas_12Gauge_Pellets"];
-_u = _u		+ [2];
-_p = _p		+ [20];
-
-_i = _i		+ ["20Rnd_mas_12Gauge_Demo"];
-_u = _u		+ [2];
-_p = _p		+ [50];
-
-_i = _i		+ ["40Rnd_mas_46x30_Mag"];
-_u = _u		+ [3];
-_p = _p		+ [50];
-
-_i = _i		+ ["30Rnd_mas_545x39_mag"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-_i = _i		+ ["30Rnd_mas_545x39_T_mag"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-_i = _i		+ ["30Rnd_mas_762x39_mag"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-_i = _i		+ ["30Rnd_mas_762x39_T_mag"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-_i = _i		+ ["64Rnd_mas_9x18_mag"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-_i = _i		+ ["10Rnd_mas_12Gauge_Slug"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-_i = _i		+ ["10Rnd_mas_12Gauge_Pellets"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-_i = _i		+ ["10Rnd_mas_762x54_mag"];
-_u = _u		+ [2];
-_p = _p		+ [5];
-
-_i = _i		+ ["10Rnd_mas_762x54_T_mag"];
-_u = _u		+ [2];
-_p = _p		+ [5];
-
-_i = _i		+ ["100Rnd_mas_762x39_mag"];
-_u = _u		+ [2];
-_p = _p		+ [50];
-
-_i = _i		+ ["100Rnd_mas_762x39_T_mag"];
-_u = _u		+ [2];
-_p = _p		+ [50];
-
-_i = _i		+ ["20Rnd_mas_9x39_mag"];
-_u = _u		+ [2];
-_p = _p		+ [50];
-
-_i = _i		+ ["5Rnd_mas_127x108_mag"];
-_u = _u		+ [3];
-_p = _p		+ [50];
-
-_i = _i		+ ["5Rnd_mas_127x108_dem_mag"];
-_u = _u		+ [3];
-_p = _p		+ [250];
-
-_i = _i		+ ["5Rnd_mas_127x108_T_mag"];
-_u = _u		+ [3];
-_p = _p		+ [50];
-
-_i = _i		+ ["100Rnd_mas_545x39_mag"];
-_u = _u		+ [1];
-_p = _p		+ [50];
-
-_i = _i		+ ["100Rnd_mas_545x39_T_mag"];
-_u = _u		+ [1];
-_p = _p		+ [50];
-
-_i = _i		+ ["100Rnd_mas_762x54_mag"];
-_u = _u		+ [3];
-_p = _p		+ [50];
-
-_i = _i		+ ["100Rnd_mas_762x54_T_mag"];
-_u = _u		+ [3];
-_p = _p		+ [50];
-
-_i = _i		+ ["25Rnd_mas_9x19_Mag"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-_i = _i		+ ["20Rnd_mas_765x17_Mag"];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
-_i = _i		+ ["mas_PG7V"];
-_u = _u		+ [0];
-_p = _p		+ [50];
-
-_i = _i		+ ["mas_OG7"];
-_u = _u		+ [0];
-_p = _p		+ [100];
-
-_i = _i		+ ["mas_PG7L"];
-_u = _u		+ [0];
-_p = _p		+ [100];
-
-_i = _i		+ ["mas_PG7VR"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["mas_TBG7V"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["mas_PG18"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["mas_Metis"];
-_u = _u		+ [3];
-_p = _p		+ [150];
-
-_i = _i		+ ["mas_Metis_HE"];
-_u = _u		+ [3];
-_p = _p		+ [150];
-
-_i = _i		+ ["mas_Strela"];
-_u = _u		+ [2];
-_p = _p		+ [150];
-
 //--- Weapons (Nested array elements are defined but skiped in the gear menu)
-_i = _i		+ ["arifle_mas_g3"];
-_u = _u		+ [0];
-_p = _p		+ [400];
-
-_i = _i		+ ["arifle_mas_g3_m203"];
-_u = _u		+ [1];
-_p = _p		+ [400];
-
-_i = _i		+ ["arifle_mas_g3s"];
-_u = _u		+ [0];
-_p = _p		+ [400];
-
-_i = _i		+ ["arifle_mas_g3s_m203"];
-_u = _u		+ [1];
-_p = _p		+ [400];
-
-_i = _i		+ ["arifle_mas_fal"];
-_u = _u		+ [0];
-_p = _p		+ [400];
-
-_i = _i		+ ["arifle_mas_fal_m203"];
-_u = _u		+ [1];
-_p = _p		+ [400];
-
-_i = _i		+ ["arifle_mas_mp40_o"];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ ["arifle_mas_mp40"];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ ["arifle_mas_lee"];
-_u = _u		+ [0];
-_p = _p		+ [1];
-
-_i = _i		+ ["arifle_mas_aa12"];
-_u = _u		+ [2];
-_p = _p		+ [900];
-
-_i = _i		+ ["hgun_mas_mp7p_F"];
-_u = _u		+ [3];
-_p = _p		+ [500];
-
-_i = _i		+ ["arifle_mas_ak_74m_c"];
-_u = _u		+ [0];
-_p = _p		+ [350];
-
-_i = _i		+ ["arifle_mas_ak_74m_gl_c"];
-_u = _u		+ [0];
-_p = _p		+ [350];
-
-_i = _i		+ ["arifle_mas_akms_c"];
-_u = _u		+ [1];
-_p = _p		+ [400];
-
-_i = _i		+ ["arifle_mas_akms_gl_c"];
-_u = _u		+ [1];
-_p = _p		+ [400];
-
-_i = _i		+ ["arifle_mas_bizon"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["arifle_mas_saiga"];
-_u = _u		+ [0];
-_p = _p		+ [500];
-
-_i = _i		+ ["arifle_mas_m70"];
-_u = _u		+ [2];
-_p = _p		+ [600];
-
-_i = _i		+ ["arifle_mas_m70_gl"];
-_u = _u		+ [2];
-_p = _p		+ [600];
-
-_i = _i		+ ["srifle_mas_m91"];
-_u = _u		+ [2];
-_p = _p		+ [600];
-
-_i = _i		+ ["LMG_mas_m72_F"];
-_u = _u		+ [2];
-_p = _p		+ [600];
-
-_i = _i		+ ["srifle_mas_svd"];
-_u = _u		+ [1];
-_p = _p		+ [800];
-
-_i = _i		+ ["srifle_mas_vss"];
-_u = _u		+ [2];
-_p = _p		+ [800];
-
-_i = _i		+ ["srifle_mas_ksvk_c"];
-_u = _u		+ [3];
-_p = _p		+ [1000];
-
-_i = _i		+ ["LMG_mas_rpk_F"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["LMG_mas_pkm_F"];
-_u = _u		+ [3];
-_p = _p		+ [900];
-
-_i = _i		+ ["LMG_mas_pech_F"];
-_u = _u		+ [3];
-_p = _p		+ [900];
-
-_i = _i		+ ["hgun_mas_uzi_F"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["hgun_mas_sa61_F"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["mas_launch_RPG7_F"];
-_u = _u		+ [0];
-_p = _p		+ [400];
-
-_i = _i		+ ["mas_launch_RPG18_F"];
-_u = _u		+ [0];
-_p = _p		+ [400];
-
-_i = _i		+ ["mas_launch_Metis_F"];
-_u = _u		+ [3];
-_p = _p		+ [3000];
-
-_i = _i		+ ["mas_launch_Strela_F"];
-_u = _u		+ [2];
-_p = _p		+ [2000];
 _i = _i		+ ["hgun_PDW2000_F"];
 _u = _u		+ [0];
 _p = _p		+ [50];
@@ -973,58 +710,7 @@ _i = _i		+ ["B_Carryall_oucamo"];
 _u = _u		+ [3];
 _p = _p		+ [800];
 
-//-- NEW MOD PACKS
-_i = _i		+ ["B_mas_AssaultPack_rng"];
-_u = _u		+ [2];
-_p = _p		+ [300];
 
-_i = _i		+ ["B_mas_Kitbag_rng"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["B_mas_Bergen_rng"];
-_u = _u		+ [2];
-_p = _p		+ [600];
-
-_i = _i		+ ["B_mas_AssaultPack_rng_Medic"];
-_u = _u		+ [2];
-_p = _p		+ [300];
-
-_i = _i		+ ["B_mas_AssaultPack_rng_AA"];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ ["B_mas_AssaultPack_rng_AT"];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ ["B_mas_AssaultPack_rng_AT4"];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ ["B_mas_AssaultPack_rng_m72"];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ ["B_mas_AssaultPack_rng_MAAWS"];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ ["B_mas_AssaultPack_rng_SMAW"];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ ["B_mas_AssaultPack_rng_ATM"];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ ["B_mas_AssaultPack_rng_Repair"];
-_u = _u		+ [2];
-_p = _p		+ [300];
-
-_i = _i		+ ["B_mas_Bergen_rng_Exp"];
-_u = _u		+ [2];
-_p = _p		+ [600];
 
 
 _i = _i		+ ["B_Parachute"];
@@ -1446,27 +1132,6 @@ _u = _u		+ [0];
 _p = _p		+ [5];
 
 
-_i = _i		+ ["G_mas_wpn_gasmask"];
-_u = _u		+ [1];
-_p = _p		+ [5];
-
-_i = _i		+ ["G_mas_wpn_wrap_c"];
-_u = _u		+ [1];
-_p = _p		+ [5];
-
-_i = _i		+ ["G_mas_wpn_wrap_gog_c"];
-_u = _u		+ [1];
-_p = _p		+ [5];
-
-_i = _i		+ ["G_mas_wpn_wrap_mask_c"];
-_u = _u		+ [1];
-_p = _p		+ [5];
-
-_i = _i		+ ["G_mas_wpn_shemag_mask"];
-_u = _u		+ [1];
-_p = _p		+ [5];
-
-
 
 
 
@@ -1567,47 +1232,6 @@ _p = _p		+ [20];
 _i = _i		+ ["acc_pointer_IR"];
 _u = _u		+ [0];
 _p = _p		+ [20];
-
-_i = _i		+ ["acc_mas_flash_gun"];
-_u = _u		+ [0];
-_p = _p		+ [20];
-
-_i = _i		+ ["acc_mas_pointer_gun_IR"];
-_u = _u		+ [0];
-_p = _p		+ [20];
-
-_i = _i		+ ["acc_mas_pointer_IR"];
-_u = _u		+ [0];
-_p = _p		+ [20];
-
-_i = _i		+ ["acc_mas_pointer_IR_b"];
-_u = _u		+ [0];
-_p = _p		+ [20];
-
-_i = _i		+ ["acc_mas_pointer_IR_top"];
-_u = _u		+ [0];
-_p = _p		+ [20];
-
-_i = _i		+ ["acc_mas_pointer_IR_top_b"];
-_u = _u		+ [0];
-_p = _p		+ [20];
-
-_i = _i		+ ["acc_mas_pointer_IR2"];
-_u = _u		+ [0];
-_p = _p		+ [20];
-
-_i = _i		+ ["acc_mas_pointer_IR2_top"];
-_u = _u		+ [0];
-_p = _p		+ [20];
-
-_i = _i		+ ["acc_mas_pointer_IR2c"];
-_u = _u		+ [0];
-_p = _p		+ [20];
-
-_i = _i		+ ["acc_mas_pointer_IR2c_top"];
-_u = _u		+ [0];
-_p = _p		+ [20];
-
 
 //--- Items
 _i = _i		+ ["NVGoggles_OPFOR"];
@@ -1723,241 +1347,6 @@ _p = _p		+ [1300];
 _i = _i		+ ["optic_KHS_old"];
 _u = _u		+ [3];
 _p = _p		+ [1300];
-//-- MOD optics
-_i = _i		+ ["optic_mas_DMS"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_DMS_c"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_Holosight_blk"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_Holosight_camo"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_Arco_blk"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_Arco_camo"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_Hamr_camo"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_Aco_camo"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_ACO_grn_camo"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_MRCO_camo"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_zeiss"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_zeiss_c"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_zeiss_eo"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_zeiss_eo_c"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_acog"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_acog_c"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_acog_eo"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_acog_eo_c"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_acog_rd"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_acog_rd_c"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_handle"];
-_u = _u		+ [0];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_aim"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_aim_c"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_PSO"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_PSO_c"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_PSO_eo"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_PSO_eo_c"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_PSO_nv"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_PSO_nv_c"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_PSO_nv_eo"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_PSO_nv_eo_c"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_PSO_day"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_PSO_nv_day"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_term"];
-_u = _u		+ [3];
-_p = _p		+ [1000];
-
-_i = _i		+ ["optic_mas_MRD"];
-_u = _u		+ [0];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_LRPS"];
-_u = _u		+ [3];
-_p = _p		+ [1500];
-
-_i = _i		+ ["optic_mas_kobra"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_kobra_c"];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_nspu"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["optic_mas_goshawk"];
-_u = _u		+ [3];
-_p = _p		+ [1500];
-
-_i = _i		+ ["optic_mas_PSO_kv"];
-_u = _u		+ [2];
-_p = _p		+ [1000];
-
-_i = _i		+ ["optic_mas_PSO_kv_c"];
-_u = _u		+ [2];
-_p = _p		+ [1000];
-
-
-
-//-- MOD Silencers
-_i = _i		+ ["muzzle_mas_snds_L"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_LM"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_C"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_MP5SD6"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_M"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_Mc"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_MP7"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_AK"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_SM"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_SMc"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_SH"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_SHc"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_SV"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_SVc"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_SVD"];
-_u = _u		+ [2];
-_p = _p		+ [500];
-
-_i = _i		+ ["muzzle_mas_snds_KSVK"];
-_u = _u		+ [2];
-_p = _p		+ [500];
 
 //weaps & ammo
 
@@ -1969,7 +1358,7 @@ _i = _i		+ ["srifle_DMR_06_olive_F"];
 _u = _u		+ [2];
 _p = _p		+ [600];
 
-_i = _i		+ ["srifle_DMR_06_camo_khs_F"];
+_i = _i		+ [["srifle_DMR_06_camo_khs_F"]];
 _u = _u		+ [2];
 _p = _p		+ [600];
 
@@ -1985,7 +1374,7 @@ _i = _i		+ ["MMG_01_tan_F"];
 _u = _u		+ [3];
 _p = _p		+ [2000];
 
-_i = _i		+ ["MMG_01_hex_ARCO_LP_F"];
+_i = _i		+ [["MMG_01_hex_ARCO_LP_F"]];
 _u = _u		+ [3];
 _p = _p		+ [2000];
 
@@ -2005,31 +1394,31 @@ _i = _i		+ ["srifle_DMR_05_tan_f"];
 _u = _u		+ [2];
 _p = _p		+ [1000];
 
-_i = _i		+ ["srifle_DMR_05_ACO_F"];
+_i = _i		+ [["srifle_DMR_05_ACO_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1000];
 
-_i = _i		+ ["srifle_DMR_05_MRCO_F"];
+_i = _i		+ [["srifle_DMR_05_MRCO_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1000];
 
-_i = _i		+ ["srifle_DMR_05_SOS_F"];
+_i = _i		+ [["srifle_DMR_05_SOS_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1000];
 
-_i = _i		+ ["srifle_DMR_05_DMS_F"];
+_i = _i		+ [["srifle_DMR_05_DMS_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1000];
 
-_i = _i		+ ["srifle_DMR_05_KHS_LP_F"];
+_i = _i		+ [["srifle_DMR_05_KHS_LP_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1000];
 
-_i = _i		+ ["srifle_DMR_05_DMS_snds_F"];
+_i = _i		+ [["srifle_DMR_05_DMS_snds_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1000];
 
-_i = _i		+ ["srifle_DMR_05_ARCO_F"];
+_i = _i		+ [["srifle_DMR_05_ARCO_F"]];
 _u = _u		+ [2];
 _p = _p		+ [1000];
 
@@ -2045,27 +1434,27 @@ _i = _i		+ ["srifle_DMR_04_Tan_F"];
 _u = _u		+ [3];
 _p = _p		+ [1500];
 
-_i = _i		+ ["srifle_DMR_04_ACO_F"];
+_i = _i		+ [["srifle_DMR_04_ACO_F"]];
 _u = _u		+ [3];
 _p = _p		+ [1500];
 
-_i = _i		+ ["srifle_DMR_04_MRCO_F"];
+_i = _i		+ [["srifle_DMR_04_MRCO_F"]];
 _u = _u		+ [3];
 _p = _p		+ [1500];
 
-_i = _i		+ ["srifle_DMR_04_SOS_F"];
+_i = _i		+ [["srifle_DMR_04_SOS_F"]];
 _u = _u		+ [3];
 _p = _p		+ [1500];
 
-_i = _i		+ ["srifle_DMR_04_DMS_F"];
+_i = _i		+ [["srifle_DMR_04_DMS_F"]];
 _u = _u		+ [3];
 _p = _p		+ [1500];
 
-_i = _i		+ ["srifle_DMR_04_ARCO_F"];
+_i = _i		+ [["srifle_DMR_04_ARCO_F"]];
 _u = _u		+ [3];
 _p = _p		+ [1500];
 
-_i = _i		+ ["srifle_DMR_04_NS_LP_F"];
+_i = _i		+ [["srifle_DMR_04_NS_LP_F"]];
 _u = _u		+ [3];
 _p = _p		+ [1500];
 
