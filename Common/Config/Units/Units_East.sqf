@@ -464,7 +464,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['CUP_B_LR_MG_CZ_W'];
+_c = _c + ['OFPS_LR_MG'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [50];
@@ -482,7 +482,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['CUP_B_LR_Special_CZ_W'];
+_c = _c + ['OFPS_LR_S'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [50];
@@ -491,7 +491,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['CUP_O_LR_SPG9_TKA'];
+_c = _c + ['OFPS_LR_SPG9'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [50];
@@ -518,7 +518,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['CUP_B_UAZ_AGS30_CDF'];
+_c = _c + ['OFPS_UAZ_AGS30'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [50];
@@ -527,7 +527,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['CUP_B_UAZ_MG_CDF'];
+_c = _c + ['OFPS_UAZ_MG'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [50];
@@ -545,7 +545,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['CUP_O_UAZ_METIS_RU'];
+_c = _c + ['OFPS_UAZ_METIS'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [50];
@@ -554,7 +554,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['CUP_B_UAZ_Open_CDF'];
+_c = _c + ['OFPS_UAZ'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [50];
@@ -563,7 +563,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-_c = _c + ['CUP_B_UAZ_SPG9_CDF'];
+_c = _c + ['OFPS_UAZ_SPG9'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [50];
