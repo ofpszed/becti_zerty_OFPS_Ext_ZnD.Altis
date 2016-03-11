@@ -445,7 +445,7 @@ _marker setMarkerTextLocal format ["5. Hacks/Malicious Script = Permanent Ban (n
 _pos=[(_pos select 0),(_pos select 1)-_offset,0];
 
 //Live Added marker for Bridge
-
+/*
 _pos=[13802.992,10349.967,0];    //SS83 Added this to get people to zoom out and read the map
 _offset=150;
 
@@ -455,9 +455,9 @@ _marker setMarkerSizeLocal [1,1];
 _marker setMarkerColorLocal "ColorBlack";
 _marker setMarkerAlphaLocal 0.9;
 _marker setMarkerTextLocal format ["Bridge"];
-_pos=[(_pos select 0),(_pos select 1)-_offset,0];
+_pos=[(_pos select 0),(_pos select 1)-_offset,0];*/
 
-_pos=[2449.2881,13799.713];    //Nimitz 1
+_pos=[14944.827,2580.1428];    //Nimitz 1
 _offset=150;
 
 _marker = createMarkerLocal ["cti_map_markers_1", _pos];
@@ -468,7 +468,7 @@ _marker setMarkerAlphaLocal 0.9;
 _marker setMarkerTextLocal format ["Nimitz"];
 _pos=[(_pos select 0),(_pos select 1)-_offset,0];
 
-_pos=[24172.273,12245.788,0];    //Nimitz 2
+_pos=[15082.636,28064.184,0];    //Nimitz 2
 _offset=150;
 
 _marker = createMarkerLocal ["cti_map_markers_2", _pos];
@@ -479,16 +479,6 @@ _marker setMarkerAlphaLocal 0.9;
 _marker setMarkerTextLocal format ["Nimitz"];
 _pos=[(_pos select 0),(_pos select 1)-_offset,0];
 
-_pos=[16218.692,24914.09,0];    //Nimitz 3
-_offset=150;
-
-_marker = createMarkerLocal ["cti_map_markers_3", _pos];
-_marker setMarkerTypeLocal "hd_pickup";
-_marker setMarkerSizeLocal [1,1];
-_marker setMarkerColorLocal "ColorBlack";
-_marker setMarkerAlphaLocal 0.9;
-_marker setMarkerTextLocal format ["Nimitz"];
-_pos=[(_pos select 0),(_pos select 1)-_offset,0];
 
 
 /*//SS83 The Team Drawing Board

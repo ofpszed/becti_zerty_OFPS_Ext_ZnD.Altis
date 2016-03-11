@@ -290,12 +290,6 @@ if ((missionNamespace getVariable "CTI_RESPAWN_FOB_RANGE")> 0) then {
 	_categories = _categories 	+ ["Fortification"];
 };
 
-_headers = _headers 		+ ["Metis AT"];
-_classes = _classes 		+ ["RDS_Metis_AAF"];
-_prices = _prices 			+ [3500];
-_placements = _placements 	+ [[180, 5]];
-_categories = _categories 	+ ["Defense"];
-
 _headers = _headers 		+ ["MG Defense"];
 _classes = _classes 		+ ["O_HMG_01_High_F"];
 _prices = _prices 			+ [1500];
@@ -326,6 +320,66 @@ _prices = _prices 			+ [10000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 };
+
+_headers = _headers 		+ ["M2 Machine Gun"];
+_classes = _classes 		+ ["CUP_B_M2StaticMG_USMC"];
+_prices = _prices 			+ [1500];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["M2 Mini"];
+_classes = _classes 		+ ["CUP_B_M2StaticMG_USMC"];
+_prices = _prices 			+ [1500];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["AGS-30"];
+_classes = _classes 		+ ["CUP_B_AGS_CDF"];
+_prices = _prices 			+ [1500];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["DShKM"];
+_classes = _classes 		+ ["CUP_B_DSHKM_CDF"];
+_prices = _prices 			+ [1500];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["DShKM Mini"];
+_classes = _classes 		+ ["CUP_B_DSHkM_MiniTriPod_CDF"];
+_prices = _prices 			+ [1500];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["KORD Mini"];
+_classes = _classes 		+ ["CUP_O_KORD_RU"];
+_prices = _prices 			+ [3000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["Metis AT-13"];
+_classes = _classes 		+ ["CUP_O_Metis_RU"];
+_prices = _prices 			+ [3000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["Podnos 2B14"];
+_classes = _classes 		+ ["CUP_B_2b14_82mm_CDF"];
+_prices = _prices 			+ [3000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["SPG-9"];
+_classes = _classes 		+ ["CUP_B_SPG9_CDF"];
+_prices = _prices 			+ [3000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["ZU-23"];
+_classes = _classes 		+ ["CUP_B_ZU23_CDF"];
+_prices = _prices 			+ [5000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["C-RAM Phalanx"];
 _classes = _classes 		+ ["C_at_phalanx_35AI"];

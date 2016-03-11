@@ -74,6 +74,39 @@ _u = _u		+ ['O_Truck_03_medical_F'];
 _u = _u		+ ['Land_Pod_Heli_Transport_04_medevac_F'];
 _u = _u		+ ['O_Truck_03_device_F'];
 
+_u = _u		+ ['CUP_B_TowingTractor_USMC'];
+_u = _u		+ ['CUP_C_Skoda_White_CIV'];
+_u = _u		+ ['CUP_C_SUV_TK'];
+_u = _u		+ ['CUP_I_SUV_Armored_ION'];
+_u = _u		+ ['CUP_C_Datsun'];
+_u = _u		+ ['CUP_O_Datsun_PK_Random'];
+_u = _u		+ ['OFPS_BRDM2'];
+_u = _u		+ ['OFPS_BRDM2ATGM'];
+_u = _u		+ ['OFPS_BRDM2HQ'];
+_u = _u		+ ['OFPS_BTR60'];
+_u = _u		+ ['CUP_O_BTR90_RU'];
+_u = _u		+ ['CUP_O_BTR90_HQ_RU'];
+_u = _u		+ ['Land Rover ambulance woodland'];
+_u = _u		+ ['Land Rover m2 woodland'];
+_u = _u		+ ['Land Rover special desert'];
+_u = _u		+ ['Land Rover special woodland'];
+_u = _u		+ ['Land Rover spg-9'];
+_u = _u		+ ['Land Rover transport'];
+_u = _u		+ ['CUP_B_UAZ_Unarmed_CDF'];
+_u = _u		+ ['CUP_B_UAZ_AGS30_CDF'];
+_u = _u		+ ['CUP_B_UAZ_MG_CDF'];
+_u = _u		+ ['CUP_O_UAZ_AMB_RU'];
+_u = _u		+ ['CUP_O_UAZ_METIS_RU'];
+_u = _u		+ ['CUP_B_UAZ_Open_CDF'];
+_u = _u		+ ['CUP_B_UAZ_SPG9_CDF'];
+_u = _u		+ ['CUP_O_Ural_RU'];
+_u = _u		+ ['CUP_O_Ural_Reammo_RU'];
+_u = _u		+ ['CUP_C_Ural_Open_Civ_01'];
+_u = _u		+ ['CUP_O_Ural_Empty_RU'];
+_u = _u		+ ['CUP_O_Ural_Open_RU'];
+_u = _u		+ ['CUP_O_Ural_Refuel_RU'];
+_u = _u		+ ['CUP_O_Ural_Repair_RU'];
+_u = _u		+ ['CUP_O_Ural_ZU23_RU'];
 
 /*
 _u = _u		+ ['C_Van_01_transport_F']; //SS83 Omon's Cars
@@ -85,10 +118,6 @@ _u = _u		+ ['I_MRAP_03_hmg_F'];
 _u = _u		+ ['I_MRAP_03_gmg_F']; 
 */
 
-_u = _u		+ ['Cha_BRDM2_HQ_DDR'];
-_u = _u		+ ['Cha_BRDM2_DDR'];
-_u = _u		+ ['Cha_BRDM2_ATGM_DDR'];
-_u = _u		+ ['Cha_BTR60_DDR'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
@@ -96,18 +125,21 @@ _u 			= ["O_APC_Tracked_02_cannon_F"];
 _u = _u		+ ['O_APC_Wheeled_02_rcws_F'];
 _u = _u		+ ["O_MBT_02_cannon_F"];
 _u = _u		+ ["O_APC_Tracked_02_AA_F"];
-_u = _u		+ ["RDS_T55_AAF_01"];
-_u = _u		+ ["RDS_T72_AAF_02"];
-_u = _u		+ ["RDS_T72B_AAF_01"];
-_u = _u		+ ["RDS_ZSU_AAF_01"];
-_u = _u		+ ["RDS_BMP1_AAF_01"];
-_u = _u		+ ["RDS_BMP1P_AAF_01"];
-_u = _u		+ ["RDS_BMP2_AAF_01"];
-_u = _u		+ ["RDS_BMP2_HQ_AAF_01"];
 if !(MADE_FOR_STRATIS) then
 {_u = _u		+ ["O_MBT_02_arty_F"];  
  _u = _u		+ ["B_MBT_01_mlrs_F"];  
 };
+
+_u = _u		+ ['OFPS_BMP1'];
+_u = _u		+ ['OFPS_BMP1P'];
+_u = _u		+ ['OFPS_BMP2'];
+_u = _u		+ ['OFPS_BMP2_HQ'];
+_u = _u		+ ['OFPS_BMP2_M'];
+_u = _u		+ ['OFPS_BMP2_ZSU'];
+_u = _u		+ ['OFPS_T55'];
+_u = _u		+ ['OFPS_T72A'];
+_u = _u		+ ['OFPS_ZSU23'];
+
 /*
 _u = _u		+ ['I_APC_Wheeled_03_cannon_F'];
 _u = _u		+ ['I_APC_tracked_03_cannon_F'];
@@ -136,24 +168,27 @@ _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 _u = _u		+ ['I_Plane_Fighter_03_AA_F'];
 _u = _u		+ ['O_Plane_CAS_02_F'];
 
-_u = _u		+ ['sab_t28trojan_O'];
-_u = _u		+ ['sab_C130_H_CSAT'];
-_u = _u		+ ['globemaster_c17_Qatar'];
+_u = _u		+ ['O_UCSV_01'];
 _u = _u		+ ['bwi_a3_t6a_5'];
 _u = _u		+ ['bwi_a3_at6b_2'];
-_u = _u		+ ['sab_SU34_O_AGM'];
-_u = _u		+ ['sab_SU34_O_BMB'];
-_u = _u		+ ['sab_SU34_O_CAP'];
-_u = _u		+ ['sab_SU34_O_CAS'];
-_u = _u		+ ['sab_SU34_O_LGB'];
-_u = _u		+ ['Cha_Mi24_P_CSAT'];
-_u = _u		+ ['Cha_Mi24_V_CSAT'];
-_u = _u		+ ['O_UCSV_01'];
-_u = _u		+ ['O_PAKFA_F'];
-_u = _u		+ ['GNT_C185'];
-_u = _u		+ ['GNT_C185F'];
-_u = _u		+ ['GNT_C185T'];
 _u = _u		+ ['LDL_C130J'];
+_u = _u		+ ['globemaster_c17_Qatar'];
+
+_u = _u		+ ['CUP_C_C47_CIV'];
+_u = _u		+ ['CUP_C_DC3_CIV'];
+_u = _u		+ ['CUP_O_Ka50_SLA'];
+_u = _u		+ ['CUP_C_Mi17_Civilian_RU'];
+_u = _u		+ ['CUP_B_Mi171Sh_ACR'];
+_u = _u		+ ['CUP_B_Mi24_D_CDF'];
+_u = _u		+ ['CUP_O_Mi24_P_RU'];
+_u = _u		+ ['CUP_O_Mi24_V_RU'];
+_u = _u		+ ['CUP_B_MI6A_CDF'];
+_u = _u		+ ['CUP_B_MI6T_CDF'];
+_u = _u		+ ['CUP_O_Mi8_CHDKZ'];
+_u = _u		+ ['CUP_O_Mi8_SLA_2'];
+_u = _u		+ ['CUP_B_Su25_CDF'];
+_u = _u		+ ['OFPS_SU34_LGB'];
+_u = _u		+ ['OFPS_SU34_AGM'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
@@ -176,7 +211,6 @@ _u 			= ['O_Boat_Transport_01_F'];
 _u = _u		+ ['O_Boat_Armed_01_hmg_F'];
 _u = _u		+ ['C_Boat_Civil_01_rescue_F'];
 _u = _u		+ ["Burnes_MK10_1"];
-_u = _u		+ ["O_CBS_WaterShadow730_F"];
 _u = _u		+ ['O_SDV_01_F'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];

@@ -75,23 +75,43 @@ _u = _u  	+ ["B_Truck_01_medical_F"];
 _u = _u		+ ['B_Slingload_01_Medevac_F'];
 _u = _u		+ ['O_Truck_03_device_F'];
 
-_u = _u		+ ['DAR_M1151WoodlandUA'];
-_u = _u		+ ['DAR_M1152Woodland'];
-_u = _u		+ ['DAR_M1151Woodland'];
-_u = _u		+ ['DAR_M115_MK19Woodland'];
-_u = _u		+ ['DAR_M1167Woodland'];
-_u = _u		+ ['DAR_MaxxPro'];
-_u = _u		+ ['DAR_MaxxPro_MK19'];
-_u = _u		+ ['DAR_MaxxProDeploy'];
-_u = _u		+ ['DAR_MaxxProDXM'];
-_u = _u		+ ['DAR_MaxxProPlus'];
-_u = _u		+ ['blx_M1117_W'];
-_u = _u		+ ['M1126_ICV_M134_DG1_SLATWOOD'];
-_u = _u		+ ['M1126_ICV_mk19_DG1_SLATWOOD'];
-_u = _u		+ ['M1129_MC_DG1_SLATWOOD'];
-_u = _u		+ ['M1135_ATGMV_DG1_SLATWOOD'];
-_u = _u		+ ['M1128_MGS_DG1_SLATWOOD'];
-
+_u = _u		+ ['CUP_B_TowingTractor_USMC'];
+_u = _u		+ ['CUP_B_Dingo_GL_CZ_Wdl'];
+_u = _u		+ ['CUP_B_Dingo_CZ_Wdl'];
+_u = _u		+ ['CUP_B_HMMWV_Ambulance_USMC'];
+_u = _u		+ ['CUP_B_HMMWV_Avenger_USMC'];
+_u = _u		+ ['CUP_B_HMMWV_Crows_M2_USA'];
+_u = _u		+ ['CUP_B_HMMWV_Crows_MK19_USA'];
+_u = _u		+ ['CUP_B_HMMWV_AGS_GPK_ACR'];
+_u = _u		+ ['CUP_B_HMMWV_DSHKM_GPK_ACR'];
+_u = _u		+ ['CUP_B_HMMWV_M2_GPK_USA'];
+_u = _u		+ ['CUP_B_HMMWV_M2_USMC'];
+_u = _u		+ ['CUP_B_HMMWV_M1114_USMC'];
+_u = _u		+ ['CUP_B_HMMWV_MK19_USMC'];
+_u = _u		+ ['CUP_B_HMMWV_SOV_USA'];
+_u = _u		+ ['CUP_B_HMMWV_TOW_USMC'];
+_u = _u		+ ['CUP_B_HMMWV_Transport_USA'];
+_u = _u		+ ['CUP_B_HMMWV_Terminal_USA'];
+_u = _u		+ ['CUP_B_Jackal2_GMG_GB_D'];
+_u = _u		+ ['CUP_B_Jackal2_GMG_GB_W'];
+_u = _u		+ ['CUP_B_Jackal2_L2A1_GB_D'];
+_u = _u		+ ['CUP_B_Jackal2_L2A1_GB_W'];
+_u = _u		+ ['CUP_B_LAV25_USMC'];
+_u = _u		+ ['CUP_B_LAV25M240_USMC'];
+_u = _u		+ ['CUP_B_LAV25_HQ_USMC'];
+_u = _u		+ ['CUP_B_M1126_ICV_M2_Desert'];
+_u = _u		+ ['CUP_B_M1126_ICV_MK19_Desert'];
+_u = _u		+ ['CUP_B_M1128_MGS_Desert'];
+_u = _u		+ ['CUP_B_M1129_MC_MK19_Desert'];
+_u = _u		+ ['CUP_B_M1130_CV_M2_Desert'];
+_u = _u		+ ['CUP_B_M1133_MEV_Desert'];
+_u = _u		+ ['CUP_B_M1135_ATGMV_Desert'];
+_u = _u		+ ['CUP_RG31_M2'];
+_u = _u		+ ['CUP_RG31_M2_GC'];
+_u = _u		+ ['CUP_RG31_M2_OD'];
+_u = _u		+ ['CUP_RG31_Mk19'];
+_u = _u		+ ['CUP_RG31_Mk19_OD'];
+_u = _u		+ ['CUP_RG31E_M2'];
 
 /*
 
@@ -112,15 +132,21 @@ _u 			= ["B_APC_Tracked_01_rcws_F"];
 _u = _u  	+ ["B_APC_Wheeled_01_cannon_F"];
 _u = _u		+ ["B_APC_Tracked_01_AA_F"];
 _u = _u		+ ["B_MBT_01_cannon_F"];
-_u = _u		+ ["Burnes_M1A1_MEU_02_Public"];
-_u = _u		+ ["Cha_LAV25A2"];
-_u = _u		+ ["Cha_LAV25_HQ"];
-_u = _u		+ ["AAVB"];
-_u = _u		+ ["B_MBT_01_TUSK_F"];
 
 if !(MADE_FOR_STRATIS) then {
 _u = _u		+ ["B_MBT_01_arty_F"];
 _u = _u		+ ["B_MBT_01_mlrs_F"];};
+
+_u = _u		+ ['CUP_B_AAV_USMC'];
+_u = _u		+ ['CUP_B_M113_USA'];
+_u = _u		+ ['CUP_B_M113_Med_USA'];
+_u = _u		+ ['CUP_B_M163_USA'];
+_u = _u		+ ['CUP_B_M1A1_Woodland_US_Army'];
+_u = _u		+ ['CUP_B_M1A2_TUSK_MG_US_Army'];
+_u = _u		+ ['CUP_B_M270_HE_USMC'];
+_u = _u		+ ['CUP_B_M2Bradley_USA_D'];
+_u = _u		+ ['CUP_B_M2A3Bradley_USA_D'];
+
 /*
 _u = _u		+ ['I_APC_Wheeled_03_cannon_F'];
 _u = _u		+ ['I_APC_tracked_03_cannon_F'];
@@ -147,28 +173,39 @@ _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 */
 //_u = _u		+ ["I_Plane_Fighter_03_CAS_F"];
 
-_u = _u		+ ['sab_t28trojan_B'];
-_u = _u		+ ['sab_t28trojan_B_2'];
-_u = _u		+ ['sab_C130_J'];
-_u = _u		+ ['sab_C130_CSP'];
-_u = _u		+ ['globemaster_c17_NATO'];
+_u = _u		+ ['B_UCSV_01'];
+_u = _u		+ ['B_UCSV_02'];
 _u = _u		+ ['bwi_a3_at6b'];
 _u = _u		+ ['bwi_a3_t6a'];
 _u = _u		+ ['bwi_a3_t6c'];
-_u = _u		+ ['JS_JC_FA18E'];
-_u = _u		+ ['JS_JC_FA18F'];
-_u = _u		+ ['DEGA_Apache_AH64D_Block_I_USA'];
-_u = _u		+ ['DEGA_Apache_AH64D_Block_II_USA'];
-_u = _u		+ ['MV22'];
-_u = _u		+ ['B_UCSV_01'];
-_u = _u		+ ['B_UCSV_02'];
-_u = _u		+ ['CHO_F35B_AA'];
-_u = _u		+ ['CHO_F35B_CAS'];
-_u = _u		+ ['CHO_F35B_LGB'];
-_u = _u		+ ['GNT_C185'];
-_u = _u		+ ['GNT_C185F'];
-_u = _u		+ ['GNT_C185T'];
 _u = _u		+ ['USAF_AC130U'];
+_u = _u		+ ['globemaster_c17_NATO'];
+
+_u = _u		+ ['CUP_C_C47_CIV'];
+_u = _u		+ ['CUP_C_DC3_CIV'];
+_u = _u		+ ['CUP_B_AH64D_NO_USA'];
+_u = _u		+ ['CUP_B_AH1Z'];
+_u = _u		+ ['CUP_B_Merlin_HC3_GB'];
+_u = _u		+ ['CUP_B_Merlin_HC3A_GB'];
+_u = _u		+ ['CUP_B_AW159_Cannon_GB'];
+_u = _u		+ ['CUP_B_AW159_Hellfire_GB'];
+_u = _u		+ ['CUP_B_AW159_Unarmed_GB'];
+_u = _u		+ ['CUP_B_CH47F_USA'];
+_u = _u		+ ['CUP_B_CH53E_USMC'];
+_u = _u		+ ['CUP_B_MH60S_USMC'];
+_u = _u		+ ['CUP_B_SA330_Puma_HC1_BAF'];
+_u = _u		+ ['CUP_B_SA330_Puma_HC2_BAF'];
+_u = _u		+ ['CUP_B_UH1Y_GUNSHIP_USMC'];
+_u = _u		+ ['CUP_B_UH1Y_MEV_USMC'];
+_u = _u		+ ['CUP_B_UH1Y_UNA_USMC'];
+_u = _u		+ ['CUP_B_UH60M_US'];
+_u = _u		+ ['CUP_B_UH60M_Unarmed_US'];
+_u = _u		+ ['CUP_B_A10_CAS_USA'];
+_u = _u		+ ['CUP_B_AV8B_CAP_USMC'];
+_u = _u		+ ['CUP_B_F35B_AA_USMC'];
+_u = _u		+ ['CUP_B_GR9_CAP_GB'];
+_u = _u		+ ['CUP_USMC_MQ9'];
+_u = _u		+ ['CUP_B_MV22_USMC'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
@@ -189,7 +226,9 @@ _u = _u		+ ["B_Boat_Armed_01_minigun_F"];
 _u = _u		+ ['C_Boat_Civil_01_police_F'];
 _u = _u		+ ["Burnes_LCAC_1"];
 _u = _u		+ ["B_SDV_01_F"];
-_u = _u		+ ["B_CBS_WaterShadow730_F"];
+_u = _u		+ ["CUP_B_Seafox_USMC"];
+_u = _u		+ ["CUP_B_RHIB_USMC"];
+_u = _u		+ ["CUP_B_RHIB2Turret_USMC"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 

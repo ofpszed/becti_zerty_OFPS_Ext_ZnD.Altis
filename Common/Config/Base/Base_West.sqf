@@ -302,12 +302,6 @@ if ((missionNamespace getVariable "CTI_RESPAWN_FOB_RANGE")> 0) then {
 	_categories = _categories 	+ ["Fortification"];
 };
 
-_headers = _headers 		+ ["TOW AT"];
-_classes = _classes 		+ ["RDS_TOW_TriPod_AAF"];
-_prices = _prices 			+ [3500];
-_placements = _placements 	+ [[180, 5]];
-_categories = _categories 	+ ["Defense"];
-
 _headers = _headers 		+ ["MG Defense"];
 _classes = _classes 		+ ["B_HMG_01_High_F"];
 _prices = _prices 			+ [1500];
@@ -338,6 +332,42 @@ _prices = _prices 			+ [10000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 };
+
+_headers = _headers 		+ ["M2 Machine Gun"];
+_classes = _classes 		+ ["CUP_B_M2StaticMG_USMC"];
+_prices = _prices 			+ [1500];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["M2 Mini"];
+_classes = _classes 		+ ["CUP_B_M2StaticMG_USMC"];
+_prices = _prices 			+ [1500];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["TOW Tripod"];
+_classes = _classes 		+ ["CUP_B_TOW_TriPod_USMC"];
+_prices = _prices 			+ [3000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["M252 81mm mortar"];
+_classes = _classes 		+ ["CUP_B_M252_USMC"];
+_prices = _prices 			+ [10000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["Mk-29 GMLS"];
+_classes = _classes 		+ ["CUP_WV_B_SS_Launcher"];
+_prices = _prices 			+ [30000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
+
+_headers = _headers 		+ ["Mk-49 GMLS"];
+_classes = _classes 		+ ["CUP_WV_B_RAM_Launcher"];
+_prices = _prices 			+ [30000];
+_placements = _placements 	+ [[0, 20]];
+_categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["C-RAM Phalanx"];
 _classes = _classes 		+ ["C_at_phalanx_35AI"];
