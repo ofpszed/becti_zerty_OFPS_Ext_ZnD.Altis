@@ -7,7 +7,7 @@ _i = [];
 _u = [];
 _p = [];
 
-//--- Magazines
+//--- Magazines (vanilla only here, CUP further down)
 _i = _i		+ ["ATMine_Range_Mag"];
 _u = _u		+ [2];
 _p = _p		+ [100];
@@ -339,43 +339,11 @@ _i = _i		+ [["hgun_PDW2000_Holo_F"]];
 _u = _u		+ [0];
 _p = _p		+ [200];
 
-_i = _i		+ [["hgun_PDW2000_snds_F"]];
-_u = _u		+ [0];
-_p = _p		+ [50];
-
-_i = _i		+ [["hgun_PDW2000_Holo_snds_F"]];
-_u = _u		+ [0];
-_p = _p		+ [50];
-
 _i = _i		+ ["arifle_TRG21_F"];
 _u = _u		+ [0];
 _p = _p		+ [300];
 
-_i = _i		+ [["arifle_TRG21_ACO_pointer_F"]];
-_u = _u		+ [0];
-_p = _p		+ [300];
-
-_i = _i		+ [["arifle_TRG21_ARCO_pointer_F"]];
-_u = _u		+ [0];
-_p = _p		+ [500];
-
 _i = _i		+ ["arifle_TRG20_F"];
-_u = _u		+ [0];
-_p = _p		+ [350];
-
-_i = _i		+ [["arifle_TRG20_Holo_F"]];
-_u = _u		+ [0];
-_p = _p		+ [300];
-
-_i = _i		+ [["arifle_TRG20_ACO_pointer_F"]];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ [["arifle_TRG20_ACO_Flash_F"]];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ [["arifle_TRG20_ACO_F"]];
 _u = _u		+ [0];
 _p = _p		+ [350];
 
@@ -383,29 +351,9 @@ _i = _i		+ ["arifle_TRG21_GL_F"];
 _u = _u		+ [0];
 _p = _p		+ [400];
 
-_i = _i		+ [["arifle_TRG21_GL_ACO_pointer_F"]];
-_u = _u		+ [0];
-_p = _p		+ [400];
-
-_i = _i		+ [["LMG_Mk200_MRCO_F"]];
-_u = _u		+ [0];
-_p = _p		+ [40];
-
-_i = _i		+ [["LMG_Mk200_pointer_F"]];
-_u = _u		+ [0];
-_p = _p		+ [40];
-
 _i = _i		+ ["SMG_02_F"];
 _u = _u		+ [1];
 _p = _p		+ [200];
-
-_i = _i		+ [["SMG_02_ACO_F"]];
-_u = _u		+ [1];
-_p = _p		+ [20];
-
-_i = _i		+ [["SMG_02_ARCO_pointg_F"]];
-_u = _u		+ [1];
-_p = _p		+ [25];
 
 _i = _i		+ ["arifle_SDAR_F"];
 _u = _u		+ [1];
@@ -415,43 +363,7 @@ _i = _i		+ ["arifle_Katiba_F"];
 _u = _u		+ [1];
 _p = _p		+ [300];
 
-_i = _i		+ [["arifle_Katiba_ACO_F"]];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ [["arifle_Katiba_ACO_pointer_F"]];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ [["arifle_Katiba_ARCO_F"]];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ [["arifle_Katiba_ARCO_pointer_F"]];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ [["arifle_Katiba_ACO_pointer_snds_F"]];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ [["arifle_Katiba_ARCO_pointer_snds_F"]];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
 _i = _i		+ ["arifle_Katiba_C_F"];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ [["arifle_Katiba_C_ACO_pointer_F"]];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ [["arifle_Katiba_C_ACO_F"]];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ [["arifle_Katiba_C_ACO_pointer_snds_F"]];
 _u = _u		+ [1];
 _p = _p		+ [300];
 
@@ -459,33 +371,9 @@ _i = _i		+ ["arifle_Katiba_GL_F"];
 _u = _u		+ [1];
 _p = _p		+ [400];
 
-_i = _i		+ [["arifle_Katiba_GL_ACO_F"]];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ [["arifle_Katiba_GL_ARCO_pointer_F"]];
-_u = _u		+ [1];
-_p = _p		+ [500];
-
-_i = _i		+ [["arifle_Katiba_GL_ACO_pointer_F"]];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
-_i = _i		+ [["arifle_Katiba_GL_Nstalker_pointer_F"]];
-_u = _u		+ [1];
-_p = _p		+ [1500];
-
-_i = _i		+ [["arifle_Katiba_GL_ACO_pointer_snds_F"]];
-_u = _u		+ [1];
-_p = _p		+ [300];
-
 _i = _i		+ ["LMG_Zafir_F"];
 _u = _u		+ [1];
 _p = _p		+ [1200];
-
-_i = _i		+ [["LMG_Zafir_pointer_F"]];
-_u = _u		+ [1];
-_p = _p		+ [150];
 
 _i = _i		+ ["srifle_DMR_01_F"];
 _u = _u		+ [2];
@@ -495,25 +383,9 @@ _i = _i		+ ["srifle_GM6_F"];
 _u = _u		+ [3];
 _p = _p		+ [1250];
 
-_i = _i		+ [["srifle_GM6_SOS_F"]];
-_u = _u		+ [3];
-_p = _p		+ [1900];
-
-_i = _i		+ [["srifle_GM6_LRPS_F"]];
-_u = _u		+ [3];
-_p = _p		+ [2200];
-
 _i = _i		+ ["srifle_GM6_camo_F"];
 _u = _u		+ [3];
 _p = _p		+ [1250];
-
-_i = _i		+ [["srifle_GM6_camo_SOS_F"]];
-_u = _u		+ [3];
-_p = _p		+ [1900];
-
-_i = _i		+ [["srifle_GM6_camo_LRPS_F"]];
-_u = _u		+ [3];
-_p = _p		+ [2200];
 
 _i = _i		+ ["launch_RPG32_F"];
 _u = _u		+ [0];
@@ -531,15 +403,7 @@ _i = _i		+ ["hgun_Rook40_F"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
-_i = _i		+ [["hgun_Rook40_snds_F"]];
-_u = _u		+ [0];
-_p = _p		+ [5];
-
 _i = _i		+ ["hgun_ACPC2_F"];
-_u = _u		+ [0];
-_p = _p		+ [7];
-
-_i = _i		+ [["hgun_ACPC2_snds_F"]];
 _u = _u		+ [0];
 _p = _p		+ [7];
 
@@ -785,10 +649,19 @@ _i = _i		+ ["G_Shades_Black"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
+_i = _i		+ ["G_Goggles_VR"];
+_u = _u		+ [3];
+_p = _p		+ [2000];
+/*
 _i = _i		+ ["G_Tactical_Clear"];
 _u = _u		+ [3];
 _p = _p		+ [2000];
 
+_i = _i		+ ["G_Tactical_Black"];
+_u = _u		+ [3];
+_p = _p		+ [2000];
+
+*/
 _i = _i		+ ["G_Sport_Blackred"];
 _u = _u		+ [0];
 _p = _p		+ [5];
@@ -804,13 +677,9 @@ _i = _i		+ ["G_Spectacles"];
 _u = _u		+ [1];
 _p = _p		+ [10];
 
-_i = _i		+ ["G_Tactical_Black"];
-_u = _u		+ [3];
-_p = _p		+ [2000];
 
-_i = _i		+ ["G_Goggles_VR"];
-_u = _u		+ [3];
-_p = _p		+ [2000];
+
+
 
 
 
@@ -1520,17 +1389,521 @@ _u = _u + [0];
 _p = _p + [1000];
 
 
+//************************C.U.P Stuff************************
+
+	//RIFLES
+	
+		//AK Family
+
+_i = _i + ["CUP_arifle_AK47"];  
+_u = _u + [];
+_p = _p + [];		
+
+_i = _i + ["CUP_arifle_AK74"];  
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_AK74M"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_AK74_GL"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_AKS"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_AKS_Gold"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_AKS74"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_AKS74U"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_AK107"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_AK107_GL"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_AKM"];
+_u = _u + [];
+_p = _p + [];
+
+		//CZ Family
+
+_i = _i + ["CUP_arifle_CZ805_A1"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_CZ805_GL"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_CZ805_A2"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_CZ805_B"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_CZ805_B_GL"];
+_u = _u + [];
+_p = _p + [];
+
+		//VZ 58 Family
+
+_i = _i + ["CUP_arifle_Sa58P"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_Sa58V"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_Sa58RIS1"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_Sa58RIS2"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_Sa58RIS2_gl"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_Sa58P_des"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_Sa58V_camo"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_Sa58RIS1_des"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_Sa58RIS2_camo"];
+_u = _u + [];
+_p = _p + [];
+
+		//XM8 Family
+
+_i = _i + ["CUP_arifle_XM8_Carbine"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_XM8_Carbine_GL"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_xm8_sharpshooter"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_XM8_Compact"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_XM8_Compact_Rail"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_XM8_Railed"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_arifle_XM8_Carbine_FG"];
+_u = _u + [];
+_p = _p + [];
+
+	//Machine Guns
+
+		//RPK Family
+
+_i = _i + ["CUP_RPK_74"];
+_u = _u + [];
+_p = _p + [];
+
+		//PKP Family
+
+_i = _i + ["CUP_lmg_Pecheneg"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_Pecheneg"];
+_u = _u + [];
+_p = _p + [];
+
+		//PKM Family
+
+_i = _i + ["CUP_lmg_PKM"];
+_u = _u + [];
+_p = _p + [];
+
+		//UK59 Family
+
+_i = _i + ["CUP_lmg_UK59"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_UK59_ACR"];
+_u = _u + [];
+_p = _p + [];
+
+	//Sniper Rifles
+
+		//CZ550 Family
+
+_i = _i + ["CUP_srifle_CZ550"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_huntingrifle"];
+_u = _u + [];
+_p = _p + [];
+
+	//CZ750 Family
+
+_i = _i + ["CUP_srifle_CZ750"];
+_u = _u + [];
+_p = _p + [];
+
+	//SVD Family
+
+_i = _i + ["CUP_SVD"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_SVD_CAMO"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_srifle_SVD"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_srifle_SVD_des"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_srifle_SVD_des_ghillie_pso"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_srifle_SVD_wdl_ghillie"];
+_u = _u + [];
+_p = _p + [];
+
+		//VSS Family
+
+_i = _i + ["CUP_srifle_VSSVintorez"];
+_u = _u + [];
+_p = _p + [];
+
+		//KSVK Family
+
+_i = _i + ["CUP_srifle_ksvk"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_ksvk"];
+_u = _u + [];
+_p = _p + [];
+
+	//Shotguns
+	
+		//Saiga Family
+
+_i = _i + ["CUP_sgun_Saiga12K"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_Saiga12K"];
+_u = _u + [];
+_p = _p + [];
+
+	//Small Machine Guns (SMGs)
+	
+		//Bizon Family
+
+_i = _i + ["CUP_smg_bizon"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_bizon"];
+_u = _u + [];
+_p = _p + [];
+
+		//Scorpion Family
+
+_i = _i + ["CUP_smg_EVO"];
+_u = _u + [];
+_p = _p + [];
+
+	//Handguns
+	
+		//CZ75 Family
+
+_i = _i + ["CUP_hgun_Compact"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_hgun_Duty"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_hgun_Duty_M3X"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_hgun_Phantom"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_CZ_75_D_COMPACT"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_CZ_75_P_07_DUTY"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_CZ_75_SP_01_PHANTOM"];
+_u = _u + [];
+_p = _p + [];
+
+		//Makarov Family
+
+_i = _i + ["CUP_hgun_Makarov"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_Makarov"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_MakarovSD"];
+_u = _u + [];
+_p = _p + [];
+
+		//PB 6P9 Family
+
+_i = _i + ["CUP_hgun_PB6P9"];
+_u = _u + [];
+_p = _p + [];
+
+		//SA-61 Family
+
+_i = _i + ["CUP_hgun_SA61"];
+_u = _u + [];
+_p = _p + [];
+
+	//Launchers
+	
+		//Anti-air
+		
+			//9K32 Strela
+			
+_i = _i + ["CUP_launch_9K32Strela"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_Strela"];
+_u = _u + [];
+_p = _p + [];
+
+			//9K38 IGLA Family
+
+_i = _i + ["CUP_launch_Igla"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_Igla"];
+_u = _u + [];
+_p = _p + [];
+
+		//Anti Tank
+		
+			//M47 Dragon Family
+		
+_i = _i + ["CUP_launch_M47"];
+_u = _u + [];
+_p = _p + [];
+
+			//METIS Family
+
+_i = _i + ["CUP_launch_Metis"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_MetisLauncher"];
+_u = _u + [];
+_p = _p + [];
+
+			//RPG-7 Family
+
+_i = _i + ["CUP_launch_RPG7V"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_RPG7V"];
+_u = _u + [];
+_p = _p + [];
+
+			//RPG-18 Family
+
+_i = _i + ["CUP_launch_RPG18"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + ["CUP_RPG18"];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+_i = _i + [""];
+_u = _u + [];
+_p = _p + [];
+
+
+
+
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
 
 //--- Templates (Those lines can be generated in the RPT on purchase by uncommenting the diag_log in Events_UI_GearMenu.sqf >> "onPurchase").
 _t = [];
-/*_t = _t		+ [[[["arifle_trg21_f",["","acc_pointer_ir","optic_aco_grn"],["30rnd_556x45_stanag"]],["",[],[]],["hgun_rook40_f",[],["16rnd_9x21_mag"]]],[["u_o_combatuniform_ocamo",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade"]],["b_assaultpack_khk",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag"]]],["h_helmeto_ocamo",""],[["nvgoggles","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
-_t = _t		+ [[[["arifle_trg21_gl_f",["","acc_pointer_ir","optic_aco_grn"],["30rnd_556x45_stanag"]],["",[],[]],["hgun_rook40_f",[],["16rnd_9x21_mag"]]],[["u_o_combatuniform_ocamo",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade"]],["b_assaultpack_khk",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","1rnd_he_grenade_shell","1rnd_he_grenade_shell","1rnd_he_grenade_shell","1rnd_he_grenade_shell","1rnd_he_grenade_shell","1rnd_he_grenade_shell","1rnd_he_grenade_shell","1rnd_smokered_grenade_shell","1rnd_smokered_grenade_shell"]]],["h_helmeto_ocamo",""],[["nvgoggles","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
-_t = _t		+ [[[["lmg_zafir_f",["","acc_pointer_ir","optic_aco_grn"],["150rnd_762x51_box"]],["",[],[]],["hgun_rook40_f",[],["16rnd_9x21_mag"]]],[["u_o_combatuniform_ocamo",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade"]],["b_assaultpack_khk",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","150rnd_762x51_box","150rnd_762x51_box","150rnd_762x51_box","150rnd_762x51_box","150rnd_762x51_box"]]],["h_helmeto_ocamo",""],[["nvgoggles","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
-_t = _t		+ [[[["arifle_katiba_f",["","acc_pointer_ir","optic_mrco"],["30rnd_65x39_caseless_green"]],["",[],[]],["hgun_rook40_f",["muzzle_snds_l","",""],["16rnd_9x21_mag"]]],[["u_o_combatuniform_ocamo",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade","muzzle_snds_h"]],["b_assaultpack_khk",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","30rnd_65x39_caseless_green","30rnd_65x39_caseless_green","30rnd_65x39_caseless_green","30rnd_65x39_caseless_green","30rnd_65x39_caseless_green","30rnd_65x39_caseless_green","30rnd_65x39_caseless_green","30rnd_65x39_caseless_green","30rnd_65x39_caseless_green","30rnd_65x39_caseless_green","30rnd_65x39_caseless_green","30rnd_65x39_caseless_green","democharge_remote_mag","democharge_remote_mag","democharge_remote_mag","apersboundingmine_range_mag","apersboundingmine_range_mag"]]],["h_helmeto_ocamo",""],[["nvgoggles","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
-_t = _t		+ [[[["arifle_mk20c_f",["","acc_pointer_ir","optic_aco_grn"],["30rnd_556x45_stanag"]],["launch_rpg32_f",[],["rpg32_f"]],["hgun_rook40_f",[],["16rnd_9x21_mag"]]],[["u_o_combatuniform_ocamo",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade"]],["b_assaultpack_khk",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","rpg32_f","rpg32_f"]]],["h_helmeto_ocamo",""],[["nvgoggles","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
-_t = _t		+ [[[["arifle_mk20c_f",["","acc_pointer_ir","optic_aco_grn"],["30rnd_556x45_stanag"]],["launch_b_titan_f",[],["titan_aa"]],["hgun_rook40_f",[],["16rnd_9x21_mag"]]],[["u_o_combatuniform_ocamo",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade"]],["b_assaultpack_khk",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","titan_aa","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag","30rnd_556x45_stanag"]]],["h_helmeto_ocamo",""],[["nvgoggles","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
-_t = _t		+ [[[["srifle_gm6_f",["","","optic_sos"],["5rnd_127x108_mag"]],["",[],[]],["hgun_acpc2_f",["muzzle_snds_acp","",""],["16rnd_9x21_mag"]]],[["u_o_ghilliesuit",[]],["v_tacvest_brn",["firstaidkit","firstaidkit","handgrenade","handgrenade","smokeshellblue","smokeshellblue"]],["b_fieldpack_ocamo",["claymoredirectionalmine_remote_mag","claymoredirectionalmine_remote_mag","slamdirectionalmine_wire_mag","9rnd_45acp_mag","9rnd_45acp_mag","9rnd_45acp_mag","9rnd_45acp_mag","5rnd_127x108_mag","5rnd_127x108_mag","5rnd_127x108_mag","5rnd_127x108_mag","5rnd_127x108_mag","5rnd_127x108_mag","5rnd_127x108_mag","5rnd_127x108_mag","5rnd_127x108_mag","5rnd_127x108_mag"]]],["h_helmeto_ocamo",""],[["nvgoggles","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
-_t = _t		+ [[[["smg_01_f",["","","optic_aco_grn"],["30rnd_45acp_mag_smg_01"]],["",[],[]],["hgun_rook40_f",[],["16rnd_9x21_mag"]]],[["u_o_combatuniform_ocamo",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade"]],["b_assaultpack_khk",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01"]]],["h_helmeto_ocamo",""],[["nvgoggles","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];*/
+
 
 [_faction, _t] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Template_Set.sqf";

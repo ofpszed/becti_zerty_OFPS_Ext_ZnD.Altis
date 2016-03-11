@@ -12,30 +12,26 @@ missionNamespace setVariable [format["CTI_%1_Pilot", _side], "B_Helipilot_F"];
 
 missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 	["B_Truck_01_medical_F", [
-		["arifle_mx_gl_f", 2], ["30Rnd_65x39_caseless_mag", 50],
-		["arifle_MXM_F", 1],
-		["launch_NLAW_F", 5], ["NLAW_F", 20],
-		["HandGrenade", 20],
-		["30Rnd_556x45_Stanag", 15],
-		["30Rnd_65x39_caseless_mag_Tracer", 6],
-		["3rnd_he_grenade_shell", 8],
-		["3Rnd_UGL_FlareWhite_F", 9],
-		["3rnd_smokeblue_grenade_shell", 3],
-		["SmokeShellBlue", 8],
+		["CUP_arifle_M16A2_GL", 2], ["CUP_30Rnd_556x45_Stanag", 50],
+		["CUP_launch_M136", 5], 
+		["CUP_M136_M", 20],
+		["CUP_30Rnd_TE1_Red_Tracer_556x45_G36", 15],
+		["CUP_1Rnd_HE_M203", 8],
+		["CUP_FlareWhite_M203", 9],
+		["CUP_1Rnd_Smoke_M203", 3],
+		["CUP_1Rnd_SmokeGreen_M203", 8],
 		["firstaidkit", 20],
 		["Chemlight_blue", 36],
 		["acc_flashlight", 5],
-		["optic_ACO_grn", 3],
-		["optic_Holosight", 2],
-		["optic_MRCO", 1],
-		["optic_arco", 2],
-		["Toolkit", 1],
+		["Toolkit", 4],
 		["B_Bergen_sgg", 4]
 	]],
-	["B_MRAP_01_F", [["Toolkit", 1],["firstaidkit", 10],["30Rnd_556x45_Stanag", 15],["launch_NLAW_F", 5], ["NLAW_F", 20]]]
+	["B_MRAP_01_F", [["Toolkit", 2],["firstaidkit", 10],["CUP_30Rnd_556x45_Stanag", 15],["CUP_launch_M136", 5], ["CUP_M136_M", 10]]]
 	//,	["B_Heli_Transport_01_F", []]
 
 ]];
+
+
 
 //--- Units - Barracks
 

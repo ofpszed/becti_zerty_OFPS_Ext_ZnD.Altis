@@ -1,6 +1,6 @@
 _side = _this;
 
-missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_APC_Tracked_01_CRV_F"];
+missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BMP_HQ_RU"];
 missionNamespace setVariable [format["CTI_%1_Factories", _side], ["Barracks","Light","Heavy","Air","Ammo","Repair","Naval"]];
 
 missionNamespace setVariable [format["CTI_%1_Base_Template", _side], [
@@ -13,6 +13,7 @@ missionNamespace setVariable [format["CTI_%1_Base_Template", _side], [
 	[CTI_REPAIR, 180, [60,37]],
 	[CTI_AMMO, 180, [80,37]]
 ]];
+
 
 //--- Commander course of action ["Action", Parameter(s), Condition]
 missionNamespace setVariable [format["CTI_%1_Commander_Path", _side], [
