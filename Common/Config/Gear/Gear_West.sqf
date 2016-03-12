@@ -2803,6 +2803,344 @@ _i = _i		+ ["CUP_OG9_HE_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
+//--CUP Attachments
+
+//--Kobra Optics
+
+_i = _i		+ ["CUP_optic_Kobra"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--Holo Optics
+
+_i = _i		+ ["CUP_optic_HoloBlack"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_HoloWdl"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_HoloDesert"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_Eotech533"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_Eotech533Grey"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--CCO Aimpoint Optics
+
+_i = _i		+ ["CUP_optic_CompM4"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_CompM2_Black"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_CompM2_Woodland"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_CompM2_Woodland2"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_CompM2_Desert"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--Trijicon RedDot Optics
+
+_i = _i		+ ["CUP_optic_TrijiconRx01_desert"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_TrijiconRx01_black"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--Schmidt and Bender ShortDot Optics
+
+_i = _i		+ ["CUP_optic_SB_11_4x20_PM"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--Meopta Optics
+
+_i = _i		+ ["CUP_optic_ZDDot"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_MRad"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--Trijicon RCO and ACOG Optics
+
+_i = _i		+ ["CUP_optic_RCO"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_RCO_desert"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_ACOG"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--Midrange Optics
+
+_i = _i		+ ["CUP_optic_SUSAT"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_ElcanM145"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_ELCAN_SpecterDR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_CWS"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--PSO Optics
+
+_i = _i		+ ["CUP_optic_PSO_1"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_PSO_3"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--DMR Sniper Optics
+
+_i = _i		+ ["CUP_optic_SB_3_12x50_PMII"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_LeupoldMk4"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_Leupold_VX3"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_LeupoldM3LR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_LeupoldMk4_10x40_LRT_Desert"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_LeupoldMk4_10x40_LRT_Woodland"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_LeupoldMk4_CQ_T"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_LeupoldMk4_MRT_tan"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_PechenegScope"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--Nightvision TWS Optics
+
+_i = _i		+ ["CUP_optic_AN_PAS_13c1"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_AN_PAS_13c2"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_GOSHAWK"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_AN_PVS_10"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_AN_PVS_4"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_NSPU"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--Launcher Optics
+
+_i = _i		+ ["CUP_optic_MAAWS_Scope"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_optic_SMAW_Scope"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--Muzzle Attachment
+//--Silencer Attachment
+
+_i = _i		+ ["CUP_muzzle_snds_AWM"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_PBS4"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_PB6P9"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_Bizon"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_snds_G36_black"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_snds_G36_desert"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_snds_L85"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_snds_M110"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_snds_M14"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_snds_M16_camo"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_snds_M16"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_snds_M9"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_snds_MicroUzi"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_snds_XM8"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_snds_SCAR_L"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_snds_SCAR_H"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--Flash Suppressor Attachment
+
+_i = _i		+ ["CUP_muzzleFlash2SCAR_L"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_mfsup_SCAR_L"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_muzzle_mfsup_SCAR_H"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--Side Attachment
+//--Laser Attachment
+
+_i = _i		+ ["CUP_acc_ANPEQ_15"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_acc_ANPEQ_2"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_acc_ANPEQ_2_camo"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_acc_ANPEQ_2_desert"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_acc_ANPEQ_2_grey"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--Flashlight Attachment
+
+_i = _i		+ ["CUP_acc_Flashlight"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_acc_Flashlight_wdl"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_acc_Flashlight_desert"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_acc_XM8_light_module"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_acc_CZ_M3X"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_acc_Glock17_Flashlight"];
+_u = _u		+ [0];
+_p = _p		+ [10];
 
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
