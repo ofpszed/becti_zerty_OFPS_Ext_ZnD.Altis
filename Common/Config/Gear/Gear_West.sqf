@@ -2038,6 +2038,771 @@ _i = _i + ["CUP_M136"];
 _u = _u + [0];
 _p = _p + [500];
 
+//---Caliber 5.45x39mm
+
+_i = _i		+ ["_i = _i		+ ["CUP_30Rnd_545x39_AK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["_i = _i		+ ["CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["_i = _i		+ ["CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["_i = _i		+ ["CUP_30Rnd_TE1_White_Tracer_545x39_AK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["_i = _i		+ ["CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["_i = _i		+ ["CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber 5.56x45mm
+
+_i = _i		+ ["CUP_20Rnd_556x45_Stanag"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["30Rnd_556x45_Stanag"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["30Rnd_556x45_Stanag_Tracer_Red"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["30Rnd_556x45_Stanag_Tracer_Green"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["30Rnd_556x45_Stanag_Tracer_Yellow"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_556x45_Stanag"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_556x45_G36"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_TE1_Red_Tracer_556x45_G36"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_TE1_Green_Tracer_556x45_G36"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_TE1_Yellow_Tracer_556x45_G36"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_100Rnd_556x45_BetaCMag"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_100Rnd_TE4_Green_Tracer_556x45_M249"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_100Rnd_TE4_Red_Tracer_556x45_M249"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_200Rnd_TE4_Red_Tracer_556x45_M249"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_200Rnd_TE1_Red_Tracer_556x45_M249"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber .303
+
+_i = _i		+ ["CUP_10x_303_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber 7.62x39mm
+
+_i = _i		+ ["CUP_30Rnd_Sa58_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_Sa58_M_TracerG"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_Sa58_M_TracerR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_Sa58_M_TracerY"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_762x39_AK47_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber 7.62x51mm
+
+_i = _i		+ ["CUP_5Rnd_762x51_M24"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_5x_22_LR_17_HMR_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_10Rnd_762x51_CZ750"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_10Rnd_762x51_CZ750_Tracer"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+20Rnd_762x51_Mag
+_i = _i		+ ["CUP_20Rnd_762x51_FNFAL_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_762x51_DMR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_Red_Tracer_762x51_DMR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_Green_Tracer_762x51_DMR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_White_Tracer_762x51_DMR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_762x51_B_SCAR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_Yellow_Tracer_762x51_SCAR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_Green_Tracer_762x51_SCAR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_White_Tracer_762x51_SCAR"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_762x51_B_M110"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_Yellow_Tracer_762x51_M110"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_Red_Tracer_762x51_M110"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_Green_Tracer_762x51_M110"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_White_Tracer_762x51_M110"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_762x51_CZ805B"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_Yellow_Tracer_762x51_CZ805B"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_Red_Tracer_762x51_CZ805B"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_Green_Tracer_762x51_CZ805B"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_TE1_White_Tracer_762x51_CZ805B"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_100Rnd_TE4_White_Tracer_762x51_M240_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_200Rnd_TE4_White_Tracer_762x51_M240_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_200Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber 7.62x54mm
+
+_i = _i		+ ["CUP_10Rnd_762x54_SVD_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_50Rnd_UK59_762x54R_Tracer"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber 7.65x17mm
+
+_i = _i		+ ["CUP_10Rnd_B_765x17_Ball_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_B_765x17_Ball_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber .338
+
+_i = _i		+ ["CUP_5Rnd_86x70_L115A1"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber 9x18mm
+
+_i = _i		+ ["CUP_8Rnd_9x18_Makarov_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_8Rnd_9x18_MakarovSD_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber 9x19mm
+
+_i = _i		+ ["CUP_10Rnd_9x19_Compact"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_15Rnd_9x19_M9"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_17Rnd_9x19_glock17"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_18Rnd_9x19_Phantom"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_9x19_EVO"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_9x19_UZI"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_30Rnd_9x19_MP5"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_64Rnd_9x19_Bizon_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_64Rnd_Green_Tracer_9x19_Bizon_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_64Rnd_Red_Tracer_9x19_Bizon_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_64Rnd_White_Tracer_9x19_Bizon_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_64Rnd_Yellow_Tracer_9x19_Bizon_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber 9x21mm
+
+_i = _i		+ ["16Rnd_9x21_Mag"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["30Rnd_9x21_Mag"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber 9x39mm
+
+_i = _i		+ ["CUP_10Rnd_9x39_SP5_VSS_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_9x39_SP5_VSS_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber .45
+
+_i = _i		+ ["CUP_6Rnd_45ACP_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_7Rnd_45ACP_1911"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber 12.7x99mm
+
+_i = _i		+ ["CUP_5Rnd_127x99_as50_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_10Rnd_127x99_M107"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber 12.7x108mm
+
+_i = _i		+ ["CUP_5Rnd_127x108_KSVK_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//---Caliber 12Gauge/Shotguns
+
+_i = _i		+ ["CUP_8Rnd_B_Saiga12_74Slug_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_8Rnd_B_Saiga12_74Pellets_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_8Rnd_B_Beneli_74Slug"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_8Rnd_B_Beneli_74Pellets"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_B_AA12_Pellets"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_B_AA12_74Slug"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_20Rnd_B_AA12_HE"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--- Caliber 40mm Grenades
+
+_i = _i		+ ["1Rnd_HE_Grenade_shell"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_1Rnd_HE_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_1Rnd_HEDP_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_1Rnd_HE_GP25_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--- Smoke
+
+_i = _i		+ ["1Rnd_Smoke_Grenade_shell"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_1Rnd_SMOKE_GP25_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_1Rnd_Smoke_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["1Rnd_SmokeRed_Grenade_shell"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_1Rnd_SmokeRed_GP25_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_1Rnd_SmokeRed_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["1Rnd_SmokeGreen_Grenade_shell"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_1Rnd_SmokeGreen_GP25_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_1Rnd_SmokeGreen_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["1Rnd_SmokeYellow_Grenade_shell"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_1Rnd_SmokeYellow_GP25_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_1Rnd_SmokeYellow_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["1Rnd_SmokePurple_Grenade_shell"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["1Rnd_SmokeBlue_Grenade_shell"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["1Rnd_SmokeOrange_Grenade_shell"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--- Flares
+
+_i = _i		+ ["UGL_FlareWhite_F"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_FlareWhite_GP25_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_FlareWhite_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["UGL_FlareRed_F"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_FlareRed_GP25_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_FlareRed_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["UGL_FlareGreen_F"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_FlareGreen_GP25_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_FlareGreen_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["UGL_FlareYellow_F"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_FlareYellow_GP25_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_FlareYellow_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["UGL_FlareCIR_F"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--- Magazine 6 Rounds
+
+_i = _i		+ ["CUP_6Rnd_HE_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_6Rnd_Smoke_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_6Rnd_SmokeRed_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_6Rnd_SmokeGreen_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_6Rnd_SmokeYellow_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_6Rnd_FlareWhite_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_6Rnd_FlareGreen_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_6Rnd_FlareRed_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_6Rnd_FlareYellow_M203"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--- Handgrenades
+
+_i = _i		+ ["CUP_HandGrenade_M67"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_HandGrenade_L109A1_HE"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_HandGrenade_L109A2_HE"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_HandGrenade_RGD5"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_HandGrenade_RGO"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--- Bombs Mines IEDS
+
+_i = _i		+ ["CUP_TimeBomb_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_Mine_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_MineE_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_PipeBomb_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_IED_V1_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_IED_V2_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_IED_V3_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_IED_V4_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+
+//--- Rockets Bombs
+
+_i = _i		+ ["CUP_Strela_2_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_Stinger_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_Igla_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_Javelin_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_M136_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_Dragon_EP1_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_MAAWS_HEDP_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_MAAWS_HEAT_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_AT13_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_NLAW_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_RPG18_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_PG7V_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_PG7VL_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_PG7VR_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_OG7_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_SMAW_HEDP_M_N"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_SMAW_HEAA_M_N"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_PG9_AT_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_OG9_HE_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
 
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
