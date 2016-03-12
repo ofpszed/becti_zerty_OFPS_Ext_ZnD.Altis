@@ -2808,273 +2808,272 @@ _p = _p		+ [10];
 //--Kobra Optics
 
 _i = _i		+ ["CUP_optic_Kobra"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [2];
+_p = _p		+ [300];
 
 
 //--Holo Optics
 
 _i = _i		+ ["CUP_optic_HoloBlack"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_optic_HoloWdl"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_optic_HoloDesert"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_optic_Eotech533"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [2];
+_p = _p		+ [300];
 
 _i = _i		+ ["CUP_optic_Eotech533Grey"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [2];
+_p = _p		+ [300];
 
 
 //--CCO Aimpoint Optics
 
 _i = _i		+ ["CUP_optic_CompM4"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_optic_CompM2_Black"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_optic_CompM2_Woodland"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_optic_CompM2_Woodland2"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_optic_CompM2_Desert"];
-_u = _u		+ [0];
-_p = _p		+ [10];
-
+_u = _u		+ [3];
+_p = _p		+ [400];
 
 //--Trijicon RedDot Optics
 
 _i = _i		+ ["CUP_optic_TrijiconRx01_desert"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_optic_TrijiconRx01_black"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [100];
 
 
 //--Schmidt and Bender ShortDot Optics
 
 _i = _i		+ ["CUP_optic_SB_11_4x20_PM"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 
 //--Meopta Optics
 
 _i = _i		+ ["CUP_optic_ZDDot"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [300];
 
 _i = _i		+ ["CUP_optic_MRad"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [300];
 
 
 //--Trijicon RCO and ACOG Optics
 
 _i = _i		+ ["CUP_optic_RCO"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_optic_RCO_desert"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_optic_ACOG"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [100];
 
 
 //--Midrange Optics
 
 _i = _i		+ ["CUP_optic_SUSAT"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_optic_ElcanM145"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_optic_ELCAN_SpecterDR"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_optic_CWS"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [400];
 
 
 //--PSO Optics
 
 _i = _i		+ ["CUP_optic_PSO_1"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_optic_PSO_3"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [4];
+_p = _p		+ [600];
 
 
 //--DMR Sniper Optics
 
 _i = _i		+ ["CUP_optic_SB_3_12x50_PMII"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [4];
+_p = _p		+ [700];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [4];
+_p = _p		+ [700];
 
 _i = _i		+ ["CUP_optic_Leupold_VX3"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [4];
+_p = _p		+ [700];
 
 _i = _i		+ ["CUP_optic_LeupoldM3LR"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [4];
+_p = _p		+ [700];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4_10x40_LRT_Desert"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [4];
+_p = _p		+ [700];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4_10x40_LRT_Woodland"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [4];
+_p = _p		+ [700];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4_CQ_T"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [4];
+_p = _p		+ [700];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4_MRT_tan"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [4];
+_p = _p		+ [700];
 
 _i = _i		+ ["CUP_optic_PechenegScope"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [4];
+_p = _p		+ [700];
 
 
 //--Nightvision TWS Optics
 
 _i = _i		+ ["CUP_optic_AN_PAS_13c1"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [5];
+_p = _p		+ [1000];
 
 _i = _i		+ ["CUP_optic_AN_PAS_13c2"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [5];
+_p = _p		+ [1000];
 
 _i = _i		+ ["CUP_optic_GOSHAWK"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [5];
+_p = _p		+ [1000];
 
 _i = _i		+ ["CUP_optic_AN_PVS_10"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [5];
+_p = _p		+ [1000];
 
 _i = _i		+ ["CUP_optic_AN_PVS_4"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [5];
+_p = _p		+ [1000];
 
 _i = _i		+ ["CUP_optic_NSPU"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [5];
+_p = _p		+ [1000];
 
 
 //--Launcher Optics
 
 _i = _i		+ ["CUP_optic_MAAWS_Scope"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_optic_SMAW_Scope"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [100];
 
 
 //--Muzzle Attachment
 //--Silencer Attachment
 
 _i = _i		+ ["CUP_muzzle_snds_AWM"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_PBS4"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_PB6P9"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_Bizon"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_snds_G36_black"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_snds_G36_desert"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_snds_L85"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_snds_M110"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_snds_M14"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_snds_M16_camo"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_snds_M16"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_snds_M9"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_snds_MicroUzi"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_snds_XM8"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_snds_SCAR_L"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_muzzle_snds_SCAR_H"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [3];
+_p = _p		+ [500];
 
 
 //--Flash Suppressor Attachment
