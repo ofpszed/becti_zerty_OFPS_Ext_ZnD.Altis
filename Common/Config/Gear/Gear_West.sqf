@@ -1659,36 +1659,7 @@ _i = _i + ["CUP_arifle_Mk20"];
 _u = _u + [];
 _p = _p + [];
 
-		//XM8 Family
 		
-_i = _i + ["CUP_arifle_XM8_Carbine"];
-_u = _u + [2];
-_p = _p + [400];
-
-_i = _i + ["CUP_arifle_XM8_Railed"];
-_u = _u + [2];
-_p = _p + [350];
-
-_i = _i + ["CUP_arifle_XM8_Carbine_GL"];
-_u = _u + [2];
-_p = _p + [450];
-
-_i = _i + ["CUP_arifle_XM8_Compact"];
-_u = _u + [2];
-_p = _p + [400];
-
-_i = _i + ["CUP_arifle_XM8_Carbine_FG"];
-_u = _u + [2];
-_p = _p + [400];
-
-_i = _i + ["CUP_arifle_xm8_SAW"]; 
-_u = _u + [2];
-_p = _p + [500];
-
-_i = _i + ["CUP_arifle_xm8_sharpshooter"]; 
-_u = _u + [2];
-_p = _p + [500];
-
 	//Machine Guns
 	
 		//L86A2 Family

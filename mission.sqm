@@ -111,9 +111,9 @@ addons[]=
 	"usaf",
 	"bwi_a3_t6",
 	"UCSV",
-	"usaf_b1b",
-	"USAF_B2",
-	"Werthles_WHK",
+	//"usaf_b1b",
+	//"USAF_B2",
+	//"Werthles_WHK",
 	"CUP_WaterVehicles_LHD"
 };
 randomSeed=12242137;

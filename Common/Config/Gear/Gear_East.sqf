@@ -383,7 +383,7 @@ _u = _u		+ [5];
 _p = _p		+ [150];
 
 _i = _i		+ ["launch_RPG32_F"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [650];
 
 _i = _i		+ ["launch_O_Titan_F"];
@@ -1438,35 +1438,35 @@ _i = _i + ["CUP_arifle_Sa58RIS2_camo"];
 _u = _u + [4];
 _p = _p + [600];
 
-		//XM8 Family
-
+//XM8 Family
+		
 _i = _i + ["CUP_arifle_XM8_Carbine"];
-_u = _u + [];
-_p = _p + [];
-
-_i = _i + ["CUP_arifle_XM8_Carbine_GL"];
-_u = _u + [];
-_p = _p + [];
-
-_i = _i + ["CUP_arifle_xm8_sharpshooter"];
-_u = _u + [];
-_p = _p + [];
-
-_i = _i + ["CUP_arifle_XM8_Compact"];
-_u = _u + [];
-_p = _p + [];
-
-_i = _i + ["CUP_arifle_XM8_Compact_Rail"];
-_u = _u + [];
-_p = _p + [];
+_u = _u + [2];
+_p = _p + [400];
 
 _i = _i + ["CUP_arifle_XM8_Railed"];
-_u = _u + [];
-_p = _p + [];
+_u = _u + [2];
+_p = _p + [350];
+
+_i = _i + ["CUP_arifle_XM8_Carbine_GL"];
+_u = _u + [2];
+_p = _p + [450];
+
+_i = _i + ["CUP_arifle_XM8_Compact"];
+_u = _u + [2];
+_p = _p + [400];
 
 _i = _i + ["CUP_arifle_XM8_Carbine_FG"];
-_u = _u + [];
-_p = _p + [];
+_u = _u + [2];
+_p = _p + [400];
+
+_i = _i + ["CUP_arifle_xm8_SAW"]; 
+_u = _u + [2];
+_p = _p + [500];
+
+_i = _i + ["CUP_arifle_xm8_sharpshooter"]; 
+_u = _u + [2];
+_p = _p + [500];
 
 	//Machine Guns
 
@@ -1479,10 +1479,6 @@ _p = _p + [500];
 		//PKP Family
 
 _i = _i + ["CUP_lmg_Pecheneg"];
-_u = _u + [3];
-_p = _p + [700];
-
-_i = _i + ["CUP_Pecheneg"];
 _u = _u + [3];
 _p = _p + [700];
 
@@ -1558,9 +1554,6 @@ _i = _i + ["CUP_srifle_ksvk"];
 _u = _u + [3];
 _p = _p + [900];
 
-_i = _i + ["CUP_ksvk"];
-_u = _u + [3];
-_p = _p + [900];
 
 	//Shotguns
 	
@@ -1570,19 +1563,12 @@ _i = _i + ["CUP_sgun_Saiga12K"];
 _u = _u + [2];
 _p = _p + [400];
 
-_i = _i + ["CUP_Saiga12K"];
-_u = _u + [2];
-_p = _p + [400];
 
 	//Small Machine Guns (SMGs)
 	
 		//Bizon Family
 
 _i = _i + ["CUP_smg_bizon"];
-_u = _u + [1];
-_p = _p + [200];
-
-_i = _i + ["CUP_bizon"];
 _u = _u + [1];
 _p = _p + [200];
 
@@ -1632,10 +1618,6 @@ _i = _i + ["CUP_hgun_Makarov"];
 _u = _u + [2];
 _p = _p + [20];
 
-_i = _i + ["CUP_Makarov"];
-_u = _u + [3];
-_p = _p + [100];
-
 _i = _i + ["CUP_MakarovSD"];
 _u = _u + [3];
 _p = _p + [100];
@@ -1662,9 +1644,6 @@ _i = _i + ["CUP_launch_9K32Strela"];
 _u = _u + [2];
 _p = _p + [1200];
 
-_i = _i + ["CUP_Strela"];
-_u = _u + [2];
-_p = _p + [1200];
 
 			//9K38 IGLA Family
 
@@ -1672,9 +1651,6 @@ _i = _i + ["CUP_launch_Igla"];
 _u = _u + [2];
 _p = _p + [1500];
 
-_i = _i + ["CUP_Igla"];
-_u = _u + [2];
-_p = _p + [1500];
 
 		//Anti Tank
 		
@@ -1690,9 +1666,6 @@ _i = _i + ["CUP_launch_Metis"];
 _u = _u + [4];
 _p = _p + [2500];
 
-_i = _i + ["CUP_MetisLauncher"];
-_u = _u + [4];
-_p = _p + [2500];
 
 			//RPG-7 Family
 
@@ -1700,9 +1673,6 @@ _i = _i + ["CUP_launch_RPG7V"];
 _u = _u + [1];
 _p = _p + [700];
 
-_i = _i + ["CUP_RPG7V"];
-_u = _u + [1];
-_p = _p + [700];
 
 			//RPG-18 Family
 
@@ -1710,9 +1680,6 @@ _i = _i + ["CUP_launch_RPG18"];
 _u = _u + [0];
 _p = _p + [200];
 
-_i = _i + ["CUP_RPG18"];
-_u = _u + [0];
-_p = _p + [200];
 
 
 
