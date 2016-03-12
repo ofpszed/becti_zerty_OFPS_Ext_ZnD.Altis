@@ -120,9 +120,6 @@ if (CTI_IsClient) then {
 	execVM "Client\Init\Init_Client.sqf";
 };
 
-//---Werthles Headless Kit v2.3
-[true,30,false,true,30,3,true,["C_scientist_F","B_soldier_survival_F","O_g_survivor_F"]] execVM "server\functions\WerthlesHeadless.sqf";
-
 //--- Set the group ID
 
 waitUntil {CTI_Init_Client || CTI_Init_Server};
