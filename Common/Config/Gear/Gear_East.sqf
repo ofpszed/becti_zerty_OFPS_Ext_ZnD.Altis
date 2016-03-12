@@ -2784,6 +2784,381 @@ _i = _i		+ ["CUP_acc_Glock17_Flashlight"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
+//--Uniforms
+
+_i = _i		+ ["CUP_U_O_SLA_Officer_Suit"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_U_O_SLA_Overalls_Pilot"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_U_O_SLA_Overalls_Tank"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_U_O_SLA_MixedCamo"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_U_O_SLA_Desert"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_U_O_SLA_Green"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_U_O_SLA_Urban"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_U_O_SLA_Officer"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+
+_i = _i		+ ["CUP_U_O_TK_Ghillie"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_U_O_TK_Ghillie_Top"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_U_O_TK_Officer"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_U_O_TK_Green"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_U_O_TK_MixedCamo"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+//--Vests
+
+_i = _i		+ ["CUP_V_O_SLA_Flak_Vest01"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_O_SLA_Flak_Vest02"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_O_SLA_Flak_Vest03"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_O_SLA_Carrier_Belt"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_O_SLA_Carrier_Belt02"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_O_SLA_Carrier_Belt03"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+
+_i = _i		+ ["CUP_V_O_TK_Vest_1"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_O_TK_Vest_2"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_O_TK_CrewBelt"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_O_TK_OfficerBelt"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_O_TK_OfficerBelt2"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_OI_TKI_Jacket1_01"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_OI_TKI_Jacket1_02"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_OI_TKI_Jacket1_03"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_OI_TKI_Jacket4_04"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_OI_TKI_Jacket4_05"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_OI_TKI_Jacket4_02"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_OI_TKI_Jacket4_06"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_OI_TKI_Jacket4_03"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_OI_TKI_Jacket4_01"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_OI_TKI_Jacket3_02"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_OI_TKI_Jacket3_03"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_V_OI_TKI_Jacket3_01"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+
+//--Packs
+
+_i = _i		+ ["CUP_B_CivPack_WDL"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_HikingPack_Civ"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_ACRPara_m95"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_ACRScout_m95"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_GER_Pack_Flecktarn"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_GER_Pack_Tropentarn"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_GER_Medic_Desert"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_GER_Medic_Flecktarn"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_GER_Medic_Tropentarn"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_M2_Gun_Bag"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_M2_Tripod_Bag"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_M2_MiniTripod_Bag"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_AssaultPack_ACU"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_AssaultPack_Black"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_AssaultPack_Coyote"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_USMC_AssaultPack"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_MedicPack_ACU"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_RPGPack_Khaki"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_USMC_MOLLE"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_USMC_MOLLE_WDL"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_USPack_Black"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_USPack_Coyote"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_AlicePack_Khaki"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_Bergen_BAF"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_UAVTerminal_Black"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+
+_i = _i		+ ["CUP_B_SLA_Medicbag"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_B_TK_Medic_Desert"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+//--Head
+
+_i = _i		+ ["CUP_H_C_Policecap_01"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_SLA_BeanieGreen"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_SLA_Helmet"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_SLA_OfficerCap"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_SLA_Pilot_Helmet"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_SLA_SLCap"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_SLA_TankerHelmet"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_TK_Beret"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_TK_Helmet"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_TK_PilotHelmet"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_TK_Lungee"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_TK_TankerHelmet"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_C_Ushanka_03"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+
+_i = _i		+ ["CUP_H_RACS_Helmet_Goggles_DPAT"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_RACS_Helmet_DPAT"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_RACS_Helmet_Headset_DPAT"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_RACS_Helmet_DES"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_RACS_Helmet_Goggles_DES"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_H_RACS_Helmet_Headset_DES"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+
+
+//--Goggles
+
+_i = _i		+ ["CUP_TK_NeckScarf"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_FR_NeckScarf"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_FR_NeckScarf2"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+
+//--Other
+
+_i = _i		+ ["CUP_NVG_PVS7"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_SOFLAM"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_LRTV"];
+_u = _u		+ [0];
+_p = _p		+ [100];
+
+_i = _i		+ ["CUP_Vector21Nite"];
+_u = _u		+ [0];
+_p = _p		+ [100];
 
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
