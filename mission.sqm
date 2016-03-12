@@ -145,7 +145,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=149;
+		items=148;
 		class Item0
 		{
 			dataType="Marker";
@@ -711,7 +711,7 @@ class Mission
 			colorName="ColorBlack";
 			a=1050;
 			b=5;
-			angle=330.29834;
+			angle=330.29831;
 			id=61;
 		};
 		class Item62
@@ -4384,21 +4384,6 @@ class Mission
 				};
 				nAttributes=9;
 			};
-		};
-		class Item148
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={19447.346,-161.15536,23182.801};
-				angles[]={0,1.5760276,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=201;
-			type="CUP_B_LHD_WASP_USMC_Empty";
 		};
 	};
 	class Connections
