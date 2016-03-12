@@ -1867,15 +1867,15 @@ _i = _i + ["CUP_AA12_PMC"];
 _u = _u + [];
 _p = _p + [];
 
-		//M1014 Family
+		//M1014 .50 SR Family
 
 _i = _i + ["CUP_sgun_M1014"];
-_u = _u + [0];
-_p = _p + [300];
+_u = _u + [4];
+_p = _p + [1000];
 
 _i = _i + ["CUP_M1014"];
-_u = _u + [0];
-_p = _p + [300];
+_u = _u + [4];
+_p = _p + [1000];
 
 	//Small Machine Guns (SMGs)
 	
