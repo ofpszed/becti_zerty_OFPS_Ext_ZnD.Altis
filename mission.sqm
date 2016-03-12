@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=199;
+		nextID=202;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14719.734,1248.5576,28128.098};
-		dir[]={0.15926878,-0.84609258,0.50876361};
-		up[]={0.25277171,0.5330475,0.80744576};
-		aside[]={0.95436984,-5.7591387e-007,-0.29876539};
+		pos[]={19661.596,352.45963,23397.037};
+		dir[]={-0.32467878,-0.6555438,-0.68181455};
+		up[]={-0.28184903,0.7551446,-0.59187233};
+		aside[]={-0.90287113,-3.0046795e-007,0.42994601};
 	};
 };
 binarizationWanted=0;
@@ -113,6 +113,8 @@ addons[]=
 	"UCSV",
 	"usaf_b1b",
 	"USAF_B2",
+	"Werthles_WHK",
+	"CUP_WaterVehicles_LHD"
 };
 randomSeed=12242137;
 class ScenarioData
@@ -143,7 +145,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=147;
+		items=149;
 		class Item0
 		{
 			dataType="Marker";
@@ -709,7 +711,7 @@ class Mission
 			colorName="ColorBlack";
 			a=1050;
 			b=5;
-			angle=330.29837;
+			angle=330.29834;
 			id=61;
 		};
 		class Item62
@@ -4198,12 +4200,212 @@ class Mission
 				nAttributes=1;
 			};
 		};
+		class Item147
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8621.2285,30.747013,24847.482};
+			};
+			id=199;
+			type="Werthles_moduleWHM";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Werthles_moduleWHM_Ignores";
+					expression="_this setVariable ['Ignores',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="C_scientist_F, O_G_officer_F, B_officer_F";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="Werthles_moduleWHM_Debug";
+					expression="_this setVariable ['Debug',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="Werthles_moduleWHM_Wait";
+					expression="_this setVariable ['Wait',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=30;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="Werthles_moduleWHM_Advanced";
+					expression="_this setVariable ['Advanced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="Werthles_moduleWHM_Units";
+					expression="_this setVariable ['Units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="Werthles_moduleWHM_Pause";
+					expression="_this setVariable ['Pause',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="Werthles_moduleWHM_Delay";
+					expression="_this setVariable ['Delay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=30;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="Werthles_moduleWHM_Repeating";
+					expression="_this setVariable ['Repeating',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="Werthles_moduleWHM_Report";
+					expression="_this setVariable ['Report',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=9;
+			};
+		};
+		class Item148
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19447.346,-161.15536,23182.801};
+				angles[]={0,1.5760276,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=201;
+			type="CUP_B_LHD_WASP_USMC_Empty";
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=74;
+			nextID=73;
 		};
 		class Links
 		{
@@ -4690,7 +4892,7 @@ class Mission
 			};
 			class Item48
 			{
-				linkID=49;
+				linkID=48;
 				item0=126;
 				item1=124;
 				class CustomData
@@ -4700,7 +4902,7 @@ class Mission
 			};
 			class Item49
 			{
-				linkID=50;
+				linkID=49;
 				item0=129;
 				item1=124;
 				class CustomData
@@ -4710,7 +4912,7 @@ class Mission
 			};
 			class Item50
 			{
-				linkID=51;
+				linkID=50;
 				item0=130;
 				item1=124;
 				class CustomData
@@ -4720,7 +4922,7 @@ class Mission
 			};
 			class Item51
 			{
-				linkID=52;
+				linkID=51;
 				item0=131;
 				item1=124;
 				class CustomData
@@ -4730,7 +4932,7 @@ class Mission
 			};
 			class Item52
 			{
-				linkID=53;
+				linkID=52;
 				item0=132;
 				item1=124;
 				class CustomData
@@ -4740,7 +4942,7 @@ class Mission
 			};
 			class Item53
 			{
-				linkID=54;
+				linkID=53;
 				item0=133;
 				item1=124;
 				class CustomData
@@ -4750,7 +4952,7 @@ class Mission
 			};
 			class Item54
 			{
-				linkID=55;
+				linkID=54;
 				item0=134;
 				item1=124;
 				class CustomData
@@ -4760,7 +4962,7 @@ class Mission
 			};
 			class Item55
 			{
-				linkID=56;
+				linkID=55;
 				item0=135;
 				item1=124;
 				class CustomData
@@ -4770,7 +4972,7 @@ class Mission
 			};
 			class Item56
 			{
-				linkID=57;
+				linkID=56;
 				item0=136;
 				item1=124;
 				class CustomData
@@ -4780,7 +4982,7 @@ class Mission
 			};
 			class Item57
 			{
-				linkID=58;
+				linkID=57;
 				item0=137;
 				item1=124;
 				class CustomData
@@ -4790,7 +4992,7 @@ class Mission
 			};
 			class Item58
 			{
-				linkID=59;
+				linkID=58;
 				item0=138;
 				item1=124;
 				class CustomData
@@ -4800,7 +5002,7 @@ class Mission
 			};
 			class Item59
 			{
-				linkID=60;
+				linkID=59;
 				item0=139;
 				item1=124;
 				class CustomData
@@ -4810,7 +5012,7 @@ class Mission
 			};
 			class Item60
 			{
-				linkID=61;
+				linkID=60;
 				item0=140;
 				item1=124;
 				class CustomData
@@ -4820,7 +5022,7 @@ class Mission
 			};
 			class Item61
 			{
-				linkID=62;
+				linkID=61;
 				item0=141;
 				item1=124;
 				class CustomData
@@ -4830,7 +5032,7 @@ class Mission
 			};
 			class Item62
 			{
-				linkID=63;
+				linkID=62;
 				item0=142;
 				item1=124;
 				class CustomData
@@ -4840,7 +5042,7 @@ class Mission
 			};
 			class Item63
 			{
-				linkID=64;
+				linkID=63;
 				item0=143;
 				item1=124;
 				class CustomData
@@ -4850,7 +5052,7 @@ class Mission
 			};
 			class Item64
 			{
-				linkID=65;
+				linkID=64;
 				item0=144;
 				item1=124;
 				class CustomData
@@ -4860,7 +5062,7 @@ class Mission
 			};
 			class Item65
 			{
-				linkID=66;
+				linkID=65;
 				item0=145;
 				item1=124;
 				class CustomData
@@ -4870,7 +5072,7 @@ class Mission
 			};
 			class Item66
 			{
-				linkID=67;
+				linkID=66;
 				item0=146;
 				item1=124;
 				class CustomData
@@ -4880,7 +5082,7 @@ class Mission
 			};
 			class Item67
 			{
-				linkID=68;
+				linkID=67;
 				item0=147;
 				item1=124;
 				class CustomData
@@ -4890,7 +5092,7 @@ class Mission
 			};
 			class Item68
 			{
-				linkID=69;
+				linkID=68;
 				item0=148;
 				item1=124;
 				class CustomData
@@ -4900,7 +5102,7 @@ class Mission
 			};
 			class Item69
 			{
-				linkID=70;
+				linkID=69;
 				item0=149;
 				item1=124;
 				class CustomData
@@ -4910,7 +5112,7 @@ class Mission
 			};
 			class Item70
 			{
-				linkID=71;
+				linkID=70;
 				item0=150;
 				item1=124;
 				class CustomData
@@ -4920,7 +5122,7 @@ class Mission
 			};
 			class Item71
 			{
-				linkID=72;
+				linkID=71;
 				item0=128;
 				item1=124;
 				class CustomData
@@ -4930,7 +5132,7 @@ class Mission
 			};
 			class Item72
 			{
-				linkID=73;
+				linkID=72;
 				item0=178;
 				item1=177;
 				class CustomData
