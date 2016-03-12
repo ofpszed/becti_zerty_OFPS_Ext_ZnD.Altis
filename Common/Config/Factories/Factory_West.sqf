@@ -179,6 +179,7 @@ _u = _u		+ ['bwi_a3_t6a'];
 _u = _u		+ ['bwi_a3_t6c'];
 _u = _u		+ ['USAF_AC130U'];
 _u = _u		+ ['globemaster_c17_NATO'];
+_u = _u		+ ['usaf_b2'];
 
 _u = _u		+ ['CUP_C_C47_CIV'];
 _u = _u		+ ['CUP_B_AH64D_NO_USA'];
