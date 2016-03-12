@@ -12,27 +12,25 @@ missionNamespace setVariable [format["CTI_%1_Pilot", _side], "O_Helipilot_F"];
 
 missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 	["O_Truck_03_medical_F", [
-		["arifle_Katiba_GL_F", 2], ["30rnd_65x39_caseless_green", 50],
-		["launch_RPG32_F", 5], ["RPG32_F", 20],
-		["HandGrenade", 20],
-		["30Rnd_556x45_Stanag", 15],
-		["30Rnd_65x39_caseless_green_mag_Tracer", 6],
-		["1Rnd_HE_Grenade_shell", 24],
-		["UGL_FlareRed_F", 27],
-		["1Rnd_SmokeRed_Grenade_shell", 9],
+		["CUP_arifle_AK74_GL", 4], ["CUP_30Rnd_762x39_AK47_M", 50],
+		["CUP_launch_RPG18", 5], ["CUP_RPG18_M", 20],
+		["CUP_HandGrenade_M67", 20],
+		["CUP_30Rnd_545x39_AK_M", 30],
+		["CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M", 10],
+		["CUP_1Rnd_HE_GP25_M", 24],
+		["CUP_FlareRed_GP25_M", 27],
+		["CUP_1Rnd_SmokeRed_GP25_M", 9],
 		["SmokeShellRed", 8],
 		["firstaidkit", 20],
 		["Chemlight_red", 36],
-		["acc_flashlight", 5],
-		["optic_ACO_grn", 3],
-		["optic_Holosight", 2],
-		["optic_MRCO", 1],
-		["Toolkit", 1],
+		["Toolkit", 4],
 		["B_Kitbag_cbr", 4]
 	]],
-	["O_MRAP_02_F", [	["Toolkit", 1],["firstaidkit", 10],["30Rnd_556x45_Stanag", 15],["launch_RPG32_F", 5], ["RPG32_F", 20]]]
+	["O_MRAP_02_F", [	["Toolkit", 1],["firstaidkit", 10],["CUP_30Rnd_762x39_AK47_M", 25],["CUP_launch_RPG18", 5], ["CUP_RPG18_M", 10]]]
 	//,	["O_Heli_Light_02_unarmed_F", []]
 ]];
+
+
 
 //--- Units - Barracks
 
@@ -87,18 +85,18 @@ _u = _u		+ ['OFPS_BTR60'];
 _u = _u		+ ['CUP_O_BTR90_RU'];
 _u = _u		+ ['CUP_O_BTR90_HQ_RU'];
 _u = _u		+ ['Land Rover ambulance woodland'];
-_u = _u		+ ['Land Rover m2 woodland'];
+_u = _u		+ ['OFPS_LR_MG'];
 _u = _u		+ ['Land Rover special desert'];
-_u = _u		+ ['Land Rover special woodland'];
-_u = _u		+ ['Land Rover spg-9'];
+_u = _u		+ ['OFPS_LR_S'];
+_u = _u		+ ['OFPS_LR_SPG9'];
 _u = _u		+ ['Land Rover transport'];
 _u = _u		+ ['CUP_B_UAZ_Unarmed_CDF'];
-_u = _u		+ ['CUP_B_UAZ_AGS30_CDF'];
-_u = _u		+ ['CUP_B_UAZ_MG_CDF'];
+_u = _u		+ ['OFPS_UAZ_AGS30'];
+_u = _u		+ ['OFPS_UAZ_MG'];
 _u = _u		+ ['CUP_O_UAZ_AMB_RU'];
-_u = _u		+ ['CUP_O_UAZ_METIS_RU'];
-_u = _u		+ ['CUP_B_UAZ_Open_CDF'];
-_u = _u		+ ['CUP_B_UAZ_SPG9_CDF'];
+_u = _u		+ ['OFPS_UAZ_METIS'];
+_u = _u		+ ['OFPS_UAZ'];
+_u = _u		+ ['OFPS_UAZ_SPG9'];
 _u = _u		+ ['CUP_O_Ural_RU'];
 _u = _u		+ ['CUP_O_Ural_Reammo_RU'];
 _u = _u		+ ['CUP_C_Ural_Open_Civ_01'];
