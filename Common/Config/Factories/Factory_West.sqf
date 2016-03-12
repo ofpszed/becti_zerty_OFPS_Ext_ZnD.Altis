@@ -54,11 +54,14 @@ _u = _u		+ ["B_spotter_F"];
 _u = _u		+ ["B_soldier_UAV_F"];
 _u = _u		+ ["B_Helipilot_F"];
 _u = _u		+ ["B_crew_F"];
+_u = _u		+ ['RaptorM'];
+
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 
 _u 			= ["B_Quadbike_01_F"];
 _u = _u		+ ['dbo_CIV_new_bike'];
 _u = _u		+ ['dbo_CIV_ol_bike'];
+_u = _u		+ ['CUP_B_M1030'];
 _u = _u		+ ["B_G_Offroad_01_F"];
 _u = _u		+ ["B_G_Offroad_01_armed_F"];
 _u = _u		+ ["B_Truck_01_transport_F"];
@@ -94,7 +97,6 @@ _u = _u		+ ['CUP_B_Jackal2_L2A1_GB_D'];
 _u = _u		+ ['CUP_B_Jackal2_L2A1_GB_W'];
 _u = _u		+ ['CUP_B_LAV25_USMC'];
 _u = _u		+ ['CUP_B_LAV25M240_USMC'];
-_u = _u		+ ['CUP_B_LAV25_HQ_USMC'];
 _u = _u		+ ['CUP_B_M1126_ICV_M2_Desert'];
 _u = _u		+ ['CUP_B_M1126_ICV_MK19_Desert'];
 _u = _u		+ ['CUP_B_M1128_MGS_Desert'];
@@ -142,6 +144,7 @@ _u = _u		+ ['CUP_B_M1A2_TUSK_MG_US_Army'];
 _u = _u		+ ['CUP_B_M270_HE_USMC'];
 _u = _u		+ ['CUP_B_M2Bradley_USA_D'];
 _u = _u		+ ['CUP_B_M2A3Bradley_USA_D'];
+_u = _u		+ ['CUP_B_M6LineBacker_USA_W'];
 
 /*
 _u = _u		+ ['I_APC_Wheeled_03_cannon_F'];
@@ -178,10 +181,8 @@ _u = _u		+ ['USAF_AC130U'];
 _u = _u		+ ['globemaster_c17_NATO'];
 
 _u = _u		+ ['CUP_C_C47_CIV'];
-_u = _u		+ ['CUP_C_DC3_CIV'];
 _u = _u		+ ['CUP_B_AH64D_NO_USA'];
 _u = _u		+ ['CUP_B_AH1Z'];
-_u = _u		+ ['CUP_B_Merlin_HC3_GB'];
 _u = _u		+ ['CUP_B_Merlin_HC3A_GB'];
 _u = _u		+ ['CUP_B_AW159_Cannon_GB'];
 _u = _u		+ ['CUP_B_AW159_Hellfire_GB'];
@@ -189,7 +190,6 @@ _u = _u		+ ['CUP_B_AW159_Unarmed_GB'];
 _u = _u		+ ['CUP_B_CH47F_USA'];
 _u = _u		+ ['CUP_B_CH53E_USMC'];
 _u = _u		+ ['CUP_B_MH60S_USMC'];
-_u = _u		+ ['CUP_B_SA330_Puma_HC1_BAF'];
 _u = _u		+ ['CUP_B_SA330_Puma_HC2_BAF'];
 _u = _u		+ ['CUP_B_UH1Y_GUNSHIP_USMC'];
 _u = _u		+ ['CUP_B_UH1Y_MEV_USMC'];
@@ -202,6 +202,8 @@ _u = _u		+ ['CUP_B_F35B_AA_USMC'];
 _u = _u		+ ['CUP_B_GR9_CAP_GB'];
 _u = _u		+ ['CUP_USMC_MQ9'];
 _u = _u		+ ['CUP_B_MV22_USMC'];
+_u = _u		+ ['CUP_B_C130J_USMC'];
+_u = _u		+ ['CUP_B_C130J_Cargo_USMC'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
@@ -244,6 +246,7 @@ _u = _u		+ ['B_Quadbike_01_F'];
 _u = ['B_Soldier_lite_F'];
 _u = _u		+ ['dbo_CIV_new_bike'];
 _u = _u		+ ['dbo_CIV_ol_bike'];
+_u = _u		+ ['CUP_B_M1030'];
 _u = _u		+ ['C_Van_01_transport_F']; //SS83 Omon's cars
 _u = _u		+ ['C_Kart_01_F'];
 _u = _u		+ ['C_Hatchback_01_sport_F'];

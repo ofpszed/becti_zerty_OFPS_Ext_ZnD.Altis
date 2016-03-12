@@ -65,7 +65,7 @@ if (isNull _created) then {
 	_vehicle setDir _direction;
 	if (_special == "FORM") then {_vehicle setPos [getPos _vehicle select 0, getPos _vehicle select 1, 1];}; //--- Make the vehicle spawn above the ground level to prevent any bisteries
 	// --- Zerty edit
-	if (_type isKindOf "UAV" || _type isKindOf "UGV_01_base_F" || _type isKindOf "O_UCSV_01" || _type isKindOf "B_UCSV_01" || _type isKindOf "B_UCSV_02") then {createVehicleCrew _vehicle};
+	if (_type isKindOf "UAV" || _type isKindOf "UGV_01_base_F" || _type isKindOf "O_UCSV_01" || _type isKindOf "B_UCSV_01" || _type isKindOf "B_UCSV_02" || _type isKindOf "CUP_B_Seafox_USMC") then {createVehicleCrew _vehicle};
 
 	if (_special == "FLY" && _vehicle isKindOf "Plane") then {
 		_vehicle setVelocity [75 * (sin _direction), 75 * (cos _direction), 0];

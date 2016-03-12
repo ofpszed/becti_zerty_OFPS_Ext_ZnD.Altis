@@ -131,6 +131,13 @@ _times =  _times 			+ [120];
 _placements =_placements 	+ [[180, 30]];
 _specials = _specials		+ [[["DMG_Reduce", 1]]];  //takes 10 AP hits ss83
 
+_headers = _headers 		+ [[ , "C-RAM Phalanx", "C-RAM Phalanx"]];
+_classes =  _classes 		+ [["C_at_phalanx_35AI"]];
+_prices =  _prices 			+ [50000];
+_times =  _times 			+ [30];
+_placements =_placements 	+ [[180, 10]];
+_specials = _specials		+ [[[]]]; 
+
 [_side, _headers, _classes, _prices, _times, _placements, _specials] call compile preprocessFileLineNumbers "Common\Config\Base\Set_Structures.sqf";
 
 //--- Defenses
@@ -366,19 +373,19 @@ _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["Podnos 2B14"];
 _classes = _classes 		+ ["CUP_B_2b14_82mm_CDF"];
-_prices = _prices 			+ [3000];
+_prices = _prices 			+ [10000];
 _placements = _placements 	+ [[0, 20]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["SPG-9"];
 _classes = _classes 		+ ["CUP_B_SPG9_CDF"];
-_prices = _prices 			+ [3000];
+_prices = _prices 			+ [2000];
 _placements = _placements 	+ [[0, 20]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["ZU-23"];
 _classes = _classes 		+ ["CUP_B_ZU23_CDF"];
-_prices = _prices 			+ [5000];
+_prices = _prices 			+ [15000];
 _placements = _placements 	+ [[0, 20]];
 _categories = _categories 	+ ["Defense"];
 

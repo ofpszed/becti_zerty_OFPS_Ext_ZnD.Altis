@@ -54,11 +54,14 @@ _u = _u		+ ['O_soldier_UAV_F'];
 _u = _u		+ ['O_Helipilot_F'];
 _u = _u		+ ['O_crew_F'];
 _u = _u		+ ['Land_Pod_Heli_Transport_04_bench_F'];
+_u = _u		+ ['RaptorM_E'];
+
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 
 _u 			= ['O_Quadbike_01_F'];
 _u = _u		+ ['dbo_CIV_new_bike'];
 _u = _u		+ ['dbo_CIV_ol_bike'];
+_u = _u		+ ['CUP_M1030'];
 _u = _u		+ ["O_G_Offroad_01_F"];
 _u = _u		+ ["O_G_Offroad_01_armed_F"];
 _u = _u		+ ['O_Truck_02_transport_F'];
@@ -84,26 +87,20 @@ _u = _u		+ ['OFPS_BRDM2HQ'];
 _u = _u		+ ['OFPS_BTR60'];
 _u = _u		+ ['CUP_O_BTR90_RU'];
 _u = _u		+ ['CUP_O_BTR90_HQ_RU'];
-_u = _u		+ ['Land Rover ambulance woodland'];
+_u = _u		+ ['CUP_B_LR_Ambulance_CZ_W'];
 _u = _u		+ ['OFPS_LR_MG'];
-_u = _u		+ ['Land Rover special desert'];
 _u = _u		+ ['OFPS_LR_S'];
 _u = _u		+ ['OFPS_LR_SPG9'];
-_u = _u		+ ['Land Rover transport'];
+_u = _u		+ ['CUP_C_LR_Transport_CTK'];
 _u = _u		+ ['CUP_B_UAZ_Unarmed_CDF'];
 _u = _u		+ ['OFPS_UAZ_AGS30'];
 _u = _u		+ ['OFPS_UAZ_MG'];
-_u = _u		+ ['CUP_O_UAZ_AMB_RU'];
 _u = _u		+ ['OFPS_UAZ_METIS'];
 _u = _u		+ ['OFPS_UAZ'];
 _u = _u		+ ['OFPS_UAZ_SPG9'];
 _u = _u		+ ['CUP_O_Ural_RU'];
-_u = _u		+ ['CUP_O_Ural_Reammo_RU'];
-_u = _u		+ ['CUP_C_Ural_Open_Civ_01'];
 _u = _u		+ ['CUP_O_Ural_Empty_RU'];
 _u = _u		+ ['CUP_O_Ural_Open_RU'];
-_u = _u		+ ['CUP_O_Ural_Refuel_RU'];
-_u = _u		+ ['CUP_O_Ural_Repair_RU'];
 _u = _u		+ ['CUP_O_Ural_ZU23_RU'];
 
 /*
@@ -172,7 +169,6 @@ _u = _u		+ ['bwi_a3_at6b_2'];
 _u = _u		+ ['LDL_C130J'];
 _u = _u		+ ['globemaster_c17_Qatar'];
 
-_u = _u		+ ['CUP_C_C47_CIV'];
 _u = _u		+ ['CUP_C_DC3_CIV'];
 _u = _u		+ ['CUP_O_Ka50_SLA'];
 _u = _u		+ ['CUP_C_Mi17_Civilian_RU'];
@@ -180,13 +176,14 @@ _u = _u		+ ['CUP_B_Mi171Sh_ACR'];
 _u = _u		+ ['CUP_B_Mi24_D_CDF'];
 _u = _u		+ ['CUP_O_Mi24_P_RU'];
 _u = _u		+ ['CUP_O_Mi24_V_RU'];
-_u = _u		+ ['CUP_B_MI6A_CDF'];
 _u = _u		+ ['CUP_B_MI6T_CDF'];
 _u = _u		+ ['CUP_O_Mi8_CHDKZ'];
 _u = _u		+ ['CUP_O_Mi8_SLA_2'];
 _u = _u		+ ['CUP_B_Su25_CDF'];
 _u = _u		+ ['OFPS_SU34_LGB'];
 _u = _u		+ ['OFPS_SU34_AGM'];
+_u = _u		+ ['CUP_O_C130J_TKA'];
+_u = _u		+ ['CUP_O_C130J_Cargo_TKA'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
@@ -197,12 +194,15 @@ _u = _u		+ ["O_Truck_02_fuel_F"];
 _u = _u		+ ["O_Truck_03_fuel_F"];
 _u = _u		+ ["Land_Pod_Heli_Transport_04_repair_F"];
 _u = _u		+ ["Land_Pod_Heli_Transport_04_fuel_F"];
+_u = _u		+ ['CUP_O_Ural_Refuel_RU'];
+_u = _u		+ ['CUP_O_Ural_Repair_RU'];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
 _u 			= ["O_Truck_02_Ammo_F"];
 _u = _u		+ ["O_Truck_03_Ammo_F"];
 _u = _u		+ ["O_supplyCrate_F"];
 _u = _u		+ ["Land_Pod_Heli_Transport_04_ammo_F"];
+_u = _u		+ ['CUP_O_Ural_Reammo_RU'];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 
 _u 			= ['O_Boat_Transport_01_F'];
@@ -232,6 +232,7 @@ _u = _u		+ ['O_supplyCrate_F'];
 _u = ['O_Soldier_lite_F'];
 _u = _u		+ ['dbo_CIV_new_bike'];
 _u = _u		+ ['dbo_CIV_ol_bike'];
+_u = _u		+ ['CUP_M1030'];
 _u = _u		+ ['C_Van_01_transport_F']; //SS83 Omon's Cars
 _u = _u		+ ['C_Kart_01_F'];
 _u = _u		+ ['C_Hatchback_01_sport_F'];
