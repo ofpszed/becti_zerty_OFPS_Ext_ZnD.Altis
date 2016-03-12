@@ -1494,19 +1494,12 @@ _i = _i + ["CUP_lmg_UK59"];
 _u = _u + [4];
 _p = _p + [800];
 
-_i = _i + ["CUP_UK59_ACR"];
-_u = _u + [4];
-_p = _p + [800];
 
 	//Sniper Rifles
 
 		//CZ550 Family
 
 _i = _i + ["CUP_srifle_CZ550"];
-_u = _u + [0];
-_p = _p + [300];
-
-_i = _i + ["CUP_huntingrifle"];
 _u = _u + [0];
 _p = _p + [300];
 
