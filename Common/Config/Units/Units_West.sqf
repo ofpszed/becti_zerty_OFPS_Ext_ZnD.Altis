@@ -182,15 +182,6 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['RaptorM'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [100];
-_t = _t + [5];
-_u = _u + [0];
-_f = _f + [CTI_FACTORY_BARRACKS];
-_s = _s + [""];
-
 /*_c = _c + ['B_soldier_UAV_F'];
 _p = _p + [''];
 _n = _n + [''];

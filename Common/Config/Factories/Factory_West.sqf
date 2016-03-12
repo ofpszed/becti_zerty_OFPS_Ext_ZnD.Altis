@@ -55,7 +55,6 @@ _u = _u		+ ["B_spotter_F"];
 _u = _u		+ ["B_soldier_UAV_F"];
 _u = _u		+ ["B_Helipilot_F"];
 _u = _u		+ ["B_crew_F"];
-_u = _u		+ ['RaptorM'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 

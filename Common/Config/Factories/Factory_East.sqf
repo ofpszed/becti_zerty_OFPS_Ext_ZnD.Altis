@@ -55,7 +55,6 @@ _u = _u		+ ['O_soldier_UAV_F'];
 _u = _u		+ ['O_Helipilot_F'];
 _u = _u		+ ['O_crew_F'];
 _u = _u		+ ['Land_Pod_Heli_Transport_04_bench_F'];
-_u = _u		+ ['RaptorM_E'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 

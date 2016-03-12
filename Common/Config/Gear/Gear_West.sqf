@@ -2040,27 +2040,27 @@ _p = _p + [500];
 
 //---Caliber 5.45x39mm
 
-_i = _i		+ ["_i = _i		+ ["CUP_30Rnd_545x39_AK_M"];
+_i = _i		+ ["CUP_30Rnd_545x39_AK_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
-_i = _i		+ ["_i = _i		+ ["CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M"];
+_i = _i		+ ["CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
-_i = _i		+ ["_i = _i		+ ["CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M"];
+_i = _i		+ ["CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
-_i = _i		+ ["_i = _i		+ ["CUP_30Rnd_TE1_White_Tracer_545x39_AK_M"];
+_i = _i		+ ["CUP_30Rnd_TE1_White_Tracer_545x39_AK_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
-_i = _i		+ ["_i = _i		+ ["CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M"];
+_i = _i		+ ["CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
-_i = _i		+ ["_i = _i		+ ["CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"];
+_i = _i		+ ["CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
@@ -2208,7 +2208,7 @@ _i = _i		+ ["CUP_10Rnd_762x51_CZ750_Tracer"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
-20Rnd_762x51_Mag
+//--20Rnd_762x51_Mag
 _i = _i		+ ["CUP_20Rnd_762x51_FNFAL_M"];
 _u = _u		+ [0];
 _p = _p		+ [10];
