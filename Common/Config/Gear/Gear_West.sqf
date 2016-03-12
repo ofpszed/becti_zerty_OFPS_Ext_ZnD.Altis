@@ -3145,225 +3145,225 @@ _p = _p		+ [10];
 //--Uniforms
 
 _i = _i		+ ["CUP_U_B_USMC_Ghillie_WDL"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_USMC_Officer"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_USMC_MARPAT_WDL_RollUpKneepad"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_USMC_MARPAT_WDL_RolledUp"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_USMC_MARPAT_WDL_Kneepad"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_USMC_MARPAT_WDL_TwoKneepads"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_USMC_MARPAT_WDL_Sleeves"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_USMC_PilotOverall"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 
 _i = _i		+ ["CUP_U_B_GER_Ghillie"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_GER_Fleck_Ghillie"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_GER_Flecktarn_2"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_GER_Tropentarn_2"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_GER_Flecktarn_1"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_GER_Tropentarn_1"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 
 _i = _i		+ ["CUP_U_B_FR_SpecOps"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_FR_Officer"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_FR_DirAction"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_FR_DirAction2"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_FR_Corpsman"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_FR_Light"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_FR_Scout1"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_FR_Scout2"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_FR_Scout3"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_U_B_FR_Scout"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 //--Vests
 
 _i = _i		+ ["CUP_V_B_GER_Carrier_Vest"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_GER_Carrier_Vest_2"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_GER_Carrier_Vest_3"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_GER_Carrier_Rig"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_GER_Carrier_Rig_2"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_GER_Carrier_Rig_2_Brown"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_GER_Carrier_Rig_3_Brown"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_GER_Vest_1"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_GER_Vest_2"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 
 _i = _i		+ ["CUP_V_B_RRV_MG"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_RRV_Light"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_RRV_Medic"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_RRV_Officer"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_RRV_Scout"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_RRV_Scout2"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_RRV_Scout3"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_RRV_TL"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 
 _i = _i		+ ["CUP_V_B_RRV_DA1"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_RRV_DA2"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_MTV"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_MTV_Pouches"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_MTV_PistolBlack"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_MTV_Mine"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_MTV_LegPouch"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_MTV_Marksman"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_MTV_MG"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_MTV_Patrol"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_MTV_noCB"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_MTV_TL"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_V_B_PilotVest"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 //--Packs
@@ -3378,96 +3378,96 @@ _u = _u		+ [0];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_ACRPara_m95"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_ACRScout_m95"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_GER_Pack_Flecktarn"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_GER_Pack_Tropentarn"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_GER_Medic_Desert"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_GER_Medic_Flecktarn"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_GER_Medic_Tropentarn"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_M2_Gun_Bag"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_M2_Tripod_Bag"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_M2_MiniTripod_Bag"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_AssaultPack_ACU"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_AssaultPack_Black"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_AssaultPack_Coyote"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_USMC_AssaultPack"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_MedicPack_ACU"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_RPGPack_Khaki"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_USMC_MOLLE"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_USMC_MOLLE_WDL"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_USPack_Black"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_USPack_Coyote"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_AlicePack_Khaki"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_Bergen_BAF"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_UAVTerminal_Black"];
-_u = _u		+ [0];
-_p = _p		+ [100];
+_u = _u		+ [1];
+_p = _p		+ [400];
 
 //--Head
 
@@ -3477,89 +3477,89 @@ _p = _p		+ [100];
 
 
 _i = _i		+ ["CUP_H_USMC_Officer_Cap"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_USMC_Crew_Helmet"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_USMC_HelmetWDL"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_USMC_Goggles_HelmetWDL"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_USMC_Headset_HelmetWDL"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_USMC_Headset_GoggleW_HelmetWDL"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_USMC_Helmet_Pilot"];
-_u = _u		+ [0];
+_u = _u		+ [2];
 _p = _p		+ [100];
 
 
 _i = _i		+ ["CUP_H_Ger_Boonie_Flecktarn"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_Ger_Boonie_desert"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 
 _i = _i		+ ["CUP_H_FR_BandanaGreen"];
-_u = _u		+ [0];
+_u = _u		+ [3];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_FR_BandanaWdl"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_FR_Bandana_Headset"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_FR_BeanieGreen"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_FR_BoonieMARPAT"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_FR_BoonieWDL"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_FR_PRR_BoonieWDL"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_FR_Cap_Headset_Green"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_FR_Cap_Officer_Headset"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_FR_ECH"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_FR_Headband_Headset"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_FR_Headset"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 
@@ -3594,31 +3594,31 @@ _u = _u		+ [0];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_FR_NeckScarf"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 _i = _i		+ ["CUP_FR_NeckScarf2"];
-_u = _u		+ [0];
+_u = _u		+ [4];
 _p = _p		+ [100];
 
 
 //--Other
 
 _i = _i		+ ["CUP_NVG_PVS7"];
-_u = _u		+ [0];
-_p = _p		+ [100];
+_u = _u		+ [3];
+_p = _p		+ [700];
 
 _i = _i		+ ["CUP_SOFLAM"];
-_u = _u		+ [0];
-_p = _p		+ [100];
+_u = _u		+ [2];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_LRTV"];
-_u = _u		+ [0];
-_p = _p		+ [100];
+_u = _u		+ [2];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_Vector21Nite"];
-_u = _u		+ [0];
-_p = _p		+ [100];
+_u = _u		+ [3];
+_p = _p		+ [700];
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
 
