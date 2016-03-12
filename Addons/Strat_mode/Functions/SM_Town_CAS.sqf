@@ -46,10 +46,10 @@ SM_TCAS_CREATE=compile '
 	_town=_this;
 	_rn= random (1);
 	_cas="";
-	if (_rn > 0.90) then {
+	if (_rn > 0.85) then {
 		_cas = [_town, "I_Plane_Fighter_03_CAS_F","FLY"] call SM_TCAS_MAINLOOP;
 	} else {
-		_cas = [_town, "I_Heli_light_03_F","FORM"] call SM_TCAS_MAINLOOP;
+		_cas = [_town, "CUP_O_UH1H_TKA","FORM"] call SM_TCAS_MAINLOOP;
 	};
 	diag_log _cas;
 	_cas';

@@ -664,7 +664,7 @@ with missionNamespace do {
 	if (isnil "CTI_SM_NV_THER_VEH") then {CTI_SM_NV_THER_VEH = 0};
 	if (isnil "CTI_SM_PATROLS") then {CTI_SM_PATROLS = 0};
 	if (isnil "CTI_SM_PATROLS_NUMBER") then {CTI_SM_PATROLS_NUMBER = 0};
-	if (isnil "CTI_SM_TCAS") then {CTI_SM_TCAS = 600};
+	if (isnil "CTI_SM_TCAS") then {CTI_SM_TCAS = 500};
 	if (isnil "CTI_TROPHY_APS") then {CTI_TROPHY_APS = 1};
 
 

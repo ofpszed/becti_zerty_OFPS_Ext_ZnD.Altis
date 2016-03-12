@@ -268,6 +268,15 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
+_c = _c + ['CUP_O_UH1H_TKA'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [40000];
+_t = _t + [30];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
 //--- GOLDEN DAWN
 //--- Infantry
 _c = _c + ['GD_soldier_F'];
