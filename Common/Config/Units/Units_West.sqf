@@ -1412,15 +1412,6 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
-_c = _c + ['CUP_B_Seafox_USMC'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [2000];
-_t = _t + [25];
-_u = _u + [0];
-_f = _f + [CTI_FACTORY_NAVAL];
-_s = _s + [""];
-
 _c = _c + ['CUP_B_RHIB_USMC'];
 _p = _p + [''];
 _n = _n + [''];

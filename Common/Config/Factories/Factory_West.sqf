@@ -225,7 +225,6 @@ _u = _u		+ ["B_Boat_Armed_01_minigun_F"];
 _u = _u		+ ['C_Boat_Civil_01_police_F'];
 _u = _u		+ ["Burnes_LCAC_1"];
 _u = _u		+ ["B_SDV_01_F"];
-_u = _u		+ ["CUP_B_Seafox_USMC"];
 _u = _u		+ ["CUP_B_RHIB_USMC"];
 _u = _u		+ ["CUP_B_RHIB2Turret_USMC"];
 
