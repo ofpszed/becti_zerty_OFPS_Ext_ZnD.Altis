@@ -375,12 +375,6 @@ _prices = _prices 			+ [2000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
-_headers = _headers 		+ ["ZU-23"];
-_classes = _classes 		+ ["CUP_B_ZU23_CDF"];
-_prices = _prices 			+ [15000];
-_placements = _placements 	+ [[180, 5]];
-_categories = _categories 	+ ["Defense"];
-
 _headers = _headers 		+ ["C-RAM Phalanx"];
 _classes = _classes 		+ ["C_at_phalanx_35AI"];
 _prices = _prices 			+ [50000];
