@@ -182,7 +182,8 @@ _u = _u		+ ['globemaster_c17_NATO'];
 _u = _u		+ ['usaf_b2'];
 
 _u = _u		+ ['CUP_C_C47_CIV'];
-_u = _u		+ ['CUP_B_AH64D_NO_USA'];
+_u = _u		+ ['CUP_B_AH64D_MR_USA'];
+_u = _u		+ ['CUP_B_AH64D_AT_USA'];
 _u = _u		+ ['CUP_B_AH1Z'];
 _u = _u		+ ['CUP_B_Merlin_HC3A_GB'];
 _u = _u		+ ['CUP_B_AW159_Cannon_GB'];
