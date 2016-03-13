@@ -241,8 +241,7 @@ CTI_UPGRADE_EXPI = 			19;
 CTI_UPGRADE_TRT = 			20;
 CTI_UPGRADE_TRA = 			21;
 CTI_UPGRADE_REST = 			22;
-CTI_UPGRADE_AIRSTRIKE =     23;
-CTI_UPGRADE_NUKE =          24;
+CTI_UPGRADE_NUKE =          23;
 //-----------------------------------------------------------------------------------------------------------------------//
 
 
@@ -656,7 +655,6 @@ with missionNamespace do {
 	if (isNil "CTI_SM_STRATEGIC") then {CTI_SM_STRATEGIC=1};
 	if (isNil "CTI_SM_STRATEGIC_NB") then {CTI_SM_STRATEGIC_NB=3};
 	if (isNil "CTI_SM_HALO") then {CTI_SM_HALO=1};
-	if (isNil "CTI_SM_AIRSTRIKE") then {CTI_SM_AIRSTRIKE=1};
 	if (isNil "CTI_SM_NUKE") then {CTI_SM_NUKE=1};
 	if (isNil "CTI_SM_RADAR") then {CTI_SM_RADAR=1};
 	if (isnil "CTI_SM_FAR") then {CTI_SM_FAR = 1};
