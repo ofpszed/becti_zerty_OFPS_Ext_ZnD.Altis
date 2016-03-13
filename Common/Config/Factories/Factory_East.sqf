@@ -162,7 +162,7 @@ _u = _u		+ ['O_Heli_Attack_02_black_F'];
 _u = _u		+ ['I_Heli_light_03_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 */
-_u = _u		+ ['I_Plane_Fighter_03_AA_F'];
+_u = _u		+ ['OFPS_BUZAA_O'];
 _u = _u		+ ['O_Plane_CAS_02_F'];
 
 _u = _u		+ ['O_UCSV_01'];

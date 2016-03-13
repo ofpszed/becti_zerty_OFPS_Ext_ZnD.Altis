@@ -1062,7 +1062,7 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-_c = _c + ['I_Plane_Fighter_03_AA_F'];
+_c = _c + ['OFPS_BUZZA_B'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [40000];

@@ -165,7 +165,7 @@ _u = _u		+ ["B_Heli_Light_01_armed_F"];
 _u = _u		+ ["B_UAV_02_CAS_F"];
 _u = _u		+ ["B_UAV_02_F"];
 _u = _u		+ ["B_Heli_Attack_01_F"];
-_u = _u		+ ['I_Plane_Fighter_03_AA_F'];
+_u = _u		+ ['OFPS_BUZZA_B'];
 _u = _u		+ ["B_Plane_CAS_01_F"];
 
 /*
