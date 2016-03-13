@@ -23,7 +23,6 @@ missionNamespace setVariable [format["CTI_%1_Commander_Path", _side], [
 	["upgrade", [CTI_UPGRADE_BARRACKS, 1], {true}],
 	["upgrade", [CTI_UPGRADE_GEAR, 1], {true}],
 	["upgrade", [CTI_UPGRADE_LIGHT, 1], {true}],
-	["upgrade", [CTI_UPGRADE_AIRSTRIKE, 1], {true}],
 	["upgrade", [CTI_UPGRADE_NUKE, 1], {true}],
 	["upgrade", [CTI_UPGRADE_TOWNS, 1], {true}],
 	["upgrade", [CTI_UPGRADE_GEAR, 2], {true}],
@@ -336,49 +335,37 @@ _categories = _categories 	+ ["Defense"];
 _headers = _headers 		+ ["M2 Machine Gun"];
 _classes = _classes 		+ ["CUP_B_M2StaticMG_USMC"];
 _prices = _prices 			+ [1500];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["M2 Mini"];
 _classes = _classes 		+ ["CUP_B_M2StaticMG_USMC"];
 _prices = _prices 			+ [1500];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["TOW Tripod"];
 _classes = _classes 		+ ["CUP_B_TOW_TriPod_USMC"];
 _prices = _prices 			+ [2000];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["M252 81mm mortar"];
 _classes = _classes 		+ ["CUP_B_M252_USMC"];
 _prices = _prices 			+ [10000];
-_placements = _placements 	+ [[0, 20]];
-_categories = _categories 	+ ["Defense"];
-
-_headers = _headers 		+ ["Mk-29 GMLS"];
-_classes = _classes 		+ ["CUP_WV_B_SS_Launcher"];
-_prices = _prices 			+ [40000];
-_placements = _placements 	+ [[0, 20]];
-_categories = _categories 	+ ["Defense"];
-
-_headers = _headers 		+ ["Mk-49 GMLS"];
-_classes = _classes 		+ ["CUP_WV_B_RAM_Launcher"];
-_prices = _prices 			+ [40000];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["C-RAM Phalanx"];
 _classes = _classes 		+ ["C_at_phalanx_35AI"];
 _prices = _prices 			+ [50000];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["C-RAM Phalanx Missle"];
 _classes = _classes 		+ ["C_at_phalanx_missile_35AI"];
 _prices = _prices 			+ [60000];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["Camo net"];

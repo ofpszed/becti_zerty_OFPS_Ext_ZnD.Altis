@@ -113,7 +113,8 @@ addons[]=
 	"UCSV",
 	"usaf_b1b",
 	"USAF_B2",
-	"Werthles_WHK"
+	"Werthles_WHK",
+	"cba_main"
 };
 randomSeed=12242137;
 class ScenarioData

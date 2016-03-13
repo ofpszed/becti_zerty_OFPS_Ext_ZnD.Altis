@@ -916,7 +916,7 @@ _t = _t + [35];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
-
+/*
 _c = _c + ['I_Heli_Transport_02_F']; 
 _p = _p + [''];
 _n = _n + [(format ["Mohawk Lift"])];
@@ -925,6 +925,7 @@ _t = _t + [40];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
+*/
 
 _c = _c + ['O_Heli_Transport_04_ammo_F']; 
 _p = _p + [''];
@@ -971,7 +972,7 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-repairtruck"];
 
-
+/*
 _c = _c + ['I_Heli_light_03_unarmed_F'];  //ss83 added mobile respawn heli
 _p = _p + [''];
 _n = _n + [(format ["Hellcat Rspwn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
@@ -980,7 +981,7 @@ _t = _t + [20];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-medic"];
-
+*/
 
 _c = _c + ['O_Heli_Light_02_F'];
 _p = _p + [''];

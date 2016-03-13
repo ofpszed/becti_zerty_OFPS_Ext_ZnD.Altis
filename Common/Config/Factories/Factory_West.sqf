@@ -157,8 +157,10 @@ _u 			= ["B_Heli_Light_01_F"];
 _u = _u		+ ["B_Heli_Transport_01_F"];
 _u = _u		+ ["B_Heli_Transport_03_unarmed_F"];
 _u = _u		+ ["B_Heli_Transport_03_F"];
+/*
 _u = _u		+ ['I_Heli_light_03_unarmed_F'];
 _u = _u		+ ['I_Heli_Transport_02_F'];
+*/
 _u = _u		+ ["B_Heli_Light_01_armed_F"];
 _u = _u		+ ["B_UAV_02_CAS_F"];
 _u = _u		+ ["B_UAV_02_F"];
