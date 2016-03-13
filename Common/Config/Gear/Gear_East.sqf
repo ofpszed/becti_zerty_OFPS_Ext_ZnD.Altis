@@ -765,12 +765,6 @@ _u = _u		+ [1];
 _p = _p		+ [150];
 
 
-
-
-
-
-
-
 _i = _i		+ ["H_MilCap_mcamo"];
 _u = _u		+ [0];
 _p = _p		+ [5];
@@ -994,9 +988,6 @@ _p = _p		+ [5];
 _i = _i		+ ["H_ShemagOpen_khk"];
 _u = _u		+ [0];
 _p = _p		+ [5];
-
-
-
 
 
 
@@ -1330,9 +1321,9 @@ _p = _p + [1000];
 
 //************************C.U.P Stuff************************
 
-	//RIFLES
+//RIFLES
 	
-		//AK Family
+//AK Family
 
 _i = _i + ["CUP_arifle_AK47"];  
 _u = _u + [0];
@@ -1378,7 +1369,7 @@ _i = _i + ["CUP_arifle_AKM"];
 _u = _u + [1];
 _p = _p + [400];
 
-		//CZ Family
+//CZ Family
 
 _i = _i + ["CUP_arifle_CZ805_A1"];
 _u = _u + [2];
@@ -1400,7 +1391,7 @@ _i = _i + ["CUP_arifle_CZ805_B_GL"];
 _u = _u + [2];
 _p = _p + [500];
 
-		//VZ 58 Family
+//VZ 58 Family
 
 _i = _i + ["CUP_arifle_Sa58P"];
 _u = _u + [4];
@@ -1468,48 +1459,48 @@ _i = _i + ["CUP_arifle_xm8_sharpshooter"];
 _u = _u + [2];
 _p = _p + [500];
 
-	//Machine Guns
+//Machine Guns
 
-		//RPK Family
+//RPK Family
 
 _i = _i + ["CUP_RPK_74"];
 _u = _u + [1];
 _p = _p + [500];
 
-		//PKP Family
+//PKP Family
 
 _i = _i + ["CUP_lmg_Pecheneg"];
 _u = _u + [3];
 _p = _p + [700];
 
-		//PKM Family
+//PKM Family
 
 _i = _i + ["CUP_lmg_PKM"];
 _u = _u + [2];
 _p = _p + [600];
 
-		//UK59 Family
+//UK59 Family
 
 _i = _i + ["CUP_lmg_UK59"];
 _u = _u + [4];
 _p = _p + [800];
 
 
-	//Sniper Rifles
+//Sniper Rifles
 
-		//CZ550 Family
+//CZ550 Family
 
 _i = _i + ["CUP_srifle_CZ550"];
 _u = _u + [0];
 _p = _p + [300];
 
-	//CZ750 Family
+//CZ750 Family
 
 _i = _i + ["CUP_srifle_CZ750"];
 _u = _u + [2];
 _p = _p + [400];
 
-	//SVD Family
+//SVD Family
 
 _i = _i + ["CUP_SVD"];
 _u = _u + [2];
@@ -1535,45 +1526,45 @@ _i = _i + ["CUP_srifle_SVD_wdl_ghillie"];
 _u = _u + [2];
 _p = _p + [660];
 
-		//VSS Family
+//VSS Family
 
 _i = _i + ["CUP_srifle_VSSVintorez"];
 _u = _u + [3];
 _p = _p + [600];
 
-		//KSVK Family
+//KSVK Family
 
 _i = _i + ["CUP_srifle_ksvk"];
 _u = _u + [3];
 _p = _p + [900];
 
 
-	//Shotguns
+//Shotguns
 	
-		//Saiga Family
+//Saiga Family
 
 _i = _i + ["CUP_sgun_Saiga12K"];
 _u = _u + [2];
 _p = _p + [400];
 
 
-	//Small Machine Guns (SMGs)
+//Small Machine Guns (SMGs)
 	
-		//Bizon Family
+//Bizon Family
 
 _i = _i + ["CUP_smg_bizon"];
 _u = _u + [1];
 _p = _p + [200];
 
-		//Scorpion Family
+//Scorpion Family
 
 _i = _i + ["CUP_smg_EVO"];
 _u = _u + [1];
 _p = _p + [200];
 
-	//Handguns
+//Handguns
 	
-		//CZ75 Family
+//CZ75 Family
 
 _i = _i + ["CUP_hgun_Compact"];
 _u = _u + [3];
@@ -1604,8 +1595,7 @@ _u = _u + [3];
 _p = _p + [100];
 
 
-
-		//Makarov Family
+//Makarov Family
 
 _i = _i + ["CUP_hgun_Makarov"];
 _u = _u + [2];
@@ -1615,59 +1605,59 @@ _i = _i + ["CUP_MakarovSD"];
 _u = _u + [3];
 _p = _p + [100];
 
-		//PB 6P9 Family
+//PB 6P9 Family
 
 _i = _i + ["CUP_hgun_PB6P9"];
 _u = _u + [1];
 _p = _p + [40];
 
-		//SA-61 Family
+//SA-61 Family
 
 _i = _i + ["CUP_hgun_SA61"];
 _u = _u + [1];
 _p = _p + [40];
 
-	//Launchers
+//Launchers
 	
-		//Anti-air
+//Anti-air
 		
-			//9K32 Strela
+//9K32 Strela
 			
 _i = _i + ["CUP_launch_9K32Strela"];
 _u = _u + [2];
 _p = _p + [1200];
 
 
-			//9K38 IGLA Family
+//9K38 IGLA Family
 
 _i = _i + ["CUP_launch_Igla"];
 _u = _u + [2];
 _p = _p + [1500];
 
 
-		//Anti Tank
+//Anti Tank
 		
-			//M47 Dragon Family
+//M47 Dragon Family
 		
 _i = _i + ["CUP_launch_M47"];
 _u = _u + [3];
 _p = _p + [1000];
 
-			//METIS Family
+//METIS Family
 
 _i = _i + ["CUP_launch_Metis"];
 _u = _u + [4];
 _p = _p + [2500];
 
 
-			//RPG-7 Family
+//RPG-7 Family
 
 _i = _i + ["CUP_launch_RPG7V"];
 _u = _u + [1];
 _p = _p + [700];
 
 
-			//RPG-18 Family
+//RPG-18 Family
 
 _i = _i + ["CUP_launch_RPG18"];
 _u = _u + [0];
@@ -2328,115 +2318,115 @@ _p = _p		+ [10];
 //--- Bombs Mines IEDS
 
 _i = _i		+ ["CUP_TimeBomb_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [300];
 
 _i = _i		+ ["CUP_Mine_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [300];
 
 _i = _i		+ ["CUP_MineE_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [300];
 
 _i = _i		+ ["CUP_PipeBomb_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [300];
 
 _i = _i		+ ["CUP_IED_V1_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [300];
 
 _i = _i		+ ["CUP_IED_V2_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [300];
 
 _i = _i		+ ["CUP_IED_V3_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [300];
 
 _i = _i		+ ["CUP_IED_V4_M"];
-_u = _u		+ [0];
-_p = _p		+ [10];
+_u = _u		+ [1];
+_p = _p		+ [300];
 
 
 //--- Rockets Bombs
 
 _i = _i		+ ["CUP_Strela_2_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_Stinger_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_Igla_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_Javelin_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_M136_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_Dragon_EP1_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_MAAWS_HEDP_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_MAAWS_HEAT_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_AT13_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_NLAW_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_RPG18_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_PG7V_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_PG7VL_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_PG7VR_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_OG7_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_SMAW_HEDP_M_N"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_SMAW_HEAA_M_N"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_PG9_AT_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_OG9_HE_M"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [150];
 
 //--CUP Attachments
 
