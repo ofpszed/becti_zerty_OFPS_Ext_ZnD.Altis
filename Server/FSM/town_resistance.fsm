@@ -1,7 +1,7 @@
-/*%FSM<COMPILE "C:\Users\zerty\Documents\Poseidon\Data\Packages\Bin\fsmEditor\scriptedFSM.cfg, town_resistance.fsm">*/
+/*%FSM<COMPILE "D:\tools\BIS\FSM Editor Personal Edition\scriptedFSM.cfg, town_resistance.fsm">*/
 /*%FSM<HEAD>*/
 /*
-item0[] = {"Start_FSM",0,4346,-100.000000,-700.000000,0.000000,-650.000000,0.000000,"Start FSM"};
+item0[] = {"Start_FSM",0,250,-100.000000,-700.000000,0.000000,-650.000000,0.000000,"Start FSM"};
 item1[] = {"Cycle",4,218,-100.000000,-400.000000,0.000000,-350.000000,0.000000,"Cycle"};
 item2[] = {"Resistance_hold",2,250,-100.000000,-200.000000,0.000000,-150.000000,0.000000,"Resistance hold" \n "the town?"};
 item3[] = {"End_FSM",1,250,-250.000000,-100.000000,-150.000000,-50.000000,0.000000,"End FSM"};
@@ -19,11 +19,17 @@ item14[] = {"Cleanup",2,250,375.000000,-400.000000,475.000000,-350.000000,0.0000
 item15[] = {"Resistance_Active",2,250,50.000000,-100.000000,150.000000,-50.000000,0.000000,"Resistance" \n "Active?"};
 item16[] = {"Contact",8,218,-100.000000,100.000000,0.000000,150.000000,0.000000,"Contact"};
 item17[] = {"Clear",4,218,50.000000,0.000000,150.000000,50.000000,1.000000,"Clear"};
-item18[] = {"Create",2,250,-400.000000,200.000000,-300.000000,250.000000,0.000000,"Create"};
+item18[] = {"Pre_Create__Optionnal",2,250,-500.000000,200.000000,-400.000000,250.000000,0.000000,"Pre-Create" \n "(Optionnal)"};
 item19[] = {"Resistance_Active_1",2,250,-100.000000,200.000000,0.000000,250.000000,0.000000,"Resistance" \n "Active?"};
 item20[] = {"Inactive",8,218,-250.000000,200.000000,-150.000000,250.000000,0.000000,"Inactive"};
 item21[] = {"Active",4,218,175.000000,200.000000,275.000000,250.000000,1.000000,"Active"};
-item22[] = {"",7,210,-354.000000,-379.000000,-346.000000,-371.000000,0.000000,""};
+item22[] = {"",7,210,-454.000000,-379.000000,-446.000000,-371.000000,0.000000,""};
+item23[] = {"Create__Naval_",2,250,-375.000000,0.000000,-275.000000,50.000000,0.000000,"Create" \n "(Naval)"};
+item24[] = {"Naval",8,218,-375.000000,100.000000,-275.000000,150.000000,0.000000,"Naval"};
+item25[] = {"Not_Naval",4,218,-500.000000,100.000000,-400.000000,150.000000,1.000000,"Not Naval"};
+item26[] = {"Create__Normal_",2,250,-500.000000,0.000000,-400.000000,50.000000,0.000000,"Create" \n "(Normal)"};
+item27[] = {"True",8,218,-500.000000,-100.000000,-400.000000,-50.000000,0.000000,"True"};
+item28[] = {"Post_Create__Optionnal",2,4346,-500.000000,-200.000000,-400.000000,-150.000000,0.000000,"Post-Create" \n "(Optionnal)"};
 link0[] = {0,1};
 link1[] = {1,2};
 link2[] = {2,4};
@@ -46,14 +52,21 @@ link18[] = {15,9};
 link19[] = {15,10};
 link20[] = {16,19};
 link21[] = {17,15};
-link22[] = {18,22};
-link23[] = {19,20};
-link24[] = {19,21};
-link25[] = {20,18};
-link26[] = {21,8};
-link27[] = {22,1};
-globals[] = {25.000000,1,0,0,0,640,480,1,166,6316128,1,-313.374939,395.405457,99.542603,-712.467163,769,881,1};
-window[] = {2,-1,-1,-1,-1,1006,225,1480,225,3,787};
+link22[] = {18,24};
+link23[] = {18,25};
+link24[] = {19,20};
+link25[] = {19,21};
+link26[] = {20,18};
+link27[] = {21,8};
+link28[] = {22,1};
+link29[] = {23,27};
+link30[] = {24,23};
+link31[] = {25,26};
+link32[] = {26,27};
+link33[] = {27,28};
+link34[] = {28,22};
+globals[] = {25.000000,1,0,0,0,640,480,1,174,6316128,1,-615.328857,111.363647,380.243622,-452.287384,769,881,1};
+window[] = {2,-1,-1,-1,-1,956,175,1430,175,3,787};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -71,7 +84,10 @@ class FSM
        "_town setVariable [""cti_town_resistance_activeTime"", -1000];" \n
        "_town setVariable [""cti_town_resistance_activeTime"", -1000];" \n
        "_town setVariable [""cti_town_resistance_groups"",[]];" \n
-       "_ncycle = time + 5.5;"/*%FSM</STATEINIT""">*/;
+       "_ncycle = time + 5.5;" \n
+       "" \n
+       "//--- Town is Naval?" \n
+       "_town_isNaval = if (isNil {_town getVariable ""cti_isNaval""}) then {false} else {true};"/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
       class Links
       {
@@ -310,29 +326,31 @@ class FSM
       };
     };
     /*%FSM</STATE>*/
-    /*%FSM<STATE "Create">*/
-    class Create
+    /*%FSM<STATE "Pre_Create__Optionnal">*/
+    class Pre_Create__Optionnal
     {
-      name = "Create";
-      init = /*%FSM<STATEINIT""">*/"//--- We get the main information first (The teams, the groups and the positions)" \n
-       "_return = (_town) call CTI_SE_FNC_SpawnTownResistance;" \n
-       "_town_teams = _return select 0;" \n
-       "_town_groups = _return select 1;" \n
-       "_town_positions = _return select 2;" \n
-       "_town setVariable [""cti_town_resistance_groups"",(_return select 1)];" \n
-       "_town_vehicles = [_town, resistance, _town_teams, _town_groups, _town_positions] call CTI_CO_FNC_CreateTownUnits;" \n
-       "_town setVariable [""cti_town_resistance_active_vehicles"", (_town getVariable ""cti_town_resistance_active_vehicles"") + _town_vehicles];" \n
-       "_town setVariable [""cti_town_resistance_active"", true];"/*%FSM</STATEINIT""">*/;
+      name = "Pre_Create__Optionnal";
+      init = /*%FSM<STATEINIT""">*/"//--- Perform some code before the resistance creation"/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
       class Links
       {
-        /*%FSM<LINK "Cycle">*/
-        class Cycle
+        /*%FSM<LINK "Not_Naval">*/
+        class Not_Naval
+        {
+          priority = 1.000000;
+          to="Create__Normal_";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!_town_isNaval"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Naval">*/
+        class Naval
         {
           priority = 0.000000;
-          to="Resistance_hold";
+          to="Create__Naval_";
           precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
-          condition=/*%FSM<CONDITION""">*/"time > _ncycle "/*%FSM</CONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
           action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
         };
         /*%FSM</LINK>*/
@@ -361,9 +379,90 @@ class FSM
         class Inactive
         {
           priority = 0.000000;
-          to="Create";
+          to="Pre_Create__Optionnal";
           precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
           condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Create__Naval_">*/
+    class Create__Naval_
+    {
+      name = "Create__Naval_";
+      init = /*%FSM<STATEINIT""">*/"//--- We get the main information first (The teams, the groups and the positions) | NAVAL VERSION! ADAPT IT!!!" \n
+       "_return = (_town) call CTI_SE_FNC_SpawnTownNavalResistance;" \n
+       "_town_teams = _return select 0;" \n
+       "_town_groups = _return select 1;" \n
+       "_town_positions = _return select 2;" \n
+       "" \n
+       "_town setVariable [""cti_town_resistance_groups"",(_return select 1)];" \n
+       "_town_vehicles = [_town, resistance, _town_teams, _town_groups, _town_positions] call CTI_CO_FNC_CreateTownNavalUnits;" \n
+       "_town setVariable [""cti_town_resistance_active_vehicles"", (_town getVariable ""cti_town_resistance_active_vehicles"") + _town_vehicles];" \n
+       "_town setVariable [""cti_town_resistance_active"", true];"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "True">*/
+        class True
+        {
+          priority = 0.000000;
+          to="Post_Create__Optionnal";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Create__Normal_">*/
+    class Create__Normal_
+    {
+      name = "Create__Normal_";
+      init = /*%FSM<STATEINIT""">*/"//--- We get the main information first (The teams, the groups and the positions)" \n
+       "_return = (_town) call CTI_SE_FNC_SpawnTownResistance;" \n
+       "_town_teams = _return select 0;" \n
+       "_town_groups = _return select 1;" \n
+       "_town_positions = _return select 2;" \n
+       "" \n
+       "_town setVariable [""cti_town_resistance_groups"",(_return select 1)];" \n
+       "_town_vehicles = [_town, resistance, _town_teams, _town_groups, _town_positions] call CTI_CO_FNC_CreateTownUnits;" \n
+       "_town setVariable [""cti_town_resistance_active_vehicles"", (_town getVariable ""cti_town_resistance_active_vehicles"") + _town_vehicles];" \n
+       "_town setVariable [""cti_town_resistance_active"", true];"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "True">*/
+        class True
+        {
+          priority = 0.000000;
+          to="Post_Create__Optionnal";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Post_Create__Optionnal">*/
+    class Post_Create__Optionnal
+    {
+      name = "Post_Create__Optionnal";
+      init = /*%FSM<STATEINIT""">*/"//--- Perform some code after the resistance creation"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Cycle">*/
+        class Cycle
+        {
+          priority = 0.000000;
+          to="Resistance_hold";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time > _ncycle "/*%FSM</CONDITION""">*/;
           action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
         };
         /*%FSM</LINK>*/
@@ -374,7 +473,7 @@ class FSM
   initState="Start_FSM";
   finalStates[] =
   {
-    "End_FSM"
+    "End_FSM",
   };
 };
 /*%FSM</COMPILE>*/
