@@ -1953,6 +1953,14 @@ _i = _i		+ ["CUP_50Rnd_UK59_762x54R_Tracer"];
 _u = _u		+ [0];
 _p = _p		+ [10];
 
+_i = _i		+ ["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
+_i = _i		+ ["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"];
+_u = _u		+ [0];
+_p = _p		+ [10];
+
 
 //---Caliber 7.65x17mm
 

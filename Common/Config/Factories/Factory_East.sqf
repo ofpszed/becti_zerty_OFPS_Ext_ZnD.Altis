@@ -3,7 +3,7 @@ private ["_side", "_u"];
 _side = _this;
 
 missionNamespace setVariable [format["CTI_%1_Commander", _side], "O_officer_F"];
-missionNamespace setVariable [format["CTI_%1_Worker", _side], "C_scientist_F"];
+missionNamespace setVariable [format["CTI_%1_Worker", _side], "O_G_officer_F"];
 missionNamespace setVariable [format["CTI_%1_Static", _side], "O_G_officer_F"];
 
 missionNamespace setVariable [format["CTI_%1_Diver", _side], "O_diver_F"];
@@ -122,7 +122,7 @@ _u = _u		+ ["O_MBT_02_cannon_F"];
 _u = _u		+ ["O_APC_Tracked_02_AA_F"];
 if !(MADE_FOR_STRATIS) then
 {_u = _u		+ ["O_MBT_02_arty_F"];  
- _u = _u		+ ["B_MBT_01_mlrs_F"];  
+/* _u = _u		+ ["B_MBT_01_mlrs_F"];*/  
 };
 
 _u = _u		+ ['OFPS_BMP1'];
@@ -134,6 +134,7 @@ _u = _u		+ ['OFPS_BMP2_ZSU'];
 _u = _u		+ ['OFPS_T55'];
 _u = _u		+ ['OFPS_T72A'];
 _u = _u		+ ['OFPS_ZSU23'];
+_u = _u		+ ['CUP_O_BM21_RU'];
 
 /*
 _u = _u		+ ['I_APC_Wheeled_03_cannon_F'];
