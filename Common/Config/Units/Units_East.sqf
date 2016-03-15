@@ -1264,7 +1264,7 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + ["service-medic"];
 
-_c = _c + ['Burnes_MK10_1'];
+_c = _c + ['Burnes_LCAC_1'];
 _p = _p + [''];
 _n = _n + [(format ["Respawn Shore Required - Range %1 m",CTI_RESPAWN_MOBILE_RANGE])];
 _o = _o + [3000];

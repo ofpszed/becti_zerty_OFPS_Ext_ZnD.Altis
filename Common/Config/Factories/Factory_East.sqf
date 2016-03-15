@@ -212,7 +212,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
 _u 			= ['O_Boat_Transport_01_F'];
 _u = _u		+ ['O_Boat_Armed_01_hmg_F'];
 _u = _u		+ ['C_Boat_Civil_01_rescue_F'];
-_u = _u		+ ["Burnes_MK10_1"];
+_u = _u		+ ["Burnes_LCAC_1"];
 _u = _u		+ ['O_SDV_01_F'];
 _u = _u		+ ["CUP_B_RHIB_USMC"];
 _u = _u		+ ["CUP_B_RHIB2Turret_USMC"];
