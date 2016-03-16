@@ -50,7 +50,7 @@ SM_TCAS_CREATE=compile '
 		_cas = [_town, "I_Plane_Fighter_03_CAS_F","FLY"] call SM_TCAS_MAINLOOP;
 		_cas = [_town, "CUP_I_Mi24_D_ION","FLY"] call SM_TCAS_MAINLOOP;
 	} else {
-		_cas = [_town, "I_Heli_light_03_F","FORM"] call SM_TCAS_MAINLOOP;
+		_cas = [_town, "I_Heli_light_03_F","FLY"] call SM_TCAS_MAINLOOP;
 		_cas = [_town, "CUP_I_UH1H_TK_GUE","FLY"] call SM_TCAS_MAINLOOP;
 	};
 	diag_log _cas;

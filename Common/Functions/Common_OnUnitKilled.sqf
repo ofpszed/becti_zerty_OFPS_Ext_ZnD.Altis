@@ -98,6 +98,7 @@ if (!isNil '_var' && _isplayable_killer) then {
 
 	if (_side_killer != _side_killed) then { //--- Kill
 		if (_side_killed != civilian) then {
+			
 			//--- The kill does not come from the leader, award the score to the leader in any cases.
 			if (_killer != leader _group_killer) then {
 				_points = switch (true) do {case (_type_killed isKindOf "Infantry"): {1};case (_type_killed isKindOf "Car"): {2};case (_type_killed isKindOf "Ship"): {4};case (_type_killed isKindOf "Motorcycle"): {1};case (_type_killed isKindOf "Tank"): {4};case (_type_killed isKindOf "Helicopter"): {4};case (_type_killed isKindOf "Plane"): {6};case (_type_killed isKindOf "StaticWeapon"): {2};case (_type_killed isKindOf "Building"): {2};default {1}};
@@ -121,12 +122,24 @@ if (!isNil '_var' && _isplayable_killer) then {
 				if (count _award_groups > 1) then { _bounty = round(_bounty / (count _award_groups))};
 
 				//--- Award
+				if (_isplayable_killed) then {
+				//--- PVP Award
+					_pvpname = name _killed;
+					_pvpbounty = 5000;
+					{
+						if (_x call CTI_CO_FNC_IsGroupPlayable) then {
+							if (isPlayer leader _x) then {[["CLIENT", leader _x], "Client_AwardBounty", [_pvpname, _pvpbounty]] call CTI_CO_FNC_NetSend} else {[_x, _side_killer, _pvpbounty] call CTI_CO_FNC_ChangeFunds};
+						};
+					} forEach _award_groups;
+				}:
+				//--- AI Award
 				{
 					if (_x call CTI_CO_FNC_IsGroupPlayable) then {
 						if (isPlayer leader _x) then {[["CLIENT", leader _x], "Client_AwardBounty", [_var_name, _bounty]] call CTI_CO_FNC_NetSend} else {[_x, _side_killer, _bounty] call CTI_CO_FNC_ChangeFunds};
 					};
 				} forEach _award_groups;
-
+				
+				
 			};
 			// zeus guerilla
 
