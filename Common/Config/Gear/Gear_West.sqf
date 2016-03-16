@@ -2800,14 +2800,6 @@ _i = _i		+ ["CUP_SMAW_HEAA_M_N"];
 _u = _u		+ [0];
 _p = _p		+ [150];
 
-_i = _i		+ ["CUP_R_SMAW_HEDP_N"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
-_i = _i		+ ["CUP_R_SMAW_HEAA_N"];
-_u = _u		+ [0];
-_p = _p		+ [150];
-
 _i = _i		+ ["CUP_PG9_AT_M"];
 _u = _u		+ [0];
 _p = _p		+ [150];
