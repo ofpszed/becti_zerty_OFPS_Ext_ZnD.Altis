@@ -358,13 +358,13 @@ _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["C-RAM Phalanx"];
 _classes = _classes 		+ ["C_at_phalanx_35AI"];
-_prices = _prices 			+ [50000];
+_prices = _prices 			+ [80000];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["C-RAM Phalanx Missle"];
 _classes = _classes 		+ ["C_at_phalanx_missile_35AI"];
-_prices = _prices 			+ [60000];
+_prices = _prices 			+ [100000];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
