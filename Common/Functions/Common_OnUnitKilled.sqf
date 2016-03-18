@@ -121,25 +121,23 @@ if (!isNil '_var' && _isplayable_killer) then {
 				_bounty = round( _cost * CTI_VEHICLES_BOUNTY /100);
 				if (count _award_groups > 1) then { _bounty = round(_bounty / (count _award_groups))};
 
-				//--- Award
-				if (_isplayable_killed) then {
-				//--- PVP Award
-					_pvpname = name _killed;
-					_pvpbounty = 5000;
-					{
-						if (_x call CTI_CO_FNC_IsGroupPlayable) then {
-							if (isPlayer leader _x) then {[["CLIENT", leader _x], "Client_AwardBounty", [_pvpname, _pvpbounty]] call CTI_CO_FNC_NetSend} else {[_x, _side_killer, _pvpbounty] call CTI_CO_FNC_ChangeFunds};
-						};
-					} forEach _award_groups;
-				}:
+				//--- Awards
 				//--- AI Award
 				{
 					if (_x call CTI_CO_FNC_IsGroupPlayable) then {
 						if (isPlayer leader _x) then {[["CLIENT", leader _x], "Client_AwardBounty", [_var_name, _bounty]] call CTI_CO_FNC_NetSend} else {[_x, _side_killer, _bounty] call CTI_CO_FNC_ChangeFunds};
 					};
 				} forEach _award_groups;
-				
-				
+				//--- PVP Award
+				if (_isplayable_killed) then {
+					_pvpname = "PLAYER NAME HERE";
+					_pvpbounty = 5000;
+					{
+						if (_x call CTI_CO_FNC_IsGroupPlayable) then {
+							if (isPlayer leader _x) then {[["CLIENT", leader _x], "Client_AwardBounty", [_var_name, _pvpbounty]] call CTI_CO_FNC_NetSend} else {[_x, _side_killer, _pvpbounty] call CTI_CO_FNC_ChangeFunds};
+						};
+					} forEach _award_groups;
+				}
 			};
 			// zeus guerilla
 
