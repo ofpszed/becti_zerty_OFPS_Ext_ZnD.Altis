@@ -152,4 +152,7 @@ waitUntil {!isNil "EtVInitialized"};
 waitUntil {time > 0};
 enableEnvironment false;
 
+//--- HC Event Handler
+if (!hasInterface && !isServer) then{ execVM "Server\Functions\hc_event.sqf"; };
+
 addMissionEventHandler ["Loaded",{execVM "Client\Init\Init_Client.sqf";execVM "Addons\strat_mode\init.sqf";}];
