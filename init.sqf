@@ -155,4 +155,11 @@ enableEnvironment false;
 //--- HC Event Handler
 if (!hasInterface && !isServer) then{ execVM "Server\Functions\hc_event.sqf"; };
 
+//--- No more weapon sway
+if (local player) then { 
+player setCustomAimCoef 0.1; 
+player addMPEventhandler ["MPRespawn", {player setCustomAimCoef 0.1;}]; 
+};  
+
+
 addMissionEventHandler ["Loaded",{execVM "Client\Init\Init_Client.sqf";execVM "Addons\strat_mode\init.sqf";}];
