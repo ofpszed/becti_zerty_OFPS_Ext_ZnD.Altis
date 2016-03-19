@@ -388,6 +388,7 @@ with missionNamespace do {
 //--- Base: Area
 //CTI_BASE_AREA_MAX = if !(MADE_FOR_STRATIS) then {2} else {1};
 CTI_BASE_AREA_RANGE = if !(MADE_FOR_STRATIS) then {250} else {150};
+CTI_BASE_CONSTRUCTION_TIME = 180; //--- Length of time a structure takes to build, in seconds.
 
 //--- Base: Construction
 CTI_BASE_CONSTRUCTION_DECAY_TIMEOUT = 600; //--- Decay starts after x seconds unattended.

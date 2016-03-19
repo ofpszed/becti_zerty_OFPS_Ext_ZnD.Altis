@@ -654,6 +654,9 @@ class CTI_RscBuildMenu_Tablet {
 			text = "X";
 			action = "closeDialog 0";
 		};
+		
+/* No more workers SS83		
+		
 		class CTI_Menu_Control_AddWorker : RscButton {
 			idc = 100005;
 
@@ -665,6 +668,8 @@ class CTI_RscBuildMenu_Tablet {
 			text = "Add Worker";
 			action = "['onAddWorker'] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_ConstructionCamera.sqf'";
 		};
+*/	
+	
 		class CTI_Menu_Control_Info : RscStructuredText {
 			idc = 100008;
 
