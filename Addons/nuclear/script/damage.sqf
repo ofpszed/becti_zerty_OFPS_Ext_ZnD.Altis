@@ -11,12 +11,20 @@ _objects = nearestobjects [[_xpos, _ypos, 0], [], _wave_radius];
 sleep 4;
 //Core Damage Area Destroy all in this radius
 {
-	  if ( _x iskindof "Static" || _x iskindof "Man" || _x iskindof "Car" || _x iskindof "Motorcycle" || _x iskindof "Tank" || _x iskindof "Ship" || _x iskindof "Air") then
+	  if ( ! (_x iskindof "Land_nav_pier_m_2") ) then
 	  {
 		{_x setdammage 1} foreach (crew _x);
 		_x setdammage 1;
 	  };
-} foreach ([_xpos, _ypos, 0] nearobjects ["All", 200]);
+} foreach ([_xpos, _ypos, 0] nearobjects ["All", 150]);
+//Destroy Base Structures
+{
+	  if (_x iskindof "Land_Cargo_Tower_V3_F" || _x iskindof "Land_Cargo_House_V1_F" || _x iskindof "Land_Medevac_HQ_V1_F" || _x iskindof "Land_Research_HQ_F" || _x iskindof "Land_Cargo_HQ_V1_F" || _x iskindof "Land_Lighthouse_small_F" || _x iskindof "Land_Radar_Small_F" || _x iskindof "Land_Cargo_HQ_V2_F" || _x iskindof "Land_Cargo_HQ_V3_F" || _x iskindof "Land_TTowerBig_2_F" || _x iskindof "Land_Dome_Small_F" || _x iskindof "Land_Dome_Big_F" || _x iskindof "Land_Cargo_Patrol_V1_F" || _x iskindof "Land_Shed_Big_F" || _x iskindof "Land_Shed_Small_F" || _x iskindof "Land_Cargo_Tower_V1_F" || _x iskindof "Land_Mil_WallBig_4m_F") then
+	  {
+		{_x setdammage 1} foreach (crew _x);
+		_x setdammage 1;
+	  };
+} foreach ([_xpos, _ypos, 0] nearobjects ["All", 600]);
 //Destroy all in wider radius ignore map structures
 {
 	if ( ! (_x isKindOf "House") ) then
