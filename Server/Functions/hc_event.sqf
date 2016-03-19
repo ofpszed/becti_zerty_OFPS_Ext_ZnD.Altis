@@ -1,4 +1,6 @@
 //--- HC Event Handler
+_sideID = (side _x) call CTI_CO_FNC_GetSideID;
+
 while {true} do {
 	sleep 30;
 	{
