@@ -113,7 +113,9 @@ addons[]=
 	"usaf_b1b",
 	"USAF_B2",
 	"Werthles_WHK",
-	"cba_main"
+	"cba_main",
+	"sfp_norrkoping",
+	"sfp_gruppbat"
 };
 randomSeed=12242137;
 class ScenarioData

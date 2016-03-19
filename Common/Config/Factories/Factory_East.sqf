@@ -216,6 +216,8 @@ _u = _u		+ ["Burnes_LCAC_1"];
 _u = _u		+ ['O_SDV_01_F'];
 _u = _u		+ ["CUP_B_RHIB_USMC"];
 _u = _u		+ ["CUP_B_RHIB2Turret_USMC"];
+_u = _u		+ ["sfp_gruppbat"];
+_u = _u		+ ["sfp_rbb_norrkoping"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 
