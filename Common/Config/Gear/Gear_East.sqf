@@ -1323,23 +1323,23 @@ _p = _p + [1000];
 
 _i = _i + ["CUP_arifle_AK47"];  
 _u = _u + [0];
-_p = _p + [300];		
+_p = _p + [50];		
 
 _i = _i + ["CUP_arifle_AK74"];  
 _u = _u + [0];
-_p = _p + [400];
+_p = _p + [75];
 
 _i = _i + ["CUP_arifle_AK74M"];
 _u = _u + [0];
-_p = _p + [400];
+_p = _p + [75];
 
 _i = _i + ["CUP_arifle_AK74_GL"];
 _u = _u + [0];
-_p = _p + [500];
+_p = _p + [100];
 
 _i = _i + ["CUP_arifle_AKS"];
 _u = _u + [1];
-_p = _p + [500];
+_p = _p + [100];
 
 _i = _i + ["CUP_arifle_AKS_Gold"];
 _u = _u + [1];
@@ -1347,113 +1347,113 @@ _p = _p + [600];
 
 _i = _i + ["CUP_arifle_AKS74"];
 _u = _u + [1];
-_p = _p + [500];
+_p = _p + [100];
 
 _i = _i + ["CUP_arifle_AKS74U"];
 _u = _u + [1];
-_p = _p + [500];
+_p = _p + [100];
 
 _i = _i + ["CUP_arifle_AK107"];
 _u = _u + [1];
-_p = _p + [400];
+_p = _p + [150];
 
 _i = _i + ["CUP_arifle_AK107_GL"];
 _u = _u + [1];
-_p = _p + [500];
+_p = _p + [175];
 
 _i = _i + ["CUP_arifle_AKM"];
 _u = _u + [1];
-_p = _p + [400];
+_p = _p + [100];
 
 //CZ Family
 
 _i = _i + ["CUP_arifle_CZ805_A1"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [200];
 
 _i = _i + ["CUP_arifle_CZ805_GL"];
 _u = _u + [2];
-_p = _p + [500];
+_p = _p + [225];
 
 _i = _i + ["CUP_arifle_CZ805_A2"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [200];
 
 _i = _i + ["CUP_arifle_CZ805_B"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [200];
 
 _i = _i + ["CUP_arifle_CZ805_B_GL"];
 _u = _u + [2];
-_p = _p + [500];
+_p = _p + [240];
 
 //VZ 58 Family
 
 _i = _i + ["CUP_arifle_Sa58P"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [100];
 
 _i = _i + ["CUP_arifle_Sa58V"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [100];
 
 _i = _i + ["CUP_arifle_Sa58RIS1"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [150];
 
 _i = _i + ["CUP_arifle_Sa58RIS2"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [150];
 
 _i = _i + ["CUP_arifle_Sa58RIS2_gl"];
 _u = _u + [4];
-_p = _p + [700];
+_p = _p + [170];
 
 _i = _i + ["CUP_arifle_Sa58P_des"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [150];
 
 _i = _i + ["CUP_arifle_Sa58V_camo"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [150];
 
 _i = _i + ["CUP_arifle_Sa58RIS1_des"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [150];
 
 _i = _i + ["CUP_arifle_Sa58RIS2_camo"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [150];
 
 //XM8 Family
 		
 _i = _i + ["CUP_arifle_XM8_Carbine"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [200];
 
 _i = _i + ["CUP_arifle_XM8_Railed"];
 _u = _u + [2];
-_p = _p + [350];
+_p = _p + [180];
 
 _i = _i + ["CUP_arifle_XM8_Carbine_GL"];
 _u = _u + [2];
-_p = _p + [450];
+_p = _p + [225];
 
 _i = _i + ["CUP_arifle_XM8_Compact"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [200];
 
 _i = _i + ["CUP_arifle_XM8_Carbine_FG"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [200];
 
 _i = _i + ["CUP_arifle_xm8_SAW"]; 
 _u = _u + [2];
-_p = _p + [500];
+_p = _p + [250];
 
 _i = _i + ["CUP_arifle_xm8_sharpshooter"]; 
 _u = _u + [2];
-_p = _p + [500];
+_p = _p + [250];
 
 //Machine Guns
 
@@ -1461,25 +1461,25 @@ _p = _p + [500];
 
 _i = _i + ["CUP_RPK_74"];
 _u = _u + [1];
-_p = _p + [500];
+_p = _p + [350];
 
 //PKP Family
 
 _i = _i + ["CUP_lmg_Pecheneg"];
 _u = _u + [3];
-_p = _p + [700];
+_p = _p + [400];
 
 //PKM Family
 
 _i = _i + ["CUP_lmg_PKM"];
 _u = _u + [2];
-_p = _p + [600];
+_p = _p + [400];
 
 //UK59 Family
 
 _i = _i + ["CUP_lmg_UK59"];
 _u = _u + [4];
-_p = _p + [800];
+_p = _p + [400];
 
 
 //Sniper Rifles
@@ -1488,51 +1488,51 @@ _p = _p + [800];
 
 _i = _i + ["CUP_srifle_CZ550"];
 _u = _u + [0];
-_p = _p + [300];
+_p = _p + [75];
 
 //CZ750 Family
 
 _i = _i + ["CUP_srifle_CZ750"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [300];
 
 //SVD Family
 
 _i = _i + ["CUP_SVD"];
 _u = _u + [2];
-_p = _p + [600];
+_p = _p + [250];
 
 _i = _i + ["CUP_SVD_CAMO"];
 _u = _u + [2];
-_p = _p + [600];
+_p = _p + [250];
 
 _i = _i + ["CUP_srifle_SVD"];
 _u = _u + [2];
-_p = _p + [600];
+_p = _p + [250];
 
 _i = _i + ["CUP_srifle_SVD_des"];
 _u = _u + [2];
-_p = _p + [600];
+_p = _p + [250];
 
 _i = _i + ["CUP_srifle_SVD_des_ghillie_pso"];
 _u = _u + [2];
-_p = _p + [660];
+_p = _p + [270];
 
 _i = _i + ["CUP_srifle_SVD_wdl_ghillie"];
 _u = _u + [2];
-_p = _p + [660];
+_p = _p + [270];
 
 //VSS Family
 
 _i = _i + ["CUP_srifle_VSSVintorez"];
 _u = _u + [3];
-_p = _p + [600];
+_p = _p + [300];
 
 //KSVK Family
 
 _i = _i + ["CUP_srifle_ksvk"];
 _u = _u + [3];
-_p = _p + [900];
+_p = _p + [500];
 
 
 //Shotguns
@@ -1541,7 +1541,7 @@ _p = _p + [900];
 
 _i = _i + ["CUP_sgun_Saiga12K"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [200];
 
 
 //Small Machine Guns (SMGs)
@@ -1550,13 +1550,13 @@ _p = _p + [400];
 
 _i = _i + ["CUP_smg_bizon"];
 _u = _u + [1];
-_p = _p + [200];
+_p = _p + [100];
 
 //Scorpion Family
 
 _i = _i + ["CUP_smg_EVO"];
 _u = _u + [1];
-_p = _p + [200];
+_p = _p + [100];
 
 //Handguns
 	
@@ -2446,81 +2446,81 @@ _p = _p		+ [150];
 
 _i = _i		+ ["CUP_optic_Kobra"];
 _u = _u		+ [2];
-_p = _p		+ [300];
+_p = _p		+ [20];
 
 
 //--Holo Optics
 
 _i = _i		+ ["CUP_optic_HoloBlack"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [20];
 
 _i = _i		+ ["CUP_optic_HoloWdl"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [20];
 
 _i = _i		+ ["CUP_optic_HoloDesert"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [20];
 
 _i = _i		+ ["CUP_optic_Eotech533"];
 _u = _u		+ [2];
-_p = _p		+ [300];
+_p = _p		+ [50];
 
 _i = _i		+ ["CUP_optic_Eotech533Grey"];
 _u = _u		+ [2];
-_p = _p		+ [300];
+_p = _p		+ [50];
 
 
 //--CCO Aimpoint Optics
 
 _i = _i		+ ["CUP_optic_CompM4"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_optic_CompM2_Black"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_optic_CompM2_Woodland"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_optic_CompM2_Woodland2"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_optic_CompM2_Desert"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [100];
 
 //--Trijicon RedDot Optics
 
 _i = _i		+ ["CUP_optic_TrijiconRx01_desert"];
 _u = _u		+ [1];
-_p = _p		+ [100];
+_p = _p		+ [75];
 
 _i = _i		+ ["CUP_optic_TrijiconRx01_black"];
 _u = _u		+ [1];
-_p = _p		+ [100];
+_p = _p		+ [75];
 
 
 //--Schmidt and Bender ShortDot Optics
 
 _i = _i		+ ["CUP_optic_SB_11_4x20_PM"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 
 //--Meopta Optics
 
 _i = _i		+ ["CUP_optic_ZDDot"];
 _u = _u		+ [1];
-_p = _p		+ [300];
+_p = _p		+ [75];
 
 _i = _i		+ ["CUP_optic_MRad"];
 _u = _u		+ [1];
-_p = _p		+ [300];
+_p = _p		+ [75];
 
 
 //--Trijicon RCO and ACOG Optics
