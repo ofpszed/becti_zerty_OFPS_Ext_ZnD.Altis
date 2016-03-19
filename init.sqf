@@ -19,7 +19,7 @@ CTI_Log_Warning = 1;
 CTI_Log_Error = 0;
 
 //--- Log level to use
-CTI_Log_Level = 0;
+CTI_Log_Level = 3;
 
 //--- We define the log function early so that we can use it
 CTI_CO_FNC_Log = compile preprocessFileLineNumbers "Common\Functions\Common_Log.sqf";
@@ -30,10 +30,12 @@ CTI_Init_Client=false;
 CTI_InitTowns=false;
 CTI_Init_Server =false;
 CTI_Init_Strat=false;
+
 //--- Determine which machine is running this init script
 CTI_IsHostedServer = if (isServer && !isDedicated) then {true} else {false};
 CTI_IsServer = if (isDedicated || CTI_IsHostedServer) then {true} else {false};
-CTI_IsClient = if (CTI_IsHostedServer || !isDedicated) then {true} else {false};
+CTI_IsClient = if ((CTI_IsHostedServer || !isDedicated) && hasInterface) then {true} else {false};
+CTI_IsHeadless = if (!hasInterface && !isDedicated) then {true} else {false};
 
 CTI_TEAMSTACK_EAST=0;
 CTI_TEAMSTACK_WEST=0;
@@ -41,7 +43,7 @@ CTI_TEAMSTACK_WEST=0;
 
 if (CTI_Log_Level >= CTI_Log_Information) then { //--- Information
 	["INFORMATION", "FILE: init.sqf", format["Environment is Multiplayer? [%1]", isMultiplayer]] call CTI_CO_FNC_Log;
-	["INFORMATION", "FILE: init.sqf", format["Current Actor is: Hosted Server [%1]? Dedicated [%2]? Client [%3]?", CTI_IsHostedServer, isDedicated, CTI_IsClient]] call CTI_CO_FNC_Log
+	["INFORMATION", "FILE: init.sqf", format["Current Actor is: Hosted Server [%1]? Dedicated [%2]? Client [%3]? Headless [%4]?", CTI_IsHostedServer, isDedicated, CTI_IsClient, CTI_IsHeadless]] call CTI_CO_FNC_Log
 };
 
 
@@ -53,13 +55,13 @@ if (CTI_IsClient && isMultiplayer) then {
 
 		while {side player == civilian} do
 		{
-		 		player enableSimulation true;
-		 		player allowDamage true;
-				player setCaptive false;
-				player setDammage 1;
+			player enableSimulation true;
+			player allowDamage true;
+			player setCaptive false;
+			player setDammage 1;
 		    12452 cutText ["Respawning wounded client...(if blocked there press ESC> RESPAWN, go back in the lobby and rejoin)", "BLACK FADED", 50000];
 		    waitUntil {alive player};
-				sleep 1;
+			sleep 1;
 		};
 	};
 };
@@ -111,6 +113,12 @@ if (CTI_IsServer) then {
 	execVM "Server\Init\Init_Server.sqf";
 };
 
+//--- HC Execution
+if (CTI_IsHeadless) then{ 
+	if (CTI_Log_Level >= CTI_Log_Information) then { ["INFORMATION", "FILE: init.sqf", "Running Headless Client Management (hc_event.sqf)"] call CTI_CO_FNC_Log	};
+	execVM "Server\Functions\hc_event.sqf"; 
+};
+
 //--- Pure client execution
 if (CTI_IsClient) then {
 	if (CTI_Log_Level >= CTI_Log_Information) then { ["INFORMATION", "FILE: init.sqf", "Running client initialization"] call CTI_CO_FNC_Log	};
@@ -151,9 +159,6 @@ waitUntil {!isNil "EtVInitialized"};
 //-- disable ambient life
 waitUntil {time > 0};
 enableEnvironment false;
-
-//--- HC Event Handler
-if (!hasInterface && !isServer) then{ execVM "Server\Functions\hc_event.sqf"; };
 
 //--- No more weapon sway
 if (local player) then { 
