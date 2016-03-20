@@ -3374,44 +3374,44 @@ _p = _p		+ [100];
 
 
 _i = _i		+ ["CUP_B_CivPack_WDL"];
-_u = _u		+ [0];
-_p = _p		+ [100];
+_u = _u		+ [4];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_B_HikingPack_Civ"];
-_u = _u		+ [0];
-_p = _p		+ [100];
+_u = _u		+ [4];
+_p = _p		+ [600];
 
 _i = _i		+ ["CUP_B_ACRPara_m95"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [600];
 
 _i = _i		+ ["CUP_B_ACRScout_m95"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [50];
 
 _i = _i		+ ["CUP_B_GER_Pack_Flecktarn"];
 _u = _u		+ [3];
-_p = _p		+ [100];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_B_GER_Pack_Tropentarn"];
 _u = _u		+ [3];
-_p = _p		+ [100];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_B_GER_Medic_Desert"];
 _u = _u		+ [3];
-_p = _p		+ [100];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_B_GER_Medic_Flecktarn"];
 _u = _u		+ [3];
-_p = _p		+ [100];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_B_GER_Medic_Tropentarn"];
 _u = _u		+ [3];
-_p = _p		+ [100];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_B_M2_Gun_Bag"];
 _u = _u		+ [3];
-_p = _p		+ [100];
+_p = _p		+ [600];
 
 _i = _i		+ ["CUP_B_M2_Tripod_Bag"];
 _u = _u		+ [3];
@@ -3423,51 +3423,51 @@ _p = _p		+ [100];
 
 _i = _i		+ ["CUP_B_AssaultPack_ACU"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_B_AssaultPack_Black"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_B_AssaultPack_Coyote"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_B_USMC_AssaultPack"];
 _u = _u		+ [2];
-_p = _p		+ [100];
+_p = _p		+ [350];
 
 _i = _i		+ ["CUP_B_MedicPack_ACU"];
 _u = _u		+ [2];
-_p = _p		+ [100];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_B_RPGPack_Khaki"];
 _u = _u		+ [2];
-_p = _p		+ [100];
+_p = _p		+ [175];
 
 _i = _i		+ ["CUP_B_USMC_MOLLE"];
 _u = _u		+ [2];
-_p = _p		+ [100];
+_p = _p		+ [600];
 
 _i = _i		+ ["CUP_B_USMC_MOLLE_WDL"];
 _u = _u		+ [2];
-_p = _p		+ [100];
+_p = _p		+ [600];
 
 _i = _i		+ ["CUP_B_USPack_Black"];
 _u = _u		+ [2];
-_p = _p		+ [100];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_B_USPack_Coyote"];
 _u = _u		+ [2];
-_p = _p		+ [100];
+_p = _p		+ [500];
 
 _i = _i		+ ["CUP_B_AlicePack_Khaki"];
 _u = _u		+ [1];
-_p = _p		+ [100];
+_p = _p		+ [600];
 
 _i = _i		+ ["CUP_B_Bergen_BAF"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [600];
 
 _i = _i		+ ["CUP_B_UAVTerminal_Black"];
 _u = _u		+ [1];
