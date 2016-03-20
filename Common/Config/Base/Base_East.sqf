@@ -1,6 +1,6 @@
 _side = _this;
 
-missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_APC_Tracked_01_CRV_F"];
+missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BMP_HQ_RU"];
 missionNamespace setVariable [format["CTI_%1_Factories", _side], ["Barracks","Light","Heavy","Air","Ammo","Repair","Naval"]];
 
 missionNamespace setVariable [format["CTI_%1_Base_Template", _side], [
@@ -14,6 +14,7 @@ missionNamespace setVariable [format["CTI_%1_Base_Template", _side], [
 	[CTI_AMMO, 180, [80,37]]
 ]];
 
+
 //--- Commander course of action ["Action", Parameter(s), Condition]
 missionNamespace setVariable [format["CTI_%1_Commander_Path", _side], [
 	["build-structures", CTI_MILITARYINSTALLATION, {true}],
@@ -23,7 +24,6 @@ missionNamespace setVariable [format["CTI_%1_Commander_Path", _side], [
 	["upgrade", [CTI_UPGRADE_BARRACKS, 1], {true}],
 	["upgrade", [CTI_UPGRADE_GEAR, 1], {true}],
 	["upgrade", [CTI_UPGRADE_LIGHT, 1], {true}],
-	["upgrade", [CTI_UPGRADE_AIRSTRIKE, 1], {true}],
 	["upgrade", [CTI_UPGRADE_NUKE, 1], {true}],
 	["upgrade", [CTI_UPGRADE_TOWNS, 1], {true}],
 	["upgrade", [CTI_UPGRADE_GEAR, 2], {true}],
@@ -324,73 +324,67 @@ _categories = _categories 	+ ["Defense"];
 _headers = _headers 		+ ["M2 Machine Gun"];
 _classes = _classes 		+ ["CUP_B_M2StaticMG_USMC"];
 _prices = _prices 			+ [1500];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["M2 Mini"];
 _classes = _classes 		+ ["CUP_B_M2StaticMG_USMC"];
 _prices = _prices 			+ [1500];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["AGS-30"];
 _classes = _classes 		+ ["CUP_B_AGS_CDF"];
 _prices = _prices 			+ [1500];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["DShKM"];
 _classes = _classes 		+ ["CUP_B_DSHKM_CDF"];
 _prices = _prices 			+ [1500];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["DShKM Mini"];
 _classes = _classes 		+ ["CUP_B_DSHkM_MiniTriPod_CDF"];
 _prices = _prices 			+ [1500];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["KORD Mini"];
 _classes = _classes 		+ ["CUP_O_KORD_RU"];
 _prices = _prices 			+ [3000];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["Metis AT-13"];
 _classes = _classes 		+ ["CUP_O_Metis_RU"];
 _prices = _prices 			+ [3000];
-_placements = _placements 	+ [[0, 20]];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["Podnos 2B14"];
 _classes = _classes 		+ ["CUP_B_2b14_82mm_CDF"];
-_prices = _prices 			+ [3000];
-_placements = _placements 	+ [[0, 20]];
+_prices = _prices 			+ [10000];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["SPG-9"];
 _classes = _classes 		+ ["CUP_B_SPG9_CDF"];
-_prices = _prices 			+ [3000];
-_placements = _placements 	+ [[0, 20]];
-_categories = _categories 	+ ["Defense"];
-
-_headers = _headers 		+ ["ZU-23"];
-_classes = _classes 		+ ["CUP_B_ZU23_CDF"];
-_prices = _prices 			+ [5000];
-_placements = _placements 	+ [[0, 20]];
+_prices = _prices 			+ [2000];
+_placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["C-RAM Phalanx"];
 _classes = _classes 		+ ["C_at_phalanx_35AI"];
-_prices = _prices 			+ [50000];
-_placements = _placements 	+ [[0, 20]];
+_prices = _prices 			+ [80000];
+_placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["C-RAM Phalanx Missle"];
 _classes = _classes 		+ ["C_at_phalanx_missile_35AI"];
-_prices = _prices 			+ [60000];
-_placements = _placements 	+ [[0, 20]];
+_prices = _prices 			+ [100000];
+_placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["Camo net"];

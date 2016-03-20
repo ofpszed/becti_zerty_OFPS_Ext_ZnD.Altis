@@ -432,8 +432,5 @@ if (CTI_IsClient) then {
 
 
 };
-
-//SS83 Interior lighting
-nul=[] execVM "Addons\Strat_mode\IntLight\IntLight.sqf";
  
 CTI_Init_Strat=True;
