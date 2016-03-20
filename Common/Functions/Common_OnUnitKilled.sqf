@@ -77,7 +77,8 @@ _type_killed = typeOf _killed;
 _type_killer = typeOf _killer;
 _isplayable_killed = (_group_killed) call CTI_CO_FNC_IsGroupPlayable;
 _isplayable_killer = (_group_killer) call CTI_CO_FNC_IsGroupPlayable;
-// _isplayer_killer = if (isPlayer leader _group_killer) then {true} else {false};
+_isplayer_killer = if (isPlayer leader _group_killer) then {true} else {false};
+_isplayer_killed = if (isPlayer leader _group_killed) then {true} else {false};
 
 _renegade_killer = if (_side_killer == sideEnemy) then {true} else {false};
 
@@ -129,7 +130,7 @@ if (!isNil '_var' && _isplayable_killer) then {
 					};
 				} forEach _award_groups;
 				//--- PVP Award
-				if (_isplayable_killed) then {
+				if (_isplayable_killed && _isplayer_killed) then {
 					_pvpname = "PLAYER NAME HERE";
 					_pvpbounty = 5000;
 					{
