@@ -3037,11 +3037,11 @@ _p = _p		+ [400];
 
 _i = _i		+ ["CUP_H_C_Policecap_01"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_SLA_BeanieGreen"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_SLA_Helmet"];
 _u = _u		+ [0];
@@ -3049,7 +3049,7 @@ _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_SLA_OfficerCap"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_SLA_Pilot_Helmet"];
 _u = _u		+ [0];
@@ -3057,7 +3057,7 @@ _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_SLA_SLCap"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_SLA_TankerHelmet"];
 _u = _u		+ [0];
@@ -3065,11 +3065,11 @@ _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_TK_Beret"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_TK_Helmet"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_TK_PilotHelmet"];
 _u = _u		+ [0];
