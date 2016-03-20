@@ -34,8 +34,8 @@ CTI_Init_Strat=false;
 //--- Determine which machine is running this init script
 CTI_IsHostedServer = if (isServer && !isDedicated) then {true} else {false};
 CTI_IsServer = if (isDedicated || CTI_IsHostedServer) then {true} else {false};
-CTI_IsClient = if ((CTI_IsHostedServer || !isDedicated) && hasInterface) then {true} else {false};
-CTI_IsHeadless = if (!hasInterface && !isDedicated) then {true} else {false};
+CTI_IsClient = if (CTI_IsHostedServer || !isDedicated) then {true} else {false};
+CTI_IsHeadless = if !(hasInterface || isDedicated) then {true} else {false};
 
 CTI_TEAMSTACK_EAST=0;
 CTI_TEAMSTACK_WEST=0;
@@ -120,12 +120,19 @@ if (CTI_IsHeadless) then{
 };
 
 //--- Pure client execution
-if (CTI_IsClient) then {
+if (CTI_IsClient && !CTI_IsHeadless) then {
 	if (CTI_Log_Level >= CTI_Log_Information) then { ["INFORMATION", "FILE: init.sqf", "Running client initialization"] call CTI_CO_FNC_Log	};
 
 	//waitUntil {!(isNull player)};
 
 	execVM "Client\Init\Init_Client.sqf";
+};
+
+//--- Headless client execution
+if (CTI_IsHeadless) then {
+	if (CTI_Log_Level >= CTI_Log_Information) then { ["INFORMATION", "FILE: init.sqf", "Running headless client initialization"] call CTI_CO_FNC_Log };
+
+	execVM "Client\Init\Init_Client_Headless.sqf";
 };
 
 //--- Set the group ID
