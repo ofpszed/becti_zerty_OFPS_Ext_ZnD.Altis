@@ -4341,7 +4341,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=30;
+							value=10;
 						};
 					};
 				};
