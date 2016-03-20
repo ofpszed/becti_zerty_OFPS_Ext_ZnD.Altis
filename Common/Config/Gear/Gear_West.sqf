@@ -1477,47 +1477,47 @@ _p = _p + [1000];
 			
 _i = _i + ["CUP_srifle_Mk12SPR"]; 
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [200];
 	
 //FN FAL Family
 			
 _i = _i + ["CUP_arifle_FNFAL"]; 
 _u = _u + [3];
-_p = _p + [500];
+_p = _p + [300];
 
 _i = _i + ["CUP_arifle_FNFAL_railed"];  
 _u = _u + [3];
-_p = _p + [550];
+_p = _p + [310];
 
 _i = _i + ["CUP_lmg_minimi_railed"];  
 _u = _u + [3];
-_p = _p + [900];
+_p = _p + [400];
 
 //G36 Family
 
 _i = _i + ["CUP_arifle_G36A"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [200];
 
 _i = _i + ["CUP_arifle_G36A_camo"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [210];
 
 _i = _i + ["CUP_arifle_G36K"];
 _u = _u + [4];
-_p = _p + [650];
+_p = _p + [200];
 
 _i = _i + ["CUP_arifle_G36K_camo"];
 _u = _u + [4];
-_p = _p + [650];
+_p = _p + [210];
 
 _i = _i + ["CUP_arifle_G36C"];
 _u = _u + [4];
-_p = _p + [550];
+_p = _p + [200];
 
 _i = _i + ["CUP_arifle_G36C_camo"];
 _u = _u + [4];
-_p = _p + [550];
+_p = _p + [210];
 
 //L85A2 Family
 
@@ -1527,137 +1527,137 @@ _p = _p + [300];
 
 _i = _i + ["CUP_arifle_L85A2_GL"];
 _u = _u + [0];
-_p = _p + [400];
+_p = _p + [350];
 
 //M16 Family
 
 _i = _i + ["CUP_arifle_M16A2"];
 _u = _u + [0];
-_p = _p + [300];
+_p = _p + [200];
 
 _i = _i + ["CUP_arifle_M16A2_GL"];
 _u = _u + [0];
-_p = _p + [400];
+_p = _p + [225];
 
 _i = _i + ["CUP_arifle_M16A4_Base"];
 _u = _u + [0];
-_p = _p + [350];
+_p = _p + [200];
 
 _i = _i + ["CUP_arifle_M16A4_GL"];
 _u = _u + [0];
-_p = _p + [450];
+_p = _p + [235];
 
 //M4 Family
 
 _i = _i + ["CUP_arifle_M4A1_BUIS_GL"];
 _u = _u + [2];
-_p = _p + [500];
+_p = _p + [250];
 
 _i = _i + ["CUP_arifle_M4A1_BUIS_camo_GL"];
 _u = _u + [2];
-_p = _p + [500];
+_p = _p + [250];
 
 _i = _i + ["CUP_arifle_M4A1_BUIS_desert_GL"];
 _u = _u + [2];
-_p = _p + [500];
+_p = _p + [250];
 
 _i = _i + ["CUP_arifle_M4A1"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [225];
 
 _i = _i + ["CUP_arifle_M4A1_camo"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [225];
 
 _i = _i + ["CUP_arifle_M4A1_black"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [225];
 
 _i = _i + ["CUP_arifle_M4A1_desert"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [225];
 
 _i = _i + ["CUP_arifle_M4A3_desert"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [225];
 
 //MK16 Family
 
 _i = _i + ["CUP_arifle_Mk16_STD"];
-_u = _u + [600];
+_u = _u + [300];
 _p = _p + [4];
 
 _i = _i + ["CUP_arifle_Mk16_STD_FG"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [300];
 
 _i = _i + ["CUP_arifle_Mk16_STD_SFG"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [300];
 
 _i = _i + ["CUP_arifle_Mk16_STD_EGLM"];
 _u = _u + [4];
-_p = _p + [650];
+_p = _p + [325];
 
 _i = _i + ["CUP_arifle_Mk16_CQC"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [300];
 
 _i = _i + ["CUP_arifle_Mk16_CQC_FG"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [300];
 
 _i = _i + ["CUP_arifle_Mk16_CQC_SFG"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [300];
 
 _i = _i + ["CUP_arifle_Mk16_CQC_EGLM"];
 _u = _u + [4];
-_p = _p + [650];
+_p = _p + [325];
 
 _i = _i + ["CUP_arifle_Mk16_SV"];
 _u = _u + [4];
-_p = _p + [600];
+_p = _p + [325];
 
 //MK17 Family
 		
 _i = _i + ["CUP_arifle_Mk17_CQC"];
 _u = _u + [4];
-_p = _p + [700];
+_p = _p + [350];
 
 _i = _i + ["CUP_arifle_Mk17_CQC_FG"];
 _u = _u + [4];
-_p = _p + [700];
+_p = _p + [350];
 
 _i = _i + ["CUP_arifle_Mk17_CQC_SFG"];
 _u = _u + [4];
-_p = _p + [700];
+_p = _p + [350];
 
 _i = _i + ["CUP_arifle_Mk17_CQC_EGLM"];
 _u = _u + [4];
-_p = _p + [700];
+_p = _p + [375];
 
 _i = _i + ["CUP_arifle_Mk17_STD"];
 _u = _u + [4];
-_p = _p + [700];
+_p = _p + [350];
 
 _i = _i + ["CUP_arifle_Mk17_STD_FG"];
 _u = _u + [4];
-_p = _p + [700];
+_p = _p + [350];
 
 _i = _i + ["CUP_arifle_Mk17_STD_SFG"];
 _u = _u + [4];
-_p = _p + [700];
+_p = _p + [350];
 
 _i = _i + ["CUP_arifle_Mk17_STD_EGLM"];
 _u = _u + [4];
-_p = _p + [800];
+_p = _p + [375];
 
 //MK20 Family
 
 _i = _i + ["CUP_arifle_Mk20"];
 _u = _u + [4];
-_p = _p + [800];
+_p = _p + [350];
 
 		
 //Machine Guns
@@ -1666,109 +1666,109 @@ _p = _p + [800];
 
 _i = _i + ["CUP_arifle_L86A2"];
 _u = _u + [3];
-_p = _p + [600];
+_p = _p + [310];
 
 //L110 Family
 
 _i = _i + ["CUP_lmg_L110A1"];
 _u = _u + [3];
-_p = _p + [800];
+_p = _p + [350];
 
 //L7A2 Family
 
 _i = _i + ["CUP_lmg_L7A2"];
 _u = _u + [4];
-_p = _p + [1000];
+_p = _p + [450];
 
 _i = _i + ["CUP_BAF_L7A2_GPMG"];
 _u = _u + [4];
-_p = _p + [1100];
+_p = _p + [500];
 
 //MG36 Family
 
 _i = _i + ["CUP_arifle_MG36"];
 _u = _u + [1];
-_p = _p + [800];
+_p = _p + [350];
 
 _i = _i + ["CUP_arifle_MG36_camo"];
 _u = _u + [1];
-_p = _p + [800];
+_p = _p + [350];
 
 _i = _i + ["CUP_MG36"];
 _u = _u + [1];
-_p = _p + [800];
+_p = _p + [350];
 
 _i = _i + ["CUP_MG36_camo"];
 _u = _u + [1];
-_p = _p + [800];
+_p = _p + [350];
 
 //M249 Family
 
 _i = _i + ["CUP_lmg_M249"];
 _u = _u + [3];
-_p = _p + [700];
+_p = _p + [350];
 
 _i = _i + ["CUP_M249"];
 _u = _u + [3];
-_p = _p + [700];
+_p = _p + [350];
 
 //M240 Family
 	
 _i = _i + ["CUP_lmg_M240"];
 _u = _u + [4];
-_p = _p + [900];
+_p = _p + [450];
 
 _i = _i + ["CUP_M240"];
 _u = _u + [4];
-_p = _p + [900];
+_p = _p + [450];
 
 _i = _i + ["CUP_lmg_m249_SQuantoon"];
 _u = _u + [3];
-_p = _p + [700];
+_p = _p + [450];
 
 _i = _i + ["CUP_lmg_m249_pip1"];
 _u = _u + [3];
-_p = _p + [700];
+_p = _p + [450];
 
 _i = _i + ["CUP_lmg_m249_pip3"];
 _u = _u + [3];
-_p = _p + [700];
+_p = _p + [450];
 
 _i = _i + ["CUP_lmg_m249_pip4"];
 _u = _u + [3];
-_p = _p + [700];
+_p = _p + [450];
 
 _i = _i + ["CUP_lmg_M249_E2"];
 _u = _u + [3];
-_p = _p + [700];
+_p = _p + [450];
 
 _i = _i + ["CUP_lmg_m249_pip2"];
 _u = _u + [3];
-_p = _p + [700];
+_p = _p + [450];
 
 _i = _i + ["CUP_lmg_m249_para"];
 _u = _u + [3];
-_p = _p + [700];
+_p = _p + [450];
 
 //M60 Family
 
 _i = _i + ["CUP_lmg_M60A4"];
 _u = _u + [2];
-_p = _p + [700];
+_p = _p + [400];
 
 //MK48 Family
 
 _i = _i + ["CUP_lmg_Mk48_des"];
 _u = _u + [3];
-_p = _p + [500];
+_p = _p + [450];
 
 _i = _i + ["CUP_lmg_Mk48_wdl"];
 _u = _u + [3];
-_p = _p + [500];
+_p = _p + [450];
 
 _i = _i + ["CUP_Mk_48"];
 _u = _u + [3];
-_p = _p + [500];
+_p = _p + [450];
 
 //Sniper Rifles
 	
@@ -1780,78 +1780,78 @@ _p = _p + [500];
 
 _i = _i + ["CUP_srifle_AWM_wdl"];
 _u = _u + [3];
-_p = _p + [500];
+_p = _p + [300];
 
 //M14 Family
 
 _i = _i + ["CUP_srifle_DMR"];
 _u = _u + [3];
-_p = _p + [400];
+_p = _p + [250];
 
 _i = _i + ["CUP_srifle_M14"];
 _u = _u + [3];
-_p = _p + [400];
+_p = _p + [250];
 
 _i = _i + ["CUP_DMR"];
 _u = _u + [3];
-_p = _p + [400];
+_p = _p + [250];
 
 
 //MK24 Family
 
 _i = _i + ["CUP_srifle_M24_des"];
 _u = _u + [3];
-_p = _p + [400];
+_p = _p + [250];
 
 _i = _i + ["CUP_srifle_M24_wdl"];
 _u = _u + [3];
-_p = _p + [400];
+_p = _p + [250];
 
 _i = _i + ["CUP_srifle_M24_ghillie"];
 _u = _u + [3];
-_p = _p + [400];
+_p = _p + [260];
 
 _i = _i + ["CUP_M24"];
 _u = _u + [4];
-_p = _p + [900];
+_p = _p + [270];
 
 //M40 Family
 
 _i = _i + ["CUP_srifle_M40A3"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [270];
 
 _i = _i + ["CUP_M40A3"];
 _u = _u + [2];
-_p = _p + [400];
+_p = _p + [270];
 
 //M110 Family
 
 _i = _i + ["CUP_srifle_M110"];
 _u = _u + [3];
-_p = _p + [900];
+_p = _p + [270];
 
 //Lee Enfield Family
 
 _i = _i + ["CUP_srifle_LeeEnfield"];
 _u = _u + [0];
-_p = _p + [200];
+_p = _p + [10];
 
 _i = _i + ["CUP_LeeEnfield"];
 _u = _u + [0];
-_p = _p + [200];
+_p = _p + [10];
 
 //AS50 Family
 
 _i = _i + ["CUP_srifle_AS50"];
 _u = _u + [5];
-_p = _p + [1100];
+_p = _p + [400];
 
 //M107 Family
 
 _i = _i + ["CUP_srifle_M107_Base"];
 _u = _u + [5];
-_p = _p + [1000];
+_p = _p + [400];
 
 
 //Shotguns
@@ -1860,21 +1860,21 @@ _p = _p + [1000];
 
 _i = _i + ["CUP_sgun_AA12"];
 _u = _u + [2];
-_p = _p + [500];
+_p = _p + [200];
 
 _i = _i + ["CUP_AA12_PMC"];
 _u = _u + [2];
-_p = _p + [500];
+_p = _p + [200];
 
 //M1014 .50 SR Family
 
 _i = _i + ["CUP_sgun_M1014"];
 _u = _u + [4];
-_p = _p + [1000];
+_p = _p + [20];
 
 _i = _i + ["CUP_M1014"];
 _u = _u + [4];
-_p = _p + [1000];
+_p = _p + [20];
 
 //Small Machine Guns (SMGs)
 	
@@ -1882,19 +1882,19 @@ _p = _p + [1000];
 
 _i = _i + ["CUP_smg_MP5SD6"];
 _u = _u + [0];
-_p = _p + [100];
+_p = _p + [30];
 
 _i = _i + ["CUP_smg_MP5A5"];
 _u = _u + [0];
-_p = _p + [100];
+_p = _p + [30];
 
 _i = _i + ["CUP_MP5SD"];
 _u = _u + [0];
-_p = _p + [200];
+_p = _p + [30];
 
 _i = _i + ["CUP_MP5A5"];
 _u = _u + [0];
-_p = _p + [100];
+_p = _p + [30];
 
 //Handguns
 
@@ -1902,44 +1902,44 @@ _p = _p + [100];
 
 _i = _i + ["CUP_hgun_Colt1911"];
 _u = _u + [0];
-_p = _p + [20];
+_p = _p + [10];
 
 _i = _i + ["CUP_Colt1911"];
 _u = _u + [0];
-_p = _p + [20];
+_p = _p + [10];
 
 //Glock Family
 
 _i = _i + ["CUP_hgun_Glock17"];
 _u = _u + [1];
-_p = _p + [50];
+_p = _p + [10];
 
 //M9 Family
 
 _i = _i + ["CUP_hgun_M9"];
 _u = _u + [1];
-_p = _p + [50];
+_p = _p + [10];
 
 _i = _i + ["CUP_M9"];
 _u = _u + [1];
-_p = _p + [50];
+_p = _p + [10];
 
 //UZI Family
 
 _i = _i + ["CUP_hgun_MicroUzi"];
 _u = _u + [5];
-_p = _p + [200];
+_p = _p + [10];
 
 
 //Taurus Family
 
 _i = _i + ["CUP_hgun_TaurusTracker455"];
 _u = _u + [4];
-_p = _p + [50];
+_p = _p + [10];
 
 _i = _i + ["CUP_hgun_TaurusTracker455_gold"];
 _u = _u + [4];
-_p = _p + [50];
+_p = _p + [10];
 
 //Launchers
 	
@@ -1947,17 +1947,17 @@ _p = _p + [50];
 		
 _i = _i + ["CUP_glaunch_M32"];
 _u = _u + [5];
-_p = _p + [1200];
+_p = _p + [500];
 
 _i = _i + ["CUP_glaunch_6G30"];
 _u = _u + [3];
-_p = _p + [800];
+_p = _p + [400];
 
 //M79 Family
 
 _i = _i + ["CUP_glaunch_M79"];
 _u = _u + [0];
-_p = _p + [400];
+_p = _p + [150];
 
 
 //MK13 Family
@@ -2814,165 +2814,165 @@ _p = _p		+ [150];
 
 _i = _i		+ ["CUP_optic_Kobra"];
 _u = _u		+ [2];
-_p = _p		+ [300];
+_p = _p		+ [20];
 
 
 //--Holo Optics
 
 _i = _i		+ ["CUP_optic_HoloBlack"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [20];
 
 _i = _i		+ ["CUP_optic_HoloWdl"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [20];
 
 _i = _i		+ ["CUP_optic_HoloDesert"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [20];
 
 _i = _i		+ ["CUP_optic_Eotech533"];
 _u = _u		+ [2];
-_p = _p		+ [300];
+_p = _p		+ [50];
 
 _i = _i		+ ["CUP_optic_Eotech533Grey"];
 _u = _u		+ [2];
-_p = _p		+ [300];
+_p = _p		+ [50];
 
 
 //--CCO Aimpoint Optics
 
 _i = _i		+ ["CUP_optic_CompM4"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [75];
 
 _i = _i		+ ["CUP_optic_CompM2_Black"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [75];
 
 _i = _i		+ ["CUP_optic_CompM2_Woodland"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [75];
 
 _i = _i		+ ["CUP_optic_CompM2_Woodland2"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [75];
 
 _i = _i		+ ["CUP_optic_CompM2_Desert"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [75];
 
 //--Trijicon RedDot Optics
 
 _i = _i		+ ["CUP_optic_TrijiconRx01_desert"];
 _u = _u		+ [1];
-_p = _p		+ [100];
+_p = _p		+ [75];
 
 _i = _i		+ ["CUP_optic_TrijiconRx01_black"];
 _u = _u		+ [1];
-_p = _p		+ [100];
+_p = _p		+ [75];
 
 
 //--Schmidt and Bender ShortDot Optics
 
 _i = _i		+ ["CUP_optic_SB_11_4x20_PM"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 
 //--Meopta Optics
 
 _i = _i		+ ["CUP_optic_ZDDot"];
 _u = _u		+ [1];
-_p = _p		+ [300];
+_p = _p		+ [50];
 
 _i = _i		+ ["CUP_optic_MRad"];
 _u = _u		+ [1];
-_p = _p		+ [300];
+_p = _p		+ [50];
 
 
 //--Trijicon RCO and ACOG Optics
 
 _i = _i		+ ["CUP_optic_RCO"];
 _u = _u		+ [1];
-_p = _p		+ [100];
+_p = _p		+ [75];
 
 _i = _i		+ ["CUP_optic_RCO_desert"];
 _u = _u		+ [1];
-_p = _p		+ [100];
+_p = _p		+ [75];
 
 _i = _i		+ ["CUP_optic_ACOG"];
 _u = _u		+ [1];
-_p = _p		+ [100];
+_p = _p		+ [75];
 
 
 //--Midrange Optics
 
 _i = _i		+ ["CUP_optic_SUSAT"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_optic_ElcanM145"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_optic_ELCAN_SpecterDR"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_optic_CWS"];
 _u = _u		+ [3];
-_p = _p		+ [400];
+_p = _p		+ [150];
 
 
 //--PSO Optics
 
 _i = _i		+ ["CUP_optic_PSO_1"];
 _u = _u		+ [1];
-_p = _p		+ [500];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_optic_PSO_3"];
 _u = _u		+ [4];
-_p = _p		+ [600];
+_p = _p		+ [150];
 
 
 //--DMR Sniper Optics
 
 _i = _i		+ ["CUP_optic_SB_3_12x50_PMII"];
 _u = _u		+ [4];
-_p = _p		+ [700];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4"];
 _u = _u		+ [4];
-_p = _p		+ [700];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_optic_Leupold_VX3"];
 _u = _u		+ [4];
-_p = _p		+ [700];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_optic_LeupoldM3LR"];
 _u = _u		+ [4];
-_p = _p		+ [700];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4_10x40_LRT_Desert"];
 _u = _u		+ [4];
-_p = _p		+ [700];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4_10x40_LRT_Woodland"];
 _u = _u		+ [4];
-_p = _p		+ [700];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4_CQ_T"];
 _u = _u		+ [4];
-_p = _p		+ [700];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_optic_LeupoldMk4_MRT_tan"];
 _u = _u		+ [4];
-_p = _p		+ [700];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_optic_PechenegScope"];
 _u = _u		+ [4];
-_p = _p		+ [700];
+_p = _p		+ [200];
 
 
 //--Nightvision TWS Optics
@@ -3018,67 +3018,67 @@ _p = _p		+ [100];
 
 _i = _i		+ ["CUP_muzzle_snds_AWM"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_PBS4"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_PB6P9"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_Bizon"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_muzzle_snds_G36_black"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_snds_G36_desert"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_snds_L85"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_snds_M110"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [600];
 
 _i = _i		+ ["CUP_muzzle_snds_M14"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_snds_M16_camo"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_snds_M16"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_snds_M9"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_muzzle_snds_MicroUzi"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [100];
 
 _i = _i		+ ["CUP_muzzle_snds_XM8"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_snds_SCAR_L"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [200];
 
 _i = _i		+ ["CUP_muzzle_snds_SCAR_H"];
 _u = _u		+ [3];
-_p = _p		+ [500];
+_p = _p		+ [600];
 
 
 //--Flash Suppressor Attachment
@@ -3477,12 +3477,12 @@ _p = _p		+ [400];
 
 _i = _i		+ ["CUP_H_NAPA_Fedora"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 
 _i = _i		+ ["CUP_H_USMC_Officer_Cap"];
 _u = _u		+ [2];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_USMC_Crew_Helmet"];
 _u = _u		+ [2];
@@ -3511,48 +3511,48 @@ _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_Ger_Boonie_Flecktarn"];
 _u = _u		+ [3];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_Ger_Boonie_desert"];
 _u = _u		+ [3];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 
 _i = _i		+ ["CUP_H_FR_BandanaGreen"];
 _u = _u		+ [3];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_FR_BandanaWdl"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_FR_Bandana_Headset"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_FR_BeanieGreen"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_FR_BoonieMARPAT"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_FR_BoonieWDL"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_FR_PRR_BoonieWDL"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_FR_Cap_Headset_Green"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_FR_Cap_Officer_Headset"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_FR_ECH"];
 _u = _u		+ [4];
@@ -3560,7 +3560,7 @@ _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_FR_Headband_Headset"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_FR_Headset"];
 _u = _u		+ [4];
@@ -3569,15 +3569,15 @@ _p = _p		+ [100];
 
 _i = _i		+ ["CUP_H_PMC_Cap_Tan"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_PMC_Cap_PRR_Tan"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_PMC_Cap_Grey"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_H_PMC_Cap_PRR_Grey"];
 _u = _u		+ [0];
@@ -3595,15 +3595,15 @@ _p = _p		+ [100];
 
 _i = _i		+ ["CUP_TK_NeckScarf"];
 _u = _u		+ [0];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_FR_NeckScarf"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 _i = _i		+ ["CUP_FR_NeckScarf2"];
 _u = _u		+ [4];
-_p = _p		+ [100];
+_p = _p		+ [10];
 
 
 //--Other
@@ -3614,15 +3614,15 @@ _p = _p		+ [700];
 
 _i = _i		+ ["CUP_SOFLAM"];
 _u = _u		+ [2];
-_p = _p		+ [400];
+_p = _p		+ [900];
 
 _i = _i		+ ["CUP_LRTV"];
 _u = _u		+ [2];
-_p = _p		+ [400];
+_p = _p		+ [900];
 
 _i = _i		+ ["CUP_Vector21Nite"];
-_u = _u		+ [3];
-_p = _p		+ [700];
+_u = _u		+ [1];
+_p = _p		+ [300];
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
 
