@@ -3610,19 +3610,19 @@ _p = _p		+ [10];
 
 _i = _i		+ ["CUP_NVG_PVS7"];
 _u = _u		+ [3];
-_p = _p		+ [700];
+_p = _p		+ [150];
 
 _i = _i		+ ["CUP_SOFLAM"];
 _u = _u		+ [2];
-_p = _p		+ [900];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_LRTV"];
 _u = _u		+ [2];
-_p = _p		+ [900];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_Vector21Nite"];
 _u = _u		+ [1];
-_p = _p		+ [300];
+_p = _p		+ [150];
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
 
