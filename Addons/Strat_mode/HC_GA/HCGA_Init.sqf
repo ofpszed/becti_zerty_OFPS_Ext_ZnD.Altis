@@ -9,7 +9,7 @@ if !(CTI_isServer) exitwith{false};
 waituntil {CTI_Init_Server};
 
 HCGA_current= ["0"];
-/*diag_log "HC :: Starting HC mitigation loop";
+diag_log "HC :: Starting HC mitigation loop";
 while {!(CTI_GameOver)} do {
 	if !((HCGA_current) isEqualTo (call HCGA_GETHC)) then {
 		HCGA_current= call HCGA_GETHC;
@@ -26,5 +26,3 @@ while {!(CTI_GameOver)} do {
 	};
 	sleep 60;
 };
-
-*/
