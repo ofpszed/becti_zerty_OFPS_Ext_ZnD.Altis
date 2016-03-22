@@ -712,7 +712,7 @@ class Mission
 			colorName="ColorBlack";
 			a=1050;
 			b=5;
-			angle=330.29831;
+			angle=330.29828;
 			id=61;
 		};
 		class Item62
@@ -2741,7 +2741,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={8504.5732,33.204266,24831.566};
+				position[]={8504.5732,33.204269,24831.566};
 			};
 			name="ADMIN_ZEUS";
 			id=177;
@@ -2839,7 +2839,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=0;
+							value=3;
 						};
 					};
 				};
