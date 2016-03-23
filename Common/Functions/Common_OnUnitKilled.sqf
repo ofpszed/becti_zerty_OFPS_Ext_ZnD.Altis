@@ -130,7 +130,7 @@ if (!isNil '_var' && _isplayable_killer) then {
 					};
 				} forEach _award_groups;
 				//--- PVP Award
-				if (_killer != leader _group_killer) then {
+				if (_killer != leader _group_killed) then {
 					if (_isplayable_killed && _isplayer_killed) then {
 						_pvpname = "PLAYER NAME HERE";
 						_pvpbounty = 5000;
