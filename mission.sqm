@@ -4227,7 +4227,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="C_scientist_F,O_G_officer_F,B_officer_F";
+							value="C_scientist_F,O_G_officer_F,B_officer_F,UAV,UGV_01_base_F,O_UCSV_01,B_UCSV_01,B_UCSV_02";
 						};
 					};
 				};
