@@ -9,7 +9,7 @@ if !(CTI_isServer) exitwith{false};
 waituntil {CTI_Init_Server};
 
 HCGA_current= ["0"];
-diag_log "HC :: Starting HC mitigation loop";
+/*diag_log "HC :: Starting HC mitigation loop";
 while {!(CTI_GameOver)} do {
 	if !((HCGA_current) isEqualTo (call HCGA_GETHC)) then {
 		HCGA_current= call HCGA_GETHC;
@@ -21,8 +21,8 @@ while {!(CTI_GameOver)} do {
 			_new_owner=HCGA_current select (floor (_forEachIndex / _sections));
 			diag_log (format ["HC :: Changing owner of  %1 from %2 to %3",_x getvariable "cti_town_name",_x getvariable ["cti_town_owner","0"], _new_owner  ]);
 			_x setvariable ["cti_town_owner",_new_owner,true];
-
 		} forEach (CTI_TOWNS);
 	};
 	sleep 60;
 };
+*/
