@@ -4265,7 +4265,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=30;
+							value=5;
 						};
 					};
 				};
@@ -4341,7 +4341,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=10;
+							value=5;
 						};
 					};
 				};
