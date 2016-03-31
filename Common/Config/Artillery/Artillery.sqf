@@ -28,4 +28,22 @@ _m = _m + [["12Rnd_230mm_rockets"]];
 _b = _b + [[2, 3, 6]];
 _r = _r + [[[800,4500], [800,7500], [800,10500], [800,20500]]];
 
+_c = _c + ["CUP_O_BM21_RU"];  
+_m = _m + [[""]];  //need ural rocket ammo classs name here...
+_b = _b + [[2, 3, 6]];
+_r = _r + [[[1487,8564], [1707,9831], [2107,12137], [2738,15773]]];
+
+
+_c = _c + ["CUP_B_M270_HE_USMC"];  
+_m = _m + [[""]];  //need m270 rocket ammo class name here...
+_b = _b + [[2, 3, 6]];
+_r = _r + [[[1487,8564], [1707,9831], [2107,12137], [2738,15773]]];  //need to adjust ranges
+
+
+
+
+
+
+
+
 [_c, _m, _b, _r] call compile preprocessFileLineNumbers "Common\Config\Artillery\Set_Artillery.sqf";

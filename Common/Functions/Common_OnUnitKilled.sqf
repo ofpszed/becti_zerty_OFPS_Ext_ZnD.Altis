@@ -133,7 +133,7 @@ if (!isNil '_var' && _isplayable_killer) then {
 				if (_killer != leader _group_killed) then {
 					if (_isplayable_killed && _isplayer_killed) then {
 						_pvpname = "PLAYER NAME HERE";
-						_pvpbounty = 5000;
+						_pvpbounty = 666;  //reduced until bug is fixed...
 						{
 							if (_x call CTI_CO_FNC_IsGroupPlayable) then {
 								if (isPlayer leader _x) then {[["CLIENT", leader _x], "Client_AwardBounty", [_var_name, _pvpbounty]] call CTI_CO_FNC_NetSend} else {[_x, _side_killer, _pvpbounty] call CTI_CO_FNC_ChangeFunds};
