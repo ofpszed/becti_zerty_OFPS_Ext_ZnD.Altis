@@ -529,6 +529,14 @@ _i = _i		+ ["B_AssaultPack_khk"];
 _u = _u		+ [0];
 _p = _p		+ [200];
 
+_i = _i		+ ["B_AssaultPack_ocamo"];
+_u = _u		+ [0];
+_p = _p		+ [200];
+
+_i = _i		+ ["B_TacticalPack_ocamo"];
+_u = _u		+ [1];
+_p = _p		+ [200];
+
 _i = _i		+ ["B_FieldPack_ocamo"];
 _u = _u		+ [0];
 _p = _p		+ [400];
