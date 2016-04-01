@@ -611,6 +611,14 @@ _i = _i		+ ["B_AssaultPack_mcamo"];
 _u = _u		+ [0];
 _p = _p		+ [200];
 
+_i = _i		+ ["B_AssaultPack_blk"];
+_u = _u		+ [0];
+_p = _p		+ [200];
+
+_i = _i		+ ["B_AssaultPack_sgg"];
+_u = _u		+ [0];
+_p = _p		+ [200];
+
 _i = _i		+ ["B_FieldPack_blk"];
 _u = _u		+ [0];
 _p = _p		+ [400];
