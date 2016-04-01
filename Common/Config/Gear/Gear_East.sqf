@@ -651,7 +651,7 @@ _p = _p		+ [5];
 _i = _i		+ ["G_Goggles_VR"];
 _u = _u		+ [3];
 _p = _p		+ [2000];
-
+/*
 _i = _i		+ ["G_Tactical_Clear"];
 _u = _u		+ [3];
 _p = _p		+ [2000];
@@ -660,7 +660,7 @@ _i = _i		+ ["G_Tactical_Black"];
 _u = _u		+ [3];
 _p = _p		+ [2000];
 
-
+*/
 _i = _i		+ ["G_Sport_Blackred"];
 _u = _u		+ [0];
 _p = _p		+ [5];
