@@ -282,7 +282,7 @@ class Params {
 		title = "Zerty: GROUPS: Size (AI) -- Resistance, West, East ";
 		values[] = {0,4,6,8,10,12,14,16};
 		texts[] = {"0","4","6","8","10","12","14","16"};
-		default = 8;
+		default = 20;
 	};
 
 	class CTI_PLAYERS_GROUPSIZE {
@@ -391,7 +391,7 @@ class Params {
 		title = "Zerty: TOWNS : Resistance difficulty";
 		values[] = {0,25,50,75,100};
 		texts[] = {"Null","Normal","Hard","Very hard","HELL"};
-		default = 50;
+		default = 100;
 	};
 	class CTI_TOWNS_RESISTANCE_INACTIVE_MAX {
 		title = "Zerty: TOWNS : Resistance despawn Timer";

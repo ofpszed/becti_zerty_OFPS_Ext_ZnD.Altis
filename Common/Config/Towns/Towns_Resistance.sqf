@@ -1,6 +1,10 @@
 with missionNamespace do {
 	//--- Infantry
-	GUER_SOLDIER = "I_G_Soldier_F";
+	FAST_ZOMBIE1 = "RyanZombieC_scientist_F";
+	FAST_ZOMBIE2 = "RyanZombieC_man_p_fugitive_F";
+	FAST_ZOMBIE3 = "RyanZombieC_journalist_F";
+	FAST_ZOMBIE4 = "RyanZombieC_man_pilot_F";
+	GUER_SOLDIER = "I_G_Soldier_F";  
 	GUER_SOLDIER_AA = "I_Soldier_AA_F"; 
 	GUER_SOLDIER_AR = "I_G_Soldier_AR_F";
 	GUER_SOLDIER_AT = "I_G_Soldier_AR_F"; //replaced lat with MG
@@ -18,6 +22,7 @@ with missionNamespace do {
 
 	//--- Infantry - Mixed
 	// GUER_SOLDIERS_MG = [GUER_SOLDIER_MG, GUER_SOLDIER_AR];
+	FAST_ZOMBIES_HORDE = [FAST_ZOMBIE1, FAST_ZOMBIE2,FAST_ZOMBIE3, FAST_ZOMBIE4 ];
 	GUER_SOLDIERS_MG = [GUER_SOLDIER_AR];
 	GUER_SOLDIERS_AT_LIGHT = [GUER_SOLDIER_LAT, GUER_SOLDIER_AT];
 	GUER_SOLDIERS_AT_MEDIUM = [GUER_SOLDIER_AT, GUER_SOLDIER_AT, GUER_SOLDIER_HAT];
